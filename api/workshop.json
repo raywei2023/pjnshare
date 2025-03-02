@@ -731,7 +731,7 @@
     },
     {
       "id": "32876abe-2ff3-4e38-90a4-6cd168477297",
-      "type": "props",
+      "type": "table",
       "position": { "x": 57.05, "y": -61.86 },
       "zIndex": 20,
       "parentId": "bf119b26-c7cd-4647-baaf-410b2b7af542",
@@ -753,7 +753,7 @@
     },
     {
       "id": "c975bad7-4fd3-48bd-af21-85c5d4089c24",
-      "type": "props",
+      "type": "table",
       "position": { "x": -69.47, "y": -86.97 },
       "zIndex": 20,
       "parentId": "0243acc1-4d50-4ff2-8631-5459e9224fbb",
@@ -776,7 +776,7 @@
     },
     {
       "id": "15c9e1d6-595a-43ad-90fe-27abf8729417",
-      "type": "props",
+      "type": "table",
       "position": { "x": -127.88, "y": 84.54 },
       "zIndex": 20,
       "parentId": "be67c591-8687-4182-9b44-62badd8be10b",
