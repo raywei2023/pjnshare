@@ -5,7 +5,7 @@
       "type": "background",
       "zIndex": 2,
       "measured": { "width": 993, "height": 938 },
-      "position": { "x": -42.69, "y": 279.45 },
+      "position": { "x": -175.54, "y": 229.87 },
       "parentId": "",
       "data": {
         "id": "g20250206",
@@ -19,7 +19,7 @@
       },
       "width": 993,
       "height": 938,
-      "selected": false,
+      "selected": true,
       "resizing": false,
       "dragging": false
     },
@@ -283,299 +283,24 @@
       "dragging": false
     },
     {
-      "id": "18e031c9-2b52-4970-88f0-4838c0781f88",
+      "id": "eedc5201-a917-47c1-94a4-2bdbb0489078",
       "type": "svg",
-      "position": { "x": 215.1, "y": 66.72 },
+      "position": { "x": 409.96, "y": 862.17 },
       "hidden": false,
       "selected": false,
       "zIndex": 20,
       "data": {
-        "id": "18e031c9-2b52-4970-88f0-4838c0781f88",
-        "library": "basic",
-        "name": "fan",
-        "rotatable": false,
-        "content": "<svg width=\"24\" height=\"24\" fill=\"none\" stroke=\"#71717a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"1 1 30 30\"><rect width=\"29\" height=\"29\" x=\"1.5\" y=\"1.5\" fill=\"#fff\" rx=\"2\"/><circle cx=\"16\" cy=\"16\" r=\"10\"/><circle cx=\"16\" cy=\"16\" r=\"3\"/><path d=\"M14.5,13.4L14.5,13.4c0.6-2.4-0.6-4.8-2.8-5.8L11,7.3, M13,16L13,16c-1.7-1.7-4.4-1.9-6.4-0.5L6,16, M14.5,18.6L14.5,18.6c-2.4,0.6-3.9,2.9-3.6,5.3l0.1,0.8, M17.5,18.6L17.5,18.6c-0.6,2.4,0.6,4.8,2.8,5.8l0.7,0.3, M19,16L19,16c1.7,1.7,4.4,1.9,6.4,0.5L26,16, M17.5,13.4L17.5,13.4c2.4-0.6,3.9-2.9,3.6-5.3L21,7.3\"><animateTransform attributeName=\"transform\" begin=\"0\" dur=\"9999\" from=\"0 16 16\" repeatCount=\"0\" to=\"360 16 16\" type=\"rotate\"/></path><g fill=\"#71717a\" stroke=\"#a1a1aa\" stroke-width=\".5\"><circle cx=\"6\" cy=\"6\" r=\"1.2\"/><circle cx=\"26\" cy=\"6\" r=\"1.2\"/><circle cx=\"6\" cy=\"26\" r=\"1.2\"/><circle cx=\"26\" cy=\"26\" r=\"1.2\"/></g></svg>",
-        "minWidth": 32,
-        "minHeight": 32,
-        "meta": { "status": 2, "label": "Fan", "labelPosition": "bottom" }
-      },
-      "width": 32,
-      "height": 32,
-      "measured": { "width": 32, "height": 32 },
-      "parentId": "g20250206",
-      "dragging": false
-    },
-    {
-      "id": "505321e4-9c8e-4d78-bd64-9e6575969f4d",
-      "type": "svg",
-      "selected": false,
-      "position": { "x": 215.1, "y": 492.81 },
-      "data": {
-        "id": "505321e4-9c8e-4d78-bd64-9e6575969f4d",
-        "library": "basic",
-        "name": "fan",
-        "rotatable": false,
-        "content": "<svg width=\"24\" height=\"24\" fill=\"none\" stroke=\"#71717a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"1 1 30 30\"><rect width=\"29\" height=\"29\" x=\"1.5\" y=\"1.5\" fill=\"#fff\" rx=\"2\"/><circle cx=\"16\" cy=\"16\" r=\"10\"/><circle cx=\"16\" cy=\"16\" r=\"3\"/><path d=\"M14.5,13.4L14.5,13.4c0.6-2.4-0.6-4.8-2.8-5.8L11,7.3, M13,16L13,16c-1.7-1.7-4.4-1.9-6.4-0.5L6,16, M14.5,18.6L14.5,18.6c-2.4,0.6-3.9,2.9-3.6,5.3l0.1,0.8, M17.5,18.6L17.5,18.6c-0.6,2.4,0.6,4.8,2.8,5.8l0.7,0.3, M19,16L19,16c1.7,1.7,4.4,1.9,6.4,0.5L26,16, M17.5,13.4L17.5,13.4c2.4-0.6,3.9-2.9,3.6-5.3L21,7.3\"><animateTransform attributeName=\"transform\" begin=\"0\" dur=\"9999\" from=\"0 16 16\" repeatCount=\"0\" to=\"360 16 16\" type=\"rotate\"/></path><g fill=\"#71717a\" stroke=\"#a1a1aa\" stroke-width=\".5\"><circle cx=\"6\" cy=\"6\" r=\"1.2\"/><circle cx=\"26\" cy=\"6\" r=\"1.2\"/><circle cx=\"6\" cy=\"26\" r=\"1.2\"/><circle cx=\"26\" cy=\"26\" r=\"1.2\"/></g></svg>",
-        "minWidth": 32,
-        "minHeight": 32,
-        "meta": { "status": 0, "label": "Fan 1", "labelPosition": "bottom" }
-      },
-      "zIndex": 20,
-      "hidden": false,
-      "width": 32,
-      "height": 32,
-      "measured": { "width": 32, "height": 32 },
-      "parentId": "g20250206",
-      "dragging": false
-    },
-    {
-      "id": "dc6bf40f-48a4-43be-8284-2de6f6b4c32c",
-      "type": "svg",
-      "selected": false,
-      "position": { "x": 215.1, "y": 281.04 },
-      "data": {
-        "id": "dc6bf40f-48a4-43be-8284-2de6f6b4c32c",
-        "library": "basic",
-        "name": "fan",
-        "rotatable": false,
-        "content": "<svg width=\"24\" height=\"24\" fill=\"none\" stroke=\"#71717a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"1 1 30 30\"><rect width=\"29\" height=\"29\" x=\"1.5\" y=\"1.5\" fill=\"#fff\" rx=\"2\"/><circle cx=\"16\" cy=\"16\" r=\"10\"/><circle cx=\"16\" cy=\"16\" r=\"3\"/><path d=\"M14.5,13.4L14.5,13.4c0.6-2.4-0.6-4.8-2.8-5.8L11,7.3, M13,16L13,16c-1.7-1.7-4.4-1.9-6.4-0.5L6,16, M14.5,18.6L14.5,18.6c-2.4,0.6-3.9,2.9-3.6,5.3l0.1,0.8, M17.5,18.6L17.5,18.6c-0.6,2.4,0.6,4.8,2.8,5.8l0.7,0.3, M19,16L19,16c1.7,1.7,4.4,1.9,6.4,0.5L26,16, M17.5,13.4L17.5,13.4c2.4-0.6,3.9-2.9,3.6-5.3L21,7.3\"><animateTransform attributeName=\"transform\" begin=\"0\" dur=\"9999\" from=\"0 16 16\" repeatCount=\"0\" to=\"360 16 16\" type=\"rotate\"/></path><g fill=\"#71717a\" stroke=\"#a1a1aa\" stroke-width=\".5\"><circle cx=\"6\" cy=\"6\" r=\"1.2\"/><circle cx=\"26\" cy=\"6\" r=\"1.2\"/><circle cx=\"6\" cy=\"26\" r=\"1.2\"/><circle cx=\"26\" cy=\"26\" r=\"1.2\"/></g></svg>",
-        "minWidth": 32,
-        "minHeight": 32,
-        "meta": { "status": 3, "label": "Fan 2", "labelPosition": "bottom" }
-      },
-      "zIndex": 20,
-      "hidden": false,
-      "width": 32,
-      "height": 32,
-      "measured": { "width": 32, "height": 32 },
-      "parentId": "g20250206",
-      "dragging": false
-    },
-    {
-      "id": "8d42953f-5e5f-4d32-ae2d-31b7a2284f76",
-      "type": "svg",
-      "selected": false,
-      "position": { "x": 215.1, "y": 701.82 },
-      "data": {
-        "id": "8d42953f-5e5f-4d32-ae2d-31b7a2284f76",
-        "library": "basic",
-        "name": "fan",
-        "rotatable": false,
-        "content": "<svg width=\"24\" height=\"24\" fill=\"none\" stroke=\"#71717a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"1 1 30 30\"><rect width=\"29\" height=\"29\" x=\"1.5\" y=\"1.5\" fill=\"#fff\" rx=\"2\"/><circle cx=\"16\" cy=\"16\" r=\"10\"/><circle cx=\"16\" cy=\"16\" r=\"3\"/><path d=\"M14.5,13.4L14.5,13.4c0.6-2.4-0.6-4.8-2.8-5.8L11,7.3, M13,16L13,16c-1.7-1.7-4.4-1.9-6.4-0.5L6,16, M14.5,18.6L14.5,18.6c-2.4,0.6-3.9,2.9-3.6,5.3l0.1,0.8, M17.5,18.6L17.5,18.6c-0.6,2.4,0.6,4.8,2.8,5.8l0.7,0.3, M19,16L19,16c1.7,1.7,4.4,1.9,6.4,0.5L26,16, M17.5,13.4L17.5,13.4c2.4-0.6,3.9-2.9,3.6-5.3L21,7.3\"><animateTransform attributeName=\"transform\" begin=\"0\" dur=\"9999\" from=\"0 16 16\" repeatCount=\"0\" to=\"360 16 16\" type=\"rotate\"/></path><g fill=\"#71717a\" stroke=\"#a1a1aa\" stroke-width=\".5\"><circle cx=\"6\" cy=\"6\" r=\"1.2\"/><circle cx=\"26\" cy=\"6\" r=\"1.2\"/><circle cx=\"6\" cy=\"26\" r=\"1.2\"/><circle cx=\"26\" cy=\"26\" r=\"1.2\"/></g></svg>",
-        "minWidth": 32,
-        "minHeight": 32,
-        "meta": { "status": 1, "label": "Fan 3", "labelPosition": "bottom" }
-      },
-      "zIndex": 20,
-      "hidden": false,
-      "width": 32,
-      "height": 32,
-      "measured": { "width": 32, "height": 32 },
-      "parentId": "g20250206",
-      "dragging": false
-    },
-    {
-      "id": "fe4b2306-60af-414a-af13-414b8ef106c9",
-      "type": "svg",
-      "selected": false,
-      "position": { "x": 169.8, "y": 701.82 },
-      "data": {
-        "id": "fe4b2306-60af-414a-af13-414b8ef106c9",
-        "library": "basic",
-        "name": "fan",
-        "rotatable": false,
-        "content": "<svg width=\"24\" height=\"24\" fill=\"none\" stroke=\"#71717a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"1 1 30 30\"><rect width=\"29\" height=\"29\" x=\"1.5\" y=\"1.5\" fill=\"#fff\" rx=\"2\"/><circle cx=\"16\" cy=\"16\" r=\"10\"/><circle cx=\"16\" cy=\"16\" r=\"3\"/><path d=\"M14.5,13.4L14.5,13.4c0.6-2.4-0.6-4.8-2.8-5.8L11,7.3, M13,16L13,16c-1.7-1.7-4.4-1.9-6.4-0.5L6,16, M14.5,18.6L14.5,18.6c-2.4,0.6-3.9,2.9-3.6,5.3l0.1,0.8, M17.5,18.6L17.5,18.6c-0.6,2.4,0.6,4.8,2.8,5.8l0.7,0.3, M19,16L19,16c1.7,1.7,4.4,1.9,6.4,0.5L26,16, M17.5,13.4L17.5,13.4c2.4-0.6,3.9-2.9,3.6-5.3L21,7.3\"><animateTransform attributeName=\"transform\" begin=\"0\" dur=\"9999\" from=\"0 16 16\" repeatCount=\"0\" to=\"360 16 16\" type=\"rotate\"/></path><g fill=\"#71717a\" stroke=\"#a1a1aa\" stroke-width=\".5\"><circle cx=\"6\" cy=\"6\" r=\"1.2\"/><circle cx=\"26\" cy=\"6\" r=\"1.2\"/><circle cx=\"6\" cy=\"26\" r=\"1.2\"/><circle cx=\"26\" cy=\"26\" r=\"1.2\"/></g></svg>",
-        "minWidth": 32,
-        "minHeight": 32,
-        "meta": { "status": 3, "label": "Fan 4", "labelPosition": "bottom" }
-      },
-      "zIndex": 20,
-      "hidden": false,
-      "width": 32,
-      "height": 32,
-      "measured": { "width": 32, "height": 32 },
-      "parentId": "g20250206",
-      "dragging": false
-    },
-    {
-      "id": "ff41f684-2b24-4832-91e1-f63dc8575271",
-      "type": "svg",
-      "position": { "x": 273.07, "y": 705.7 },
-      "hidden": false,
-      "selected": false,
-      "zIndex": 20,
-      "data": {
-        "id": "ff41f684-2b24-4832-91e1-f63dc8575271",
-        "library": "basic",
-        "name": "bulb",
-        "rotatable": true,
-        "content": "<svg width=\"24\" height=\"24\" fill=\"#fff\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"-10 -10 150 150\"><path fill=\"#ddd\" d=\"M82 93V81.82a20.38 20.38 0 0 1 6.65-15.23 37 37 0 1 0-49.39-.09A20.59 20.59 0 0 1 46 81.82v10.77z\"/><path stroke=\"#e4e4e7\" d=\"M82 95a2 2 0 0 1-2-2V81.82a22.38 22.38 0 0 1 7.31-16.72 35 35 0 1 0-46.72-.1A22.61 22.61 0 0 1 48 81.82v10.76a2 2 0 0 1-4 0V81.82A18.6 18.6 0 0 0 37.92 68a39 39 0 1 1 52.08.08 18.38 18.38 0 0 0-6 13.74V93a2 2 0 0 1-2 2Z\"/><path fill=\"#71717a\" d=\"M82 92v16a18.05 18.05 0 0 1-18 18 18.05 18.05 0 0 1-18-18V92Z\"/><g fill=\"#3f3f46\"><path d=\"M64 128a20 20 0 0 1-20-20V92a2 2 0 0 1 2-2h36a2 2 0 0 1 2 2v16a20 20 0 0 1-20 20ZM48 94v14a16 16 0 0 0 32 0V94Z\"/><path d=\"M54 104a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4ZM54 112a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4Z\"/></g><path d=\"m54 102 28-4M54 110l28-4\"/></svg>",
-        "minWidth": 16,
-        "minHeight": 16,
-        "meta": { "status": 1, "label": "Bulb", "labelPosition": "none" }
-      },
-      "width": 25,
-      "height": 25,
-      "measured": { "width": 25, "height": 25 },
-      "parentId": "g20250206",
-      "resizing": false,
-      "dragging": false
-    },
-    {
-      "id": "83f28267-7feb-42ae-b20f-04597b7d6219",
-      "type": "svg",
-      "selected": false,
-      "position": { "x": 301.51, "y": 705.7 },
-      "data": {
-        "id": "83f28267-7feb-42ae-b20f-04597b7d6219",
-        "library": "basic",
-        "name": "bulb",
-        "rotatable": true,
-        "content": "<svg width=\"24\" height=\"24\" fill=\"#fff\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"-10 -10 150 150\"><path fill=\"#ddd\" d=\"M82 93V81.82a20.38 20.38 0 0 1 6.65-15.23 37 37 0 1 0-49.39-.09A20.59 20.59 0 0 1 46 81.82v10.77z\"/><path stroke=\"#e4e4e7\" d=\"M82 95a2 2 0 0 1-2-2V81.82a22.38 22.38 0 0 1 7.31-16.72 35 35 0 1 0-46.72-.1A22.61 22.61 0 0 1 48 81.82v10.76a2 2 0 0 1-4 0V81.82A18.6 18.6 0 0 0 37.92 68a39 39 0 1 1 52.08.08 18.38 18.38 0 0 0-6 13.74V93a2 2 0 0 1-2 2Z\"/><path fill=\"#71717a\" d=\"M82 92v16a18.05 18.05 0 0 1-18 18 18.05 18.05 0 0 1-18-18V92Z\"/><g fill=\"#3f3f46\"><path d=\"M64 128a20 20 0 0 1-20-20V92a2 2 0 0 1 2-2h36a2 2 0 0 1 2 2v16a20 20 0 0 1-20 20ZM48 94v14a16 16 0 0 0 32 0V94Z\"/><path d=\"M54 104a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4ZM54 112a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4Z\"/></g><path d=\"m54 102 28-4M54 110l28-4\"/></svg>",
-        "minWidth": 16,
-        "minHeight": 16,
-        "meta": {
-          "status": -2,
-          "label": "Bulb 2",
-          "labelPosition": "none",
-          "rotate": 180
-        }
-      },
-      "zIndex": 20,
-      "hidden": false,
-      "width": 25,
-      "height": 25,
-      "measured": { "width": 25, "height": 25 },
-      "parentId": "g20250206",
-      "dragging": false
-    },
-    {
-      "id": "1863b35a-b554-4a8a-9de3-10334e2c1a82",
-      "type": "svg",
-      "selected": false,
-      "position": { "x": 335.06, "y": 705.7 },
-      "data": {
-        "id": "1863b35a-b554-4a8a-9de3-10334e2c1a82",
-        "library": "basic",
-        "name": "bulb",
-        "rotatable": true,
-        "content": "<svg width=\"24\" height=\"24\" fill=\"#fff\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"-10 -10 150 150\"><path fill=\"#ddd\" d=\"M82 93V81.82a20.38 20.38 0 0 1 6.65-15.23 37 37 0 1 0-49.39-.09A20.59 20.59 0 0 1 46 81.82v10.77z\"/><path stroke=\"#e4e4e7\" d=\"M82 95a2 2 0 0 1-2-2V81.82a22.38 22.38 0 0 1 7.31-16.72 35 35 0 1 0-46.72-.1A22.61 22.61 0 0 1 48 81.82v10.76a2 2 0 0 1-4 0V81.82A18.6 18.6 0 0 0 37.92 68a39 39 0 1 1 52.08.08 18.38 18.38 0 0 0-6 13.74V93a2 2 0 0 1-2 2Z\"/><path fill=\"#71717a\" d=\"M82 92v16a18.05 18.05 0 0 1-18 18 18.05 18.05 0 0 1-18-18V92Z\"/><g fill=\"#3f3f46\"><path d=\"M64 128a20 20 0 0 1-20-20V92a2 2 0 0 1 2-2h36a2 2 0 0 1 2 2v16a20 20 0 0 1-20 20ZM48 94v14a16 16 0 0 0 32 0V94Z\"/><path d=\"M54 104a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4ZM54 112a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4Z\"/></g><path d=\"m54 102 28-4M54 110l28-4\"/></svg>",
-        "minWidth": 16,
-        "minHeight": 16,
-        "meta": {
-          "status": -1,
-          "label": "Bulb 1",
-          "labelPosition": "none",
-          "rotate": 180
-        }
-      },
-      "zIndex": 20,
-      "hidden": false,
-      "width": 25,
-      "height": 25,
-      "measured": { "width": 25, "height": 25 },
-      "parentId": "g20250206",
-      "dragging": false
-    },
-    {
-      "id": "32513827-d39f-4d22-b43f-d36443d2367e",
-      "type": "svg",
-      "selected": false,
-      "position": { "x": 260.27, "y": 492.81 },
-      "data": {
-        "id": "32513827-d39f-4d22-b43f-d36443d2367e",
-        "library": "basic",
-        "name": "bulb",
-        "rotatable": true,
-        "content": "<svg width=\"24\" height=\"24\" fill=\"#fff\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"-10 -10 150 150\"><path fill=\"#ddd\" d=\"M82 93V81.82a20.38 20.38 0 0 1 6.65-15.23 37 37 0 1 0-49.39-.09A20.59 20.59 0 0 1 46 81.82v10.77z\"/><path stroke=\"#e4e4e7\" d=\"M82 95a2 2 0 0 1-2-2V81.82a22.38 22.38 0 0 1 7.31-16.72 35 35 0 1 0-46.72-.1A22.61 22.61 0 0 1 48 81.82v10.76a2 2 0 0 1-4 0V81.82A18.6 18.6 0 0 0 37.92 68a39 39 0 1 1 52.08.08 18.38 18.38 0 0 0-6 13.74V93a2 2 0 0 1-2 2Z\"/><path fill=\"#71717a\" d=\"M82 92v16a18.05 18.05 0 0 1-18 18 18.05 18.05 0 0 1-18-18V92Z\"/><g fill=\"#3f3f46\"><path d=\"M64 128a20 20 0 0 1-20-20V92a2 2 0 0 1 2-2h36a2 2 0 0 1 2 2v16a20 20 0 0 1-20 20ZM48 94v14a16 16 0 0 0 32 0V94Z\"/><path d=\"M54 104a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4ZM54 112a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4Z\"/></g><path d=\"m54 102 28-4M54 110l28-4\"/></svg>",
-        "minWidth": 16,
-        "minHeight": 16,
-        "meta": {
-          "status": 1,
-          "label": "Bulb 3",
-          "labelPosition": "none",
-          "rotate": 180
-        }
-      },
-      "zIndex": 20,
-      "hidden": false,
-      "width": 25,
-      "height": 25,
-      "measured": { "width": 25, "height": 25 },
-      "parentId": "g20250206",
-      "dragging": false
-    },
-    {
-      "id": "a91060e1-a23a-416d-a399-eb2e4b96188a",
-      "type": "svg",
-      "selected": false,
-      "position": { "x": 260.27, "y": 281.04 },
-      "data": {
-        "id": "a91060e1-a23a-416d-a399-eb2e4b96188a",
-        "library": "basic",
-        "name": "bulb",
-        "rotatable": true,
-        "content": "<svg width=\"24\" height=\"24\" fill=\"#fff\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"-10 -10 150 150\"><path fill=\"#ddd\" d=\"M82 93V81.82a20.38 20.38 0 0 1 6.65-15.23 37 37 0 1 0-49.39-.09A20.59 20.59 0 0 1 46 81.82v10.77z\"/><path stroke=\"#e4e4e7\" d=\"M82 95a2 2 0 0 1-2-2V81.82a22.38 22.38 0 0 1 7.31-16.72 35 35 0 1 0-46.72-.1A22.61 22.61 0 0 1 48 81.82v10.76a2 2 0 0 1-4 0V81.82A18.6 18.6 0 0 0 37.92 68a39 39 0 1 1 52.08.08 18.38 18.38 0 0 0-6 13.74V93a2 2 0 0 1-2 2Z\"/><path fill=\"#71717a\" d=\"M82 92v16a18.05 18.05 0 0 1-18 18 18.05 18.05 0 0 1-18-18V92Z\"/><g fill=\"#3f3f46\"><path d=\"M64 128a20 20 0 0 1-20-20V92a2 2 0 0 1 2-2h36a2 2 0 0 1 2 2v16a20 20 0 0 1-20 20ZM48 94v14a16 16 0 0 0 32 0V94Z\"/><path d=\"M54 104a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4ZM54 112a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4Z\"/></g><path d=\"m54 102 28-4M54 110l28-4\"/></svg>",
-        "minWidth": 16,
-        "minHeight": 16,
-        "meta": {
-          "status": -1,
-          "label": "Bulb 4",
-          "labelPosition": "none",
-          "rotate": 180
-        }
-      },
-      "zIndex": 20,
-      "hidden": false,
-      "width": 25,
-      "height": 25,
-      "measured": { "width": 25, "height": 25 },
-      "parentId": "g20250206",
-      "dragging": false
-    },
-    {
-      "id": "67f44d34-692c-4612-9462-726410ffceec",
-      "type": "svg",
-      "selected": false,
-      "position": { "x": 260.27, "y": 66.72 },
-      "data": {
-        "id": "67f44d34-692c-4612-9462-726410ffceec",
-        "library": "basic",
-        "name": "bulb",
-        "rotatable": true,
-        "content": "<svg width=\"24\" height=\"24\" fill=\"#fff\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"-10 -10 150 150\"><path fill=\"#ddd\" d=\"M82 93V81.82a20.38 20.38 0 0 1 6.65-15.23 37 37 0 1 0-49.39-.09A20.59 20.59 0 0 1 46 81.82v10.77z\"/><path stroke=\"#e4e4e7\" d=\"M82 95a2 2 0 0 1-2-2V81.82a22.38 22.38 0 0 1 7.31-16.72 35 35 0 1 0-46.72-.1A22.61 22.61 0 0 1 48 81.82v10.76a2 2 0 0 1-4 0V81.82A18.6 18.6 0 0 0 37.92 68a39 39 0 1 1 52.08.08 18.38 18.38 0 0 0-6 13.74V93a2 2 0 0 1-2 2Z\"/><path fill=\"#71717a\" d=\"M82 92v16a18.05 18.05 0 0 1-18 18 18.05 18.05 0 0 1-18-18V92Z\"/><g fill=\"#3f3f46\"><path d=\"M64 128a20 20 0 0 1-20-20V92a2 2 0 0 1 2-2h36a2 2 0 0 1 2 2v16a20 20 0 0 1-20 20ZM48 94v14a16 16 0 0 0 32 0V94Z\"/><path d=\"M54 104a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4ZM54 112a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4Z\"/></g><path d=\"m54 102 28-4M54 110l28-4\"/></svg>",
-        "minWidth": 16,
-        "minHeight": 16,
-        "meta": {
-          "status": -2,
-          "label": "Bulb 5",
-          "labelPosition": "none",
-          "rotate": 180
-        }
-      },
-      "zIndex": 20,
-      "hidden": false,
-      "width": 25,
-      "height": 25,
-      "measured": { "width": 25, "height": 25 },
-      "parentId": "g20250206",
-      "dragging": false
-    },
-    {
-      "id": "ca95a796-97ba-489a-ada0-e72dc6d43216",
-      "type": "svg",
-      "position": { "x": 406.75, "y": 850.69 },
-      "hidden": false,
-      "selected": false,
-      "zIndex": 20,
-      "data": {
-        "id": "ca95a796-97ba-489a-ada0-e72dc6d43216",
+        "id": "eedc5201-a917-47c1-94a4-2bdbb0489078",
         "library": "basic",
         "name": "tank-wagon",
         "rotatable": false,
         "content": "<svg width=\"33\" height=\"22\" style=\"height:100%;width:100%\" viewBox=\"0 -1 32 22\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill=\"#71717A\" stroke=\"#71717A\" stroke-width=\".1\" d=\"M31.78 15a.52.52 0 1 0 0-1.05h-1.12s0 0 0 0h-1.44A6.66 6.66 0 0 0 26.16 1.7v-.6c0-.6-.48-1.09-1.08-1.09h-2.23c-.6 0-1.08.49-1.08 1.08v.6H10.53v-.04a.52.52 0 1 0-1.04 0v.03h-2.3v-.03a.52.52 0 1 0-1.05 0v.05a6.67 6.67 0 0 0-3.06 12.26H1.64s0 0 0 0H.52a.52.52 0 1 0 0 1.05h.84l.83 1.24a1.91 1.91 0 0 0-.3 2.18H.51a.52.52 0 1 0 0 1.05h31.26a.52.52 0 1 0 0-1.05h-1.36a1.9 1.9 0 0 0-.3-2.18l.82-1.24h.84ZM22.8 1.08c0-.02.02-.03.04-.03h2.23c.02 0 .04.01.04.03v.6h-2.3v-.6ZM2.72 17.55a.87.87 0 1 1 1.75 0 .87.87 0 0 1-1.75 0Zm7.23-.32h12.4a1.92 1.92 0 0 0 .19 1.19H9.77a1.9 1.9 0 0 0 .18-1.19Zm16.19 0h.68a1.92 1.92 0 0 0 .18 1.19h-1.05a1.9 1.9 0 0 0 .19-1.19Zm-1.9 1.19a.87.87 0 1 1 0-1.75.87.87 0 0 1 0 1.75Zm-16.18 0a.87.87 0 1 1 0-1.75.87.87 0 0 1 0 1.75Zm-1.71 0H5.3a1.9 1.9 0 0 0 .19-1.19h.68a1.92 1.92 0 0 0 .18 1.19Zm21.49-.87a.87.87 0 1 1 1.74 0 .87.87 0 0 1-1.74 0Zm1.38-1.85a1.91 1.91 0 0 0-1.86.49H25.6a1.91 1.91 0 0 0-2.7 0H9.4a1.91 1.91 0 0 0-2.7 0H4.94a1.91 1.91 0 0 0-1.86-.5L2.62 15h27.07l-.47.7Z\"/><rect width=\"30.3\" height=\"11.4\" x=\"1\" y=\"2.58\" fill=\"#FFF\" rx=\"5.7\"><animate attributeName=\"fill\" attributeType=\"CSS\" dur=\"9999\" repeatCount=\"0\"/></rect></g></svg>",
         "minWidth": 90,
         "minHeight": 60,
+        "handles": [
+          { "position": "left", "rotatable": false },
+          { "position": "right", "rotatable": false }
+        ],
         "meta": {
           "label": "Tank",
           "labelPosition": "center",
@@ -584,118 +309,53 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 47.4,
-              "status": 3
+              "value": 32.4,
+              "status": 1
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 39.4,
+              "value": 41.9,
               "status": 0
             },
             {
-              "label": "Property-2",
-              "key": "prop-2",
-              "value": 48.7,
+              "label": "Property-1",
+              "key": "prop-1",
+              "value": 23.8,
               "status": 0
             }
           ],
-          "status": 3
+          "status": 1
         }
       },
-      "width": 98,
-      "height": 65.33333333333331,
-      "measured": { "width": 98, "height": 65 },
+      "width": 116.05797101449275,
+      "height": 77.37198067632849,
+      "measured": { "width": 116, "height": 77 },
       "parentId": "g20250206",
       "dragging": false,
       "resizing": false
     },
     {
-      "id": "837c96b6-265b-442c-af59-d03433fdc049",
+      "id": "e38fd633-6ab8-46a7-b461-cb7b6fd02362",
       "type": "svg",
-      "position": { "x": 593.33, "y": 867.25 },
+      "position": { "x": 719.69, "y": 157.7 },
       "hidden": false,
       "selected": false,
       "zIndex": 20,
       "data": {
-        "id": "837c96b6-265b-442c-af59-d03433fdc049",
-        "library": "basic",
-        "name": "vavle",
-        "rotatable": false,
-        "content": "<svg width=\"24\" height=\"24\" fill=\"#71717a\" stroke=\"#71717a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"0 45 490 490\"><rect width=\"300\" height=\"190\" x=\"100\" y=\"200\" fill=\"#fff\" stroke=\"none\" rx=\"6\"/><path d=\"M469.1 180.95c-11.5 0-20.9 9.4-20.9 20.9v24h-44.8v-1c0-31.3-25-56.3-56.3-56.3h-81.3v-55.3H294c11.5 0 20.9-9.4 20.9-20.9s-9.4-20.9-20.9-20.9h-98c-11.5 0-20.9 9.4-20.9 20.9s9.4 20.9 20.9 20.9h28.1v55.3h-81.3c-31.3 0-56.3 25-56.3 56.3v1H41.7v-24c0-11.5-9.4-20.9-20.9-20.9S0 190.35 0 201.75v183.5c0 11.5 9.4 20.9 20.9 20.9 10.4 0 19.8-9.4 20.9-20.9v-22.9h44.8c0 31.3 25 56.3 56.3 56.3h204.3c31.3 0 56.3-25 56.3-56.3l44.8-.1v23c0 11.5 9.4 20.9 20.9 20.9s20.9-9.4 20.9-20.9v-183.5c-.1-11.4-9.5-20.8-21-20.8zM85.5 319.55H41.7v-52.1h43.8v52.1zm277.3 42.8c0 8.3-7.3 15.6-15.6 15.6H142.8c-8.3 0-15.6-7.3-15.6-15.6v-137.6c0-8.3 7.3-15.6 15.6-15.6h204.3c8.3 0 15.6 7.3 15.6 15.6v137.6h.1zm40.7-42.8v-52.1h44.8v52.1h-44.8z\"/></svg>",
-        "minWidth": 32,
-        "minHeight": 32,
-        "meta": { "label": "Vavle", "labelPosition": "bottom" }
-      },
-      "width": 32,
-      "height": 32,
-      "measured": { "width": 32, "height": 32 },
-      "parentId": "g20250206",
-      "dragging": false
-    },
-    {
-      "id": "efcfd910-476b-4bfa-b6fb-4251a31420ad",
-      "type": "svg",
-      "position": { "x": 716.98, "y": 867.25 },
-      "hidden": false,
-      "selected": false,
-      "zIndex": 20,
-      "data": {
-        "id": "efcfd910-476b-4bfa-b6fb-4251a31420ad",
-        "library": "basic",
-        "name": "pipe-top-right",
-        "rotatable": true,
-        "content": "<svg width=\"20\" height=\"20\" style=\"height:100%;width:100%\" viewBox=\"-6.5 3 21.2 15\"><g fill=\"#71717A\" stroke=\"#71717A\" stroke-width=\".1\"><path d=\"M14 7h-2.55a.64.64 0 0 0-.64-.64h-1.9a.64.64 0 0 0-.64.64h-.38a.26.26 0 0 1-.26-.27v-.37c.35 0 .64-.28.64-.64v-1.9a.64.64 0 0 0-.64-.64V.64A.64.64 0 0 0 7 0H1.27a.64.64 0 0 0-.63.64v2.54a.64.64 0 0 0-.64.64v1.9c0 .36.28.64.64.64v1.49c0 3.4 2.75 6.14 6.14 6.14h1.49c0 .35.28.64.63.64h1.91c.35 0 .64-.29.64-.64h2.54c.35 0 .64-.28.64-.63V7.63a.64.64 0 0 0-.64-.63Z\"/><g fill=\"#FFF\" stroke=\"#FFF\"><path d=\"M1.27 4.45h5.72v.64H1.27zM1.91 1.27h4.45v1.91H1.91zM1.9 7.85v-1.5h4.46v.38c0 .85.68 1.54 1.53 1.54h.38v4.45h-1.5a4.87 4.87 0 0 1-4.86-4.87ZM9.54 13.35V7.63h.63v5.72zM13.35 12.72h-1.9V8.27h1.9z\"/></g></g></svg>",
-        "minWidth": 28,
-        "minHeight": 28,
-        "meta": { "label": "PipeTR", "labelPosition": "none", "rotate": 90 }
-      },
-      "width": 28,
-      "height": 28,
-      "measured": { "width": 28, "height": 28 },
-      "parentId": "g20250206",
-      "dragging": false
-    },
-    {
-      "id": "e725005b-a8d3-476a-90ea-7e9ec650b2a7",
-      "type": "svg",
-      "position": { "x": 609.89, "y": 779.46 },
-      "hidden": false,
-      "selected": false,
-      "zIndex": 20,
-      "data": {
-        "id": "e725005b-a8d3-476a-90ea-7e9ec650b2a7",
-        "library": "basic",
-        "name": "heater",
-        "rotatable": false,
-        "content": "<svg width=\"24\" height=\"24\" fill=\"#71717a\" stroke=\"#71717a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".6\" style=\"height:100%;width:100%\" viewBox=\"0 0 56 56\"><g fill=\"#fff\" stroke=\"none\"><rect width=\"6\" height=\"39\" x=\"5\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"15\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"25\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"35\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"45\" y=\"8\" rx=\"3\"/><animate attributeName=\"fill\" attributeType=\"CSS\" dur=\"1.5\" repeatCount=\"indefinite\" values=\"#fff\"/></g><path d=\"M54 13.5h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2H2v-1H0v10h2v-1h2v22a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-22h2a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1zm-10 2v4h-2v-4h2zm-10 0v4h-2v-4h2zm-10 0v4h-2v-4h2zm-10 0v4h-2v-4h2zm-12 4v-4h2v4H2zm8 24a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm3-24h-1v-4h1v4z\"/></svg>",
-        "minWidth": 32,
-        "minHeight": 32,
-        "meta": { "label": "Heater", "labelPosition": "none" }
-      },
-      "width": 52,
-      "height": 52,
-      "measured": { "width": 52, "height": 52 },
-      "parentId": "g20250206",
-      "dragging": false,
-      "resizing": false
-    },
-    {
-      "id": "d23dea9c-502f-40fa-8b5c-b7d4d87bfa43",
-      "type": "svg",
-      "position": { "x": 716.98, "y": 790.17 },
-      "hidden": false,
-      "selected": false,
-      "zIndex": 20,
-      "data": {
-        "id": "d23dea9c-502f-40fa-8b5c-b7d4d87bfa43",
+        "id": "e38fd633-6ab8-46a7-b461-cb7b6fd02362",
         "library": "basic",
         "name": "pipe-tjoin",
         "rotatable": true,
         "content": "<svg width=\"20\" height=\"20\" style=\"height:100%;width:100%\" viewBox=\"-3.9 0 18.5 26.67\"><g fill=\"#717171\" stroke=\"#71717A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".13\"><path d=\"M18.5 17.85v-8.9a.95.95 0 0 0-.15-.46c-.25-.31-.65-.49-.81-.49h-1.56a.97.97 0 0 0-.98.94v1.28H9.56a.68.68 0 0 1-.67-.67V7.1h.83c.52 0 .95-.42.95-.95V4.5a.95.95 0 0 0-.95-.94h-.83V.95A.95.95 0 0 0 7.94 0H2.73a.95.95 0 0 0-.95.95v2.6H.95A.95.95 0 0 0 0 4.5v1.66c0 .53.42.95.95.95h.83v12.45H.95a.95.95 0 0 0-.95.94v1.66c0 .53.42.95.95.95h.83v2.6c0 .53.42.96.95.96h5.21c.52 0 .95-.43.95-.95v-2.6h.83c.52 0 .95-.43.95-.96V20.5a.95.95 0 0 0-.95-.94h-.83v-2.44c0-.37.3-.68.67-.68H15v1.4c0 .53.46.83.98.83h1.56c.16 0 .55-.05.8-.32.08-.08.13-.24.16-.5Z\"/><g fill=\"#FFF\"><path d=\"M2.73.89h5.21c.03 0 .06.03.06.06v2.6H2.67V.96c0-.03.02-.06.06-.06ZM.89 6.16V4.5c0-.03.03-.06.06-.06h8.77c.03 0 .06.03.06.06v1.66c0 .04-.03.06-.06.06H.95a.06.06 0 0 1-.06-.06ZM8 25.72c0 .03-.03.06-.06.06H2.73a.06.06 0 0 1-.06-.06v-2.6H8v2.6ZM9.72 20.44c.03 0 .06.03.06.06v1.66c0 .04-.03.06-.06.06H.95a.06.06 0 0 1-.06-.06V20.5c0-.03.03-.06.06-.06h8.77ZM8 7.11v2.44c0 .86.7 1.56 1.56 1.56h5.48v4.45H9.56c-.86 0-1.56.7-1.56 1.56v2.44H2.67V7.1H8ZM17.6 8.89c.04 0 .07.03.07.06v8.77c0 .03-.03.06-.06.06h-1.66a.06.06 0 0 1-.06-.06V8.95c0-.03.03-.06.06-.06h1.66Z\"/></g></g></svg>",
         "minWidth": 28,
         "minHeight": 28,
+        "handles": [
+          { "position": "top", "rotatable": true },
+          { "position": "right", "rotatable": true },
+          { "position": "bottom", "rotatable": true }
+        ],
         "meta": { "label": "Pipe join", "labelPosition": "none", "rotate": 180 }
       },
       "width": 28,
@@ -705,18 +365,23 @@
       "dragging": false
     },
     {
-      "id": "63d3a05e-2bd0-4b6d-9859-eb72c5abf669",
+      "id": "7da9ae97-47db-4011-97a9-0fba87ff2d28",
       "type": "svg",
       "selected": false,
-      "position": { "x": 716.98, "y": 586.35 },
+      "position": { "x": 719.69, "y": 792.38 },
       "data": {
-        "id": "63d3a05e-2bd0-4b6d-9859-eb72c5abf669",
+        "id": "7da9ae97-47db-4011-97a9-0fba87ff2d28",
         "library": "basic",
         "name": "pipe-tjoin",
         "rotatable": true,
         "content": "<svg width=\"20\" height=\"20\" style=\"height:100%;width:100%\" viewBox=\"-3.9 0 18.5 26.67\"><g fill=\"#717171\" stroke=\"#71717A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".13\"><path d=\"M18.5 17.85v-8.9a.95.95 0 0 0-.15-.46c-.25-.31-.65-.49-.81-.49h-1.56a.97.97 0 0 0-.98.94v1.28H9.56a.68.68 0 0 1-.67-.67V7.1h.83c.52 0 .95-.42.95-.95V4.5a.95.95 0 0 0-.95-.94h-.83V.95A.95.95 0 0 0 7.94 0H2.73a.95.95 0 0 0-.95.95v2.6H.95A.95.95 0 0 0 0 4.5v1.66c0 .53.42.95.95.95h.83v12.45H.95a.95.95 0 0 0-.95.94v1.66c0 .53.42.95.95.95h.83v2.6c0 .53.42.96.95.96h5.21c.52 0 .95-.43.95-.95v-2.6h.83c.52 0 .95-.43.95-.96V20.5a.95.95 0 0 0-.95-.94h-.83v-2.44c0-.37.3-.68.67-.68H15v1.4c0 .53.46.83.98.83h1.56c.16 0 .55-.05.8-.32.08-.08.13-.24.16-.5Z\"/><g fill=\"#FFF\"><path d=\"M2.73.89h5.21c.03 0 .06.03.06.06v2.6H2.67V.96c0-.03.02-.06.06-.06ZM.89 6.16V4.5c0-.03.03-.06.06-.06h8.77c.03 0 .06.03.06.06v1.66c0 .04-.03.06-.06.06H.95a.06.06 0 0 1-.06-.06ZM8 25.72c0 .03-.03.06-.06.06H2.73a.06.06 0 0 1-.06-.06v-2.6H8v2.6ZM9.72 20.44c.03 0 .06.03.06.06v1.66c0 .04-.03.06-.06.06H.95a.06.06 0 0 1-.06-.06V20.5c0-.03.03-.06.06-.06h8.77ZM8 7.11v2.44c0 .86.7 1.56 1.56 1.56h5.48v4.45H9.56c-.86 0-1.56.7-1.56 1.56v2.44H2.67V7.1H8ZM17.6 8.89c.04 0 .07.03.07.06v8.77c0 .03-.03.06-.06.06h-1.66a.06.06 0 0 1-.06-.06V8.95c0-.03.03-.06.06-.06h1.66Z\"/></g></g></svg>",
         "minWidth": 28,
         "minHeight": 28,
+        "handles": [
+          { "position": "top", "rotatable": true },
+          { "position": "right", "rotatable": true },
+          { "position": "bottom", "rotatable": true }
+        ],
         "meta": {
           "label": "Pipe join 1",
           "labelPosition": "none",
@@ -732,90 +397,23 @@
       "dragging": false
     },
     {
-      "id": "30a90c51-57eb-469b-8b02-97b5333e600d",
+      "id": "5bee6f76-6845-4e74-99be-00c73c5fb3ac",
       "type": "svg",
       "selected": false,
-      "position": { "x": 609.89, "y": 569.8 },
+      "position": { "x": 719.69, "y": 366.49 },
       "data": {
-        "id": "30a90c51-57eb-469b-8b02-97b5333e600d",
-        "library": "basic",
-        "name": "heater",
-        "rotatable": false,
-        "content": "<svg width=\"24\" height=\"24\" fill=\"#71717a\" stroke=\"#71717a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".6\" style=\"height:100%;width:100%\" viewBox=\"0 0 56 56\"><g fill=\"#fff\" stroke=\"none\"><rect width=\"6\" height=\"39\" x=\"5\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"15\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"25\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"35\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"45\" y=\"8\" rx=\"3\"/><animate attributeName=\"fill\" attributeType=\"CSS\" dur=\"1.5\" repeatCount=\"indefinite\" values=\"#fff\"/></g><path d=\"M54 13.5h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2H2v-1H0v10h2v-1h2v22a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-22h2a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1zm-10 2v4h-2v-4h2zm-10 0v4h-2v-4h2zm-10 0v4h-2v-4h2zm-10 0v4h-2v-4h2zm-12 4v-4h2v4H2zm8 24a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm3-24h-1v-4h1v4z\"/></svg>",
-        "minWidth": 32,
-        "minHeight": 32,
-        "meta": {
-          "label": "Heater 1",
-          "labelPosition": "none",
-          "props": [
-            {
-              "label": "Temperature",
-              "key": "temp",
-              "unit": "°C",
-              "value": 30.1,
-              "status": 1
-            },
-            {
-              "label": "Humidity",
-              "key": "hum",
-              "unit": "%",
-              "value": 38.1,
-              "status": 0
-            },
-            {
-              "label": "Property-1",
-              "key": "prop-1",
-              "value": 33.5,
-              "status": 0
-            }
-          ],
-          "status": 1
-        }
-      },
-      "zIndex": 20,
-      "hidden": false,
-      "width": 52,
-      "height": 52,
-      "measured": { "width": 52, "height": 52 },
-      "parentId": "g20250206",
-      "dragging": false
-    },
-    {
-      "id": "e67ae9aa-eafe-4a45-a554-c9e2084ecb3e",
-      "type": "svg",
-      "selected": false,
-      "position": { "x": 603.07, "y": 359 },
-      "data": {
-        "id": "e67ae9aa-eafe-4a45-a554-c9e2084ecb3e",
-        "library": "basic",
-        "name": "heater",
-        "rotatable": false,
-        "content": "<svg width=\"24\" height=\"24\" fill=\"#71717a\" stroke=\"#71717a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".6\" style=\"height:100%;width:100%\" viewBox=\"0 0 56 56\"><g fill=\"#fff\" stroke=\"none\"><rect width=\"6\" height=\"39\" x=\"5\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"15\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"25\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"35\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"45\" y=\"8\" rx=\"3\"/><animate attributeName=\"fill\" attributeType=\"CSS\" dur=\"1.5\" repeatCount=\"indefinite\" values=\"#fff\"/></g><path d=\"M54 13.5h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2H2v-1H0v10h2v-1h2v22a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-22h2a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1zm-10 2v4h-2v-4h2zm-10 0v4h-2v-4h2zm-10 0v4h-2v-4h2zm-10 0v4h-2v-4h2zm-12 4v-4h2v4H2zm8 24a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm3-24h-1v-4h1v4z\"/></svg>",
-        "minWidth": 32,
-        "minHeight": 32,
-        "meta": { "label": "Heater 2", "labelPosition": "none" }
-      },
-      "zIndex": 20,
-      "hidden": false,
-      "width": 52,
-      "height": 52,
-      "measured": { "width": 52, "height": 52 },
-      "parentId": "g20250206",
-      "dragging": false
-    },
-    {
-      "id": "abd50f0e-2ad8-47e5-947e-2f293aa0a663",
-      "type": "svg",
-      "selected": false,
-      "position": { "x": 716.98, "y": 370.14 },
-      "data": {
-        "id": "abd50f0e-2ad8-47e5-947e-2f293aa0a663",
+        "id": "5bee6f76-6845-4e74-99be-00c73c5fb3ac",
         "library": "basic",
         "name": "pipe-tjoin",
         "rotatable": true,
         "content": "<svg width=\"20\" height=\"20\" style=\"height:100%;width:100%\" viewBox=\"-3.9 0 18.5 26.67\"><g fill=\"#717171\" stroke=\"#71717A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".13\"><path d=\"M18.5 17.85v-8.9a.95.95 0 0 0-.15-.46c-.25-.31-.65-.49-.81-.49h-1.56a.97.97 0 0 0-.98.94v1.28H9.56a.68.68 0 0 1-.67-.67V7.1h.83c.52 0 .95-.42.95-.95V4.5a.95.95 0 0 0-.95-.94h-.83V.95A.95.95 0 0 0 7.94 0H2.73a.95.95 0 0 0-.95.95v2.6H.95A.95.95 0 0 0 0 4.5v1.66c0 .53.42.95.95.95h.83v12.45H.95a.95.95 0 0 0-.95.94v1.66c0 .53.42.95.95.95h.83v2.6c0 .53.42.96.95.96h5.21c.52 0 .95-.43.95-.95v-2.6h.83c.52 0 .95-.43.95-.96V20.5a.95.95 0 0 0-.95-.94h-.83v-2.44c0-.37.3-.68.67-.68H15v1.4c0 .53.46.83.98.83h1.56c.16 0 .55-.05.8-.32.08-.08.13-.24.16-.5Z\"/><g fill=\"#FFF\"><path d=\"M2.73.89h5.21c.03 0 .06.03.06.06v2.6H2.67V.96c0-.03.02-.06.06-.06ZM.89 6.16V4.5c0-.03.03-.06.06-.06h8.77c.03 0 .06.03.06.06v1.66c0 .04-.03.06-.06.06H.95a.06.06 0 0 1-.06-.06ZM8 25.72c0 .03-.03.06-.06.06H2.73a.06.06 0 0 1-.06-.06v-2.6H8v2.6ZM9.72 20.44c.03 0 .06.03.06.06v1.66c0 .04-.03.06-.06.06H.95a.06.06 0 0 1-.06-.06V20.5c0-.03.03-.06.06-.06h8.77ZM8 7.11v2.44c0 .86.7 1.56 1.56 1.56h5.48v4.45H9.56c-.86 0-1.56.7-1.56 1.56v2.44H2.67V7.1H8ZM17.6 8.89c.04 0 .07.03.07.06v8.77c0 .03-.03.06-.06.06h-1.66a.06.06 0 0 1-.06-.06V8.95c0-.03.03-.06.06-.06h1.66Z\"/></g></g></svg>",
         "minWidth": 28,
         "minHeight": 28,
+        "handles": [
+          { "position": "top", "rotatable": true },
+          { "position": "right", "rotatable": true },
+          { "position": "bottom", "rotatable": true }
+        ],
         "meta": {
           "label": "Pipe join 2",
           "labelPosition": "none",
@@ -831,63 +429,25 @@
       "dragging": false
     },
     {
-      "id": "1989d764-cb41-4084-b3b8-bb875ccf36c4",
+      "id": "70c9bb6d-6d87-4fdb-b4b9-25662dcead59",
       "type": "svg",
       "selected": false,
-      "position": { "x": 603.07, "y": 147.13 },
+      "position": { "x": 719.69, "y": 590.2 },
       "data": {
-        "id": "1989d764-cb41-4084-b3b8-bb875ccf36c4",
-        "library": "basic",
-        "name": "heater",
-        "rotatable": false,
-        "content": "<svg width=\"24\" height=\"24\" fill=\"#71717a\" stroke=\"#71717a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".6\" style=\"height:100%;width:100%\" viewBox=\"0 0 56 56\"><g fill=\"#fff\" stroke=\"none\"><rect width=\"6\" height=\"39\" x=\"5\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"15\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"25\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"35\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"45\" y=\"8\" rx=\"3\"/><animate attributeName=\"fill\" attributeType=\"CSS\" dur=\"1.5\" repeatCount=\"indefinite\" values=\"#fff\"/></g><path d=\"M54 13.5h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2H2v-1H0v10h2v-1h2v22a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-22h2a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1zm-10 2v4h-2v-4h2zm-10 0v4h-2v-4h2zm-10 0v4h-2v-4h2zm-10 0v4h-2v-4h2zm-12 4v-4h2v4H2zm8 24a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm3-24h-1v-4h1v4z\"/></svg>",
-        "minWidth": 32,
-        "minHeight": 32,
-        "meta": {
-          "label": "Heater 3",
-          "labelPosition": "none",
-          "props": [
-            {
-              "label": "Temperature",
-              "key": "temp",
-              "unit": "°C",
-              "value": 18.5,
-              "status": 2
-            },
-            {
-              "label": "Humidity",
-              "key": "hum",
-              "unit": "%",
-              "value": 30.6,
-              "status": 0
-            }
-          ],
-          "status": 2
-        }
-      },
-      "zIndex": 20,
-      "hidden": false,
-      "width": 52,
-      "height": 52,
-      "measured": { "width": 52, "height": 52 },
-      "parentId": "g20250206",
-      "dragging": false
-    },
-    {
-      "id": "c94c851b-ed40-47f0-895b-29dbaeb44e14",
-      "type": "svg",
-      "selected": false,
-      "position": { "x": 716.98, "y": 161.45 },
-      "data": {
-        "id": "c94c851b-ed40-47f0-895b-29dbaeb44e14",
+        "id": "70c9bb6d-6d87-4fdb-b4b9-25662dcead59",
         "library": "basic",
         "name": "pipe-tjoin",
         "rotatable": true,
         "content": "<svg width=\"20\" height=\"20\" style=\"height:100%;width:100%\" viewBox=\"-3.9 0 18.5 26.67\"><g fill=\"#717171\" stroke=\"#71717A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".13\"><path d=\"M18.5 17.85v-8.9a.95.95 0 0 0-.15-.46c-.25-.31-.65-.49-.81-.49h-1.56a.97.97 0 0 0-.98.94v1.28H9.56a.68.68 0 0 1-.67-.67V7.1h.83c.52 0 .95-.42.95-.95V4.5a.95.95 0 0 0-.95-.94h-.83V.95A.95.95 0 0 0 7.94 0H2.73a.95.95 0 0 0-.95.95v2.6H.95A.95.95 0 0 0 0 4.5v1.66c0 .53.42.95.95.95h.83v12.45H.95a.95.95 0 0 0-.95.94v1.66c0 .53.42.95.95.95h.83v2.6c0 .53.42.96.95.96h5.21c.52 0 .95-.43.95-.95v-2.6h.83c.52 0 .95-.43.95-.96V20.5a.95.95 0 0 0-.95-.94h-.83v-2.44c0-.37.3-.68.67-.68H15v1.4c0 .53.46.83.98.83h1.56c.16 0 .55-.05.8-.32.08-.08.13-.24.16-.5Z\"/><g fill=\"#FFF\"><path d=\"M2.73.89h5.21c.03 0 .06.03.06.06v2.6H2.67V.96c0-.03.02-.06.06-.06ZM.89 6.16V4.5c0-.03.03-.06.06-.06h8.77c.03 0 .06.03.06.06v1.66c0 .04-.03.06-.06.06H.95a.06.06 0 0 1-.06-.06ZM8 25.72c0 .03-.03.06-.06.06H2.73a.06.06 0 0 1-.06-.06v-2.6H8v2.6ZM9.72 20.44c.03 0 .06.03.06.06v1.66c0 .04-.03.06-.06.06H.95a.06.06 0 0 1-.06-.06V20.5c0-.03.03-.06.06-.06h8.77ZM8 7.11v2.44c0 .86.7 1.56 1.56 1.56h5.48v4.45H9.56c-.86 0-1.56.7-1.56 1.56v2.44H2.67V7.1H8ZM17.6 8.89c.04 0 .07.03.07.06v8.77c0 .03-.03.06-.06.06h-1.66a.06.06 0 0 1-.06-.06V8.95c0-.03.03-.06.06-.06h1.66Z\"/></g></g></svg>",
         "minWidth": 28,
         "minHeight": 28,
+        "handles": [
+          { "position": "top", "rotatable": true },
+          { "position": "right", "rotatable": true },
+          { "position": "bottom", "rotatable": true }
+        ],
         "meta": {
-          "label": "Pipe join 3",
+          "label": "Pipe join 2",
           "labelPosition": "none",
           "rotate": 180
         }
@@ -901,13 +461,622 @@
       "dragging": false
     },
     {
-      "id": "51f45545-0f68-489e-837a-33c3e8d19b31",
-      "type": "table",
-      "position": { "x": -137.95, "y": 14.82 },
+      "id": "9d716596-9e30-4451-aa58-cb21980cf546",
+      "type": "svg",
+      "position": { "x": 719.69, "y": 883.54 },
+      "hidden": false,
+      "selected": false,
       "zIndex": 20,
-      "parentId": "ca95a796-97ba-489a-ada0-e72dc6d43216",
       "data": {
-        "id": "51f45545-0f68-489e-837a-33c3e8d19b31",
+        "id": "9d716596-9e30-4451-aa58-cb21980cf546",
+        "library": "basic",
+        "name": "pipe-top-right",
+        "rotatable": true,
+        "content": "<svg width=\"20\" height=\"20\" style=\"height:100%;width:100%\" viewBox=\"-6.5 3 21.2 15\"><g fill=\"#71717A\" stroke=\"#71717A\" stroke-width=\".1\"><path d=\"M14 7h-2.55a.64.64 0 0 0-.64-.64h-1.9a.64.64 0 0 0-.64.64h-.38a.26.26 0 0 1-.26-.27v-.37c.35 0 .64-.28.64-.64v-1.9a.64.64 0 0 0-.64-.64V.64A.64.64 0 0 0 7 0H1.27a.64.64 0 0 0-.63.64v2.54a.64.64 0 0 0-.64.64v1.9c0 .36.28.64.64.64v1.49c0 3.4 2.75 6.14 6.14 6.14h1.49c0 .35.28.64.63.64h1.91c.35 0 .64-.29.64-.64h2.54c.35 0 .64-.28.64-.63V7.63a.64.64 0 0 0-.64-.63Z\"/><g fill=\"#FFF\" stroke=\"#FFF\"><path d=\"M1.27 4.45h5.72v.64H1.27zM1.91 1.27h4.45v1.91H1.91zM1.9 7.85v-1.5h4.46v.38c0 .85.68 1.54 1.53 1.54h.38v4.45h-1.5a4.87 4.87 0 0 1-4.86-4.87ZM9.54 13.35V7.63h.63v5.72zM13.35 12.72h-1.9V8.27h1.9z\"/></g></g></svg>",
+        "minWidth": 28,
+        "minHeight": 28,
+        "handles": [
+          { "position": "top", "rotatable": true },
+          { "position": "right", "rotatable": true }
+        ],
+        "meta": { "label": "PipeTR", "labelPosition": "none", "rotate": 90 }
+      },
+      "width": 28,
+      "height": 28,
+      "measured": { "width": 28, "height": 28 },
+      "dragging": false,
+      "parentId": "g20250206"
+    },
+    {
+      "id": "32bbabc8-4bd1-4afb-8ace-fbcaec8adaf7",
+      "type": "svg",
+      "position": { "x": 618.38, "y": 876.05 },
+      "hidden": false,
+      "selected": false,
+      "zIndex": 20,
+      "data": {
+        "id": "32bbabc8-4bd1-4afb-8ace-fbcaec8adaf7",
+        "library": "basic",
+        "name": "vavle",
+        "rotatable": false,
+        "content": "<svg width=\"24\" height=\"24\" fill=\"#71717a\" stroke=\"#71717a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"0 45 490 490\"><rect width=\"300\" height=\"190\" x=\"100\" y=\"200\" fill=\"#fff\" stroke=\"none\" rx=\"6\"/><path d=\"M469.1 180.95c-11.5 0-20.9 9.4-20.9 20.9v24h-44.8v-1c0-31.3-25-56.3-56.3-56.3h-81.3v-55.3H294c11.5 0 20.9-9.4 20.9-20.9s-9.4-20.9-20.9-20.9h-98c-11.5 0-20.9 9.4-20.9 20.9s9.4 20.9 20.9 20.9h28.1v55.3h-81.3c-31.3 0-56.3 25-56.3 56.3v1H41.7v-24c0-11.5-9.4-20.9-20.9-20.9S0 190.35 0 201.75v183.5c0 11.5 9.4 20.9 20.9 20.9 10.4 0 19.8-9.4 20.9-20.9v-22.9h44.8c0 31.3 25 56.3 56.3 56.3h204.3c31.3 0 56.3-25 56.3-56.3l44.8-.1v23c0 11.5 9.4 20.9 20.9 20.9s20.9-9.4 20.9-20.9v-183.5c-.1-11.4-9.5-20.8-21-20.8zM85.5 319.55H41.7v-52.1h43.8v52.1zm277.3 42.8c0 8.3-7.3 15.6-15.6 15.6H142.8c-8.3 0-15.6-7.3-15.6-15.6v-137.6c0-8.3 7.3-15.6 15.6-15.6h204.3c8.3 0 15.6 7.3 15.6 15.6v137.6h.1zm40.7-42.8v-52.1h44.8v52.1h-44.8z\"/></svg>",
+        "minWidth": 32,
+        "minHeight": 32,
+        "handles": [
+          { "position": "left", "rotatable": false },
+          { "position": "right", "rotatable": false }
+        ],
+        "meta": { "label": "Vavle", "labelPosition": "bottom" }
+      },
+      "width": 46,
+      "height": 46,
+      "measured": { "width": 46, "height": 46 },
+      "dragging": false,
+      "parentId": "g20250206",
+      "resizing": false
+    },
+    {
+      "id": "37fa8e1e-8827-4c70-aa0a-2b3d17fd9be6",
+      "type": "svg",
+      "position": { "x": 613.38, "y": 782.74 },
+      "hidden": false,
+      "selected": false,
+      "zIndex": 20,
+      "data": {
+        "id": "37fa8e1e-8827-4c70-aa0a-2b3d17fd9be6",
+        "library": "basic",
+        "name": "heater",
+        "rotatable": false,
+        "content": "<svg width=\"24\" height=\"24\" fill=\"#71717a\" stroke=\"#71717a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".6\" style=\"height:100%;width:100%\" viewBox=\"0 0 56 56\"><g fill=\"#fff\" stroke=\"none\"><rect width=\"6\" height=\"39\" x=\"5\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"15\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"25\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"35\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"45\" y=\"8\" rx=\"3\"/><animate attributeName=\"fill\" attributeType=\"CSS\" dur=\"1.5\" repeatCount=\"indefinite\" values=\"#fff\"/></g><path d=\"M54 13.5h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2H2v-1H0v10h2v-1h2v22a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-22h2a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1zm-10 2v4h-2v-4h2zm-10 0v4h-2v-4h2zm-10 0v4h-2v-4h2zm-10 0v4h-2v-4h2zm-12 4v-4h2v4H2zm8 24a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm3-24h-1v-4h1v4z\"/></svg>",
+        "minWidth": 32,
+        "minHeight": 32,
+        "handles": [
+          { "position": "left", "rotatable": false },
+          { "position": "right", "rotatable": false }
+        ],
+        "meta": { "label": "Heater", "labelPosition": "bottom" }
+      },
+      "width": 51,
+      "height": 51,
+      "measured": { "width": 51, "height": 51 },
+      "dragging": false,
+      "parentId": "g20250206",
+      "resizing": false
+    },
+    {
+      "id": "138d0a9e-84a6-4f04-b356-b8ac220f4669",
+      "type": "svg",
+      "selected": false,
+      "position": { "x": 613.38, "y": 576.56 },
+      "data": {
+        "id": "138d0a9e-84a6-4f04-b356-b8ac220f4669",
+        "library": "basic",
+        "name": "heater",
+        "rotatable": false,
+        "content": "<svg width=\"24\" height=\"24\" fill=\"#71717a\" stroke=\"#71717a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".6\" style=\"height:100%;width:100%\" viewBox=\"0 0 56 56\"><g fill=\"#fff\" stroke=\"none\"><rect width=\"6\" height=\"39\" x=\"5\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"15\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"25\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"35\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"45\" y=\"8\" rx=\"3\"/><animate attributeName=\"fill\" attributeType=\"CSS\" dur=\"1.5\" repeatCount=\"indefinite\" values=\"#fff\"/></g><path d=\"M54 13.5h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2H2v-1H0v10h2v-1h2v22a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-22h2a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1zm-10 2v4h-2v-4h2zm-10 0v4h-2v-4h2zm-10 0v4h-2v-4h2zm-10 0v4h-2v-4h2zm-12 4v-4h2v4H2zm8 24a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm3-24h-1v-4h1v4z\"/></svg>",
+        "minWidth": 32,
+        "minHeight": 32,
+        "handles": [
+          { "position": "left", "rotatable": false },
+          { "position": "right", "rotatable": false }
+        ],
+        "meta": {
+          "label": "Heater 1",
+          "labelPosition": "bottom",
+          "props": [
+            {
+              "label": "Temperature",
+              "key": "temp",
+              "unit": "°C",
+              "value": 19.6,
+              "status": 2
+            },
+            {
+              "label": "Humidity",
+              "key": "hum",
+              "unit": "%",
+              "value": 24.3,
+              "status": 0
+            },
+            {
+              "label": "Property-2",
+              "key": "prop-2",
+              "value": 29.3,
+              "status": 0
+            },
+            {
+              "label": "Property-3",
+              "key": "prop-3",
+              "value": 25.5,
+              "status": 0
+            }
+          ],
+          "status": 2
+        }
+      },
+      "zIndex": 20,
+      "hidden": false,
+      "width": 51,
+      "height": 51,
+      "measured": { "width": 51, "height": 51 },
+      "parentId": "g20250206",
+      "dragging": false
+    },
+    {
+      "id": "6ac74ccb-5736-45f8-8312-07a78b4ead20",
+      "type": "svg",
+      "selected": false,
+      "position": { "x": 587.32, "y": 342.68 },
+      "data": {
+        "id": "6ac74ccb-5736-45f8-8312-07a78b4ead20",
+        "library": "basic",
+        "name": "heater",
+        "rotatable": false,
+        "content": "<svg width=\"24\" height=\"24\" fill=\"#71717a\" stroke=\"#71717a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".6\" style=\"height:100%;width:100%\" viewBox=\"0 0 56 56\"><g fill=\"#fff\" stroke=\"none\"><rect width=\"6\" height=\"39\" x=\"5\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"15\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"25\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"35\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"45\" y=\"8\" rx=\"3\"/><animate attributeName=\"fill\" attributeType=\"CSS\" dur=\"1.5\" repeatCount=\"indefinite\" values=\"#fff\"/></g><path d=\"M54 13.5h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2H2v-1H0v10h2v-1h2v22a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-22h2a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1zm-10 2v4h-2v-4h2zm-10 0v4h-2v-4h2zm-10 0v4h-2v-4h2zm-10 0v4h-2v-4h2zm-12 4v-4h2v4H2zm8 24a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm3-24h-1v-4h1v4z\"/></svg>",
+        "minWidth": 32,
+        "minHeight": 32,
+        "handles": [
+          { "position": "left", "rotatable": false },
+          { "position": "right", "rotatable": false }
+        ],
+        "meta": { "label": "Heater 2", "labelPosition": "bottom" }
+      },
+      "zIndex": 20,
+      "hidden": false,
+      "width": 78,
+      "height": 78,
+      "measured": { "width": 78, "height": 78 },
+      "parentId": "g20250206",
+      "dragging": false
+    },
+    {
+      "id": "cbbf7ba3-1240-41af-aff9-715056ffc09e",
+      "type": "svg",
+      "selected": false,
+      "position": { "x": 587.32, "y": 131.35 },
+      "data": {
+        "id": "cbbf7ba3-1240-41af-aff9-715056ffc09e",
+        "library": "basic",
+        "name": "heater",
+        "rotatable": false,
+        "content": "<svg width=\"24\" height=\"24\" fill=\"#71717a\" stroke=\"#71717a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".6\" style=\"height:100%;width:100%\" viewBox=\"0 0 56 56\"><g fill=\"#fff\" stroke=\"none\"><rect width=\"6\" height=\"39\" x=\"5\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"15\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"25\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"35\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"45\" y=\"8\" rx=\"3\"/><animate attributeName=\"fill\" attributeType=\"CSS\" dur=\"1.5\" repeatCount=\"indefinite\" values=\"#fff\"/></g><path d=\"M54 13.5h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2H2v-1H0v10h2v-1h2v22a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-22h2a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1zm-10 2v4h-2v-4h2zm-10 0v4h-2v-4h2zm-10 0v4h-2v-4h2zm-10 0v4h-2v-4h2zm-12 4v-4h2v4H2zm8 24a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm3-24h-1v-4h1v4z\"/></svg>",
+        "minWidth": 32,
+        "minHeight": 32,
+        "handles": [
+          { "position": "left", "rotatable": false },
+          { "position": "right", "rotatable": false }
+        ],
+        "meta": {
+          "label": "Heater 2",
+          "labelPosition": "bottom",
+          "props": [
+            {
+              "label": "Temperature",
+              "key": "temp",
+              "unit": "°C",
+              "value": 15.3,
+              "status": 2
+            },
+            {
+              "label": "Humidity",
+              "key": "hum",
+              "unit": "%",
+              "value": 29.9,
+              "status": 0
+            }
+          ],
+          "status": 2
+        }
+      },
+      "zIndex": 20,
+      "hidden": false,
+      "width": 78,
+      "height": 78,
+      "measured": { "width": 78, "height": 78 },
+      "parentId": "g20250206",
+      "dragging": false,
+      "resizing": false
+    },
+    {
+      "id": "dfb513af-67b7-44d4-9c4f-26ddc14b5b7a",
+      "type": "svg",
+      "position": { "x": 199.08, "y": 66.52 },
+      "hidden": false,
+      "selected": false,
+      "zIndex": 20,
+      "data": {
+        "id": "dfb513af-67b7-44d4-9c4f-26ddc14b5b7a",
+        "library": "basic",
+        "name": "fan",
+        "rotatable": false,
+        "content": "<svg width=\"24\" height=\"24\" fill=\"none\" stroke=\"#71717a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"1 1 30 30\"><rect width=\"29\" height=\"29\" x=\"1.5\" y=\"1.5\" fill=\"#fff\" rx=\"2\"/><circle cx=\"16\" cy=\"16\" r=\"10\"/><circle cx=\"16\" cy=\"16\" r=\"3\"/><path d=\"M14.5,13.4L14.5,13.4c0.6-2.4-0.6-4.8-2.8-5.8L11,7.3, M13,16L13,16c-1.7-1.7-4.4-1.9-6.4-0.5L6,16, M14.5,18.6L14.5,18.6c-2.4,0.6-3.9,2.9-3.6,5.3l0.1,0.8, M17.5,18.6L17.5,18.6c-0.6,2.4,0.6,4.8,2.8,5.8l0.7,0.3, M19,16L19,16c1.7,1.7,4.4,1.9,6.4,0.5L26,16, M17.5,13.4L17.5,13.4c2.4-0.6,3.9-2.9,3.6-5.3L21,7.3\"><animateTransform attributeName=\"transform\" begin=\"0\" dur=\"9999\" from=\"0 16 16\" repeatCount=\"0\" to=\"360 16 16\" type=\"rotate\"/></path><g fill=\"#71717a\" stroke=\"#a1a1aa\" stroke-width=\".5\"><circle cx=\"6\" cy=\"6\" r=\"1.2\"/><circle cx=\"26\" cy=\"6\" r=\"1.2\"/><circle cx=\"6\" cy=\"26\" r=\"1.2\"/><circle cx=\"26\" cy=\"26\" r=\"1.2\"/></g></svg>",
+        "minWidth": 32,
+        "minHeight": 32,
+        "handles": [
+          { "position": "left", "rotatable": false },
+          { "position": "right", "rotatable": false }
+        ],
+        "meta": { "status": 2, "label": "Fan", "labelPosition": "bottom" }
+      },
+      "width": 32,
+      "height": 32,
+      "measured": { "width": 32, "height": 32 },
+      "parentId": "g20250206",
+      "dragging": false
+    },
+    {
+      "id": "466e5f12-174f-4c4c-91b6-24145bc73e0f",
+      "type": "svg",
+      "selected": false,
+      "position": { "x": 163.5, "y": 66.52 },
+      "data": {
+        "id": "466e5f12-174f-4c4c-91b6-24145bc73e0f",
+        "library": "basic",
+        "name": "fan",
+        "rotatable": false,
+        "content": "<svg width=\"24\" height=\"24\" fill=\"none\" stroke=\"#71717a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"1 1 30 30\"><rect width=\"29\" height=\"29\" x=\"1.5\" y=\"1.5\" fill=\"#fff\" rx=\"2\"/><circle cx=\"16\" cy=\"16\" r=\"10\"/><circle cx=\"16\" cy=\"16\" r=\"3\"/><path d=\"M14.5,13.4L14.5,13.4c0.6-2.4-0.6-4.8-2.8-5.8L11,7.3, M13,16L13,16c-1.7-1.7-4.4-1.9-6.4-0.5L6,16, M14.5,18.6L14.5,18.6c-2.4,0.6-3.9,2.9-3.6,5.3l0.1,0.8, M17.5,18.6L17.5,18.6c-0.6,2.4,0.6,4.8,2.8,5.8l0.7,0.3, M19,16L19,16c1.7,1.7,4.4,1.9,6.4,0.5L26,16, M17.5,13.4L17.5,13.4c2.4-0.6,3.9-2.9,3.6-5.3L21,7.3\"><animateTransform attributeName=\"transform\" begin=\"0\" dur=\"9999\" from=\"0 16 16\" repeatCount=\"0\" to=\"360 16 16\" type=\"rotate\"/></path><g fill=\"#71717a\" stroke=\"#a1a1aa\" stroke-width=\".5\"><circle cx=\"6\" cy=\"6\" r=\"1.2\"/><circle cx=\"26\" cy=\"6\" r=\"1.2\"/><circle cx=\"6\" cy=\"26\" r=\"1.2\"/><circle cx=\"26\" cy=\"26\" r=\"1.2\"/></g></svg>",
+        "minWidth": 32,
+        "minHeight": 32,
+        "handles": [
+          { "position": "left", "rotatable": false },
+          { "position": "right", "rotatable": false }
+        ],
+        "meta": { "status": 3, "label": "Fan 1", "labelPosition": "bottom" }
+      },
+      "zIndex": 20,
+      "hidden": false,
+      "width": 32,
+      "height": 32,
+      "measured": { "width": 32, "height": 32 },
+      "parentId": "g20250206",
+      "dragging": false
+    },
+    {
+      "id": "d3932556-155a-4fd3-aeb8-bea0f690a861",
+      "type": "svg",
+      "selected": false,
+      "position": { "x": 215.86, "y": 281.73 },
+      "data": {
+        "id": "d3932556-155a-4fd3-aeb8-bea0f690a861",
+        "library": "basic",
+        "name": "fan",
+        "rotatable": false,
+        "content": "<svg width=\"24\" height=\"24\" fill=\"none\" stroke=\"#71717a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"1 1 30 30\"><rect width=\"29\" height=\"29\" x=\"1.5\" y=\"1.5\" fill=\"#fff\" rx=\"2\"/><circle cx=\"16\" cy=\"16\" r=\"10\"/><circle cx=\"16\" cy=\"16\" r=\"3\"/><path d=\"M14.5,13.4L14.5,13.4c0.6-2.4-0.6-4.8-2.8-5.8L11,7.3, M13,16L13,16c-1.7-1.7-4.4-1.9-6.4-0.5L6,16, M14.5,18.6L14.5,18.6c-2.4,0.6-3.9,2.9-3.6,5.3l0.1,0.8, M17.5,18.6L17.5,18.6c-0.6,2.4,0.6,4.8,2.8,5.8l0.7,0.3, M19,16L19,16c1.7,1.7,4.4,1.9,6.4,0.5L26,16, M17.5,13.4L17.5,13.4c2.4-0.6,3.9-2.9,3.6-5.3L21,7.3\"><animateTransform attributeName=\"transform\" begin=\"0\" dur=\"9999\" from=\"0 16 16\" repeatCount=\"0\" to=\"360 16 16\" type=\"rotate\"/></path><g fill=\"#71717a\" stroke=\"#a1a1aa\" stroke-width=\".5\"><circle cx=\"6\" cy=\"6\" r=\"1.2\"/><circle cx=\"26\" cy=\"6\" r=\"1.2\"/><circle cx=\"6\" cy=\"26\" r=\"1.2\"/><circle cx=\"26\" cy=\"26\" r=\"1.2\"/></g></svg>",
+        "minWidth": 32,
+        "minHeight": 32,
+        "handles": [
+          { "position": "left", "rotatable": false },
+          { "position": "right", "rotatable": false }
+        ],
+        "meta": { "status": 3, "label": "Fan 2", "labelPosition": "bottom" }
+      },
+      "zIndex": 20,
+      "hidden": false,
+      "width": 32,
+      "height": 32,
+      "measured": { "width": 32, "height": 32 },
+      "parentId": "g20250206",
+      "dragging": false
+    },
+    {
+      "id": "5b283985-24df-429e-b07e-2834a17911b6",
+      "type": "svg",
+      "selected": false,
+      "position": { "x": 215.86, "y": 491.32 },
+      "data": {
+        "id": "5b283985-24df-429e-b07e-2834a17911b6",
+        "library": "basic",
+        "name": "fan",
+        "rotatable": false,
+        "content": "<svg width=\"24\" height=\"24\" fill=\"none\" stroke=\"#71717a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"1 1 30 30\"><rect width=\"29\" height=\"29\" x=\"1.5\" y=\"1.5\" fill=\"#fff\" rx=\"2\"/><circle cx=\"16\" cy=\"16\" r=\"10\"/><circle cx=\"16\" cy=\"16\" r=\"3\"/><path d=\"M14.5,13.4L14.5,13.4c0.6-2.4-0.6-4.8-2.8-5.8L11,7.3, M13,16L13,16c-1.7-1.7-4.4-1.9-6.4-0.5L6,16, M14.5,18.6L14.5,18.6c-2.4,0.6-3.9,2.9-3.6,5.3l0.1,0.8, M17.5,18.6L17.5,18.6c-0.6,2.4,0.6,4.8,2.8,5.8l0.7,0.3, M19,16L19,16c1.7,1.7,4.4,1.9,6.4,0.5L26,16, M17.5,13.4L17.5,13.4c2.4-0.6,3.9-2.9,3.6-5.3L21,7.3\"><animateTransform attributeName=\"transform\" begin=\"0\" dur=\"9999\" from=\"0 16 16\" repeatCount=\"0\" to=\"360 16 16\" type=\"rotate\"/></path><g fill=\"#71717a\" stroke=\"#a1a1aa\" stroke-width=\".5\"><circle cx=\"6\" cy=\"6\" r=\"1.2\"/><circle cx=\"26\" cy=\"6\" r=\"1.2\"/><circle cx=\"6\" cy=\"26\" r=\"1.2\"/><circle cx=\"26\" cy=\"26\" r=\"1.2\"/></g></svg>",
+        "minWidth": 32,
+        "minHeight": 32,
+        "handles": [
+          { "position": "left", "rotatable": false },
+          { "position": "right", "rotatable": false }
+        ],
+        "meta": { "status": 1, "label": "Fan 3", "labelPosition": "bottom" }
+      },
+      "zIndex": 20,
+      "hidden": false,
+      "width": 32,
+      "height": 32,
+      "measured": { "width": 32, "height": 32 },
+      "parentId": "g20250206",
+      "dragging": false
+    },
+    {
+      "id": "eb5d221d-dd5a-4337-91eb-84341885aa30",
+      "type": "svg",
+      "selected": false,
+      "position": { "x": 199.08, "y": 711.24 },
+      "data": {
+        "id": "eb5d221d-dd5a-4337-91eb-84341885aa30",
+        "library": "basic",
+        "name": "fan",
+        "rotatable": false,
+        "content": "<svg width=\"24\" height=\"24\" fill=\"none\" stroke=\"#71717a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"1 1 30 30\"><rect width=\"29\" height=\"29\" x=\"1.5\" y=\"1.5\" fill=\"#fff\" rx=\"2\"/><circle cx=\"16\" cy=\"16\" r=\"10\"/><circle cx=\"16\" cy=\"16\" r=\"3\"/><path d=\"M14.5,13.4L14.5,13.4c0.6-2.4-0.6-4.8-2.8-5.8L11,7.3, M13,16L13,16c-1.7-1.7-4.4-1.9-6.4-0.5L6,16, M14.5,18.6L14.5,18.6c-2.4,0.6-3.9,2.9-3.6,5.3l0.1,0.8, M17.5,18.6L17.5,18.6c-0.6,2.4,0.6,4.8,2.8,5.8l0.7,0.3, M19,16L19,16c1.7,1.7,4.4,1.9,6.4,0.5L26,16, M17.5,13.4L17.5,13.4c2.4-0.6,3.9-2.9,3.6-5.3L21,7.3\"><animateTransform attributeName=\"transform\" begin=\"0\" dur=\"9999\" from=\"0 16 16\" repeatCount=\"0\" to=\"360 16 16\" type=\"rotate\"/></path><g fill=\"#71717a\" stroke=\"#a1a1aa\" stroke-width=\".5\"><circle cx=\"6\" cy=\"6\" r=\"1.2\"/><circle cx=\"26\" cy=\"6\" r=\"1.2\"/><circle cx=\"6\" cy=\"26\" r=\"1.2\"/><circle cx=\"26\" cy=\"26\" r=\"1.2\"/></g></svg>",
+        "minWidth": 32,
+        "minHeight": 32,
+        "handles": [
+          { "position": "left", "rotatable": false },
+          { "position": "right", "rotatable": false }
+        ],
+        "meta": { "status": 3, "label": "Fan 3", "labelPosition": "bottom" }
+      },
+      "zIndex": 20,
+      "hidden": false,
+      "width": 32,
+      "height": 32,
+      "measured": { "width": 32, "height": 32 },
+      "parentId": "g20250206",
+      "dragging": false
+    },
+    {
+      "id": "745cf37c-6096-4a28-87f1-85fbac18941e",
+      "type": "svg",
+      "selected": false,
+      "position": { "x": 163.5, "y": 711.24 },
+      "data": {
+        "id": "745cf37c-6096-4a28-87f1-85fbac18941e",
+        "library": "basic",
+        "name": "fan",
+        "rotatable": false,
+        "content": "<svg width=\"24\" height=\"24\" fill=\"none\" stroke=\"#71717a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"1 1 30 30\"><rect width=\"29\" height=\"29\" x=\"1.5\" y=\"1.5\" fill=\"#fff\" rx=\"2\"/><circle cx=\"16\" cy=\"16\" r=\"10\"/><circle cx=\"16\" cy=\"16\" r=\"3\"/><path d=\"M14.5,13.4L14.5,13.4c0.6-2.4-0.6-4.8-2.8-5.8L11,7.3, M13,16L13,16c-1.7-1.7-4.4-1.9-6.4-0.5L6,16, M14.5,18.6L14.5,18.6c-2.4,0.6-3.9,2.9-3.6,5.3l0.1,0.8, M17.5,18.6L17.5,18.6c-0.6,2.4,0.6,4.8,2.8,5.8l0.7,0.3, M19,16L19,16c1.7,1.7,4.4,1.9,6.4,0.5L26,16, M17.5,13.4L17.5,13.4c2.4-0.6,3.9-2.9,3.6-5.3L21,7.3\"><animateTransform attributeName=\"transform\" begin=\"0\" dur=\"9999\" from=\"0 16 16\" repeatCount=\"0\" to=\"360 16 16\" type=\"rotate\"/></path><g fill=\"#71717a\" stroke=\"#a1a1aa\" stroke-width=\".5\"><circle cx=\"6\" cy=\"6\" r=\"1.2\"/><circle cx=\"26\" cy=\"6\" r=\"1.2\"/><circle cx=\"6\" cy=\"26\" r=\"1.2\"/><circle cx=\"26\" cy=\"26\" r=\"1.2\"/></g></svg>",
+        "minWidth": 32,
+        "minHeight": 32,
+        "handles": [
+          { "position": "left", "rotatable": false },
+          { "position": "right", "rotatable": false }
+        ],
+        "meta": { "status": 0, "label": "Fan 3", "labelPosition": "bottom" }
+      },
+      "zIndex": 20,
+      "hidden": false,
+      "width": 32,
+      "height": 32,
+      "measured": { "width": 32, "height": 32 },
+      "parentId": "g20250206",
+      "dragging": false
+    },
+    {
+      "id": "d7cd54f1-a052-4f8b-8bf0-0450d60981b5",
+      "type": "svg",
+      "position": { "x": 235.22, "y": 66.52 },
+      "hidden": false,
+      "selected": false,
+      "zIndex": 20,
+      "data": {
+        "id": "d7cd54f1-a052-4f8b-8bf0-0450d60981b5",
+        "library": "basic",
+        "name": "bulb",
+        "rotatable": true,
+        "content": "<svg width=\"24\" height=\"24\" fill=\"#fff\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"-10 -10 150 150\"><path fill=\"#ddd\" d=\"M82 93V81.82a20.38 20.38 0 0 1 6.65-15.23 37 37 0 1 0-49.39-.09A20.59 20.59 0 0 1 46 81.82v10.77z\"/><path stroke=\"#e4e4e7\" d=\"M82 95a2 2 0 0 1-2-2V81.82a22.38 22.38 0 0 1 7.31-16.72 35 35 0 1 0-46.72-.1A22.61 22.61 0 0 1 48 81.82v10.76a2 2 0 0 1-4 0V81.82A18.6 18.6 0 0 0 37.92 68a39 39 0 1 1 52.08.08 18.38 18.38 0 0 0-6 13.74V93a2 2 0 0 1-2 2Z\"/><path fill=\"#71717a\" d=\"M82 92v16a18.05 18.05 0 0 1-18 18 18.05 18.05 0 0 1-18-18V92Z\"/><g fill=\"#3f3f46\"><path d=\"M64 128a20 20 0 0 1-20-20V92a2 2 0 0 1 2-2h36a2 2 0 0 1 2 2v16a20 20 0 0 1-20 20ZM48 94v14a16 16 0 0 0 32 0V94Z\"/><path d=\"M54 104a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4ZM54 112a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4Z\"/></g><path d=\"m54 102 28-4M54 110l28-4\"/></svg>",
+        "minWidth": 16,
+        "minHeight": 16,
+        "handles": [
+          { "position": "left", "rotatable": false },
+          { "position": "right", "rotatable": false }
+        ],
+        "meta": { "status": -2, "label": "Bulb", "labelPosition": "none" }
+      },
+      "width": 37,
+      "height": 37,
+      "measured": { "width": 37, "height": 37 },
+      "parentId": "g20250206",
+      "dragging": false
+    },
+    {
+      "id": "23c6491d-7aae-4fb4-8cf1-d25f487d04cf",
+      "type": "svg",
+      "selected": false,
+      "position": { "x": 274.06, "y": 66.52 },
+      "data": {
+        "id": "23c6491d-7aae-4fb4-8cf1-d25f487d04cf",
+        "library": "basic",
+        "name": "bulb",
+        "rotatable": true,
+        "content": "<svg width=\"24\" height=\"24\" fill=\"#fff\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"-10 -10 150 150\"><path fill=\"#ddd\" d=\"M82 93V81.82a20.38 20.38 0 0 1 6.65-15.23 37 37 0 1 0-49.39-.09A20.59 20.59 0 0 1 46 81.82v10.77z\"/><path stroke=\"#e4e4e7\" d=\"M82 95a2 2 0 0 1-2-2V81.82a22.38 22.38 0 0 1 7.31-16.72 35 35 0 1 0-46.72-.1A22.61 22.61 0 0 1 48 81.82v10.76a2 2 0 0 1-4 0V81.82A18.6 18.6 0 0 0 37.92 68a39 39 0 1 1 52.08.08 18.38 18.38 0 0 0-6 13.74V93a2 2 0 0 1-2 2Z\"/><path fill=\"#71717a\" d=\"M82 92v16a18.05 18.05 0 0 1-18 18 18.05 18.05 0 0 1-18-18V92Z\"/><g fill=\"#3f3f46\"><path d=\"M64 128a20 20 0 0 1-20-20V92a2 2 0 0 1 2-2h36a2 2 0 0 1 2 2v16a20 20 0 0 1-20 20ZM48 94v14a16 16 0 0 0 32 0V94Z\"/><path d=\"M54 104a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4ZM54 112a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4Z\"/></g><path d=\"m54 102 28-4M54 110l28-4\"/></svg>",
+        "minWidth": 16,
+        "minHeight": 16,
+        "handles": [
+          { "position": "left", "rotatable": false },
+          { "position": "right", "rotatable": false }
+        ],
+        "meta": {
+          "status": 1,
+          "label": "Bulb 1",
+          "labelPosition": "none",
+          "rotate": 180
+        }
+      },
+      "zIndex": 20,
+      "hidden": false,
+      "width": 37,
+      "height": 37,
+      "measured": { "width": 37, "height": 37 },
+      "parentId": "g20250206",
+      "dragging": false,
+      "resizing": false
+    },
+    {
+      "id": "a0f96478-ffad-4f29-a341-95a0ac7ad6cd",
+      "type": "svg",
+      "selected": false,
+      "position": { "x": 258.06, "y": 287.22 },
+      "data": {
+        "id": "a0f96478-ffad-4f29-a341-95a0ac7ad6cd",
+        "library": "basic",
+        "name": "bulb",
+        "rotatable": true,
+        "content": "<svg width=\"24\" height=\"24\" fill=\"#fff\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"-10 -10 150 150\"><path fill=\"#ddd\" d=\"M82 93V81.82a20.38 20.38 0 0 1 6.65-15.23 37 37 0 1 0-49.39-.09A20.59 20.59 0 0 1 46 81.82v10.77z\"/><path stroke=\"#e4e4e7\" d=\"M82 95a2 2 0 0 1-2-2V81.82a22.38 22.38 0 0 1 7.31-16.72 35 35 0 1 0-46.72-.1A22.61 22.61 0 0 1 48 81.82v10.76a2 2 0 0 1-4 0V81.82A18.6 18.6 0 0 0 37.92 68a39 39 0 1 1 52.08.08 18.38 18.38 0 0 0-6 13.74V93a2 2 0 0 1-2 2Z\"/><path fill=\"#71717a\" d=\"M82 92v16a18.05 18.05 0 0 1-18 18 18.05 18.05 0 0 1-18-18V92Z\"/><g fill=\"#3f3f46\"><path d=\"M64 128a20 20 0 0 1-20-20V92a2 2 0 0 1 2-2h36a2 2 0 0 1 2 2v16a20 20 0 0 1-20 20ZM48 94v14a16 16 0 0 0 32 0V94Z\"/><path d=\"M54 104a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4ZM54 112a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4Z\"/></g><path d=\"m54 102 28-4M54 110l28-4\"/></svg>",
+        "minWidth": 16,
+        "minHeight": 16,
+        "handles": [
+          { "position": "left", "rotatable": false },
+          { "position": "right", "rotatable": false }
+        ],
+        "meta": { "status": -1, "label": "Bulb 2", "labelPosition": "none" }
+      },
+      "zIndex": 20,
+      "hidden": false,
+      "width": 16,
+      "height": 16,
+      "measured": { "width": 16, "height": 16 },
+      "parentId": "g20250206",
+      "dragging": false
+    },
+    {
+      "id": "0e87e33a-5604-414d-9a7f-a6a9b749dcaa",
+      "type": "svg",
+      "selected": false,
+      "position": { "x": 279.64, "y": 287.22 },
+      "data": {
+        "id": "0e87e33a-5604-414d-9a7f-a6a9b749dcaa",
+        "library": "basic",
+        "name": "bulb",
+        "rotatable": true,
+        "content": "<svg width=\"24\" height=\"24\" fill=\"#fff\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"-10 -10 150 150\"><path fill=\"#ddd\" d=\"M82 93V81.82a20.38 20.38 0 0 1 6.65-15.23 37 37 0 1 0-49.39-.09A20.59 20.59 0 0 1 46 81.82v10.77z\"/><path stroke=\"#e4e4e7\" d=\"M82 95a2 2 0 0 1-2-2V81.82a22.38 22.38 0 0 1 7.31-16.72 35 35 0 1 0-46.72-.1A22.61 22.61 0 0 1 48 81.82v10.76a2 2 0 0 1-4 0V81.82A18.6 18.6 0 0 0 37.92 68a39 39 0 1 1 52.08.08 18.38 18.38 0 0 0-6 13.74V93a2 2 0 0 1-2 2Z\"/><path fill=\"#71717a\" d=\"M82 92v16a18.05 18.05 0 0 1-18 18 18.05 18.05 0 0 1-18-18V92Z\"/><g fill=\"#3f3f46\"><path d=\"M64 128a20 20 0 0 1-20-20V92a2 2 0 0 1 2-2h36a2 2 0 0 1 2 2v16a20 20 0 0 1-20 20ZM48 94v14a16 16 0 0 0 32 0V94Z\"/><path d=\"M54 104a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4ZM54 112a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4Z\"/></g><path d=\"m54 102 28-4M54 110l28-4\"/></svg>",
+        "minWidth": 16,
+        "minHeight": 16,
+        "handles": [
+          { "position": "left", "rotatable": false },
+          { "position": "right", "rotatable": false }
+        ],
+        "meta": { "status": -1, "label": "Bulb 2", "labelPosition": "none" }
+      },
+      "zIndex": 20,
+      "hidden": false,
+      "width": 25,
+      "height": 25,
+      "measured": { "width": 25, "height": 25 },
+      "parentId": "g20250206",
+      "dragging": false,
+      "resizing": false
+    },
+    {
+      "id": "c9d23916-3ddb-4779-84e5-1a0c9dc25228",
+      "type": "svg",
+      "selected": false,
+      "position": { "x": 268.83, "y": 495.35 },
+      "data": {
+        "id": "c9d23916-3ddb-4779-84e5-1a0c9dc25228",
+        "library": "basic",
+        "name": "bulb",
+        "rotatable": true,
+        "content": "<svg width=\"24\" height=\"24\" fill=\"#fff\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"-10 -10 150 150\"><path fill=\"#ddd\" d=\"M82 93V81.82a20.38 20.38 0 0 1 6.65-15.23 37 37 0 1 0-49.39-.09A20.59 20.59 0 0 1 46 81.82v10.77z\"/><path stroke=\"#e4e4e7\" d=\"M82 95a2 2 0 0 1-2-2V81.82a22.38 22.38 0 0 1 7.31-16.72 35 35 0 1 0-46.72-.1A22.61 22.61 0 0 1 48 81.82v10.76a2 2 0 0 1-4 0V81.82A18.6 18.6 0 0 0 37.92 68a39 39 0 1 1 52.08.08 18.38 18.38 0 0 0-6 13.74V93a2 2 0 0 1-2 2Z\"/><path fill=\"#71717a\" d=\"M82 92v16a18.05 18.05 0 0 1-18 18 18.05 18.05 0 0 1-18-18V92Z\"/><g fill=\"#3f3f46\"><path d=\"M64 128a20 20 0 0 1-20-20V92a2 2 0 0 1 2-2h36a2 2 0 0 1 2 2v16a20 20 0 0 1-20 20ZM48 94v14a16 16 0 0 0 32 0V94Z\"/><path d=\"M54 104a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4ZM54 112a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4Z\"/></g><path d=\"m54 102 28-4M54 110l28-4\"/></svg>",
+        "minWidth": 16,
+        "minHeight": 16,
+        "handles": [
+          { "position": "left", "rotatable": false },
+          { "position": "right", "rotatable": false }
+        ],
+        "meta": { "status": 1, "label": "Bulb 3", "labelPosition": "none" }
+      },
+      "zIndex": 20,
+      "hidden": false,
+      "width": 23,
+      "height": 23,
+      "measured": { "width": 23, "height": 23 },
+      "parentId": "g20250206",
+      "dragging": false
+    },
+    {
+      "id": "9cecafc7-c722-4c51-b895-7d31f0ad9ced",
+      "type": "svg",
+      "selected": false,
+      "position": { "x": 291.83, "y": 495.35 },
+      "data": {
+        "id": "9cecafc7-c722-4c51-b895-7d31f0ad9ced",
+        "library": "basic",
+        "name": "bulb",
+        "rotatable": true,
+        "content": "<svg width=\"24\" height=\"24\" fill=\"#fff\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"-10 -10 150 150\"><path fill=\"#ddd\" d=\"M82 93V81.82a20.38 20.38 0 0 1 6.65-15.23 37 37 0 1 0-49.39-.09A20.59 20.59 0 0 1 46 81.82v10.77z\"/><path stroke=\"#e4e4e7\" d=\"M82 95a2 2 0 0 1-2-2V81.82a22.38 22.38 0 0 1 7.31-16.72 35 35 0 1 0-46.72-.1A22.61 22.61 0 0 1 48 81.82v10.76a2 2 0 0 1-4 0V81.82A18.6 18.6 0 0 0 37.92 68a39 39 0 1 1 52.08.08 18.38 18.38 0 0 0-6 13.74V93a2 2 0 0 1-2 2Z\"/><path fill=\"#71717a\" d=\"M82 92v16a18.05 18.05 0 0 1-18 18 18.05 18.05 0 0 1-18-18V92Z\"/><g fill=\"#3f3f46\"><path d=\"M64 128a20 20 0 0 1-20-20V92a2 2 0 0 1 2-2h36a2 2 0 0 1 2 2v16a20 20 0 0 1-20 20ZM48 94v14a16 16 0 0 0 32 0V94Z\"/><path d=\"M54 104a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4ZM54 112a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4Z\"/></g><path d=\"m54 102 28-4M54 110l28-4\"/></svg>",
+        "minWidth": 16,
+        "minHeight": 16,
+        "handles": [
+          { "position": "left", "rotatable": false },
+          { "position": "right", "rotatable": false }
+        ],
+        "meta": { "status": 1, "label": "Bulb 3", "labelPosition": "none" }
+      },
+      "zIndex": 20,
+      "hidden": false,
+      "width": 23,
+      "height": 23,
+      "measured": { "width": 23, "height": 23 },
+      "parentId": "g20250206",
+      "dragging": false,
+      "resizing": false
+    },
+    {
+      "id": "4387c66a-90f7-406c-a491-06b459d140b0",
+      "type": "svg",
+      "selected": false,
+      "position": { "x": 241.25, "y": 717.51 },
+      "data": {
+        "id": "4387c66a-90f7-406c-a491-06b459d140b0",
+        "library": "basic",
+        "name": "bulb",
+        "rotatable": true,
+        "content": "<svg width=\"24\" height=\"24\" fill=\"#fff\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"-10 -10 150 150\"><path fill=\"#ddd\" d=\"M82 93V81.82a20.38 20.38 0 0 1 6.65-15.23 37 37 0 1 0-49.39-.09A20.59 20.59 0 0 1 46 81.82v10.77z\"/><path stroke=\"#e4e4e7\" d=\"M82 95a2 2 0 0 1-2-2V81.82a22.38 22.38 0 0 1 7.31-16.72 35 35 0 1 0-46.72-.1A22.61 22.61 0 0 1 48 81.82v10.76a2 2 0 0 1-4 0V81.82A18.6 18.6 0 0 0 37.92 68a39 39 0 1 1 52.08.08 18.38 18.38 0 0 0-6 13.74V93a2 2 0 0 1-2 2Z\"/><path fill=\"#71717a\" d=\"M82 92v16a18.05 18.05 0 0 1-18 18 18.05 18.05 0 0 1-18-18V92Z\"/><g fill=\"#3f3f46\"><path d=\"M64 128a20 20 0 0 1-20-20V92a2 2 0 0 1 2-2h36a2 2 0 0 1 2 2v16a20 20 0 0 1-20 20ZM48 94v14a16 16 0 0 0 32 0V94Z\"/><path d=\"M54 104a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4ZM54 112a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4Z\"/></g><path d=\"m54 102 28-4M54 110l28-4\"/></svg>",
+        "minWidth": 16,
+        "minHeight": 16,
+        "handles": [
+          { "position": "left", "rotatable": false },
+          { "position": "right", "rotatable": false }
+        ],
+        "meta": { "status": 0, "label": "Bulb 4", "labelPosition": "none" }
+      },
+      "zIndex": 20,
+      "hidden": false,
+      "width": 16,
+      "height": 16,
+      "measured": { "width": 16, "height": 16 },
+      "parentId": "g20250206",
+      "dragging": false
+    },
+    {
+      "id": "ab0029cb-b9d2-4c0e-9f16-2db53c29894e",
+      "type": "svg",
+      "selected": false,
+      "position": { "x": 262.83, "y": 717.51 },
+      "data": {
+        "id": "ab0029cb-b9d2-4c0e-9f16-2db53c29894e",
+        "library": "basic",
+        "name": "bulb",
+        "rotatable": true,
+        "content": "<svg width=\"24\" height=\"24\" fill=\"#fff\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"-10 -10 150 150\"><path fill=\"#ddd\" d=\"M82 93V81.82a20.38 20.38 0 0 1 6.65-15.23 37 37 0 1 0-49.39-.09A20.59 20.59 0 0 1 46 81.82v10.77z\"/><path stroke=\"#e4e4e7\" d=\"M82 95a2 2 0 0 1-2-2V81.82a22.38 22.38 0 0 1 7.31-16.72 35 35 0 1 0-46.72-.1A22.61 22.61 0 0 1 48 81.82v10.76a2 2 0 0 1-4 0V81.82A18.6 18.6 0 0 0 37.92 68a39 39 0 1 1 52.08.08 18.38 18.38 0 0 0-6 13.74V93a2 2 0 0 1-2 2Z\"/><path fill=\"#71717a\" d=\"M82 92v16a18.05 18.05 0 0 1-18 18 18.05 18.05 0 0 1-18-18V92Z\"/><g fill=\"#3f3f46\"><path d=\"M64 128a20 20 0 0 1-20-20V92a2 2 0 0 1 2-2h36a2 2 0 0 1 2 2v16a20 20 0 0 1-20 20ZM48 94v14a16 16 0 0 0 32 0V94Z\"/><path d=\"M54 104a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4ZM54 112a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4Z\"/></g><path d=\"m54 102 28-4M54 110l28-4\"/></svg>",
+        "minWidth": 16,
+        "minHeight": 16,
+        "handles": [
+          { "position": "left", "rotatable": false },
+          { "position": "right", "rotatable": false }
+        ],
+        "meta": {
+          "status": -2,
+          "label": "Bulb 4",
+          "labelPosition": "none",
+          "rotate": 180
+        }
+      },
+      "zIndex": 20,
+      "hidden": false,
+      "width": 29,
+      "height": 29,
+      "measured": { "width": 29, "height": 29 },
+      "parentId": "g20250206",
+      "dragging": false,
+      "resizing": false
+    },
+    {
+      "id": "fc35175b-ad14-4a11-95fe-4026b03d33cf",
+      "type": "table",
+      "position": { "x": -134.29, "y": -5.62 },
+      "zIndex": 20,
+      "parentId": "eedc5201-a917-47c1-94a4-2bdbb0489078",
+      "data": {
+        "id": "fc35175b-ad14-4a11-95fe-4026b03d33cf",
         "library": "other",
         "name": "",
         "meta": {
@@ -917,71 +1086,37 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 47.4,
-              "status": 3
+              "value": 32.4,
+              "status": 1
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 39.4,
+              "value": 41.9,
               "status": 0
             },
             {
-              "label": "Property-2",
-              "key": "prop-2",
-              "value": 48.7,
+              "label": "Property-1",
+              "key": "prop-1",
+              "value": 23.8,
               "status": 0
             }
           ]
         }
       },
       "selected": false,
-      "measured": { "width": 96, "height": 70 },
+      "measured": { "width": 96, "height": 72 },
       "dragging": false
     },
     {
-      "id": "0042cc08-612f-4e3d-9b2c-d169e1d136be",
+      "id": "3752b3fe-1b2a-4f1d-bdbf-e2501fa1a40a",
       "type": "table",
-      "position": { "x": 143.56, "y": -57.14 },
+      "position": { "x": -132.1, "y": -80.09 },
       "zIndex": 20,
-      "parentId": "1989d764-cb41-4084-b3b8-bb875ccf36c4",
+      "parentId": "138d0a9e-84a6-4f04-b356-b8ac220f4669",
       "data": {
-        "id": "0042cc08-612f-4e3d-9b2c-d169e1d136be",
-        "library": "other",
-        "name": "",
-        "meta": {
-          "label": "Heater 3",
-          "props": [
-            {
-              "label": "Temperature",
-              "key": "temp",
-              "unit": "°C",
-              "value": 18.5,
-              "status": 2
-            },
-            {
-              "label": "Humidity",
-              "key": "hum",
-              "unit": "%",
-              "value": 30.6,
-              "status": 0
-            }
-          ]
-        }
-      },
-      "selected": false,
-      "measured": { "width": 96, "height": 53 },
-      "dragging": false
-    },
-    {
-      "id": "c51f3450-679c-4547-a614-23b153a3b92a",
-      "type": "table",
-      "position": { "x": 138.12, "y": -53.25 },
-      "zIndex": 20,
-      "parentId": "30a90c51-57eb-469b-8b02-97b5333e600d",
-      "data": {
-        "id": "c51f3450-679c-4547-a614-23b153a3b92a",
+        "id": "3752b3fe-1b2a-4f1d-bdbf-e2501fa1a40a",
         "library": "other",
         "name": "",
         "meta": {
@@ -991,30 +1126,201 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 30.1,
-              "status": 1
+              "value": 19.6,
+              "status": 2
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 38.1,
+              "value": 24.3,
               "status": 0
             },
             {
-              "label": "Property-1",
-              "key": "prop-1",
-              "value": 33.5,
+              "label": "Property-2",
+              "key": "prop-2",
+              "value": 29.3,
+              "status": 0
+            },
+            {
+              "label": "Property-3",
+              "key": "prop-3",
+              "value": 25.5,
               "status": 0
             }
           ]
         }
       },
-      "selected": true,
-      "measured": { "width": 96, "height": 70 },
+      "selected": false,
+      "measured": { "width": 96, "height": 89 },
+      "dragging": false
+    },
+    {
+      "id": "84a833b2-70b6-4b6d-b964-ac75429b5d63",
+      "type": "table",
+      "position": { "x": -110.07, "y": -58.66 },
+      "zIndex": 20,
+      "parentId": "cbbf7ba3-1240-41af-aff9-715056ffc09e",
+      "data": {
+        "id": "84a833b2-70b6-4b6d-b964-ac75429b5d63",
+        "library": "other",
+        "name": "",
+        "meta": {
+          "label": "Heater 2",
+          "props": [
+            {
+              "label": "Temperature",
+              "key": "temp",
+              "unit": "°C",
+              "value": 15.3,
+              "status": 2
+            },
+            {
+              "label": "Humidity",
+              "key": "hum",
+              "unit": "%",
+              "value": 29.9,
+              "status": 0
+            }
+          ]
+        }
+      },
+      "selected": false,
+      "measured": { "width": 96, "height": 55 },
       "dragging": false
     }
   ],
-  "edges": [],
-  "viewport": { "zoom": 1.29, "x": 315.92, "y": -291.3 }
+  "edges": [
+    {
+      "source": "32bbabc8-4bd1-4afb-8ace-fbcaec8adaf7",
+      "sourceHandle": "source:32bbabc8-4bd1-4afb-8ace-fbcaec8adaf7:1",
+      "target": "9d716596-9e30-4451-aa58-cb21980cf546",
+      "targetHandle": "source:9d716596-9e30-4451-aa58-cb21980cf546:0",
+      "id": "cf350e52-4682-4354-bba1-8d5f39d1cca6",
+      "type": "pipe",
+      "data": { "label": "", "animated": 1 },
+      "zIndex": 15
+    },
+    {
+      "source": "32bbabc8-4bd1-4afb-8ace-fbcaec8adaf7",
+      "sourceHandle": "source:32bbabc8-4bd1-4afb-8ace-fbcaec8adaf7:0",
+      "target": "eedc5201-a917-47c1-94a4-2bdbb0489078",
+      "targetHandle": "source:eedc5201-a917-47c1-94a4-2bdbb0489078:1",
+      "id": "1ee9ea07-cafd-493c-b858-63a03c716395",
+      "type": "pipe",
+      "data": { "label": "", "animated": -1 },
+      "zIndex": 15
+    },
+    {
+      "source": "9d716596-9e30-4451-aa58-cb21980cf546",
+      "sourceHandle": "source:9d716596-9e30-4451-aa58-cb21980cf546:1",
+      "target": "7da9ae97-47db-4011-97a9-0fba87ff2d28",
+      "targetHandle": "source:7da9ae97-47db-4011-97a9-0fba87ff2d28:0",
+      "id": "9a58de4e-01b9-4bad-98ab-d1ed149878d2",
+      "type": "pipe",
+      "data": { "label": "", "animated": 1 },
+      "zIndex": 15
+    },
+    {
+      "source": "7da9ae97-47db-4011-97a9-0fba87ff2d28",
+      "sourceHandle": "source:7da9ae97-47db-4011-97a9-0fba87ff2d28:2",
+      "target": "70c9bb6d-6d87-4fdb-b4b9-25662dcead59",
+      "targetHandle": "source:70c9bb6d-6d87-4fdb-b4b9-25662dcead59:0",
+      "id": "e686be2f-69dc-413b-b875-64fa8aaf8ab0",
+      "type": "pipe",
+      "data": { "label": "", "animated": 1 },
+      "zIndex": 15
+    },
+    {
+      "source": "70c9bb6d-6d87-4fdb-b4b9-25662dcead59",
+      "sourceHandle": "source:70c9bb6d-6d87-4fdb-b4b9-25662dcead59:2",
+      "target": "5bee6f76-6845-4e74-99be-00c73c5fb3ac",
+      "targetHandle": "source:5bee6f76-6845-4e74-99be-00c73c5fb3ac:0",
+      "id": "b367a7bc-2730-4ff7-8cf2-acc9ed5f3dd7",
+      "type": "pipe",
+      "data": { "label": "", "animated": 1 },
+      "zIndex": 15
+    },
+    {
+      "source": "5bee6f76-6845-4e74-99be-00c73c5fb3ac",
+      "sourceHandle": "source:5bee6f76-6845-4e74-99be-00c73c5fb3ac:2",
+      "target": "e38fd633-6ab8-46a7-b461-cb7b6fd02362",
+      "targetHandle": "source:e38fd633-6ab8-46a7-b461-cb7b6fd02362:0",
+      "id": "720c3dab-ae77-4b56-9b5f-e07b020368f9",
+      "type": "pipe",
+      "data": { "label": "", "animated": 1 },
+      "zIndex": 15
+    },
+    {
+      "source": "cbbf7ba3-1240-41af-aff9-715056ffc09e",
+      "sourceHandle": "source:cbbf7ba3-1240-41af-aff9-715056ffc09e:1",
+      "target": "e38fd633-6ab8-46a7-b461-cb7b6fd02362",
+      "targetHandle": "source:e38fd633-6ab8-46a7-b461-cb7b6fd02362:1",
+      "id": "3566e4c8-6046-4def-a9a7-abc5b4ea2dd1",
+      "type": "pipe",
+      "data": { "label": "", "animated": -1 },
+      "zIndex": 15
+    },
+    {
+      "source": "6ac74ccb-5736-45f8-8312-07a78b4ead20",
+      "sourceHandle": "source:6ac74ccb-5736-45f8-8312-07a78b4ead20:1",
+      "target": "5bee6f76-6845-4e74-99be-00c73c5fb3ac",
+      "targetHandle": "source:5bee6f76-6845-4e74-99be-00c73c5fb3ac:1",
+      "id": "2a015710-ab60-4932-a47e-ce2f56440110",
+      "type": "pipe",
+      "data": { "label": "" },
+      "zIndex": 15
+    },
+    {
+      "source": "138d0a9e-84a6-4f04-b356-b8ac220f4669",
+      "sourceHandle": "source:138d0a9e-84a6-4f04-b356-b8ac220f4669:1",
+      "target": "70c9bb6d-6d87-4fdb-b4b9-25662dcead59",
+      "targetHandle": "source:70c9bb6d-6d87-4fdb-b4b9-25662dcead59:1",
+      "id": "62b29581-8237-4647-9759-dd1edc88ccad",
+      "type": "pipe",
+      "data": { "label": "", "animated": -1 },
+      "zIndex": 15
+    },
+    {
+      "source": "37fa8e1e-8827-4c70-aa0a-2b3d17fd9be6",
+      "sourceHandle": "source:37fa8e1e-8827-4c70-aa0a-2b3d17fd9be6:1",
+      "target": "7da9ae97-47db-4011-97a9-0fba87ff2d28",
+      "targetHandle": "source:7da9ae97-47db-4011-97a9-0fba87ff2d28:1",
+      "id": "1dc1765f-f939-44e9-87d8-b5bbda9e4cf8",
+      "type": "pipe",
+      "data": { "label": "" },
+      "zIndex": 15
+    },
+    {
+      "id": "fb999aa4-1789-4c43-be7e-467c85cedc90",
+      "type": "dashed",
+      "source": "eedc5201-a917-47c1-94a4-2bdbb0489078",
+      "target": "fc35175b-ad14-4a11-95fe-4026b03d33cf",
+      "sourceHandle": "center:source:eedc5201-a917-47c1-94a4-2bdbb0489078",
+      "targetHandle": "center:target:fc35175b-ad14-4a11-95fe-4026b03d33cf",
+      "data": { "label": "" },
+      "zIndex": 15
+    },
+    {
+      "id": "1a1c95d6-26fa-4b09-92ae-64d0348a31dc",
+      "type": "dashed",
+      "source": "138d0a9e-84a6-4f04-b356-b8ac220f4669",
+      "target": "3752b3fe-1b2a-4f1d-bdbf-e2501fa1a40a",
+      "sourceHandle": "center:source:138d0a9e-84a6-4f04-b356-b8ac220f4669",
+      "targetHandle": "center:target:3752b3fe-1b2a-4f1d-bdbf-e2501fa1a40a",
+      "data": { "label": "" },
+      "zIndex": 15
+    },
+    {
+      "id": "e2efa933-55b2-4691-8aa0-be3ebd676370",
+      "type": "dashed",
+      "source": "cbbf7ba3-1240-41af-aff9-715056ffc09e",
+      "target": "84a833b2-70b6-4b6d-b964-ac75429b5d63",
+      "sourceHandle": "center:source:cbbf7ba3-1240-41af-aff9-715056ffc09e",
+      "targetHandle": "center:target:84a833b2-70b6-4b6d-b964-ac75429b5d63",
+      "data": { "label": "" },
+      "zIndex": 15
+    }
+  ],
+  "viewport": { "zoom": 1.07, "x": 552.61, "y": -105.14 }
 }
