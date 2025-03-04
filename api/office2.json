@@ -11,7 +11,11 @@
         "id": "g20250206",
         "library": "other",
         "name": "https://raywei2023.github.io/pjnshare/images/office_2025.jpg",
-        "meta": { "label": "Office 2025", "status": 1, "labelPosition": "bottom" }
+        "meta": {
+          "label": "Office 2025",
+          "status": 1,
+          "labelPosition": "bottom"
+        }
       },
       "width": 993,
       "height": 938,
@@ -430,7 +434,12 @@
         "content": "<svg width=\"24\" height=\"24\" fill=\"#fff\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"-10 -10 150 150\"><path fill=\"#ddd\" d=\"M82 93V81.82a20.38 20.38 0 0 1 6.65-15.23 37 37 0 1 0-49.39-.09A20.59 20.59 0 0 1 46 81.82v10.77z\"/><path stroke=\"#e4e4e7\" d=\"M82 95a2 2 0 0 1-2-2V81.82a22.38 22.38 0 0 1 7.31-16.72 35 35 0 1 0-46.72-.1A22.61 22.61 0 0 1 48 81.82v10.76a2 2 0 0 1-4 0V81.82A18.6 18.6 0 0 0 37.92 68a39 39 0 1 1 52.08.08 18.38 18.38 0 0 0-6 13.74V93a2 2 0 0 1-2 2Z\"/><path fill=\"#71717a\" d=\"M82 92v16a18.05 18.05 0 0 1-18 18 18.05 18.05 0 0 1-18-18V92Z\"/><g fill=\"#3f3f46\"><path d=\"M64 128a20 20 0 0 1-20-20V92a2 2 0 0 1 2-2h36a2 2 0 0 1 2 2v16a20 20 0 0 1-20 20ZM48 94v14a16 16 0 0 0 32 0V94Z\"/><path d=\"M54 104a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4ZM54 112a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4Z\"/></g><path d=\"m54 102 28-4M54 110l28-4\"/></svg>",
         "minWidth": 16,
         "minHeight": 16,
-        "meta": { "status": -2, "label": "Bulb 2", "labelPosition": "none", "rotate": 180 }
+        "meta": {
+          "status": -2,
+          "label": "Bulb 2",
+          "labelPosition": "none",
+          "rotate": 180
+        }
       },
       "zIndex": 20,
       "hidden": false,
@@ -453,7 +462,12 @@
         "content": "<svg width=\"24\" height=\"24\" fill=\"#fff\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"-10 -10 150 150\"><path fill=\"#ddd\" d=\"M82 93V81.82a20.38 20.38 0 0 1 6.65-15.23 37 37 0 1 0-49.39-.09A20.59 20.59 0 0 1 46 81.82v10.77z\"/><path stroke=\"#e4e4e7\" d=\"M82 95a2 2 0 0 1-2-2V81.82a22.38 22.38 0 0 1 7.31-16.72 35 35 0 1 0-46.72-.1A22.61 22.61 0 0 1 48 81.82v10.76a2 2 0 0 1-4 0V81.82A18.6 18.6 0 0 0 37.92 68a39 39 0 1 1 52.08.08 18.38 18.38 0 0 0-6 13.74V93a2 2 0 0 1-2 2Z\"/><path fill=\"#71717a\" d=\"M82 92v16a18.05 18.05 0 0 1-18 18 18.05 18.05 0 0 1-18-18V92Z\"/><g fill=\"#3f3f46\"><path d=\"M64 128a20 20 0 0 1-20-20V92a2 2 0 0 1 2-2h36a2 2 0 0 1 2 2v16a20 20 0 0 1-20 20ZM48 94v14a16 16 0 0 0 32 0V94Z\"/><path d=\"M54 104a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4ZM54 112a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4Z\"/></g><path d=\"m54 102 28-4M54 110l28-4\"/></svg>",
         "minWidth": 16,
         "minHeight": 16,
-        "meta": { "status": -1, "label": "Bulb 1", "labelPosition": "none", "rotate": 180 }
+        "meta": {
+          "status": -1,
+          "label": "Bulb 1",
+          "labelPosition": "none",
+          "rotate": 180
+        }
       },
       "zIndex": 20,
       "hidden": false,
@@ -476,7 +490,12 @@
         "content": "<svg width=\"24\" height=\"24\" fill=\"#fff\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"-10 -10 150 150\"><path fill=\"#ddd\" d=\"M82 93V81.82a20.38 20.38 0 0 1 6.65-15.23 37 37 0 1 0-49.39-.09A20.59 20.59 0 0 1 46 81.82v10.77z\"/><path stroke=\"#e4e4e7\" d=\"M82 95a2 2 0 0 1-2-2V81.82a22.38 22.38 0 0 1 7.31-16.72 35 35 0 1 0-46.72-.1A22.61 22.61 0 0 1 48 81.82v10.76a2 2 0 0 1-4 0V81.82A18.6 18.6 0 0 0 37.92 68a39 39 0 1 1 52.08.08 18.38 18.38 0 0 0-6 13.74V93a2 2 0 0 1-2 2Z\"/><path fill=\"#71717a\" d=\"M82 92v16a18.05 18.05 0 0 1-18 18 18.05 18.05 0 0 1-18-18V92Z\"/><g fill=\"#3f3f46\"><path d=\"M64 128a20 20 0 0 1-20-20V92a2 2 0 0 1 2-2h36a2 2 0 0 1 2 2v16a20 20 0 0 1-20 20ZM48 94v14a16 16 0 0 0 32 0V94Z\"/><path d=\"M54 104a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4ZM54 112a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4Z\"/></g><path d=\"m54 102 28-4M54 110l28-4\"/></svg>",
         "minWidth": 16,
         "minHeight": 16,
-        "meta": { "status": 1, "label": "Bulb 3", "labelPosition": "none", "rotate": 180 }
+        "meta": {
+          "status": 1,
+          "label": "Bulb 3",
+          "labelPosition": "none",
+          "rotate": 180
+        }
       },
       "zIndex": 20,
       "hidden": false,
@@ -499,7 +518,12 @@
         "content": "<svg width=\"24\" height=\"24\" fill=\"#fff\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"-10 -10 150 150\"><path fill=\"#ddd\" d=\"M82 93V81.82a20.38 20.38 0 0 1 6.65-15.23 37 37 0 1 0-49.39-.09A20.59 20.59 0 0 1 46 81.82v10.77z\"/><path stroke=\"#e4e4e7\" d=\"M82 95a2 2 0 0 1-2-2V81.82a22.38 22.38 0 0 1 7.31-16.72 35 35 0 1 0-46.72-.1A22.61 22.61 0 0 1 48 81.82v10.76a2 2 0 0 1-4 0V81.82A18.6 18.6 0 0 0 37.92 68a39 39 0 1 1 52.08.08 18.38 18.38 0 0 0-6 13.74V93a2 2 0 0 1-2 2Z\"/><path fill=\"#71717a\" d=\"M82 92v16a18.05 18.05 0 0 1-18 18 18.05 18.05 0 0 1-18-18V92Z\"/><g fill=\"#3f3f46\"><path d=\"M64 128a20 20 0 0 1-20-20V92a2 2 0 0 1 2-2h36a2 2 0 0 1 2 2v16a20 20 0 0 1-20 20ZM48 94v14a16 16 0 0 0 32 0V94Z\"/><path d=\"M54 104a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4ZM54 112a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4Z\"/></g><path d=\"m54 102 28-4M54 110l28-4\"/></svg>",
         "minWidth": 16,
         "minHeight": 16,
-        "meta": { "status": -1, "label": "Bulb 4", "labelPosition": "none", "rotate": 180 }
+        "meta": {
+          "status": -1,
+          "label": "Bulb 4",
+          "labelPosition": "none",
+          "rotate": 180
+        }
       },
       "zIndex": 20,
       "hidden": false,
@@ -522,7 +546,12 @@
         "content": "<svg width=\"24\" height=\"24\" fill=\"#fff\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"-10 -10 150 150\"><path fill=\"#ddd\" d=\"M82 93V81.82a20.38 20.38 0 0 1 6.65-15.23 37 37 0 1 0-49.39-.09A20.59 20.59 0 0 1 46 81.82v10.77z\"/><path stroke=\"#e4e4e7\" d=\"M82 95a2 2 0 0 1-2-2V81.82a22.38 22.38 0 0 1 7.31-16.72 35 35 0 1 0-46.72-.1A22.61 22.61 0 0 1 48 81.82v10.76a2 2 0 0 1-4 0V81.82A18.6 18.6 0 0 0 37.92 68a39 39 0 1 1 52.08.08 18.38 18.38 0 0 0-6 13.74V93a2 2 0 0 1-2 2Z\"/><path fill=\"#71717a\" d=\"M82 92v16a18.05 18.05 0 0 1-18 18 18.05 18.05 0 0 1-18-18V92Z\"/><g fill=\"#3f3f46\"><path d=\"M64 128a20 20 0 0 1-20-20V92a2 2 0 0 1 2-2h36a2 2 0 0 1 2 2v16a20 20 0 0 1-20 20ZM48 94v14a16 16 0 0 0 32 0V94Z\"/><path d=\"M54 104a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4ZM54 112a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4Z\"/></g><path d=\"m54 102 28-4M54 110l28-4\"/></svg>",
         "minWidth": 16,
         "minHeight": 16,
-        "meta": { "status": -2, "label": "Bulb 5", "labelPosition": "none", "rotate": 180 }
+        "meta": {
+          "status": -2,
+          "label": "Bulb 5",
+          "labelPosition": "none",
+          "rotate": 180
+        }
       },
       "zIndex": 20,
       "hidden": false,
@@ -551,9 +580,26 @@
           "label": "Tank",
           "labelPosition": "center",
           "props": [
-            { "label": "Temperature", "key": "temp", "unit": "°C", "value": 47.4, "status": 3 },
-            { "label": "Humidity", "key": "hum", "unit": "%", "value": 39.4, "status": 0 },
-            { "label": "Property-2", "key": "prop-2", "value": 48.7, "status": 0 }
+            {
+              "label": "Temperature",
+              "key": "temp",
+              "unit": "°C",
+              "value": 47.4,
+              "status": 3
+            },
+            {
+              "label": "Humidity",
+              "key": "hum",
+              "unit": "%",
+              "value": 39.4,
+              "status": 0
+            },
+            {
+              "label": "Property-2",
+              "key": "prop-2",
+              "value": 48.7,
+              "status": 0
+            }
           ],
           "status": 3
         }
@@ -671,7 +717,11 @@
         "content": "<svg width=\"20\" height=\"20\" style=\"height:100%;width:100%\" viewBox=\"-3.9 0 18.5 26.67\"><g fill=\"#717171\" stroke=\"#71717A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".13\"><path d=\"M18.5 17.85v-8.9a.95.95 0 0 0-.15-.46c-.25-.31-.65-.49-.81-.49h-1.56a.97.97 0 0 0-.98.94v1.28H9.56a.68.68 0 0 1-.67-.67V7.1h.83c.52 0 .95-.42.95-.95V4.5a.95.95 0 0 0-.95-.94h-.83V.95A.95.95 0 0 0 7.94 0H2.73a.95.95 0 0 0-.95.95v2.6H.95A.95.95 0 0 0 0 4.5v1.66c0 .53.42.95.95.95h.83v12.45H.95a.95.95 0 0 0-.95.94v1.66c0 .53.42.95.95.95h.83v2.6c0 .53.42.96.95.96h5.21c.52 0 .95-.43.95-.95v-2.6h.83c.52 0 .95-.43.95-.96V20.5a.95.95 0 0 0-.95-.94h-.83v-2.44c0-.37.3-.68.67-.68H15v1.4c0 .53.46.83.98.83h1.56c.16 0 .55-.05.8-.32.08-.08.13-.24.16-.5Z\"/><g fill=\"#FFF\"><path d=\"M2.73.89h5.21c.03 0 .06.03.06.06v2.6H2.67V.96c0-.03.02-.06.06-.06ZM.89 6.16V4.5c0-.03.03-.06.06-.06h8.77c.03 0 .06.03.06.06v1.66c0 .04-.03.06-.06.06H.95a.06.06 0 0 1-.06-.06ZM8 25.72c0 .03-.03.06-.06.06H2.73a.06.06 0 0 1-.06-.06v-2.6H8v2.6ZM9.72 20.44c.03 0 .06.03.06.06v1.66c0 .04-.03.06-.06.06H.95a.06.06 0 0 1-.06-.06V20.5c0-.03.03-.06.06-.06h8.77ZM8 7.11v2.44c0 .86.7 1.56 1.56 1.56h5.48v4.45H9.56c-.86 0-1.56.7-1.56 1.56v2.44H2.67V7.1H8ZM17.6 8.89c.04 0 .07.03.07.06v8.77c0 .03-.03.06-.06.06h-1.66a.06.06 0 0 1-.06-.06V8.95c0-.03.03-.06.06-.06h1.66Z\"/></g></g></svg>",
         "minWidth": 28,
         "minHeight": 28,
-        "meta": { "label": "Pipe join 1", "labelPosition": "none", "rotate": 180 }
+        "meta": {
+          "label": "Pipe join 1",
+          "labelPosition": "none",
+          "rotate": 180
+        }
       },
       "zIndex": 20,
       "hidden": false,
@@ -698,9 +748,26 @@
           "label": "Heater 1",
           "labelPosition": "none",
           "props": [
-            { "label": "Temperature", "key": "temp", "unit": "°C", "value": 30.1, "status": 1 },
-            { "label": "Humidity", "key": "hum", "unit": "%", "value": 38.1, "status": 0 },
-            { "label": "Property-1", "key": "prop-1", "value": 33.5, "status": 0 }
+            {
+              "label": "Temperature",
+              "key": "temp",
+              "unit": "°C",
+              "value": 30.1,
+              "status": 1
+            },
+            {
+              "label": "Humidity",
+              "key": "hum",
+              "unit": "%",
+              "value": 38.1,
+              "status": 0
+            },
+            {
+              "label": "Property-1",
+              "key": "prop-1",
+              "value": 33.5,
+              "status": 0
+            }
           ],
           "status": 1
         }
@@ -749,7 +816,11 @@
         "content": "<svg width=\"20\" height=\"20\" style=\"height:100%;width:100%\" viewBox=\"-3.9 0 18.5 26.67\"><g fill=\"#717171\" stroke=\"#71717A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".13\"><path d=\"M18.5 17.85v-8.9a.95.95 0 0 0-.15-.46c-.25-.31-.65-.49-.81-.49h-1.56a.97.97 0 0 0-.98.94v1.28H9.56a.68.68 0 0 1-.67-.67V7.1h.83c.52 0 .95-.42.95-.95V4.5a.95.95 0 0 0-.95-.94h-.83V.95A.95.95 0 0 0 7.94 0H2.73a.95.95 0 0 0-.95.95v2.6H.95A.95.95 0 0 0 0 4.5v1.66c0 .53.42.95.95.95h.83v12.45H.95a.95.95 0 0 0-.95.94v1.66c0 .53.42.95.95.95h.83v2.6c0 .53.42.96.95.96h5.21c.52 0 .95-.43.95-.95v-2.6h.83c.52 0 .95-.43.95-.96V20.5a.95.95 0 0 0-.95-.94h-.83v-2.44c0-.37.3-.68.67-.68H15v1.4c0 .53.46.83.98.83h1.56c.16 0 .55-.05.8-.32.08-.08.13-.24.16-.5Z\"/><g fill=\"#FFF\"><path d=\"M2.73.89h5.21c.03 0 .06.03.06.06v2.6H2.67V.96c0-.03.02-.06.06-.06ZM.89 6.16V4.5c0-.03.03-.06.06-.06h8.77c.03 0 .06.03.06.06v1.66c0 .04-.03.06-.06.06H.95a.06.06 0 0 1-.06-.06ZM8 25.72c0 .03-.03.06-.06.06H2.73a.06.06 0 0 1-.06-.06v-2.6H8v2.6ZM9.72 20.44c.03 0 .06.03.06.06v1.66c0 .04-.03.06-.06.06H.95a.06.06 0 0 1-.06-.06V20.5c0-.03.03-.06.06-.06h8.77ZM8 7.11v2.44c0 .86.7 1.56 1.56 1.56h5.48v4.45H9.56c-.86 0-1.56.7-1.56 1.56v2.44H2.67V7.1H8ZM17.6 8.89c.04 0 .07.03.07.06v8.77c0 .03-.03.06-.06.06h-1.66a.06.06 0 0 1-.06-.06V8.95c0-.03.03-.06.06-.06h1.66Z\"/></g></g></svg>",
         "minWidth": 28,
         "minHeight": 28,
-        "meta": { "label": "Pipe join 2", "labelPosition": "none", "rotate": 180 }
+        "meta": {
+          "label": "Pipe join 2",
+          "labelPosition": "none",
+          "rotate": 180
+        }
       },
       "zIndex": 20,
       "hidden": false,
@@ -776,8 +847,20 @@
           "label": "Heater 3",
           "labelPosition": "none",
           "props": [
-            { "label": "Temperature", "key": "temp", "unit": "°C", "value": 18.5, "status": 2 },
-            { "label": "Humidity", "key": "hum", "unit": "%", "value": 30.6, "status": 0 }
+            {
+              "label": "Temperature",
+              "key": "temp",
+              "unit": "°C",
+              "value": 18.5,
+              "status": 2
+            },
+            {
+              "label": "Humidity",
+              "key": "hum",
+              "unit": "%",
+              "value": 30.6,
+              "status": 0
+            }
           ],
           "status": 2
         }
@@ -803,7 +886,11 @@
         "content": "<svg width=\"20\" height=\"20\" style=\"height:100%;width:100%\" viewBox=\"-3.9 0 18.5 26.67\"><g fill=\"#717171\" stroke=\"#71717A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".13\"><path d=\"M18.5 17.85v-8.9a.95.95 0 0 0-.15-.46c-.25-.31-.65-.49-.81-.49h-1.56a.97.97 0 0 0-.98.94v1.28H9.56a.68.68 0 0 1-.67-.67V7.1h.83c.52 0 .95-.42.95-.95V4.5a.95.95 0 0 0-.95-.94h-.83V.95A.95.95 0 0 0 7.94 0H2.73a.95.95 0 0 0-.95.95v2.6H.95A.95.95 0 0 0 0 4.5v1.66c0 .53.42.95.95.95h.83v12.45H.95a.95.95 0 0 0-.95.94v1.66c0 .53.42.95.95.95h.83v2.6c0 .53.42.96.95.96h5.21c.52 0 .95-.43.95-.95v-2.6h.83c.52 0 .95-.43.95-.96V20.5a.95.95 0 0 0-.95-.94h-.83v-2.44c0-.37.3-.68.67-.68H15v1.4c0 .53.46.83.98.83h1.56c.16 0 .55-.05.8-.32.08-.08.13-.24.16-.5Z\"/><g fill=\"#FFF\"><path d=\"M2.73.89h5.21c.03 0 .06.03.06.06v2.6H2.67V.96c0-.03.02-.06.06-.06ZM.89 6.16V4.5c0-.03.03-.06.06-.06h8.77c.03 0 .06.03.06.06v1.66c0 .04-.03.06-.06.06H.95a.06.06 0 0 1-.06-.06ZM8 25.72c0 .03-.03.06-.06.06H2.73a.06.06 0 0 1-.06-.06v-2.6H8v2.6ZM9.72 20.44c.03 0 .06.03.06.06v1.66c0 .04-.03.06-.06.06H.95a.06.06 0 0 1-.06-.06V20.5c0-.03.03-.06.06-.06h8.77ZM8 7.11v2.44c0 .86.7 1.56 1.56 1.56h5.48v4.45H9.56c-.86 0-1.56.7-1.56 1.56v2.44H2.67V7.1H8ZM17.6 8.89c.04 0 .07.03.07.06v8.77c0 .03-.03.06-.06.06h-1.66a.06.06 0 0 1-.06-.06V8.95c0-.03.03-.06.06-.06h1.66Z\"/></g></g></svg>",
         "minWidth": 28,
         "minHeight": 28,
-        "meta": { "label": "Pipe join 3", "labelPosition": "none", "rotate": 180 }
+        "meta": {
+          "label": "Pipe join 3",
+          "labelPosition": "none",
+          "rotate": 180
+        }
       },
       "zIndex": 20,
       "hidden": false,
@@ -826,9 +913,26 @@
         "meta": {
           "label": "Tank",
           "props": [
-            { "label": "Temperature", "key": "temp", "unit": "°C", "value": 47.4, "status": 3 },
-            { "label": "Humidity", "key": "hum", "unit": "%", "value": 39.4, "status": 0 },
-            { "label": "Property-2", "key": "prop-2", "value": 48.7, "status": 0 }
+            {
+              "label": "Temperature",
+              "key": "temp",
+              "unit": "°C",
+              "value": 47.4,
+              "status": 3
+            },
+            {
+              "label": "Humidity",
+              "key": "hum",
+              "unit": "%",
+              "value": 39.4,
+              "status": 0
+            },
+            {
+              "label": "Property-2",
+              "key": "prop-2",
+              "value": 48.7,
+              "status": 0
+            }
           ]
         }
       },
@@ -849,8 +953,20 @@
         "meta": {
           "label": "Heater 3",
           "props": [
-            { "label": "Temperature", "key": "temp", "unit": "°C", "value": 18.5, "status": 2 },
-            { "label": "Humidity", "key": "hum", "unit": "%", "value": 30.6, "status": 0 }
+            {
+              "label": "Temperature",
+              "key": "temp",
+              "unit": "°C",
+              "value": 18.5,
+              "status": 2
+            },
+            {
+              "label": "Humidity",
+              "key": "hum",
+              "unit": "%",
+              "value": 30.6,
+              "status": 0
+            }
           ]
         }
       },
@@ -871,9 +987,26 @@
         "meta": {
           "label": "Heater 1",
           "props": [
-            { "label": "Temperature", "key": "temp", "unit": "°C", "value": 30.1, "status": 1 },
-            { "label": "Humidity", "key": "hum", "unit": "%", "value": 38.1, "status": 0 },
-            { "label": "Property-1", "key": "prop-1", "value": 33.5, "status": 0 }
+            {
+              "label": "Temperature",
+              "key": "temp",
+              "unit": "°C",
+              "value": 30.1,
+              "status": 1
+            },
+            {
+              "label": "Humidity",
+              "key": "hum",
+              "unit": "%",
+              "value": 38.1,
+              "status": 0
+            },
+            {
+              "label": "Property-1",
+              "key": "prop-1",
+              "value": 33.5,
+              "status": 0
+            }
           ]
         }
       },
@@ -882,137 +1015,6 @@
       "dragging": false
     }
   ],
-  "edges": [
-    {
-      "source": "1989d764-cb41-4084-b3b8-bb875ccf36c4",
-      "sourceHandle": "source:1989d764-cb41-4084-b3b8-bb875ccf36c4:1",
-      "target": "c94c851b-ed40-47f0-895b-29dbaeb44e14",
-      "targetHandle": "target:c94c851b-ed40-47f0-895b-29dbaeb44e14:0",
-      "id": "f841c62c-57ec-4a25-9788-7be001b29e26",
-      "type": "pipe",
-      "data": { "label": "", "animated": -1 },
-      "zIndex": 15
-    },
-    {
-      "source": "e67ae9aa-eafe-4a45-a554-c9e2084ecb3e",
-      "sourceHandle": "source:e67ae9aa-eafe-4a45-a554-c9e2084ecb3e:1",
-      "target": "abd50f0e-2ad8-47e5-947e-2f293aa0a663",
-      "targetHandle": "target:abd50f0e-2ad8-47e5-947e-2f293aa0a663:0",
-      "id": "612e65f2-0c5a-47e2-ba2f-2e5bd2e75cab",
-      "type": "pipe",
-      "data": { "label": "" },
-      "zIndex": 15
-    },
-    {
-      "source": "30a90c51-57eb-469b-8b02-97b5333e600d",
-      "sourceHandle": "source:30a90c51-57eb-469b-8b02-97b5333e600d:1",
-      "target": "63d3a05e-2bd0-4b6d-9859-eb72c5abf669",
-      "targetHandle": "target:63d3a05e-2bd0-4b6d-9859-eb72c5abf669:0",
-      "id": "ae7d9249-b83c-46e1-a260-20395862cb96",
-      "type": "pipe",
-      "data": { "label": "", "animated": -1 },
-      "zIndex": 15
-    },
-    {
-      "source": "e725005b-a8d3-476a-90ea-7e9ec650b2a7",
-      "sourceHandle": "source:e725005b-a8d3-476a-90ea-7e9ec650b2a7:1",
-      "target": "d23dea9c-502f-40fa-8b5c-b7d4d87bfa43",
-      "targetHandle": "target:d23dea9c-502f-40fa-8b5c-b7d4d87bfa43:0",
-      "id": "894c906c-1a5d-451d-b847-7126abe3ba08",
-      "type": "pipe",
-      "data": { "label": "", "animated": -1 },
-      "zIndex": 15
-    },
-    {
-      "source": "837c96b6-265b-442c-af59-d03433fdc049",
-      "sourceHandle": "source:837c96b6-265b-442c-af59-d03433fdc049:1",
-      "target": "efcfd910-476b-4bfa-b6fb-4251a31420ad",
-      "targetHandle": "target:efcfd910-476b-4bfa-b6fb-4251a31420ad:0",
-      "id": "ab178e6b-2f83-4a9f-bb31-dda17c8fa9ce",
-      "type": "pipe",
-      "data": { "label": "", "animated": 1 },
-      "zIndex": 15
-    },
-    {
-      "source": "ca95a796-97ba-489a-ada0-e72dc6d43216",
-      "sourceHandle": "source:ca95a796-97ba-489a-ada0-e72dc6d43216:1",
-      "target": "837c96b6-265b-442c-af59-d03433fdc049",
-      "targetHandle": "target:837c96b6-265b-442c-af59-d03433fdc049:0",
-      "id": "9872b86e-b3de-461e-a65c-66115fb6de80",
-      "type": "pipe",
-      "data": { "label": "", "animated": 1 },
-      "zIndex": 15
-    },
-    {
-      "source": "efcfd910-476b-4bfa-b6fb-4251a31420ad",
-      "sourceHandle": "source:efcfd910-476b-4bfa-b6fb-4251a31420ad:1",
-      "target": "d23dea9c-502f-40fa-8b5c-b7d4d87bfa43",
-      "targetHandle": "target:d23dea9c-502f-40fa-8b5c-b7d4d87bfa43:1",
-      "id": "1754bd79-9c00-47aa-97e5-7b11314b895e",
-      "type": "pipe",
-      "data": { "label": "", "animated": 1 },
-      "zIndex": 15
-    },
-    {
-      "source": "d23dea9c-502f-40fa-8b5c-b7d4d87bfa43",
-      "sourceHandle": "source:d23dea9c-502f-40fa-8b5c-b7d4d87bfa43:2",
-      "target": "63d3a05e-2bd0-4b6d-9859-eb72c5abf669",
-      "targetHandle": "target:63d3a05e-2bd0-4b6d-9859-eb72c5abf669:1",
-      "id": "cdc50926-f099-4fad-81a8-9323a8ea96d3",
-      "type": "pipe",
-      "data": { "label": "", "animated": 1 },
-      "zIndex": 15
-    },
-    {
-      "source": "63d3a05e-2bd0-4b6d-9859-eb72c5abf669",
-      "sourceHandle": "source:63d3a05e-2bd0-4b6d-9859-eb72c5abf669:2",
-      "target": "abd50f0e-2ad8-47e5-947e-2f293aa0a663",
-      "targetHandle": "target:abd50f0e-2ad8-47e5-947e-2f293aa0a663:1",
-      "id": "3b12a8e6-85e5-4f91-bec9-82aa9fc1b5f1",
-      "type": "pipe",
-      "data": { "label": "", "animated": 1 },
-      "zIndex": 15
-    },
-    {
-      "source": "abd50f0e-2ad8-47e5-947e-2f293aa0a663",
-      "sourceHandle": "source:abd50f0e-2ad8-47e5-947e-2f293aa0a663:2",
-      "target": "c94c851b-ed40-47f0-895b-29dbaeb44e14",
-      "targetHandle": "target:c94c851b-ed40-47f0-895b-29dbaeb44e14:1",
-      "id": "4606a5b4-5ccf-41e6-bf65-c849725d7756",
-      "type": "pipe",
-      "data": { "label": "", "animated": 1 },
-      "zIndex": 15
-    },
-    {
-      "id": "e7deb7df-11a7-4f94-a584-72ba649861e9",
-      "type": "dashed",
-      "source": "ca95a796-97ba-489a-ada0-e72dc6d43216",
-      "target": "51f45545-0f68-489e-837a-33c3e8d19b31",
-      "sourceHandle": "center:source:ca95a796-97ba-489a-ada0-e72dc6d43216",
-      "targetHandle": "center:target:51f45545-0f68-489e-837a-33c3e8d19b31",
-      "data": { "label": "" },
-      "zIndex": 15
-    },
-    {
-      "id": "19567b75-17c8-4312-ad10-8430bca8ff0c",
-      "type": "dashed",
-      "source": "1989d764-cb41-4084-b3b8-bb875ccf36c4",
-      "target": "0042cc08-612f-4e3d-9b2c-d169e1d136be",
-      "sourceHandle": "center:source:1989d764-cb41-4084-b3b8-bb875ccf36c4",
-      "targetHandle": "center:target:0042cc08-612f-4e3d-9b2c-d169e1d136be",
-      "data": { "label": "" },
-      "zIndex": 15
-    },
-    {
-      "id": "2851883d-7e35-4638-ac12-2d0667543e8d",
-      "type": "dashed",
-      "source": "30a90c51-57eb-469b-8b02-97b5333e600d",
-      "target": "c51f3450-679c-4547-a614-23b153a3b92a",
-      "sourceHandle": "center:source:30a90c51-57eb-469b-8b02-97b5333e600d",
-      "targetHandle": "center:target:c51f3450-679c-4547-a614-23b153a3b92a",
-      "data": { "label": "" },
-      "zIndex": 15
-    }
-  ],
+  "edges": [],
   "viewport": { "zoom": 1.29, "x": 315.92, "y": -291.3 }
 }
