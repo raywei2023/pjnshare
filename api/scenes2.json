@@ -1,0 +1,14 @@
+[
+  {
+    "url": "https://raywei2023.github.io/pjnshare/api/workshop2.json",
+    "label": "Workshop"
+  },
+  {
+    "url": "https://raywei2023.github.io/pjnshare/api/office.json",
+    "label": "Office"
+  },
+  {
+    "url": "https://raywei2023.github.io/pjnshare/api/blank.json",
+    "label": "Blank"
+  }
+]
