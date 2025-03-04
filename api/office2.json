@@ -858,7 +858,7 @@
           { "position": "left", "rotatable": false },
           { "position": "right", "rotatable": false }
         ],
-        "meta": { "status": -2, "label": "Bulb", "labelPosition": "none" }
+        "meta": { "status": 2, "label": "Bulb", "labelPosition": "none" }
       },
       "width": 37,
       "height": 37,
@@ -916,7 +916,7 @@
           { "position": "left", "rotatable": false },
           { "position": "right", "rotatable": false }
         ],
-        "meta": { "status": -1, "label": "Bulb 2", "labelPosition": "none" }
+        "meta": { "status": 1, "label": "Bulb 2", "labelPosition": "none" }
       },
       "zIndex": 20,
       "hidden": false,
@@ -943,7 +943,7 @@
           { "position": "left", "rotatable": false },
           { "position": "right", "rotatable": false }
         ],
-        "meta": { "status": -1, "label": "Bulb 2", "labelPosition": "none" }
+        "meta": { "status": 3, "label": "Bulb 2", "labelPosition": "none" }
       },
       "zIndex": 20,
       "hidden": false,
@@ -1054,7 +1054,7 @@
           { "position": "right", "rotatable": false }
         ],
         "meta": {
-          "status": -2,
+          "status": 3,
           "label": "Bulb 4",
           "labelPosition": "none",
           "rotate": 180

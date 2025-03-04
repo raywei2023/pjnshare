@@ -862,7 +862,7 @@
           { "position": "right", "rotatable": false }
         ],
         "meta": {
-          "status": -2,
+          "status": 3,
           "label": "Bulb 1",
           "labelPosition": "none",
           "rotate": 180
@@ -891,7 +891,7 @@
           { "position": "right", "rotatable": false }
         ],
         "meta": {
-          "status": -1,
+          "status": 2,
           "label": "Bulb 2",
           "labelPosition": "none",
           "rotate": 180
