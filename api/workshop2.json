@@ -20,28 +20,23 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 15.1,
-              "status": 2
+              "value": 45.2,
+              "status": 3
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 26.8,
+              "value": 47.2,
               "status": 0
             },
             {
               "label": "Property-4",
               "key": "prop-4",
-              "value": 31,
+              "value": 16.6,
               "status": 0
             },
-            {
-              "label": "Property-5",
-              "key": "prop-5",
-              "value": 27.9,
-              "status": 0
-            }
+            { "label": "Property-5", "key": "prop-5", "value": 32, "status": 0 }
           ]
         }
       },
@@ -368,24 +363,24 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 21.2,
-              "status": 2
+              "value": 47.7,
+              "status": 3
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 43.9,
+              "value": 20.6,
               "status": 0
             },
             {
               "label": "Property-3",
               "key": "prop-3",
-              "value": 43.1,
+              "value": 24.3,
               "status": 0
             }
           ],
-          "status": 2
+          "status": 3
         }
       },
       "width": 120.53333333333333,
@@ -411,20 +406,20 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 21.2,
-              "status": 2
+              "value": 47.7,
+              "status": 3
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 43.9,
+              "value": 20.6,
               "status": 0
             },
             {
               "label": "Property-3",
               "key": "prop-3",
-              "value": 43.1,
+              "value": 24.3,
               "status": 0
             }
           ]
@@ -699,13 +694,13 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 29.4,
+              "value": 34.2,
               "status": 1
             },
             {
               "label": "Property-3",
               "key": "prop-3",
-              "value": 42.6,
+              "value": 45.2,
               "status": 0
             }
           ],
@@ -745,18 +740,18 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 27.1,
-              "status": 1
+              "value": 18.7,
+              "status": 2
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 22.7,
+              "value": 49.7,
               "status": 0
             }
           ],
-          "status": 1
+          "status": 2
         }
       },
       "zIndex": 20,
@@ -954,7 +949,7 @@
           { "position": "left", "rotatable": false },
           { "position": "right", "rotatable": false }
         ],
-        "meta": { "status": 1, "label": "Fan 2", "labelPosition": "bottom" }
+        "meta": { "status": 0, "label": "Fan 2", "labelPosition": "bottom" }
       },
       "zIndex": 20,
       "hidden": false,
@@ -981,14 +976,14 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 27.1,
-              "status": 1
+              "value": 18.7,
+              "status": 2
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 22.7,
+              "value": 49.7,
               "status": 0
             }
           ]
@@ -1015,13 +1010,13 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 29.4,
+              "value": 34.2,
               "status": 1
             },
             {
               "label": "Property-3",
               "key": "prop-3",
-              "value": 42.6,
+              "value": 45.2,
               "status": 0
             }
           ]
@@ -1051,7 +1046,7 @@
       "targetHandle": "source:a01f3639-2131-4739-a79c-0a6bb7981839:1",
       "id": "173407dc-f127-4835-9168-252bca3d3e26",
       "type": "pipe",
-      "data": { "label": "" },
+      "data": { "label": "", "animated": 1 },
       "zIndex": 15,
       "selected": false
     },
@@ -1062,7 +1057,7 @@
       "targetHandle": "source:c8157c32-cbda-4ee5-a48d-16ed491784ef:0",
       "id": "3eeb4c9d-5ea4-4cd6-9962-7c1243a2049f",
       "type": "pipe",
-      "data": { "label": "" },
+      "data": { "label": "", "animated": 1 },
       "zIndex": 15,
       "selected": false
     },
@@ -1073,7 +1068,7 @@
       "targetHandle": "source:04a82cc3-1893-48d5-985e-cdcf8ac01704:0",
       "id": "d135728d-3c46-49e2-8cbd-c23443ab9be0",
       "type": "cable",
-      "data": { "label": "" },
+      "data": { "label": "", "animated": 1 },
       "zIndex": 15
     },
     {
@@ -1083,7 +1078,7 @@
       "targetHandle": "source:ad2176bc-390e-4620-8a46-7b688416444d:0",
       "id": "3c65f2cf-b52f-40fc-ae3d-46ade4ef5bde",
       "type": "cable",
-      "data": { "label": "" },
+      "data": { "label": "", "animated": 1 },
       "zIndex": 15
     },
     {
@@ -1093,7 +1088,7 @@
       "targetHandle": "source:d4d52573-cdc9-412f-8548-5f15462263c2:0",
       "id": "01e354c9-b28c-41ca-8705-e755af8f21e7",
       "type": "cable",
-      "data": { "label": "" },
+      "data": { "label": "", "animated": -1 },
       "zIndex": 15
     },
     {
@@ -1103,7 +1098,7 @@
       "targetHandle": "source:64af42a5-2da8-451e-8ff4-c4aead894aad:0",
       "id": "f07d1713-41bd-49f6-9857-fa0c6c8f8d06",
       "type": "pipe",
-      "data": { "label": "" },
+      "data": { "label": "", "animated": -1 },
       "zIndex": 15
     },
     {
@@ -1123,7 +1118,7 @@
       "targetHandle": "source:a250a901-1b68-400f-a48a-1dbe13cef20b:1",
       "id": "40ca4c6f-b3c8-48db-a395-40136a8f3cc7",
       "type": "pipe",
-      "data": { "label": "" },
+      "data": { "label": "", "animated": 1 },
       "zIndex": 15
     },
     {
@@ -1143,7 +1138,7 @@
       "targetHandle": "source:1ac3af4f-ec47-4ad1-84d0-d860b35225b5:0",
       "id": "529b5f0e-9c18-473c-b3c2-2ebe2c377fbc",
       "type": "pipe",
-      "data": { "label": "" },
+      "data": { "label": "", "animated": -1 },
       "zIndex": 15,
       "selected": false
     },
@@ -1154,7 +1149,7 @@
       "targetHandle": "source:a01f3639-2131-4739-a79c-0a6bb7981839:0",
       "id": "3ced7907-7fb5-4b0e-bc00-ffa451270eac",
       "type": "pipe",
-      "data": { "label": "" },
+      "data": { "label": "", "animated": -1 },
       "zIndex": 15,
       "selected": false
     },
@@ -1165,7 +1160,7 @@
       "targetHandle": "source:e90d9c88-ce09-4f7f-a0e1-8f53a6430e7c:0",
       "id": "362f1c86-8a4a-4c49-84c2-da123b192bcd",
       "type": "pipe",
-      "data": { "label": "" },
+      "data": { "label": "", "animated": 1 },
       "zIndex": 15,
       "selected": false
     },
@@ -1176,7 +1171,7 @@
       "targetHandle": "source:4072caad-d79d-4ad9-a6be-e9aef369c394:0",
       "id": "effd2c85-d551-4a3a-a015-1ffb51b54568",
       "type": "pipe",
-      "data": { "label": "" },
+      "data": { "label": "", "animated": 1 },
       "zIndex": 15,
       "selected": false
     },
@@ -1187,7 +1182,7 @@
       "targetHandle": "source:64af42a5-2da8-451e-8ff4-c4aead894aad:1",
       "id": "ba10a0a3-a5d8-4c63-b44f-ac516b72765b",
       "type": "pipe",
-      "data": { "label": "" },
+      "data": { "label": "", "animated": 1 },
       "zIndex": 15
     },
     {
@@ -1197,7 +1192,7 @@
       "targetHandle": "source:4956e74b-c5f1-4b96-849b-6c5a1d946aa0:0",
       "id": "c5bc3699-602b-46f2-baca-467c9dc24728",
       "type": "cable",
-      "data": { "label": "" },
+      "data": { "label": "", "animated": 0 },
       "zIndex": 15
     },
     {
@@ -1231,5 +1226,5 @@
       "zIndex": 15
     }
   ],
-  "viewport": { "zoom": 1.53, "x": 253.58, "y": 227.07 }
+  "viewport": { "zoom": 1.53, "x": 253.58, "y": 202.89 }
 }
