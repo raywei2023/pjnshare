@@ -1,5 +1,5 @@
-{
-  "basic": {
+[
+  {
     "name": "basic",
     "label": "Basic",
     "version": "1.0",
@@ -107,7 +107,7 @@
       }
     ]
   },
-  "shape": {
+  {
     "name": "shape",
     "label": "Shape",
     "version": "1.0",
@@ -214,7 +214,7 @@
       }
     ]
   },
-  "other": {
+  {
     "name": "other",
     "label": "Others",
     "version": "1.0",
@@ -243,4 +243,4 @@
       }
     ]
   }
-}
+]
