@@ -1,0 +1,246 @@
+{
+  "basic": {
+    "name": "basic",
+    "label": "Basic",
+    "version": "1.0",
+    "items": [
+      {
+        "type": "svg",
+        "name": "bulb",
+        "content": "<svg width=\"24\" height=\"24\" fill=\"#fff\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"-10 -10 150 150\"><path fill=\"#ddd\" d=\"M82 93V81.82a20.38 20.38 0 0 1 6.65-15.23 37 37 0 1 0-49.39-.09A20.59 20.59 0 0 1 46 81.82v10.77z\"/><path stroke=\"#e4e4e7\" d=\"M82 95a2 2 0 0 1-2-2V81.82a22.38 22.38 0 0 1 7.31-16.72 35 35 0 1 0-46.72-.1A22.61 22.61 0 0 1 48 81.82v10.76a2 2 0 0 1-4 0V81.82A18.6 18.6 0 0 0 37.92 68a39 39 0 1 1 52.08.08 18.38 18.38 0 0 0-6 13.74V93a2 2 0 0 1-2 2Z\"/><path fill=\"#71717a\" d=\"M82 92v16a18.05 18.05 0 0 1-18 18 18.05 18.05 0 0 1-18-18V92Z\"/><g fill=\"#3f3f46\"><path d=\"M64 128a20 20 0 0 1-20-20V92a2 2 0 0 1 2-2h36a2 2 0 0 1 2 2v16a20 20 0 0 1-20 20ZM48 94v14a16 16 0 0 0 32 0V94Z\"/><path d=\"M54 104a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4ZM54 112a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4Z\"/></g><path d=\"m54 102 28-4M54 110l28-4\"/></svg>",
+        "label": "Bulb",
+        "rotatable": true,
+        "minWidth": 16,
+        "minHeight": 16,
+        "handles": [
+          { "position": "left", "rotatable": false },
+          { "position": "right", "rotatable": false }
+        ]
+      },
+      {
+        "type": "svg",
+        "name": "fan",
+        "content": "<svg width=\"24\" height=\"24\" fill=\"none\" stroke=\"#71717a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"1 1 30 30\"><rect width=\"29\" height=\"29\" x=\"1.5\" y=\"1.5\" fill=\"#fff\" rx=\"2\"/><circle cx=\"16\" cy=\"16\" r=\"10\"/><circle cx=\"16\" cy=\"16\" r=\"3\"/><path d=\"M14.5,13.4L14.5,13.4c0.6-2.4-0.6-4.8-2.8-5.8L11,7.3, M13,16L13,16c-1.7-1.7-4.4-1.9-6.4-0.5L6,16, M14.5,18.6L14.5,18.6c-2.4,0.6-3.9,2.9-3.6,5.3l0.1,0.8, M17.5,18.6L17.5,18.6c-0.6,2.4,0.6,4.8,2.8,5.8l0.7,0.3, M19,16L19,16c1.7,1.7,4.4,1.9,6.4,0.5L26,16, M17.5,13.4L17.5,13.4c2.4-0.6,3.9-2.9,3.6-5.3L21,7.3\"><animateTransform attributeName=\"transform\" begin=\"0\" dur=\"9999\" from=\"0 16 16\" repeatCount=\"0\" to=\"360 16 16\" type=\"rotate\"/></path><g fill=\"#71717a\" stroke=\"#a1a1aa\" stroke-width=\".5\"><circle cx=\"6\" cy=\"6\" r=\"1.2\"/><circle cx=\"26\" cy=\"6\" r=\"1.2\"/><circle cx=\"6\" cy=\"26\" r=\"1.2\"/><circle cx=\"26\" cy=\"26\" r=\"1.2\"/></g></svg>",
+        "label": "Fan",
+        "minWidth": 32,
+        "minHeight": 32,
+        "handles": [
+          { "position": "left", "rotatable": false },
+          { "position": "right", "rotatable": false }
+        ]
+      },
+      {
+        "type": "svg",
+        "name": "heater",
+        "content": "<svg width=\"24\" height=\"24\" fill=\"#71717a\" stroke=\"#71717a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".6\" style=\"height:100%;width:100%\" viewBox=\"0 0 56 56\"><g fill=\"#fff\" stroke=\"none\"><rect width=\"6\" height=\"39\" x=\"5\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"15\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"25\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"35\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"45\" y=\"8\" rx=\"3\"/><animate attributeName=\"fill\" attributeType=\"CSS\" dur=\"1.5\" repeatCount=\"indefinite\" values=\"#fff\"/></g><path d=\"M54 13.5h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2H2v-1H0v10h2v-1h2v22a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-22h2a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1zm-10 2v4h-2v-4h2zm-10 0v4h-2v-4h2zm-10 0v4h-2v-4h2zm-10 0v4h-2v-4h2zm-12 4v-4h2v4H2zm8 24a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm3-24h-1v-4h1v4z\"/></svg>",
+        "label": "Heater",
+        "minWidth": 32,
+        "minHeight": 32,
+        "handles": [
+          { "position": "left", "rotatable": false },
+          { "position": "right", "rotatable": false }
+        ]
+      },
+      {
+        "type": "svg",
+        "name": "tank-wagon",
+        "content": "<svg width=\"33\" height=\"22\" style=\"height:100%;width:100%\" viewBox=\"0 -1 32 22\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill=\"#71717A\" stroke=\"#71717A\" stroke-width=\".1\" d=\"M31.78 15a.52.52 0 1 0 0-1.05h-1.12s0 0 0 0h-1.44A6.66 6.66 0 0 0 26.16 1.7v-.6c0-.6-.48-1.09-1.08-1.09h-2.23c-.6 0-1.08.49-1.08 1.08v.6H10.53v-.04a.52.52 0 1 0-1.04 0v.03h-2.3v-.03a.52.52 0 1 0-1.05 0v.05a6.67 6.67 0 0 0-3.06 12.26H1.64s0 0 0 0H.52a.52.52 0 1 0 0 1.05h.84l.83 1.24a1.91 1.91 0 0 0-.3 2.18H.51a.52.52 0 1 0 0 1.05h31.26a.52.52 0 1 0 0-1.05h-1.36a1.9 1.9 0 0 0-.3-2.18l.82-1.24h.84ZM22.8 1.08c0-.02.02-.03.04-.03h2.23c.02 0 .04.01.04.03v.6h-2.3v-.6ZM2.72 17.55a.87.87 0 1 1 1.75 0 .87.87 0 0 1-1.75 0Zm7.23-.32h12.4a1.92 1.92 0 0 0 .19 1.19H9.77a1.9 1.9 0 0 0 .18-1.19Zm16.19 0h.68a1.92 1.92 0 0 0 .18 1.19h-1.05a1.9 1.9 0 0 0 .19-1.19Zm-1.9 1.19a.87.87 0 1 1 0-1.75.87.87 0 0 1 0 1.75Zm-16.18 0a.87.87 0 1 1 0-1.75.87.87 0 0 1 0 1.75Zm-1.71 0H5.3a1.9 1.9 0 0 0 .19-1.19h.68a1.92 1.92 0 0 0 .18 1.19Zm21.49-.87a.87.87 0 1 1 1.74 0 .87.87 0 0 1-1.74 0Zm1.38-1.85a1.91 1.91 0 0 0-1.86.49H25.6a1.91 1.91 0 0 0-2.7 0H9.4a1.91 1.91 0 0 0-2.7 0H4.94a1.91 1.91 0 0 0-1.86-.5L2.62 15h27.07l-.47.7Z\"/><rect width=\"30.3\" height=\"11.4\" x=\"1\" y=\"2.58\" fill=\"#FFF\" rx=\"5.7\"><animate attributeName=\"fill\" attributeType=\"CSS\" dur=\"9999\" repeatCount=\"0\"/></rect></g></svg>",
+        "label": "Tank",
+        "minWidth": 90,
+        "minHeight": 60,
+        "handles": [
+          { "position": "left", "rotatable": false },
+          { "position": "right", "rotatable": false }
+        ]
+      },
+      {
+        "type": "svg",
+        "name": "vavle",
+        "content": "<svg width=\"24\" height=\"24\" fill=\"#71717a\" stroke=\"#71717a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"0 45 490 490\"><rect width=\"300\" height=\"190\" x=\"100\" y=\"200\" fill=\"#fff\" stroke=\"none\" rx=\"6\"/><path d=\"M469.1 180.95c-11.5 0-20.9 9.4-20.9 20.9v24h-44.8v-1c0-31.3-25-56.3-56.3-56.3h-81.3v-55.3H294c11.5 0 20.9-9.4 20.9-20.9s-9.4-20.9-20.9-20.9h-98c-11.5 0-20.9 9.4-20.9 20.9s9.4 20.9 20.9 20.9h28.1v55.3h-81.3c-31.3 0-56.3 25-56.3 56.3v1H41.7v-24c0-11.5-9.4-20.9-20.9-20.9S0 190.35 0 201.75v183.5c0 11.5 9.4 20.9 20.9 20.9 10.4 0 19.8-9.4 20.9-20.9v-22.9h44.8c0 31.3 25 56.3 56.3 56.3h204.3c31.3 0 56.3-25 56.3-56.3l44.8-.1v23c0 11.5 9.4 20.9 20.9 20.9s20.9-9.4 20.9-20.9v-183.5c-.1-11.4-9.5-20.8-21-20.8zM85.5 319.55H41.7v-52.1h43.8v52.1zm277.3 42.8c0 8.3-7.3 15.6-15.6 15.6H142.8c-8.3 0-15.6-7.3-15.6-15.6v-137.6c0-8.3 7.3-15.6 15.6-15.6h204.3c8.3 0 15.6 7.3 15.6 15.6v137.6h.1zm40.7-42.8v-52.1h44.8v52.1h-44.8z\"/></svg>",
+        "label": "Vavle",
+        "minWidth": 32,
+        "minHeight": 32,
+        "handles": [
+          { "position": "left", "rotatable": false },
+          { "position": "right", "rotatable": false }
+        ]
+      },
+      {
+        "type": "svg",
+        "name": "pipe-top-right",
+        "content": "<svg width=\"20\" height=\"20\" style=\"height:100%;width:100%\" viewBox=\"-6.5 3 21.2 15\"><g fill=\"#71717A\" stroke=\"#71717A\" stroke-width=\".1\"><path d=\"M14 7h-2.55a.64.64 0 0 0-.64-.64h-1.9a.64.64 0 0 0-.64.64h-.38a.26.26 0 0 1-.26-.27v-.37c.35 0 .64-.28.64-.64v-1.9a.64.64 0 0 0-.64-.64V.64A.64.64 0 0 0 7 0H1.27a.64.64 0 0 0-.63.64v2.54a.64.64 0 0 0-.64.64v1.9c0 .36.28.64.64.64v1.49c0 3.4 2.75 6.14 6.14 6.14h1.49c0 .35.28.64.63.64h1.91c.35 0 .64-.29.64-.64h2.54c.35 0 .64-.28.64-.63V7.63a.64.64 0 0 0-.64-.63Z\"/><g fill=\"#FFF\" stroke=\"#FFF\"><path d=\"M1.27 4.45h5.72v.64H1.27zM1.91 1.27h4.45v1.91H1.91zM1.9 7.85v-1.5h4.46v.38c0 .85.68 1.54 1.53 1.54h.38v4.45h-1.5a4.87 4.87 0 0 1-4.86-4.87ZM9.54 13.35V7.63h.63v5.72zM13.35 12.72h-1.9V8.27h1.9z\"/></g></g></svg>",
+        "label": "PipeTR",
+        "rotatable": true,
+        "minWidth": 28,
+        "minHeight": 28,
+        "handles": [
+          { "position": "top", "rotatable": true },
+          { "position": "right", "rotatable": true }
+        ]
+      },
+      {
+        "type": "svg",
+        "name": "pipe-tjoin",
+        "content": "<svg width=\"20\" height=\"20\" style=\"height:100%;width:100%\" viewBox=\"-3.9 0 18.5 26.67\"><g fill=\"#717171\" stroke=\"#71717A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".13\"><path d=\"M18.5 17.85v-8.9a.95.95 0 0 0-.15-.46c-.25-.31-.65-.49-.81-.49h-1.56a.97.97 0 0 0-.98.94v1.28H9.56a.68.68 0 0 1-.67-.67V7.1h.83c.52 0 .95-.42.95-.95V4.5a.95.95 0 0 0-.95-.94h-.83V.95A.95.95 0 0 0 7.94 0H2.73a.95.95 0 0 0-.95.95v2.6H.95A.95.95 0 0 0 0 4.5v1.66c0 .53.42.95.95.95h.83v12.45H.95a.95.95 0 0 0-.95.94v1.66c0 .53.42.95.95.95h.83v2.6c0 .53.42.96.95.96h5.21c.52 0 .95-.43.95-.95v-2.6h.83c.52 0 .95-.43.95-.96V20.5a.95.95 0 0 0-.95-.94h-.83v-2.44c0-.37.3-.68.67-.68H15v1.4c0 .53.46.83.98.83h1.56c.16 0 .55-.05.8-.32.08-.08.13-.24.16-.5Z\"/><g fill=\"#FFF\"><path d=\"M2.73.89h5.21c.03 0 .06.03.06.06v2.6H2.67V.96c0-.03.02-.06.06-.06ZM.89 6.16V4.5c0-.03.03-.06.06-.06h8.77c.03 0 .06.03.06.06v1.66c0 .04-.03.06-.06.06H.95a.06.06 0 0 1-.06-.06ZM8 25.72c0 .03-.03.06-.06.06H2.73a.06.06 0 0 1-.06-.06v-2.6H8v2.6ZM9.72 20.44c.03 0 .06.03.06.06v1.66c0 .04-.03.06-.06.06H.95a.06.06 0 0 1-.06-.06V20.5c0-.03.03-.06.06-.06h8.77ZM8 7.11v2.44c0 .86.7 1.56 1.56 1.56h5.48v4.45H9.56c-.86 0-1.56.7-1.56 1.56v2.44H2.67V7.1H8ZM17.6 8.89c.04 0 .07.03.07.06v8.77c0 .03-.03.06-.06.06h-1.66a.06.06 0 0 1-.06-.06V8.95c0-.03.03-.06.06-.06h1.66Z\"/></g></g></svg>",
+        "label": "Pipe join",
+        "rotatable": true,
+        "minWidth": 28,
+        "minHeight": 28,
+        "handles": [
+          { "position": "top", "rotatable": true },
+          { "position": "right", "rotatable": true },
+          { "position": "bottom", "rotatable": true }
+        ]
+      },
+      {
+        "type": "svg",
+        "name": "pipe-vertical",
+        "content": "<svg viewBox=\"0 0 26 26\" width=\"20\" height=\"20\" fill=\"#fff\" stroke=\"#71717a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height: 100%; width: 100%\"><g><rect x=\"9\" y=\"1\" width=\"8\" height=\"24\" /><rect x=\"8\" y=\"4\" width=\"10\" height=\"3\" /><rect x=\"8\" y=\"19\" width=\"10\" height=\"3\" /></g></svg>",
+        "label": "PipeV",
+        "rotatable": true,
+        "minWidth": 28,
+        "minHeight": 28,
+        "handles": [
+          { "position": "top", "rotatable": true },
+          { "position": "bottom", "rotatable": true }
+        ]
+      }
+    ]
+  },
+  "shape": {
+    "name": "shape",
+    "label": "Shape",
+    "version": "1.0",
+    "items": [
+      {
+        "type": "shape",
+        "name": "circle",
+        "content": "<svg width=\"26\" height=\"26\" style=\"height: 100%; width: 100%;\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#EA9C41\"><ellipse cx=\"13\" cy=\"13\" rx=\"12\" ry=\"12\" fill=\"#EA9C41\" fill-opacity=\"0\"></ellipse></g></svg>",
+        "strokeColor": "#EA9C41",
+        "label": "Circle",
+        "minWidth": 28,
+        "minHeight": 28
+      },
+      {
+        "type": "shape",
+        "name": "round-rectangle",
+        "content": "<svg width=\"26\" height=\"26\" style=\"height: 100%; width: 100%;\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#EBC347\"><rect rx=\"4\" x=\"0.5\" y=\"0.5\" width=\"25\" height=\"25\" fill=\"#EBC347\" fill-opacity=\"0\"></rect></g></svg>",
+        "strokeColor": "#EBC347",
+        "label": "Round rect",
+        "minWidth": 28,
+        "minHeight": 28
+      },
+      {
+        "type": "shape",
+        "name": "rectangle",
+        "content": "<svg width=\"26\" height=\"26\" style=\"height: 100%; width: 100%;\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#84cc16\"><rect rx=\"0\" x=\"0.5\" y=\"0.5\" width=\"25\" height=\"25\" fill=\"#84cc16\" fill-opacity=\"0\"></rect></g></svg>",
+        "strokeColor": "#84cc16",
+        "label": "Rectangle",
+        "minWidth": 28,
+        "minHeight": 28
+      },
+      {
+        "type": "shape",
+        "name": "hexagon",
+        "content": "<svg width=\"26\" height=\"26\" style=\"height: 100%; width: 100%;\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#0ea5e9\"><path d=\"M1,13 L4.68,1 L21.32,1 L25,13 L21.32,25 L4.68,25 Z\" fill=\"#0ea5e9\" fill-opacity=\"0\"></path></g></svg>",
+        "strokeColor": "#0ea5e9",
+        "label": "Hexagon",
+        "minWidth": 28,
+        "minHeight": 28
+      },
+      {
+        "type": "shape",
+        "name": "diamond",
+        "content": "<svg width=\"26\" height=\"26\" style=\"height: 100%; width: 100%;\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#803DEC\"><path d=\"M1,13 L13,1 L25,13 L13,25 Z\" fill=\"#803DEC\" fill-opacity=\"0\"></path></g></svg>",
+        "strokeColor": "#803DEC",
+        "label": "Diamond",
+        "minWidth": 28,
+        "minHeight": 28
+      },
+      {
+        "type": "shape",
+        "name": "arrow-rectangle",
+        "content": "<svg width=\"26\" height=\"26\" style=\"height: 100%; width: 100%;\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#0ea5e9\"><path d=\"M1,1 L21.32,1 L25,13 L21.32,25 L1,25 Z\" fill=\"#0ea5e9\" fill-opacity=\"0\"></path></g></svg>",
+        "strokeColor": "#0ea5e9",
+        "label": "Arrow rect",
+        "minWidth": 28,
+        "minHeight": 28
+      },
+      {
+        "type": "shape",
+        "name": "cylinder",
+        "content": "<svg width=\"26\" height=\"26\" style=\"height:100%;width:100%\"><path fill=\"none\" stroke=\"#84cc16\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" d=\"M1 3.6v18.8a12 2.6 0 1 0 24 0V3.6a12 3.6 0 1 1-25 0 12 2.6 0 1 1 25 0 12 3.6 0 1 1-25 0Z\"/></svg>",
+        "strokeColor": "#84cc16",
+        "label": "Cylinder",
+        "minWidth": 28,
+        "minHeight": 28
+      },
+      {
+        "type": "shape",
+        "name": "triangle",
+        "content": "<svg width=\"26\" height=\"26\" style=\"height: 100%; width: 100%;\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#EBC347\"><path d=\"M1,25 L13,1 24,25 Z\" fill=\"#EBC347\" fill-opacity=\"0\"></path></g></svg>",
+        "strokeColor": "#EBC347",
+        "label": "Triangle",
+        "minWidth": 28,
+        "minHeight": 28
+      },
+      {
+        "type": "shape",
+        "name": "parallelogram",
+        "content": "<svg width=\"26\" height=\"26\" style=\"height:100%;width:100%\"><path fill=\"none\" stroke=\"#EA9C41\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" d=\"M1 25 3.64 1H24l-2.64 24Z\"/></svg>",
+        "strokeColor": "#EA9C41",
+        "label": "Parallelogram",
+        "minWidth": 28,
+        "minHeight": 28
+      },
+      {
+        "type": "shape",
+        "name": "plus",
+        "content": "<svg width=\"26\" height=\"26\" style=\"height:100%;width:100%\"><path fill=\"none\" stroke=\"#803DEC\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" d=\"M8.67 1h8.66v7.67H25v8.66h1-8.67V25h0-8.66v-7.67H1V8.67h7.67Z\"/></svg>",
+        "strokeColor": "#803DEC",
+        "label": "Plus",
+        "minWidth": 28,
+        "minHeight": 28
+      },
+      {
+        "type": "shape",
+        "name": "dash-line",
+        "content": "<svg width=\"26\" height=\"26\" style=\"height: 100%; width: 100%;\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#71717a\"><path d=\"M0,7 L598,7\" stroke-dasharray=\"3,3\"></path></g></svg>",
+        "strokeColor": "#71717a",
+        "label": "Dash line",
+        "minWidth": 28,
+        "minHeight": 14,
+        "maxHeight": 14
+      }
+    ]
+  },
+  "other": {
+    "name": "other",
+    "label": "Others",
+    "version": "1.0",
+    "items": [
+      {
+        "type": "chart",
+        "name": "line",
+        "label": "Chart",
+        "iconType": "ChartLine",
+        "minWidth": 230,
+        "minHeight": 160
+      },
+      {
+        "type": "chart",
+        "name": "gauge",
+        "label": "Gauge",
+        "iconType": "Gauge",
+        "minWidth": 100,
+        "minHeight": 100
+      },
+      {
+        "type": "table",
+        "name": "table",
+        "label": "Table",
+        "iconType": "Table"
+      }
+    ]
+  }
+}
