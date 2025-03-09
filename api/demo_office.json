@@ -297,6 +297,8 @@
         "content": "<svg width=\"33\" height=\"22\" style=\"height:100%;width:100%\" viewBox=\"0 -1 32 22\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill=\"#71717A\" stroke=\"#71717A\" stroke-width=\".1\" d=\"M31.78 15a.52.52 0 1 0 0-1.05h-1.12s0 0 0 0h-1.44A6.66 6.66 0 0 0 26.16 1.7v-.6c0-.6-.48-1.09-1.08-1.09h-2.23c-.6 0-1.08.49-1.08 1.08v.6H10.53v-.04a.52.52 0 1 0-1.04 0v.03h-2.3v-.03a.52.52 0 1 0-1.05 0v.05a6.67 6.67 0 0 0-3.06 12.26H1.64s0 0 0 0H.52a.52.52 0 1 0 0 1.05h.84l.83 1.24a1.91 1.91 0 0 0-.3 2.18H.51a.52.52 0 1 0 0 1.05h31.26a.52.52 0 1 0 0-1.05h-1.36a1.9 1.9 0 0 0-.3-2.18l.82-1.24h.84ZM22.8 1.08c0-.02.02-.03.04-.03h2.23c.02 0 .04.01.04.03v.6h-2.3v-.6ZM2.72 17.55a.87.87 0 1 1 1.75 0 .87.87 0 0 1-1.75 0Zm7.23-.32h12.4a1.92 1.92 0 0 0 .19 1.19H9.77a1.9 1.9 0 0 0 .18-1.19Zm16.19 0h.68a1.92 1.92 0 0 0 .18 1.19h-1.05a1.9 1.9 0 0 0 .19-1.19Zm-1.9 1.19a.87.87 0 1 1 0-1.75.87.87 0 0 1 0 1.75Zm-16.18 0a.87.87 0 1 1 0-1.75.87.87 0 0 1 0 1.75Zm-1.71 0H5.3a1.9 1.9 0 0 0 .19-1.19h.68a1.92 1.92 0 0 0 .18 1.19Zm21.49-.87a.87.87 0 1 1 1.74 0 .87.87 0 0 1-1.74 0Zm1.38-1.85a1.91 1.91 0 0 0-1.86.49H25.6a1.91 1.91 0 0 0-2.7 0H9.4a1.91 1.91 0 0 0-2.7 0H4.94a1.91 1.91 0 0 0-1.86-.5L2.62 15h27.07l-.47.7Z\"/><rect width=\"30.3\" height=\"11.4\" x=\"1\" y=\"2.58\" fill=\"#FFF\" rx=\"5.7\"><animate attributeName=\"fill\" attributeType=\"CSS\" dur=\"9999\" repeatCount=\"0\"/></rect></g></svg>",
         "minWidth": 90,
         "minHeight": 60,
+        "edgeType": "pipe",
+        "hasTable": true,
         "handles": [
           { "position": "left", "rotatable": false },
           { "position": "right", "rotatable": false }
@@ -351,6 +353,7 @@
         "content": "<svg width=\"20\" height=\"20\" style=\"height:100%;width:100%\" viewBox=\"-3.9 0 18.5 26.67\"><g fill=\"#717171\" stroke=\"#71717A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".13\"><path d=\"M18.5 17.85v-8.9a.95.95 0 0 0-.15-.46c-.25-.31-.65-.49-.81-.49h-1.56a.97.97 0 0 0-.98.94v1.28H9.56a.68.68 0 0 1-.67-.67V7.1h.83c.52 0 .95-.42.95-.95V4.5a.95.95 0 0 0-.95-.94h-.83V.95A.95.95 0 0 0 7.94 0H2.73a.95.95 0 0 0-.95.95v2.6H.95A.95.95 0 0 0 0 4.5v1.66c0 .53.42.95.95.95h.83v12.45H.95a.95.95 0 0 0-.95.94v1.66c0 .53.42.95.95.95h.83v2.6c0 .53.42.96.95.96h5.21c.52 0 .95-.43.95-.95v-2.6h.83c.52 0 .95-.43.95-.96V20.5a.95.95 0 0 0-.95-.94h-.83v-2.44c0-.37.3-.68.67-.68H15v1.4c0 .53.46.83.98.83h1.56c.16 0 .55-.05.8-.32.08-.08.13-.24.16-.5Z\"/><g fill=\"#FFF\"><path d=\"M2.73.89h5.21c.03 0 .06.03.06.06v2.6H2.67V.96c0-.03.02-.06.06-.06ZM.89 6.16V4.5c0-.03.03-.06.06-.06h8.77c.03 0 .06.03.06.06v1.66c0 .04-.03.06-.06.06H.95a.06.06 0 0 1-.06-.06ZM8 25.72c0 .03-.03.06-.06.06H2.73a.06.06 0 0 1-.06-.06v-2.6H8v2.6ZM9.72 20.44c.03 0 .06.03.06.06v1.66c0 .04-.03.06-.06.06H.95a.06.06 0 0 1-.06-.06V20.5c0-.03.03-.06.06-.06h8.77ZM8 7.11v2.44c0 .86.7 1.56 1.56 1.56h5.48v4.45H9.56c-.86 0-1.56.7-1.56 1.56v2.44H2.67V7.1H8ZM17.6 8.89c.04 0 .07.03.07.06v8.77c0 .03-.03.06-.06.06h-1.66a.06.06 0 0 1-.06-.06V8.95c0-.03.03-.06.06-.06h1.66Z\"/></g></g></svg>",
         "minWidth": 28,
         "minHeight": 28,
+        "edgeType": "pipe",
         "handles": [
           { "position": "top", "rotatable": true },
           { "position": "right", "rotatable": true },
@@ -377,6 +380,7 @@
         "content": "<svg width=\"20\" height=\"20\" style=\"height:100%;width:100%\" viewBox=\"-3.9 0 18.5 26.67\"><g fill=\"#717171\" stroke=\"#71717A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".13\"><path d=\"M18.5 17.85v-8.9a.95.95 0 0 0-.15-.46c-.25-.31-.65-.49-.81-.49h-1.56a.97.97 0 0 0-.98.94v1.28H9.56a.68.68 0 0 1-.67-.67V7.1h.83c.52 0 .95-.42.95-.95V4.5a.95.95 0 0 0-.95-.94h-.83V.95A.95.95 0 0 0 7.94 0H2.73a.95.95 0 0 0-.95.95v2.6H.95A.95.95 0 0 0 0 4.5v1.66c0 .53.42.95.95.95h.83v12.45H.95a.95.95 0 0 0-.95.94v1.66c0 .53.42.95.95.95h.83v2.6c0 .53.42.96.95.96h5.21c.52 0 .95-.43.95-.95v-2.6h.83c.52 0 .95-.43.95-.96V20.5a.95.95 0 0 0-.95-.94h-.83v-2.44c0-.37.3-.68.67-.68H15v1.4c0 .53.46.83.98.83h1.56c.16 0 .55-.05.8-.32.08-.08.13-.24.16-.5Z\"/><g fill=\"#FFF\"><path d=\"M2.73.89h5.21c.03 0 .06.03.06.06v2.6H2.67V.96c0-.03.02-.06.06-.06ZM.89 6.16V4.5c0-.03.03-.06.06-.06h8.77c.03 0 .06.03.06.06v1.66c0 .04-.03.06-.06.06H.95a.06.06 0 0 1-.06-.06ZM8 25.72c0 .03-.03.06-.06.06H2.73a.06.06 0 0 1-.06-.06v-2.6H8v2.6ZM9.72 20.44c.03 0 .06.03.06.06v1.66c0 .04-.03.06-.06.06H.95a.06.06 0 0 1-.06-.06V20.5c0-.03.03-.06.06-.06h8.77ZM8 7.11v2.44c0 .86.7 1.56 1.56 1.56h5.48v4.45H9.56c-.86 0-1.56.7-1.56 1.56v2.44H2.67V7.1H8ZM17.6 8.89c.04 0 .07.03.07.06v8.77c0 .03-.03.06-.06.06h-1.66a.06.06 0 0 1-.06-.06V8.95c0-.03.03-.06.06-.06h1.66Z\"/></g></g></svg>",
         "minWidth": 28,
         "minHeight": 28,
+        "edgeType": "pipe",
         "handles": [
           { "position": "top", "rotatable": true },
           { "position": "right", "rotatable": true },
@@ -409,6 +413,7 @@
         "content": "<svg width=\"20\" height=\"20\" style=\"height:100%;width:100%\" viewBox=\"-3.9 0 18.5 26.67\"><g fill=\"#717171\" stroke=\"#71717A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".13\"><path d=\"M18.5 17.85v-8.9a.95.95 0 0 0-.15-.46c-.25-.31-.65-.49-.81-.49h-1.56a.97.97 0 0 0-.98.94v1.28H9.56a.68.68 0 0 1-.67-.67V7.1h.83c.52 0 .95-.42.95-.95V4.5a.95.95 0 0 0-.95-.94h-.83V.95A.95.95 0 0 0 7.94 0H2.73a.95.95 0 0 0-.95.95v2.6H.95A.95.95 0 0 0 0 4.5v1.66c0 .53.42.95.95.95h.83v12.45H.95a.95.95 0 0 0-.95.94v1.66c0 .53.42.95.95.95h.83v2.6c0 .53.42.96.95.96h5.21c.52 0 .95-.43.95-.95v-2.6h.83c.52 0 .95-.43.95-.96V20.5a.95.95 0 0 0-.95-.94h-.83v-2.44c0-.37.3-.68.67-.68H15v1.4c0 .53.46.83.98.83h1.56c.16 0 .55-.05.8-.32.08-.08.13-.24.16-.5Z\"/><g fill=\"#FFF\"><path d=\"M2.73.89h5.21c.03 0 .06.03.06.06v2.6H2.67V.96c0-.03.02-.06.06-.06ZM.89 6.16V4.5c0-.03.03-.06.06-.06h8.77c.03 0 .06.03.06.06v1.66c0 .04-.03.06-.06.06H.95a.06.06 0 0 1-.06-.06ZM8 25.72c0 .03-.03.06-.06.06H2.73a.06.06 0 0 1-.06-.06v-2.6H8v2.6ZM9.72 20.44c.03 0 .06.03.06.06v1.66c0 .04-.03.06-.06.06H.95a.06.06 0 0 1-.06-.06V20.5c0-.03.03-.06.06-.06h8.77ZM8 7.11v2.44c0 .86.7 1.56 1.56 1.56h5.48v4.45H9.56c-.86 0-1.56.7-1.56 1.56v2.44H2.67V7.1H8ZM17.6 8.89c.04 0 .07.03.07.06v8.77c0 .03-.03.06-.06.06h-1.66a.06.06 0 0 1-.06-.06V8.95c0-.03.03-.06.06-.06h1.66Z\"/></g></g></svg>",
         "minWidth": 28,
         "minHeight": 28,
+        "edgeType": "pipe",
         "handles": [
           { "position": "top", "rotatable": true },
           { "position": "right", "rotatable": true },
@@ -441,6 +446,7 @@
         "content": "<svg width=\"20\" height=\"20\" style=\"height:100%;width:100%\" viewBox=\"-3.9 0 18.5 26.67\"><g fill=\"#717171\" stroke=\"#71717A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".13\"><path d=\"M18.5 17.85v-8.9a.95.95 0 0 0-.15-.46c-.25-.31-.65-.49-.81-.49h-1.56a.97.97 0 0 0-.98.94v1.28H9.56a.68.68 0 0 1-.67-.67V7.1h.83c.52 0 .95-.42.95-.95V4.5a.95.95 0 0 0-.95-.94h-.83V.95A.95.95 0 0 0 7.94 0H2.73a.95.95 0 0 0-.95.95v2.6H.95A.95.95 0 0 0 0 4.5v1.66c0 .53.42.95.95.95h.83v12.45H.95a.95.95 0 0 0-.95.94v1.66c0 .53.42.95.95.95h.83v2.6c0 .53.42.96.95.96h5.21c.52 0 .95-.43.95-.95v-2.6h.83c.52 0 .95-.43.95-.96V20.5a.95.95 0 0 0-.95-.94h-.83v-2.44c0-.37.3-.68.67-.68H15v1.4c0 .53.46.83.98.83h1.56c.16 0 .55-.05.8-.32.08-.08.13-.24.16-.5Z\"/><g fill=\"#FFF\"><path d=\"M2.73.89h5.21c.03 0 .06.03.06.06v2.6H2.67V.96c0-.03.02-.06.06-.06ZM.89 6.16V4.5c0-.03.03-.06.06-.06h8.77c.03 0 .06.03.06.06v1.66c0 .04-.03.06-.06.06H.95a.06.06 0 0 1-.06-.06ZM8 25.72c0 .03-.03.06-.06.06H2.73a.06.06 0 0 1-.06-.06v-2.6H8v2.6ZM9.72 20.44c.03 0 .06.03.06.06v1.66c0 .04-.03.06-.06.06H.95a.06.06 0 0 1-.06-.06V20.5c0-.03.03-.06.06-.06h8.77ZM8 7.11v2.44c0 .86.7 1.56 1.56 1.56h5.48v4.45H9.56c-.86 0-1.56.7-1.56 1.56v2.44H2.67V7.1H8ZM17.6 8.89c.04 0 .07.03.07.06v8.77c0 .03-.03.06-.06.06h-1.66a.06.06 0 0 1-.06-.06V8.95c0-.03.03-.06.06-.06h1.66Z\"/></g></g></svg>",
         "minWidth": 28,
         "minHeight": 28,
+        "edgeType": "pipe",
         "handles": [
           { "position": "top", "rotatable": true },
           { "position": "right", "rotatable": true },
@@ -475,6 +481,7 @@
         "content": "<svg width=\"20\" height=\"20\" style=\"height:100%;width:100%\" viewBox=\"-6.5 3 21.2 15\"><g fill=\"#71717A\" stroke=\"#71717A\" stroke-width=\".1\"><path d=\"M14 7h-2.55a.64.64 0 0 0-.64-.64h-1.9a.64.64 0 0 0-.64.64h-.38a.26.26 0 0 1-.26-.27v-.37c.35 0 .64-.28.64-.64v-1.9a.64.64 0 0 0-.64-.64V.64A.64.64 0 0 0 7 0H1.27a.64.64 0 0 0-.63.64v2.54a.64.64 0 0 0-.64.64v1.9c0 .36.28.64.64.64v1.49c0 3.4 2.75 6.14 6.14 6.14h1.49c0 .35.28.64.63.64h1.91c.35 0 .64-.29.64-.64h2.54c.35 0 .64-.28.64-.63V7.63a.64.64 0 0 0-.64-.63Z\"/><g fill=\"#FFF\" stroke=\"#FFF\"><path d=\"M1.27 4.45h5.72v.64H1.27zM1.91 1.27h4.45v1.91H1.91zM1.9 7.85v-1.5h4.46v.38c0 .85.68 1.54 1.53 1.54h.38v4.45h-1.5a4.87 4.87 0 0 1-4.86-4.87ZM9.54 13.35V7.63h.63v5.72zM13.35 12.72h-1.9V8.27h1.9z\"/></g></g></svg>",
         "minWidth": 28,
         "minHeight": 28,
+        "edgeType": "pipe",
         "handles": [
           { "position": "top", "rotatable": true },
           { "position": "right", "rotatable": true }
@@ -530,6 +537,8 @@
         "content": "<svg width=\"24\" height=\"24\" fill=\"#71717a\" stroke=\"#71717a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".6\" style=\"height:100%;width:100%\" viewBox=\"0 0 56 56\"><g fill=\"#fff\" stroke=\"none\"><rect width=\"6\" height=\"39\" x=\"5\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"15\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"25\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"35\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"45\" y=\"8\" rx=\"3\"/><animate attributeName=\"fill\" attributeType=\"CSS\" dur=\"1.5\" repeatCount=\"indefinite\" values=\"#fff\"/></g><path d=\"M54 13.5h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2H2v-1H0v10h2v-1h2v22a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-22h2a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1zm-10 2v4h-2v-4h2zm-10 0v4h-2v-4h2zm-10 0v4h-2v-4h2zm-10 0v4h-2v-4h2zm-12 4v-4h2v4H2zm8 24a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm3-24h-1v-4h1v4z\"/></svg>",
         "minWidth": 32,
         "minHeight": 32,
+        "hasTable": true,
+        "edgeType": "pipe",
         "handles": [
           { "position": "left", "rotatable": false },
           { "position": "right", "rotatable": false }
@@ -556,6 +565,8 @@
         "content": "<svg width=\"24\" height=\"24\" fill=\"#71717a\" stroke=\"#71717a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".6\" style=\"height:100%;width:100%\" viewBox=\"0 0 56 56\"><g fill=\"#fff\" stroke=\"none\"><rect width=\"6\" height=\"39\" x=\"5\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"15\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"25\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"35\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"45\" y=\"8\" rx=\"3\"/><animate attributeName=\"fill\" attributeType=\"CSS\" dur=\"1.5\" repeatCount=\"indefinite\" values=\"#fff\"/></g><path d=\"M54 13.5h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2H2v-1H0v10h2v-1h2v22a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-22h2a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1zm-10 2v4h-2v-4h2zm-10 0v4h-2v-4h2zm-10 0v4h-2v-4h2zm-10 0v4h-2v-4h2zm-12 4v-4h2v4H2zm8 24a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm3-24h-1v-4h1v4z\"/></svg>",
         "minWidth": 32,
         "minHeight": 32,
+        "hasTable": true,
+        "edgeType": "pipe",
         "handles": [
           { "position": "left", "rotatable": false },
           { "position": "right", "rotatable": false }
@@ -615,6 +626,8 @@
         "content": "<svg width=\"24\" height=\"24\" fill=\"#71717a\" stroke=\"#71717a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".6\" style=\"height:100%;width:100%\" viewBox=\"0 0 56 56\"><g fill=\"#fff\" stroke=\"none\"><rect width=\"6\" height=\"39\" x=\"5\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"15\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"25\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"35\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"45\" y=\"8\" rx=\"3\"/><animate attributeName=\"fill\" attributeType=\"CSS\" dur=\"1.5\" repeatCount=\"indefinite\" values=\"#fff\"/></g><path d=\"M54 13.5h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2H2v-1H0v10h2v-1h2v22a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-22h2a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1zm-10 2v4h-2v-4h2zm-10 0v4h-2v-4h2zm-10 0v4h-2v-4h2zm-10 0v4h-2v-4h2zm-12 4v-4h2v4H2zm8 24a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm3-24h-1v-4h1v4z\"/></svg>",
         "minWidth": 32,
         "minHeight": 32,
+        "hasTable": true,
+        "edgeType": "pipe",
         "handles": [
           { "position": "left", "rotatable": false },
           { "position": "right", "rotatable": false }
@@ -642,6 +655,8 @@
         "content": "<svg width=\"24\" height=\"24\" fill=\"#71717a\" stroke=\"#71717a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".6\" style=\"height:100%;width:100%\" viewBox=\"0 0 56 56\"><g fill=\"#fff\" stroke=\"none\"><rect width=\"6\" height=\"39\" x=\"5\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"15\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"25\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"35\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"45\" y=\"8\" rx=\"3\"/><animate attributeName=\"fill\" attributeType=\"CSS\" dur=\"1.5\" repeatCount=\"indefinite\" values=\"#fff\"/></g><path d=\"M54 13.5h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2H2v-1H0v10h2v-1h2v22a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-22h2a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1zm-10 2v4h-2v-4h2zm-10 0v4h-2v-4h2zm-10 0v4h-2v-4h2zm-10 0v4h-2v-4h2zm-12 4v-4h2v4H2zm8 24a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm3-24h-1v-4h1v4z\"/></svg>",
         "minWidth": 32,
         "minHeight": 32,
+        "hasTable": true,
+        "edgeType": "pipe",
         "handles": [
           { "position": "left", "rotatable": false },
           { "position": "right", "rotatable": false }
