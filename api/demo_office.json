@@ -707,6 +707,7 @@
         "content": "<svg width=\"24\" height=\"24\" fill=\"none\" stroke=\"#71717a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"1 1 30 30\"><rect width=\"29\" height=\"29\" x=\"1.5\" y=\"1.5\" fill=\"#fff\" rx=\"2\"/><circle cx=\"16\" cy=\"16\" r=\"10\"/><circle cx=\"16\" cy=\"16\" r=\"3\"/><path d=\"M14.5,13.4L14.5,13.4c0.6-2.4-0.6-4.8-2.8-5.8L11,7.3, M13,16L13,16c-1.7-1.7-4.4-1.9-6.4-0.5L6,16, M14.5,18.6L14.5,18.6c-2.4,0.6-3.9,2.9-3.6,5.3l0.1,0.8, M17.5,18.6L17.5,18.6c-0.6,2.4,0.6,4.8,2.8,5.8l0.7,0.3, M19,16L19,16c1.7,1.7,4.4,1.9,6.4,0.5L26,16, M17.5,13.4L17.5,13.4c2.4-0.6,3.9-2.9,3.6-5.3L21,7.3\"><animateTransform attributeName=\"transform\" begin=\"0\" dur=\"9999\" from=\"0 16 16\" repeatCount=\"0\" to=\"360 16 16\" type=\"rotate\"/></path><g fill=\"#71717a\" stroke=\"#a1a1aa\" stroke-width=\".5\"><circle cx=\"6\" cy=\"6\" r=\"1.2\"/><circle cx=\"26\" cy=\"6\" r=\"1.2\"/><circle cx=\"6\" cy=\"26\" r=\"1.2\"/><circle cx=\"26\" cy=\"26\" r=\"1.2\"/></g></svg>",
         "minWidth": 32,
         "minHeight": 32,
+        "edgeType": "cable",
         "handles": [
           { "position": "left", "rotatable": false },
           { "position": "right", "rotatable": false }
@@ -732,6 +733,7 @@
         "content": "<svg width=\"24\" height=\"24\" fill=\"none\" stroke=\"#71717a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"1 1 30 30\"><rect width=\"29\" height=\"29\" x=\"1.5\" y=\"1.5\" fill=\"#fff\" rx=\"2\"/><circle cx=\"16\" cy=\"16\" r=\"10\"/><circle cx=\"16\" cy=\"16\" r=\"3\"/><path d=\"M14.5,13.4L14.5,13.4c0.6-2.4-0.6-4.8-2.8-5.8L11,7.3, M13,16L13,16c-1.7-1.7-4.4-1.9-6.4-0.5L6,16, M14.5,18.6L14.5,18.6c-2.4,0.6-3.9,2.9-3.6,5.3l0.1,0.8, M17.5,18.6L17.5,18.6c-0.6,2.4,0.6,4.8,2.8,5.8l0.7,0.3, M19,16L19,16c1.7,1.7,4.4,1.9,6.4,0.5L26,16, M17.5,13.4L17.5,13.4c2.4-0.6,3.9-2.9,3.6-5.3L21,7.3\"><animateTransform attributeName=\"transform\" begin=\"0\" dur=\"9999\" from=\"0 16 16\" repeatCount=\"0\" to=\"360 16 16\" type=\"rotate\"/></path><g fill=\"#71717a\" stroke=\"#a1a1aa\" stroke-width=\".5\"><circle cx=\"6\" cy=\"6\" r=\"1.2\"/><circle cx=\"26\" cy=\"6\" r=\"1.2\"/><circle cx=\"6\" cy=\"26\" r=\"1.2\"/><circle cx=\"26\" cy=\"26\" r=\"1.2\"/></g></svg>",
         "minWidth": 32,
         "minHeight": 32,
+        "edgeType": "cable",
         "handles": [
           { "position": "left", "rotatable": false },
           { "position": "right", "rotatable": false }
@@ -759,6 +761,7 @@
         "content": "<svg width=\"24\" height=\"24\" fill=\"none\" stroke=\"#71717a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"1 1 30 30\"><rect width=\"29\" height=\"29\" x=\"1.5\" y=\"1.5\" fill=\"#fff\" rx=\"2\"/><circle cx=\"16\" cy=\"16\" r=\"10\"/><circle cx=\"16\" cy=\"16\" r=\"3\"/><path d=\"M14.5,13.4L14.5,13.4c0.6-2.4-0.6-4.8-2.8-5.8L11,7.3, M13,16L13,16c-1.7-1.7-4.4-1.9-6.4-0.5L6,16, M14.5,18.6L14.5,18.6c-2.4,0.6-3.9,2.9-3.6,5.3l0.1,0.8, M17.5,18.6L17.5,18.6c-0.6,2.4,0.6,4.8,2.8,5.8l0.7,0.3, M19,16L19,16c1.7,1.7,4.4,1.9,6.4,0.5L26,16, M17.5,13.4L17.5,13.4c2.4-0.6,3.9-2.9,3.6-5.3L21,7.3\"><animateTransform attributeName=\"transform\" begin=\"0\" dur=\"9999\" from=\"0 16 16\" repeatCount=\"0\" to=\"360 16 16\" type=\"rotate\"/></path><g fill=\"#71717a\" stroke=\"#a1a1aa\" stroke-width=\".5\"><circle cx=\"6\" cy=\"6\" r=\"1.2\"/><circle cx=\"26\" cy=\"6\" r=\"1.2\"/><circle cx=\"6\" cy=\"26\" r=\"1.2\"/><circle cx=\"26\" cy=\"26\" r=\"1.2\"/></g></svg>",
         "minWidth": 32,
         "minHeight": 32,
+        "edgeType": "cable",
         "handles": [
           { "position": "left", "rotatable": false },
           { "position": "right", "rotatable": false }
@@ -786,6 +789,7 @@
         "content": "<svg width=\"24\" height=\"24\" fill=\"none\" stroke=\"#71717a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"1 1 30 30\"><rect width=\"29\" height=\"29\" x=\"1.5\" y=\"1.5\" fill=\"#fff\" rx=\"2\"/><circle cx=\"16\" cy=\"16\" r=\"10\"/><circle cx=\"16\" cy=\"16\" r=\"3\"/><path d=\"M14.5,13.4L14.5,13.4c0.6-2.4-0.6-4.8-2.8-5.8L11,7.3, M13,16L13,16c-1.7-1.7-4.4-1.9-6.4-0.5L6,16, M14.5,18.6L14.5,18.6c-2.4,0.6-3.9,2.9-3.6,5.3l0.1,0.8, M17.5,18.6L17.5,18.6c-0.6,2.4,0.6,4.8,2.8,5.8l0.7,0.3, M19,16L19,16c1.7,1.7,4.4,1.9,6.4,0.5L26,16, M17.5,13.4L17.5,13.4c2.4-0.6,3.9-2.9,3.6-5.3L21,7.3\"><animateTransform attributeName=\"transform\" begin=\"0\" dur=\"9999\" from=\"0 16 16\" repeatCount=\"0\" to=\"360 16 16\" type=\"rotate\"/></path><g fill=\"#71717a\" stroke=\"#a1a1aa\" stroke-width=\".5\"><circle cx=\"6\" cy=\"6\" r=\"1.2\"/><circle cx=\"26\" cy=\"6\" r=\"1.2\"/><circle cx=\"6\" cy=\"26\" r=\"1.2\"/><circle cx=\"26\" cy=\"26\" r=\"1.2\"/></g></svg>",
         "minWidth": 32,
         "minHeight": 32,
+        "edgeType": "cable",
         "handles": [
           { "position": "left", "rotatable": false },
           { "position": "right", "rotatable": false }
@@ -813,6 +817,7 @@
         "content": "<svg width=\"24\" height=\"24\" fill=\"none\" stroke=\"#71717a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"1 1 30 30\"><rect width=\"29\" height=\"29\" x=\"1.5\" y=\"1.5\" fill=\"#fff\" rx=\"2\"/><circle cx=\"16\" cy=\"16\" r=\"10\"/><circle cx=\"16\" cy=\"16\" r=\"3\"/><path d=\"M14.5,13.4L14.5,13.4c0.6-2.4-0.6-4.8-2.8-5.8L11,7.3, M13,16L13,16c-1.7-1.7-4.4-1.9-6.4-0.5L6,16, M14.5,18.6L14.5,18.6c-2.4,0.6-3.9,2.9-3.6,5.3l0.1,0.8, M17.5,18.6L17.5,18.6c-0.6,2.4,0.6,4.8,2.8,5.8l0.7,0.3, M19,16L19,16c1.7,1.7,4.4,1.9,6.4,0.5L26,16, M17.5,13.4L17.5,13.4c2.4-0.6,3.9-2.9,3.6-5.3L21,7.3\"><animateTransform attributeName=\"transform\" begin=\"0\" dur=\"9999\" from=\"0 16 16\" repeatCount=\"0\" to=\"360 16 16\" type=\"rotate\"/></path><g fill=\"#71717a\" stroke=\"#a1a1aa\" stroke-width=\".5\"><circle cx=\"6\" cy=\"6\" r=\"1.2\"/><circle cx=\"26\" cy=\"6\" r=\"1.2\"/><circle cx=\"6\" cy=\"26\" r=\"1.2\"/><circle cx=\"26\" cy=\"26\" r=\"1.2\"/></g></svg>",
         "minWidth": 32,
         "minHeight": 32,
+        "edgeType": "cable",
         "handles": [
           { "position": "left", "rotatable": false },
           { "position": "right", "rotatable": false }
@@ -840,6 +845,7 @@
         "content": "<svg width=\"24\" height=\"24\" fill=\"none\" stroke=\"#71717a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"1 1 30 30\"><rect width=\"29\" height=\"29\" x=\"1.5\" y=\"1.5\" fill=\"#fff\" rx=\"2\"/><circle cx=\"16\" cy=\"16\" r=\"10\"/><circle cx=\"16\" cy=\"16\" r=\"3\"/><path d=\"M14.5,13.4L14.5,13.4c0.6-2.4-0.6-4.8-2.8-5.8L11,7.3, M13,16L13,16c-1.7-1.7-4.4-1.9-6.4-0.5L6,16, M14.5,18.6L14.5,18.6c-2.4,0.6-3.9,2.9-3.6,5.3l0.1,0.8, M17.5,18.6L17.5,18.6c-0.6,2.4,0.6,4.8,2.8,5.8l0.7,0.3, M19,16L19,16c1.7,1.7,4.4,1.9,6.4,0.5L26,16, M17.5,13.4L17.5,13.4c2.4-0.6,3.9-2.9,3.6-5.3L21,7.3\"><animateTransform attributeName=\"transform\" begin=\"0\" dur=\"9999\" from=\"0 16 16\" repeatCount=\"0\" to=\"360 16 16\" type=\"rotate\"/></path><g fill=\"#71717a\" stroke=\"#a1a1aa\" stroke-width=\".5\"><circle cx=\"6\" cy=\"6\" r=\"1.2\"/><circle cx=\"26\" cy=\"6\" r=\"1.2\"/><circle cx=\"6\" cy=\"26\" r=\"1.2\"/><circle cx=\"26\" cy=\"26\" r=\"1.2\"/></g></svg>",
         "minWidth": 32,
         "minHeight": 32,
+        "edgeType": "cable",
         "handles": [
           { "position": "left", "rotatable": false },
           { "position": "right", "rotatable": false }
@@ -869,6 +875,7 @@
         "content": "<svg width=\"24\" height=\"24\" fill=\"#fff\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"-10 -10 150 150\"><path fill=\"#ddd\" d=\"M82 93V81.82a20.38 20.38 0 0 1 6.65-15.23 37 37 0 1 0-49.39-.09A20.59 20.59 0 0 1 46 81.82v10.77z\"/><path stroke=\"#e4e4e7\" d=\"M82 95a2 2 0 0 1-2-2V81.82a22.38 22.38 0 0 1 7.31-16.72 35 35 0 1 0-46.72-.1A22.61 22.61 0 0 1 48 81.82v10.76a2 2 0 0 1-4 0V81.82A18.6 18.6 0 0 0 37.92 68a39 39 0 1 1 52.08.08 18.38 18.38 0 0 0-6 13.74V93a2 2 0 0 1-2 2Z\"/><path fill=\"#71717a\" d=\"M82 92v16a18.05 18.05 0 0 1-18 18 18.05 18.05 0 0 1-18-18V92Z\"/><g fill=\"#3f3f46\"><path d=\"M64 128a20 20 0 0 1-20-20V92a2 2 0 0 1 2-2h36a2 2 0 0 1 2 2v16a20 20 0 0 1-20 20ZM48 94v14a16 16 0 0 0 32 0V94Z\"/><path d=\"M54 104a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4ZM54 112a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4Z\"/></g><path d=\"m54 102 28-4M54 110l28-4\"/></svg>",
         "minWidth": 16,
         "minHeight": 16,
+        "edgeType": "cable",
         "handles": [
           { "position": "left", "rotatable": false },
           { "position": "right", "rotatable": false }
@@ -894,6 +901,7 @@
         "content": "<svg width=\"24\" height=\"24\" fill=\"#fff\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"-10 -10 150 150\"><path fill=\"#ddd\" d=\"M82 93V81.82a20.38 20.38 0 0 1 6.65-15.23 37 37 0 1 0-49.39-.09A20.59 20.59 0 0 1 46 81.82v10.77z\"/><path stroke=\"#e4e4e7\" d=\"M82 95a2 2 0 0 1-2-2V81.82a22.38 22.38 0 0 1 7.31-16.72 35 35 0 1 0-46.72-.1A22.61 22.61 0 0 1 48 81.82v10.76a2 2 0 0 1-4 0V81.82A18.6 18.6 0 0 0 37.92 68a39 39 0 1 1 52.08.08 18.38 18.38 0 0 0-6 13.74V93a2 2 0 0 1-2 2Z\"/><path fill=\"#71717a\" d=\"M82 92v16a18.05 18.05 0 0 1-18 18 18.05 18.05 0 0 1-18-18V92Z\"/><g fill=\"#3f3f46\"><path d=\"M64 128a20 20 0 0 1-20-20V92a2 2 0 0 1 2-2h36a2 2 0 0 1 2 2v16a20 20 0 0 1-20 20ZM48 94v14a16 16 0 0 0 32 0V94Z\"/><path d=\"M54 104a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4ZM54 112a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4Z\"/></g><path d=\"m54 102 28-4M54 110l28-4\"/></svg>",
         "minWidth": 16,
         "minHeight": 16,
+        "edgeType": "cable",
         "handles": [
           { "position": "left", "rotatable": false },
           { "position": "right", "rotatable": false }
@@ -927,6 +935,7 @@
         "content": "<svg width=\"24\" height=\"24\" fill=\"#fff\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"-10 -10 150 150\"><path fill=\"#ddd\" d=\"M82 93V81.82a20.38 20.38 0 0 1 6.65-15.23 37 37 0 1 0-49.39-.09A20.59 20.59 0 0 1 46 81.82v10.77z\"/><path stroke=\"#e4e4e7\" d=\"M82 95a2 2 0 0 1-2-2V81.82a22.38 22.38 0 0 1 7.31-16.72 35 35 0 1 0-46.72-.1A22.61 22.61 0 0 1 48 81.82v10.76a2 2 0 0 1-4 0V81.82A18.6 18.6 0 0 0 37.92 68a39 39 0 1 1 52.08.08 18.38 18.38 0 0 0-6 13.74V93a2 2 0 0 1-2 2Z\"/><path fill=\"#71717a\" d=\"M82 92v16a18.05 18.05 0 0 1-18 18 18.05 18.05 0 0 1-18-18V92Z\"/><g fill=\"#3f3f46\"><path d=\"M64 128a20 20 0 0 1-20-20V92a2 2 0 0 1 2-2h36a2 2 0 0 1 2 2v16a20 20 0 0 1-20 20ZM48 94v14a16 16 0 0 0 32 0V94Z\"/><path d=\"M54 104a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4ZM54 112a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4Z\"/></g><path d=\"m54 102 28-4M54 110l28-4\"/></svg>",
         "minWidth": 16,
         "minHeight": 16,
+        "edgeType": "cable",
         "handles": [
           { "position": "left", "rotatable": false },
           { "position": "right", "rotatable": false }
@@ -954,6 +963,7 @@
         "content": "<svg width=\"24\" height=\"24\" fill=\"#fff\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"-10 -10 150 150\"><path fill=\"#ddd\" d=\"M82 93V81.82a20.38 20.38 0 0 1 6.65-15.23 37 37 0 1 0-49.39-.09A20.59 20.59 0 0 1 46 81.82v10.77z\"/><path stroke=\"#e4e4e7\" d=\"M82 95a2 2 0 0 1-2-2V81.82a22.38 22.38 0 0 1 7.31-16.72 35 35 0 1 0-46.72-.1A22.61 22.61 0 0 1 48 81.82v10.76a2 2 0 0 1-4 0V81.82A18.6 18.6 0 0 0 37.92 68a39 39 0 1 1 52.08.08 18.38 18.38 0 0 0-6 13.74V93a2 2 0 0 1-2 2Z\"/><path fill=\"#71717a\" d=\"M82 92v16a18.05 18.05 0 0 1-18 18 18.05 18.05 0 0 1-18-18V92Z\"/><g fill=\"#3f3f46\"><path d=\"M64 128a20 20 0 0 1-20-20V92a2 2 0 0 1 2-2h36a2 2 0 0 1 2 2v16a20 20 0 0 1-20 20ZM48 94v14a16 16 0 0 0 32 0V94Z\"/><path d=\"M54 104a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4ZM54 112a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4Z\"/></g><path d=\"m54 102 28-4M54 110l28-4\"/></svg>",
         "minWidth": 16,
         "minHeight": 16,
+        "edgeType": "cable",
         "handles": [
           { "position": "left", "rotatable": false },
           { "position": "right", "rotatable": false }
@@ -982,6 +992,7 @@
         "content": "<svg width=\"24\" height=\"24\" fill=\"#fff\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"-10 -10 150 150\"><path fill=\"#ddd\" d=\"M82 93V81.82a20.38 20.38 0 0 1 6.65-15.23 37 37 0 1 0-49.39-.09A20.59 20.59 0 0 1 46 81.82v10.77z\"/><path stroke=\"#e4e4e7\" d=\"M82 95a2 2 0 0 1-2-2V81.82a22.38 22.38 0 0 1 7.31-16.72 35 35 0 1 0-46.72-.1A22.61 22.61 0 0 1 48 81.82v10.76a2 2 0 0 1-4 0V81.82A18.6 18.6 0 0 0 37.92 68a39 39 0 1 1 52.08.08 18.38 18.38 0 0 0-6 13.74V93a2 2 0 0 1-2 2Z\"/><path fill=\"#71717a\" d=\"M82 92v16a18.05 18.05 0 0 1-18 18 18.05 18.05 0 0 1-18-18V92Z\"/><g fill=\"#3f3f46\"><path d=\"M64 128a20 20 0 0 1-20-20V92a2 2 0 0 1 2-2h36a2 2 0 0 1 2 2v16a20 20 0 0 1-20 20ZM48 94v14a16 16 0 0 0 32 0V94Z\"/><path d=\"M54 104a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4ZM54 112a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4Z\"/></g><path d=\"m54 102 28-4M54 110l28-4\"/></svg>",
         "minWidth": 16,
         "minHeight": 16,
+        "edgeType": "cable",
         "handles": [
           { "position": "left", "rotatable": false },
           { "position": "right", "rotatable": false }
@@ -1009,6 +1020,7 @@
         "content": "<svg width=\"24\" height=\"24\" fill=\"#fff\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"-10 -10 150 150\"><path fill=\"#ddd\" d=\"M82 93V81.82a20.38 20.38 0 0 1 6.65-15.23 37 37 0 1 0-49.39-.09A20.59 20.59 0 0 1 46 81.82v10.77z\"/><path stroke=\"#e4e4e7\" d=\"M82 95a2 2 0 0 1-2-2V81.82a22.38 22.38 0 0 1 7.31-16.72 35 35 0 1 0-46.72-.1A22.61 22.61 0 0 1 48 81.82v10.76a2 2 0 0 1-4 0V81.82A18.6 18.6 0 0 0 37.92 68a39 39 0 1 1 52.08.08 18.38 18.38 0 0 0-6 13.74V93a2 2 0 0 1-2 2Z\"/><path fill=\"#71717a\" d=\"M82 92v16a18.05 18.05 0 0 1-18 18 18.05 18.05 0 0 1-18-18V92Z\"/><g fill=\"#3f3f46\"><path d=\"M64 128a20 20 0 0 1-20-20V92a2 2 0 0 1 2-2h36a2 2 0 0 1 2 2v16a20 20 0 0 1-20 20ZM48 94v14a16 16 0 0 0 32 0V94Z\"/><path d=\"M54 104a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4ZM54 112a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4Z\"/></g><path d=\"m54 102 28-4M54 110l28-4\"/></svg>",
         "minWidth": 16,
         "minHeight": 16,
+        "edgeType": "cable",
         "handles": [
           { "position": "left", "rotatable": false },
           { "position": "right", "rotatable": false }
@@ -1037,6 +1049,7 @@
         "content": "<svg width=\"24\" height=\"24\" fill=\"#fff\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"-10 -10 150 150\"><path fill=\"#ddd\" d=\"M82 93V81.82a20.38 20.38 0 0 1 6.65-15.23 37 37 0 1 0-49.39-.09A20.59 20.59 0 0 1 46 81.82v10.77z\"/><path stroke=\"#e4e4e7\" d=\"M82 95a2 2 0 0 1-2-2V81.82a22.38 22.38 0 0 1 7.31-16.72 35 35 0 1 0-46.72-.1A22.61 22.61 0 0 1 48 81.82v10.76a2 2 0 0 1-4 0V81.82A18.6 18.6 0 0 0 37.92 68a39 39 0 1 1 52.08.08 18.38 18.38 0 0 0-6 13.74V93a2 2 0 0 1-2 2Z\"/><path fill=\"#71717a\" d=\"M82 92v16a18.05 18.05 0 0 1-18 18 18.05 18.05 0 0 1-18-18V92Z\"/><g fill=\"#3f3f46\"><path d=\"M64 128a20 20 0 0 1-20-20V92a2 2 0 0 1 2-2h36a2 2 0 0 1 2 2v16a20 20 0 0 1-20 20ZM48 94v14a16 16 0 0 0 32 0V94Z\"/><path d=\"M54 104a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4ZM54 112a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4Z\"/></g><path d=\"m54 102 28-4M54 110l28-4\"/></svg>",
         "minWidth": 16,
         "minHeight": 16,
+        "edgeType": "cable",
         "handles": [
           { "position": "left", "rotatable": false },
           { "position": "right", "rotatable": false }
@@ -1064,6 +1077,7 @@
         "content": "<svg width=\"24\" height=\"24\" fill=\"#fff\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"height:100%;width:100%\" viewBox=\"-10 -10 150 150\"><path fill=\"#ddd\" d=\"M82 93V81.82a20.38 20.38 0 0 1 6.65-15.23 37 37 0 1 0-49.39-.09A20.59 20.59 0 0 1 46 81.82v10.77z\"/><path stroke=\"#e4e4e7\" d=\"M82 95a2 2 0 0 1-2-2V81.82a22.38 22.38 0 0 1 7.31-16.72 35 35 0 1 0-46.72-.1A22.61 22.61 0 0 1 48 81.82v10.76a2 2 0 0 1-4 0V81.82A18.6 18.6 0 0 0 37.92 68a39 39 0 1 1 52.08.08 18.38 18.38 0 0 0-6 13.74V93a2 2 0 0 1-2 2Z\"/><path fill=\"#71717a\" d=\"M82 92v16a18.05 18.05 0 0 1-18 18 18.05 18.05 0 0 1-18-18V92Z\"/><g fill=\"#3f3f46\"><path d=\"M64 128a20 20 0 0 1-20-20V92a2 2 0 0 1 2-2h36a2 2 0 0 1 2 2v16a20 20 0 0 1-20 20ZM48 94v14a16 16 0 0 0 32 0V94Z\"/><path d=\"M54 104a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4ZM54 112a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4Z\"/></g><path d=\"m54 102 28-4M54 110l28-4\"/></svg>",
         "minWidth": 16,
         "minHeight": 16,
+        "edgeType": "cable",
         "handles": [
           { "position": "left", "rotatable": false },
           { "position": "right", "rotatable": false }
