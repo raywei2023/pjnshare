@@ -20,26 +20,26 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 31.1,
-              "status": 1
+              "value": 42.1,
+              "status": 3
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 32,
+              "value": 29.1,
               "status": 0
             },
             {
               "label": "Property-4",
               "key": "prop-4",
-              "value": 25.7,
+              "value": 46.5,
               "status": 0
             },
             {
               "label": "Property-5",
               "key": "prop-5",
-              "value": 35.5,
+              "value": 30.8,
               "status": 0
             }
           ]
@@ -491,18 +491,18 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 25.2,
-              "status": 1
+              "value": 38.9,
+              "status": 3
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 37.5,
+              "value": 23.8,
               "status": 0
             }
           ],
-          "status": 1
+          "status": 3
         }
       },
       "width": 53,
@@ -580,20 +580,20 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 38.2,
+              "value": 48.4,
               "status": 3
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 43.1,
+              "value": 25.1,
               "status": 0
             },
             {
               "label": "Property-3",
               "key": "prop-3",
-              "value": 16.7,
+              "value": 17.5,
               "status": 0
             }
           ],
@@ -642,46 +642,6 @@
       "measured": { "width": 34, "height": 34 },
       "dragging": false,
       "resizing": false
-    },
-    {
-      "id": "08bcb10f-f78e-4894-b678-629058c3bb4b",
-      "type": "svg",
-      "position": { "x": 310.14, "y": -109.76 },
-      "hidden": false,
-      "selected": false,
-      "zIndex": 20,
-      "data": {
-        "id": "08bcb10f-f78e-4894-b678-629058c3bb4b",
-        "library": "basic",
-        "name": "twin-tank",
-        "rotatable": false,
-        "content": "<svg width=\"20\" height=\"25\" viewBox=\"-2 -2 208 256\" class=\"h-full w-full\"><g stroke-width=\".1\"><path class=\"fill-muted-foreground\" d=\"M165.74 45.95V22.03h15.42v-8.9H109.2V0H93.79v13.13H21.84v8.9h15.42v23.92C16.12 49.69 0 70.55 0 93.19V252h87.96v-31.5h27.67V252H203V93.19c0-22.65-16.12-43.5-37.26-47.24Zm-50.4 166.72h-28v-118h28v118Zm-.52-125h-27.3C83.9 65.4 67.46 47.8 46.67 43.95V21.67h109v22.28c-20.8 3.86-37.25 21.46-40.85 43.72Z\"/><path class=\"fill-muted\" d=\"M80.33 245h-73V94h73v151Zm115 0h-73V94h73v151Zm1-157h-73c4.35-19.56 19.07-34 36.5-34 17.44 0 32.15 14.44 36.5 34ZM43.83 54c17.44 0 32.15 14.44 36.5 34h-73c4.35-19.56 19.07-34 36.5-34Z\"/></g></svg>",
-        "minWidth": 80,
-        "minHeight": 100,
-        "edgeType": "pipe",
-        "handles": [
-          {
-            "position": "left",
-            "rotatable": false,
-            "uuid": "4a16c9af-d2ab-41ab-872e-b5cc0b61c4cf"
-          },
-          {
-            "position": "left",
-            "rotatable": false,
-            "uuid": "200cc08f-c3eb-42a5-910c-41f709242e22"
-          },
-          {
-            "position": "right",
-            "rotatable": false,
-            "uuid": "be7397c1-f583-47c8-b074-61b0e12a89aa"
-          }
-        ],
-        "meta": { "label": "Twin tank", "labelPosition": "bottom" }
-      },
-      "width": 80,
-      "height": 100,
-      "measured": { "width": 80, "height": 100 },
-      "dragging": false
     },
     {
       "id": "5f1906eb-3689-472a-a626-789d52e0895f",
@@ -920,14 +880,14 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 25.2,
-              "status": 1
+              "value": 38.9,
+              "status": 3
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 37.5,
+              "value": 23.8,
               "status": 0
             }
           ]
@@ -1177,20 +1137,20 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 38.2,
+              "value": 48.4,
               "status": 3
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 43.1,
+              "value": 25.1,
               "status": 0
             },
             {
               "label": "Property-3",
               "key": "prop-3",
-              "value": 16.7,
+              "value": 17.5,
               "status": 0
             }
           ]
@@ -1236,30 +1196,30 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 36.2,
-              "status": 1
+              "value": 38.7,
+              "status": 3
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 26.9,
+              "value": 45.7,
               "status": 0
             },
             {
               "label": "Property-1",
               "key": "prop-1",
-              "value": 30,
+              "value": 21.5,
               "status": 0
             },
             {
               "label": "Property-2",
               "key": "prop-2",
-              "value": 23.4,
+              "value": 15.6,
               "status": 0
             }
           ],
-          "status": 1
+          "status": 3
         }
       },
       "width": 155.49514563106797,
@@ -1423,26 +1383,26 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 36.2,
-              "status": 1
+              "value": 38.7,
+              "status": 3
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 26.9,
+              "value": 45.7,
               "status": 0
             },
             {
               "label": "Property-1",
               "key": "prop-1",
-              "value": 30,
+              "value": 21.5,
               "status": 0
             },
             {
               "label": "Property-2",
               "key": "prop-2",
-              "value": 23.4,
+              "value": 15.6,
               "status": 0
             }
           ]
@@ -1455,7 +1415,7 @@
     {
       "id": "014f8187-50d8-4b82-b961-72ec0a5fa756",
       "type": "svg",
-      "position": { "x": 465.07, "y": -96.8 },
+      "position": { "x": 465.07, "y": -96.12 },
       "hidden": false,
       "selected": false,
       "zIndex": 20,
@@ -1488,18 +1448,18 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 35.6,
-              "status": 1
+              "value": 21.5,
+              "status": 2
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 25.7,
+              "value": 44.5,
               "status": 0
             }
           ],
-          "status": 1
+          "status": 2
         }
       },
       "width": 110.4931506849315,
@@ -1525,14 +1485,14 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 35.6,
-              "status": 1
+              "value": 21.5,
+              "status": 2
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 25.7,
+              "value": 44.5,
               "status": 0
             }
           ]
@@ -1540,6 +1500,87 @@
       },
       "selected": false,
       "measured": { "width": 96, "height": 55 },
+      "dragging": false
+    },
+    {
+      "id": "73c5d6f8-db39-473d-ad06-9e3bba2d44e2",
+      "type": "svg",
+      "position": { "x": 302.79, "y": -116 },
+      "hidden": false,
+      "selected": false,
+      "zIndex": 20,
+      "data": {
+        "name": "twin-tank",
+        "content": "<svg width=\"20\" height=\"25\" viewBox=\"-2 -2 208 256\" class=\"h-full w-full\"><g stroke-width=\".1\"><path class=\"fill-muted-foreground\" d=\"M165.74 45.95V22.03h15.42v-8.9H109.2V0H93.79v13.13H21.84v8.9h15.42v23.92C16.12 49.69 0 70.55 0 93.19V252h87.96v-31.5h27.67V252H203V93.19c0-22.65-16.12-43.5-37.26-47.24Zm-50.4 166.72h-28v-118h28v118Zm-.52-125h-27.3C83.9 65.4 67.46 47.8 46.67 43.95V21.67h109v22.28c-20.8 3.86-37.25 21.46-40.85 43.72Z\"/><path class=\"fill-muted\" d=\"M80.33 245h-73V94h73v151Zm115 0h-73V94h73v151Zm1-157h-73c4.35-19.56 19.07-34 36.5-34 17.44 0 32.15 14.44 36.5 34ZM43.83 54c17.44 0 32.15 14.44 36.5 34h-73c4.35-19.56 19.07-34 36.5-34Z\"/></g></svg>",
+        "rotatable": false,
+        "minWidth": 80,
+        "minHeight": 100,
+        "edgeType": "pipe",
+        "handles": [
+          {
+            "position": "left",
+            "rotatable": false,
+            "uuid": "6be50720-c5de-43eb-8e90-6063647f1d53"
+          },
+          {
+            "position": "left",
+            "rotatable": false,
+            "uuid": "65690d4f-4505-4425-a7a7-e19bae792acb"
+          },
+          {
+            "position": "right",
+            "rotatable": false,
+            "uuid": "bc621499-b060-4be7-8b0f-9ede49ff537a"
+          }
+        ],
+        "hasTable": true,
+        "id": "73c5d6f8-db39-473d-ad06-9e3bba2d44e2",
+        "library": "basic",
+        "meta": {
+          "label": "Twin tank",
+          "labelPosition": "bottom",
+          "props": [
+            {
+              "label": "Temperature",
+              "key": "temp",
+              "unit": "°C",
+              "value": 17.4,
+              "status": 2
+            }
+          ]
+        }
+      },
+      "width": 91,
+      "height": 113.75,
+      "measured": { "width": 91, "height": 114 },
+      "resizing": false,
+      "dragging": false
+    },
+    {
+      "id": "98b39616-1d94-4d15-8b74-905202adce82",
+      "type": "table",
+      "position": { "x": -87.4, "y": -51.66 },
+      "zIndex": 10,
+      "parentId": "73c5d6f8-db39-473d-ad06-9e3bba2d44e2",
+      "data": {
+        "id": "98b39616-1d94-4d15-8b74-905202adce82",
+        "library": "other",
+        "name": "",
+        "meta": {
+          "label": "Twin tank",
+          "props": [
+            {
+              "label": "Temperature",
+              "key": "temp",
+              "unit": "°C",
+              "value": 17.4,
+              "status": 2
+            }
+          ]
+        }
+      },
+      "selected": true,
+      "measured": { "width": 96, "height": 38 },
       "dragging": false
     }
   ],
@@ -1585,31 +1626,11 @@
       "zIndex": 15
     },
     {
-      "source": "e54381b2-4e13-428c-b16b-f2b8221be385",
-      "sourceHandle": "source:933cbe42-9fd9-45f1-8f92-746eb62165e6",
-      "target": "08bcb10f-f78e-4894-b678-629058c3bb4b",
-      "targetHandle": "source:4a16c9af-d2ab-41ab-872e-b5cc0b61c4cf",
-      "id": "fba13a4a-d4a1-4343-8436-9d7712cb0de3",
-      "type": "pipe",
-      "data": { "label": "", "animated": 1 },
-      "zIndex": 15
-    },
-    {
       "source": "e459a849-f3fb-4922-891f-bc0e6bed5365",
       "sourceHandle": "source:516baca6-369c-4194-806e-5ff9fc4e99c4",
       "target": "e54381b2-4e13-428c-b16b-f2b8221be385",
       "targetHandle": "source:04a631b0-a73e-4890-83d1-10ac04ff866f",
       "id": "a6398e5a-d1a6-4013-a713-5229d2b786e3",
-      "type": "pipe",
-      "data": { "label": "", "animated": 1 },
-      "zIndex": 15
-    },
-    {
-      "source": "b8a05722-9ec9-4945-bfd7-5911c53404ed",
-      "sourceHandle": "source:e26959e0-494e-444a-8e4a-01bef577eb2a",
-      "target": "08bcb10f-f78e-4894-b678-629058c3bb4b",
-      "targetHandle": "source:200cc08f-c3eb-42a5-910c-41f709242e22",
-      "id": "bf8fbbb4-a9d1-4a95-b550-9aeb3b436ae2",
       "type": "pipe",
       "data": { "label": "", "animated": 1 },
       "zIndex": 15
@@ -1798,16 +1819,6 @@
       "zIndex": 15
     },
     {
-      "source": "08bcb10f-f78e-4894-b678-629058c3bb4b",
-      "sourceHandle": "source:be7397c1-f583-47c8-b074-61b0e12a89aa",
-      "target": "014f8187-50d8-4b82-b961-72ec0a5fa756",
-      "targetHandle": "source:534e0843-3918-4ee2-914a-b40bc69d8d4b",
-      "id": "35f7bff8-c718-492e-ae76-0f824248eaca",
-      "type": "pipe",
-      "data": { "label": "", "animated": -1 },
-      "zIndex": 15
-    },
-    {
       "id": "1cca2b05-54ff-42e6-835c-ff699f0412e9",
       "type": "dashed",
       "source": "014f8187-50d8-4b82-b961-72ec0a5fa756",
@@ -1816,7 +1827,49 @@
       "targetHandle": "center:target:bafa21bd-eb00-4341-8082-85074905205e",
       "data": { "label": "" },
       "zIndex": 15
+    },
+    {
+      "source": "b8a05722-9ec9-4945-bfd7-5911c53404ed",
+      "sourceHandle": "source:e26959e0-494e-444a-8e4a-01bef577eb2a",
+      "target": "73c5d6f8-db39-473d-ad06-9e3bba2d44e2",
+      "targetHandle": "source:65690d4f-4505-4425-a7a7-e19bae792acb",
+      "id": "215a36b5-3f9a-45b1-b6ea-c30c612c633f",
+      "type": "pipe",
+      "data": { "label": "", "animated": 1 },
+      "zIndex": 15,
+      "selected": false
+    },
+    {
+      "source": "e54381b2-4e13-428c-b16b-f2b8221be385",
+      "sourceHandle": "source:933cbe42-9fd9-45f1-8f92-746eb62165e6",
+      "target": "73c5d6f8-db39-473d-ad06-9e3bba2d44e2",
+      "targetHandle": "source:6be50720-c5de-43eb-8e90-6063647f1d53",
+      "id": "ca8819da-a85f-47ae-bb65-be94d1885f87",
+      "type": "pipe",
+      "data": { "label": "", "animated": 1 },
+      "zIndex": 15
+    },
+    {
+      "source": "73c5d6f8-db39-473d-ad06-9e3bba2d44e2",
+      "sourceHandle": "source:bc621499-b060-4be7-8b0f-9ede49ff537a",
+      "target": "014f8187-50d8-4b82-b961-72ec0a5fa756",
+      "targetHandle": "source:534e0843-3918-4ee2-914a-b40bc69d8d4b",
+      "id": "abf8101f-24fb-411c-8406-a4cd0fc2c383",
+      "type": "pipe",
+      "data": { "label": "", "animated": -1 },
+      "zIndex": 15,
+      "selected": false
+    },
+    {
+      "id": "a3eb1f61-41ea-43c2-ba8a-e486f88bf849",
+      "type": "dashed",
+      "source": "73c5d6f8-db39-473d-ad06-9e3bba2d44e2",
+      "target": "98b39616-1d94-4d15-8b74-905202adce82",
+      "sourceHandle": "center:source:73c5d6f8-db39-473d-ad06-9e3bba2d44e2",
+      "targetHandle": "center:target:98b39616-1d94-4d15-8b74-905202adce82",
+      "data": { "label": "" },
+      "zIndex": 15
     }
   ],
-  "viewport": { "zoom": 0.92, "x": 557.17, "y": 572.26 }
+  "viewport": { "zoom": 1.47, "x": 243.4, "y": 316.35 }
 }
