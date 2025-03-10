@@ -1319,7 +1319,7 @@
         "library": "basic",
         "meta": {
           "label": "Tank",
-          "labelPosition": "bottom",
+          "labelPosition": "center",
           "props": [
             {
               "label": "Temperature",
