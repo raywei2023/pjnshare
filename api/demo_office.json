@@ -21,7 +21,8 @@
       "height": 938,
       "selected": true,
       "resizing": false,
-      "dragging": false
+      "dragging": false,
+      "focusable":false
     },
     {
       "id": "fadc2913-1248-4c88-a9d4-d5f0f26e227c",
