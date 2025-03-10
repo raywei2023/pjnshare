@@ -63,9 +63,12 @@
         "content": "<svg width=\"26\" height=\"26\" style=\"height: 100%; width: 100%;\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#EBC347\"><rect rx=\"4\" x=\"0.5\" y=\"0.5\" width=\"25\" height=\"25\" fill=\"#EBC347\" fill-opacity=\"0\"></rect></g></svg>",
         "minWidth": 28,
         "minHeight": 28,
-        "strokeColor": "#EBC347",
-        "fillColor": "#EBC347",
-        "meta": { "label": "Lobby", "labelPosition": "bottom" }
+        "meta": {
+          "label": "Lobby",
+          "labelPosition": "bottom",
+          "strokeColor": "#EBC347",
+          "fillColor": "#EBC347"
+        }
       },
       "width": 221,
       "height": 137,
@@ -88,9 +91,13 @@
         "content": "<svg width=\"26\" height=\"26\" style=\"height: 100%; width: 100%;\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#84cc16\"><rect rx=\"0\" x=\"0.5\" y=\"0.5\" width=\"25\" height=\"25\" fill=\"#84cc16\" fill-opacity=\"0\"></rect></g></svg>",
         "minWidth": 28,
         "minHeight": 28,
-        "strokeColor": "#84cc16",
-        "fillColor": "#84cc16",
-        "meta": { "label": "Office", "labelPosition": "bottom" }
+
+        "meta": {
+          "label": "Office",
+          "labelPosition": "bottom",
+          "strokeColor": "#84cc16",
+          "fillColor": "#84cc16"
+        }
       },
       "width": 111,
       "height": 137,
@@ -111,9 +118,12 @@
         "content": "<svg width=\"26\" height=\"26\" style=\"height: 100%; width: 100%;\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#84cc16\"><rect rx=\"0\" x=\"0.5\" y=\"0.5\" width=\"25\" height=\"25\" fill=\"#84cc16\" fill-opacity=\"0\"></rect></g></svg>",
         "minWidth": 28,
         "minHeight": 28,
-        "strokeColor": "#84cc16",
-        "fillColor": "#84cc16",
-        "meta": { "label": "Restroom", "labelPosition": "bottom" }
+        "meta": {
+          "label": "Restroom",
+          "labelPosition": "bottom",
+          "strokeColor": "#84cc16",
+          "fillColor": "#84cc16"
+        }
       },
       "zIndex": 10,
       "hidden": false,
@@ -137,9 +147,12 @@
         "content": "<svg width=\"26\" height=\"26\" style=\"height: 100%; width: 100%;\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#EBC347\"><rect rx=\"4\" x=\"0.5\" y=\"0.5\" width=\"25\" height=\"25\" fill=\"#EBC347\" fill-opacity=\"0\"></rect></g></svg>",
         "minWidth": 28,
         "minHeight": 28,
-        "strokeColor": "#EBC347",
-        "fillColor": "#EBC347",
-        "meta": { "label": "VIP area", "labelPosition": "bottom" }
+        "meta": {
+          "label": "VIP area",
+          "labelPosition": "bottom",
+          "strokeColor": "#EBC347",
+          "fillColor": "#EBC347"
+        }
       },
       "width": 461,
       "height": 132,
@@ -162,9 +175,12 @@
         "content": "<svg width=\"26\" height=\"26\" style=\"height: 100%; width: 100%;\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#0ea5e9\"><path d=\"M1,1 L21.32,1 L25,13 L21.32,25 L1,25 Z\" fill=\"#0ea5e9\" fill-opacity=\"0\"></path></g></svg>",
         "minWidth": 28,
         "minHeight": 28,
-        "strokeColor": "#0ea5e9",
-        "fillColor": "#0ea5e9",
-        "meta": { "label": "Basement", "labelPosition": "center" }
+        "meta": {
+          "label": "Basement",
+          "labelPosition": "center",
+          "strokeColor": "#0ea5e9",
+          "fillColor": "#0ea5e9"
+        }
       },
       "width": 97,
       "height": 28,
@@ -188,9 +204,12 @@
         "minWidth": 28,
         "minHeight": 14,
         "maxHeight": 14,
-        "strokeColor": "#71717a",
-        "fillColor": "#71717a",
-        "meta": { "label": "Dash line", "labelPosition": "none" }
+        "meta": {
+          "label": "Dash line",
+          "labelPosition": "none",
+          "strokeColor": "#71717a",
+          "fillColor": "#71717a"
+        }
       },
       "width": 687,
       "height": 14,
@@ -210,9 +229,12 @@
         "content": "<svg width=\"26\" height=\"26\" style=\"height: 100%; width: 100%;\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#0ea5e9\"><path d=\"M1,1 L21.32,1 L25,13 L21.32,25 L1,25 Z\" fill=\"#0ea5e9\" fill-opacity=\"0\"></path></g></svg>",
         "minWidth": 28,
         "minHeight": 28,
-        "strokeColor": "#0ea5e9",
-        "fillColor": "#0ea5e9",
-        "meta": { "label": "Group floor", "labelPosition": "center" }
+        "meta": {
+          "label": "Group floor",
+          "labelPosition": "center",
+          "strokeColor": "#0ea5e9",
+          "fillColor": "#0ea5e9"
+        }
       },
       "zIndex": 10,
       "hidden": false,
@@ -234,9 +256,12 @@
         "content": "<svg width=\"26\" height=\"26\" style=\"height: 100%; width: 100%;\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#0ea5e9\"><path d=\"M1,1 L21.32,1 L25,13 L21.32,25 L1,25 Z\" fill=\"#0ea5e9\" fill-opacity=\"0\"></path></g></svg>",
         "minWidth": 28,
         "minHeight": 28,
-        "strokeColor": "#0ea5e9",
-        "fillColor": "#0ea5e9",
-        "meta": { "label": "Floor 2", "labelPosition": "center" }
+        "meta": {
+          "label": "Floor 2",
+          "labelPosition": "center",
+          "strokeColor": "#0ea5e9",
+          "fillColor": "#0ea5e9"
+        }
       },
       "zIndex": 10,
       "hidden": false,
@@ -259,9 +284,12 @@
         "minWidth": 28,
         "minHeight": 14,
         "maxHeight": 14,
-        "strokeColor": "#71717a",
-        "fillColor": "#71717a",
-        "meta": { "label": "Dash line 1", "labelPosition": "none" }
+        "meta": {
+          "label": "Dash line 1",
+          "labelPosition": "none",
+          "strokeColor": "#71717a",
+          "fillColor": "#71717a"
+        }
       },
       "zIndex": 10,
       "hidden": false,
@@ -284,9 +312,12 @@
         "minWidth": 28,
         "minHeight": 14,
         "maxHeight": 14,
-        "strokeColor": "#71717a",
-        "fillColor": "#71717a",
-        "meta": { "label": "Dash line 2", "labelPosition": "none" }
+        "meta": {
+          "label": "Dash line 2",
+          "labelPosition": "none",
+          "strokeColor": "#71717a",
+          "fillColor": "#71717a"
+        }
       },
       "zIndex": 10,
       "hidden": false,

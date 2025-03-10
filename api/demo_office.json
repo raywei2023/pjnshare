@@ -38,9 +38,12 @@
         "content": "<svg width=\"26\" height=\"26\" style=\"height: 100%; width: 100%;\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#803DEC\"><path d=\"M1,13 L13,1 L25,13 L13,25 Z\" fill=\"#803DEC\" fill-opacity=\"0\"></path></g></svg>",
         "minWidth": 28,
         "minHeight": 28,
-        "strokeColor": "#803DEC",
-        "fillColor": "#803DEC",
-        "meta": { "label": "Ground floor", "labelPosition": "center" }
+        "meta": {
+          "label": "Ground floor",
+          "labelPosition": "center",
+          "strokeColor": "#803DEC",
+          "fillColor": "#803DEC"
+        }
       },
       "width": 103,
       "height": 45,
@@ -62,9 +65,12 @@
         "content": "<svg width=\"26\" height=\"26\" style=\"height: 100%; width: 100%;\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#803DEC\"><path d=\"M1,13 L13,1 L25,13 L13,25 Z\" fill=\"#803DEC\" fill-opacity=\"0\"></path></g></svg>",
         "minWidth": 28,
         "minHeight": 28,
-        "strokeColor": "#803DEC",
-        "fillColor": "#803DEC",
-        "meta": { "label": "Floor 2", "labelPosition": "center" }
+        "meta": {
+          "label": "Floor 2",
+          "labelPosition": "center",
+          "strokeColor": "#803DEC",
+          "fillColor": "#803DEC"
+        }
       },
       "zIndex": 10,
       "hidden": false,
@@ -88,9 +94,12 @@
         "content": "<svg width=\"26\" height=\"26\" style=\"height: 100%; width: 100%;\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#803DEC\"><path d=\"M1,13 L13,1 L25,13 L13,25 Z\" fill=\"#803DEC\" fill-opacity=\"0\"></path></g></svg>",
         "minWidth": 28,
         "minHeight": 28,
-        "strokeColor": "#803DEC",
-        "fillColor": "#803DEC",
-        "meta": { "label": "Floor 3", "labelPosition": "center" }
+        "meta": {
+          "label": "Floor 3",
+          "labelPosition": "center",
+          "strokeColor": "#803DEC",
+          "fillColor": "#803DEC"
+        }
       },
       "zIndex": 10,
       "hidden": false,
@@ -113,9 +122,12 @@
         "content": "<svg width=\"26\" height=\"26\" style=\"height: 100%; width: 100%;\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#803DEC\"><path d=\"M1,13 L13,1 L25,13 L13,25 Z\" fill=\"#803DEC\" fill-opacity=\"0\"></path></g></svg>",
         "minWidth": 28,
         "minHeight": 28,
-        "strokeColor": "#803DEC",
-        "fillColor": "#803DEC",
-        "meta": { "label": "Floor 4", "labelPosition": "center" }
+        "meta": {
+          "label": "Floor 4",
+          "labelPosition": "center",
+          "strokeColor": "#803DEC",
+          "fillColor": "#803DEC"
+        }
       },
       "zIndex": 10,
       "hidden": false,
@@ -141,9 +153,12 @@
         "content": "<svg width=\"26\" height=\"26\" style=\"height: 100%; width: 100%;\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#EBC347\"><rect rx=\"4\" x=\"0.5\" y=\"0.5\" width=\"25\" height=\"25\" fill=\"#EBC347\" fill-opacity=\"0\"></rect></g></svg>",
         "minWidth": 28,
         "minHeight": 28,
-        "strokeColor": "#EBC347",
-        "fillColor": "#EBC347",
-        "meta": { "label": "Restroom", "labelPosition": "center" }
+        "meta": {
+          "label": "Restroom",
+          "labelPosition": "center",
+          "strokeColor": "#EBC347",
+          "fillColor": "#EBC347"
+        }
       },
       "width": 114,
       "height": 134,
@@ -165,9 +180,12 @@
         "content": "<svg width=\"26\" height=\"26\" style=\"height: 100%; width: 100%;\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#EBC347\"><rect rx=\"4\" x=\"0.5\" y=\"0.5\" width=\"25\" height=\"25\" fill=\"#EBC347\" fill-opacity=\"0\"></rect></g></svg>",
         "minWidth": 28,
         "minHeight": 28,
-        "strokeColor": "#EBC347",
-        "fillColor": "#EBC347",
-        "meta": { "label": "Restroom", "labelPosition": "center" }
+        "meta": {
+          "label": "Restroom",
+          "labelPosition": "center",
+          "strokeColor": "#EBC347",
+          "fillColor": "#EBC347"
+        }
       },
       "zIndex": 10,
       "hidden": false,
@@ -193,9 +211,12 @@
         "content": "<svg width=\"26\" height=\"26\" style=\"height: 100%; width: 100%;\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#84cc16\"><rect rx=\"0\" x=\"0.5\" y=\"0.5\" width=\"25\" height=\"25\" fill=\"#84cc16\" fill-opacity=\"0\"></rect></g></svg>",
         "minWidth": 28,
         "minHeight": 28,
-        "strokeColor": "#84cc16",
-        "fillColor": "#84cc16",
-        "meta": { "label": "Living room", "labelPosition": "center" }
+        "meta": {
+          "label": "Living room",
+          "labelPosition": "center",
+          "strokeColor": "#84cc16",
+          "fillColor": "#84cc16"
+        }
       },
       "width": 547,
       "height": 134,
@@ -219,9 +240,12 @@
         "content": "<svg width=\"26\" height=\"26\" style=\"height: 100%; width: 100%;\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#0ea5e9\"><path d=\"M1,13 L4.68,1 L21.32,1 L25,13 L21.32,25 L4.68,25 Z\" fill=\"#0ea5e9\" fill-opacity=\"0\"></path></g></svg>",
         "minWidth": 28,
         "minHeight": 28,
-        "strokeColor": "#0ea5e9",
-        "fillColor": "#0ea5e9",
-        "meta": { "label": "Working area", "labelPosition": "center" }
+        "meta": {
+          "label": "Working area",
+          "labelPosition": "center",
+          "strokeColor": "#0ea5e9",
+          "fillColor": "#0ea5e9"
+        }
       },
       "width": 407,
       "height": 134,
@@ -243,9 +267,12 @@
         "content": "<svg width=\"26\" height=\"26\" style=\"height: 100%; width: 100%;\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#0ea5e9\"><path d=\"M1,13 L4.68,1 L21.32,1 L25,13 L21.32,25 L4.68,25 Z\" fill=\"#0ea5e9\" fill-opacity=\"0\"></path></g></svg>",
         "minWidth": 28,
         "minHeight": 28,
-        "strokeColor": "#0ea5e9",
-        "fillColor": "#0ea5e9",
-        "meta": { "label": "Working area 2", "labelPosition": "center" }
+        "meta": {
+          "label": "Working area 2",
+          "labelPosition": "center",
+          "strokeColor": "#0ea5e9",
+          "fillColor": "#0ea5e9"
+        }
       },
       "zIndex": 10,
       "hidden": false,
@@ -271,9 +298,12 @@
         "content": "<svg width=\"26\" height=\"26\" style=\"height: 100%; width: 100%;\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#84cc16\"><rect rx=\"0\" x=\"0.5\" y=\"0.5\" width=\"25\" height=\"25\" fill=\"#84cc16\" fill-opacity=\"0\"></rect></g></svg>",
         "minWidth": 28,
         "minHeight": 28,
-        "strokeColor": "#84cc16",
-        "fillColor": "#84cc16",
-        "meta": { "label": "Meeting room", "labelPosition": "center" }
+        "meta": {
+          "label": "Meeting room",
+          "labelPosition": "center",
+          "strokeColor": "#84cc16",
+          "fillColor": "#84cc16"
+        }
       },
       "width": 408,
       "height": 134,
