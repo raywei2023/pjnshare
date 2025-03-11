@@ -148,6 +148,12 @@
           ],
           "hasTable": true
         }
+      },
+      {
+        "type": "table",
+        "iconType": "Table",
+        "meta": { "label": "Table" },
+        "setting": { "name": "table" }
       }
     ]
   },
@@ -306,31 +312,6 @@
           "minHeight": 14,
           "maxHeight": 14
         }
-      }
-    ]
-  },
-  {
-    "name": "other",
-    "label": "Others",
-    "version": "1.0",
-    "items": [
-      {
-        "type": "chart",
-        "iconType": "ChartLine",
-        "meta": { "label": "Chart" },
-        "setting": { "name": "line", "minWidth": 230, "minHeight": 160 }
-      },
-      {
-        "type": "chart",
-        "iconType": "Gauge",
-        "meta": { "label": "Gauge" },
-        "setting": { "name": "gauge", "minWidth": 100, "minHeight": 100 }
-      },
-      {
-        "type": "table",
-        "iconType": "Table",
-        "meta": { "label": "Table" },
-        "setting": { "name": "table" }
       }
     ]
   }
