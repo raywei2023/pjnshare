@@ -1,0 +1,9 @@
+{
+  "status": "success",
+  "code": 200,
+  "data": {
+      "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InN1cGVydXNlciIsImlzX3N1cGVydXNlciI6dHJ1ZSwicm9sZXMiOlsic3VwZXJyb2xlIl0sInN1YiI6IjM5MTNjZjQzYjg3ZDQxMjUiLCJleHAiOjE3NDE2Nzc2NjUsImlhdCI6MTc0MTY3NDA2NX0.RY-cxZ9Bh0hZs4uPln2SEA0XAHYQ5GHrCpDgypjNPFg",
+      "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InN1cGVydXNlciIsImlzX3N1cGVydXNlciI6dHJ1ZSwicm9sZXMiOlsic3VwZXJyb2xlIl0sInN1YiI6IjM5MTNjZjQzYjg3ZDQxMjUiLCJleHAiOjE3NDQyNjYwNjUsImlhdCI6MTc0MTY3NDA2NX0.G9w-Bln10YkCIP1EcvdSQhB1KUm_JVhYFFgIbqUHoqc",
+      "tokenType": "JWT"
+  }
+}
