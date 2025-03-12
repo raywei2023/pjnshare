@@ -340,7 +340,7 @@
         "content": "",
         "minWidth": 230,
         "minHeight": 160,
-        "meta": { "label": "Chart", "labelPosition": "bottom" }
+        "meta": { "label": "Line Chart", "labelPosition": "bottom" }
       },
       "width": 260,
       "height": 170,

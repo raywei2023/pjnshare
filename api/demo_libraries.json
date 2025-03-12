@@ -323,13 +323,13 @@
       {
         "type": "chart",
         "iconType": "ChartLine",
-        "meta": { "label": "Line Chart","labelPosition": "bottom" },
+        "meta": { "label": "Line Chart", "labelPosition": "bottom" },
         "setting": { "name": "line", "minWidth": 230, "minHeight": 160 }
       },
       {
         "type": "chart",
         "iconType": "Gauge",
-        "meta": { "label": "Gauge","labelPosition": "bottom" },
+        "meta": { "label": "Gauge", "labelPosition": "bottom" },
         "setting": { "name": "gauge", "minWidth": 100, "minHeight": 100 }
       }
     ]
