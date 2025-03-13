@@ -156,17 +156,6 @@
         "name": "table",
         "meta": { "label": "Table" },
         "setting": {}
-      },
-      {
-        "type": "shape",
-        "name": "dash-line",
-        "meta": { "label": "Dash line", "strokeColor": "#71717a" },
-        "setting": {
-          "content": "<svg width=\"26\" height=\"26\" class=\"h-full w-full\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#71717a\"><path d=\"M0,7 L598,7\" stroke-dasharray=\"3,3\"></path></g></svg>",
-          "minWidth": 28,
-          "minHeight": 14,
-          "maxHeight": 14
-        }
       }
     ]
   },
@@ -313,6 +302,17 @@
           "content": "<svg width=\"26\" height=\"26\" class=\"h-full w-full\"><path fill=\"none\" stroke=\"#803DEC\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" d=\"M8.67 1h8.66v7.67H25v8.66h1-8.67V25h0-8.66v-7.67H1V8.67h7.67Z\"/></svg>",
           "minWidth": 28,
           "minHeight": 28
+        }
+      },
+      {
+        "type": "shape",
+        "name": "dash-line",
+        "meta": { "label": "Dash line", "strokeColor": "#71717a" },
+        "setting": {
+          "content": "<svg width=\"26\" height=\"26\" class=\"h-full w-full\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#71717a\"><path d=\"M0,7 L598,7\" stroke-dasharray=\"3,3\"></path></g></svg>",
+          "minWidth": 28,
+          "minHeight": 14,
+          "maxHeight": 14
         }
       }
     ]
