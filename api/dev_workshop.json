@@ -766,7 +766,7 @@
         ],
         "meta": {
           "label": "Bulb",
-          "status": 0,
+          "status": 2,
           "labelPosition": "none",
           "rotate": 180
         }
@@ -800,7 +800,7 @@
         ],
         "meta": {
           "label": "Bulb 1",
-          "status": 0,
+          "status": 3,
           "labelPosition": "none",
           "rotate": 180
         }
