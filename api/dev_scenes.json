@@ -1,0 +1,14 @@
+[
+  {
+    "id": "workshop",
+    "label": "Workshop"
+  },
+  {
+    "id": "office",
+    "label": "Office"
+  },
+  {
+    "id": "blank",
+    "label": "Blank"
+  }
+]
