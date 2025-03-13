@@ -32,23 +32,23 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 41.9,
-              "status": 3
+              "value": 36.4,
+              "status": 1
             },
             {
               "label": "Property-2",
               "key": "prop-2",
-              "value": 28.8,
+              "value": 22.7,
               "status": 0
             },
             {
               "label": "Property-4",
               "key": "prop-4",
-              "value": 42.6,
+              "value": 15.2,
               "status": 0
             }
           ],
-          "status": 3
+          "status": 1
         }
       },
       "width": 113.49333333333334,
@@ -521,18 +521,18 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 48.1,
-              "status": 3
+              "value": 19.3,
+              "status": 2
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 24.6,
+              "value": 19.9,
               "status": 0
             }
           ],
-          "status": 3
+          "status": 2
         }
       },
       "width": 36,
@@ -601,13 +601,13 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 20.7,
+              "value": 15.3,
               "status": 2
             },
             {
               "label": "Property-5",
               "key": "prop-5",
-              "value": 20.5,
+              "value": 45.1,
               "status": 0
             }
           ],
@@ -684,24 +684,24 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 38.5,
-              "status": 3
+              "value": 14.2,
+              "status": 2
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 41.7,
+              "value": 32.1,
               "status": 0
             },
             {
               "label": "Property-1",
               "key": "prop-1",
-              "value": 45.2,
+              "value": 48.1,
               "status": 0
             }
           ],
-          "status": 3
+          "status": 2
         }
       },
       "width": 90,
@@ -815,7 +815,7 @@
     {
       "id": "bf1096cc-09e9-4bcb-b861-eaaa9a23d3d1",
       "type": "svg",
-      "position": { "x": 368, "y": 107.65 },
+      "position": { "x": 356, "y": 99.65 },
       "hidden": false,
       "selected": false,
       "zIndex": 20,
@@ -836,17 +836,18 @@
             "uuid": "c845911c-4efc-40e2-931f-09ecd2a13e1c"
           }
         ],
-        "meta": { "label": "Bulb 2", "status": 0, "labelPosition": "none" }
+        "meta": { "label": "Bulb 2", "status": 1, "labelPosition": "none" }
       },
-      "width": 32,
-      "height": 32,
-      "measured": { "width": 32, "height": 32 },
-      "dragging": false
+      "width": 36,
+      "height": 36,
+      "measured": { "width": 36, "height": 36 },
+      "dragging": false,
+      "resizing": false
     },
     {
       "id": "e0a52f3b-d1d1-45da-a775-ed6ff40b8098",
       "type": "svg",
-      "position": { "x": 287.61, "y": 103.54 },
+      "position": { "x": 275.08, "y": 103.54 },
       "hidden": false,
       "selected": false,
       "zIndex": 20,
@@ -878,7 +879,7 @@
       "id": "c66e7b5a-8199-49b1-9b81-1f7dcc252cd7",
       "type": "svg",
       "selected": false,
-      "position": { "x": 432.58, "y": 103.54 },
+      "position": { "x": 435.39, "y": 103.54 },
       "data": {
         "id": "c66e7b5a-8199-49b1-9b81-1f7dcc252cd7",
         "library": "basic",
@@ -910,7 +911,7 @@
       "type": "shape",
       "position": { "x": 250.56, "y": 71.54 },
       "hidden": false,
-      "selected": false,
+      "selected": true,
       "zIndex": 10,
       "data": {
         "id": "161cf203-fe75-4b2f-8c5c-b8235c39992b",
@@ -924,9 +925,9 @@
           "fillColor": "#EBC347"
         }
       },
-      "width": 233,
-      "height": 97,
-      "measured": { "width": 233, "height": 97 },
+      "width": 232,
+      "height": 96,
+      "measured": { "width": 232, "height": 96 },
       "resizing": false,
       "dragging": false
     },
@@ -1023,20 +1024,20 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 38.5,
-              "status": 3
+              "value": 14.2,
+              "status": 2
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 41.7,
+              "value": 32.1,
               "status": 0
             },
             {
               "label": "Property-1",
               "key": "prop-1",
-              "value": 45.2,
+              "value": 48.1,
               "status": 0
             }
           ]
@@ -1064,19 +1065,19 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 41.9,
-              "status": 3
+              "value": 36.4,
+              "status": 1
             },
             {
               "label": "Property-2",
               "key": "prop-2",
-              "value": 28.8,
+              "value": 22.7,
               "status": 0
             },
             {
               "label": "Property-4",
               "key": "prop-4",
-              "value": 42.6,
+              "value": 15.2,
               "status": 0
             }
           ]
@@ -1104,14 +1105,14 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 48.1,
-              "status": 3
+              "value": 19.3,
+              "status": 2
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 24.6,
+              "value": 19.9,
               "status": 0
             }
           ]
@@ -1139,13 +1140,13 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 20.7,
+              "value": 15.3,
               "status": 2
             },
             {
               "label": "Property-5",
               "key": "prop-5",
-              "value": 20.5,
+              "value": 45.1,
               "status": 0
             }
           ]
@@ -1361,26 +1362,26 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 30.2,
-              "status": 1
+              "value": 43.8,
+              "status": 3
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 22.2,
+              "value": 45.7,
               "status": 0
             },
             {
               "label": "Property-2",
               "key": "prop-2",
-              "value": 47.9,
+              "value": 32.7,
               "status": 0
             },
             {
               "label": "Property-3",
               "key": "prop-3",
-              "value": 16.8,
+              "value": 46.7,
               "status": 0
             }
           ]
