@@ -1,68 +1,924 @@
 {
   "nodes": [
     {
-      "id": "db45d989-09ac-4c6f-9097-5f69bd03c52a",
-      "type": "table",
+      "id": "f285255f-416e-484f-aa3b-01e05b34e5a1",
+      "type": "svg",
+      "position": { "x": 311.16, "y": 219.47 },
+      "hidden": false,
+      "selected": false,
       "zIndex": 20,
-      "measured": { "width": 96, "height": 89 },
-      "position": { "x": 871, "y": 99.84 },
-      "parentId": "",
       "data": {
-        "id": "db45d989-09ac-4c6f-9097-5f69bd03c52a",
-        "library": "other",
-        "name": "table",
-        "rotatable": false,
+        "id": "f285255f-416e-484f-aa3b-01e05b34e5a1",
+        "library": "basic",
+        "name": "tank-wagon",
+        "version": "1.0",
+        "handles": [
+          {
+            "position": "left",
+            "rotatable": false,
+            "uuid": "98930f03-b1be-4659-a9cf-d6616d6ac0c2"
+          },
+          {
+            "position": "right",
+            "rotatable": false,
+            "uuid": "f3312003-800a-4de4-9ad1-58707a9a7324"
+          }
+        ],
         "meta": {
-          "label": "Global monitor",
-          "labelPosition": "none",
-          "props": [
+          "label": "Tank base",
+          "labelPosition": "center",
+          "properties": [
             {
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 42.1,
+              "value": 48.8,
               "status": 3
             },
             {
-              "label": "Humidity",
-              "key": "hum",
-              "unit": "%",
-              "value": 29.1,
+              "label": "Property-2",
+              "key": "prop-2",
+              "value": 15.1,
               "status": 0
             },
             {
               "label": "Property-4",
               "key": "prop-4",
-              "value": 46.5,
+              "value": 19.6,
               "status": 0
+            }
+          ],
+          "status": 3
+        }
+      },
+      "width": 113.49333333333334,
+      "height": 75.66222222222223,
+      "measured": { "width": 113, "height": 76 },
+      "dragging": false,
+      "resizing": false
+    },
+    {
+      "id": "c9d88d17-544c-4aac-8178-493722df4962",
+      "type": "svg",
+      "position": { "x": 93.89, "y": 243.2 },
+      "hidden": false,
+      "selected": false,
+      "zIndex": 20,
+      "data": {
+        "id": "c9d88d17-544c-4aac-8178-493722df4962",
+        "library": "basic",
+        "name": "pipe-top-right",
+        "version": "1.0",
+        "handles": [
+          {
+            "position": "top",
+            "rotatable": true,
+            "uuid": "a9b31f1e-5a6e-4397-a897-f2df59448230"
+          },
+          {
+            "position": "right",
+            "rotatable": true,
+            "uuid": "861cfe41-c51b-4464-a580-ca7733597f3f"
+          }
+        ],
+        "meta": { "label": "PipeTR", "labelPosition": "none" }
+      },
+      "width": 28,
+      "height": 28,
+      "measured": { "width": 28, "height": 28 },
+      "dragging": false
+    },
+    {
+      "id": "d93d6d78-f35e-4f6e-8c29-fa9b738d81cb",
+      "type": "svg",
+      "selected": false,
+      "position": { "x": 594.16, "y": 243.2 },
+      "data": {
+        "id": "d93d6d78-f35e-4f6e-8c29-fa9b738d81cb",
+        "library": "basic",
+        "name": "pipe-top-right",
+        "version": "1.0",
+        "handles": [
+          {
+            "position": "top",
+            "rotatable": true,
+            "uuid": "accc2b77-ce1e-4093-86f0-cff0d3a4193c"
+          },
+          {
+            "position": "right",
+            "rotatable": true,
+            "uuid": "65cd33c5-37bc-4e83-9f47-8b7a8da41f36"
+          }
+        ],
+        "meta": { "label": "PipeTR 1", "labelPosition": "none", "rotate": 90 }
+      },
+      "zIndex": 20,
+      "hidden": false,
+      "width": 28,
+      "height": 28,
+      "measured": { "width": 28, "height": 28 },
+      "dragging": false
+    },
+    {
+      "id": "f4a1ed1e-1234-4978-8ecf-dc5b9ab79da4",
+      "type": "svg",
+      "position": { "x": 199.9, "y": 243.2 },
+      "hidden": false,
+      "selected": false,
+      "zIndex": 20,
+      "data": {
+        "id": "f4a1ed1e-1234-4978-8ecf-dc5b9ab79da4",
+        "library": "basic",
+        "name": "vavle",
+        "version": "1.0",
+        "handles": [
+          {
+            "position": "left",
+            "rotatable": false,
+            "uuid": "8e79e4e6-47b2-44cf-8020-a2000aab5b7c"
+          },
+          {
+            "position": "right",
+            "rotatable": false,
+            "uuid": "079c8523-bdbf-4684-a92c-9bc67d6ee686"
+          }
+        ],
+        "meta": { "label": "Vavle", "labelPosition": "none" }
+      },
+      "width": 28,
+      "height": 28,
+      "measured": { "width": 28, "height": 28 },
+      "dragging": false
+    },
+    {
+      "id": "d76b135a-153b-4309-9fab-63ca0ac4bd21",
+      "type": "svg",
+      "selected": false,
+      "position": { "x": 485.59, "y": 243.2 },
+      "data": {
+        "id": "d76b135a-153b-4309-9fab-63ca0ac4bd21",
+        "library": "basic",
+        "name": "vavle",
+        "version": "1.0",
+        "handles": [
+          {
+            "position": "left",
+            "rotatable": false,
+            "uuid": "573a8b4c-2a7e-4652-be3c-d1f82f48f238"
+          },
+          {
+            "position": "right",
+            "rotatable": false,
+            "uuid": "c4c0240c-12ef-457a-a9fd-4aecbdfd539b"
+          }
+        ],
+        "meta": { "label": "Vavle 1", "labelPosition": "none" }
+      },
+      "zIndex": 20,
+      "hidden": false,
+      "width": 28,
+      "height": 28,
+      "measured": { "width": 28, "height": 28 },
+      "dragging": false
+    },
+    {
+      "id": "5cef21be-a086-4bf9-ad19-e19bfe19e452",
+      "type": "svg",
+      "selected": false,
+      "position": { "x": 93.89, "y": -160.44 },
+      "data": {
+        "id": "5cef21be-a086-4bf9-ad19-e19bfe19e452",
+        "library": "basic",
+        "name": "pipe-tjoin",
+        "version": "1.0",
+        "handles": [
+          {
+            "position": "top",
+            "rotatable": true,
+            "uuid": "8849e7ac-b4cd-4ea4-990a-aa94d9b41f01"
+          },
+          {
+            "position": "right",
+            "rotatable": true,
+            "uuid": "74bf1ab4-632a-4ab1-b551-a35992e3cc7c"
+          },
+          {
+            "position": "bottom",
+            "rotatable": true,
+            "uuid": "ac09c002-f5c9-4a8f-b8ba-b69b906e256c"
+          }
+        ],
+        "meta": { "label": "Pipe join 1", "labelPosition": "none" }
+      },
+      "zIndex": 20,
+      "hidden": false,
+      "width": 28,
+      "height": 28,
+      "measured": { "width": 28, "height": 28 },
+      "dragging": false
+    },
+    {
+      "id": "abba77f1-de98-44bb-91c7-1b6b5d3b16c3",
+      "type": "svg",
+      "selected": false,
+      "position": { "x": 93.89, "y": -47.95 },
+      "data": {
+        "id": "abba77f1-de98-44bb-91c7-1b6b5d3b16c3",
+        "library": "basic",
+        "name": "pipe-tjoin",
+        "version": "1.0",
+        "handles": [
+          {
+            "position": "top",
+            "rotatable": true,
+            "uuid": "cc830222-6033-4f34-86c9-d5aa0dfbc3fd"
+          },
+          {
+            "position": "right",
+            "rotatable": true,
+            "uuid": "d0131bd0-31db-4e8d-8e58-1b2b6bf7f513"
+          },
+          {
+            "position": "bottom",
+            "rotatable": true,
+            "uuid": "8718b49b-dcef-4176-94eb-1b6b75806039"
+          }
+        ],
+        "meta": { "label": "Pipe join 2", "labelPosition": "none" }
+      },
+      "zIndex": 20,
+      "hidden": false,
+      "width": 28,
+      "height": 28,
+      "measured": { "width": 28, "height": 28 },
+      "dragging": false
+    },
+    {
+      "id": "55a5d9f4-a059-464b-975d-9271e673c0cb",
+      "type": "svg",
+      "selected": false,
+      "position": { "x": 93.89, "y": 107.65 },
+      "data": {
+        "id": "55a5d9f4-a059-464b-975d-9271e673c0cb",
+        "library": "basic",
+        "name": "pipe-tjoin",
+        "version": "1.0",
+        "handles": [
+          {
+            "position": "top",
+            "rotatable": true,
+            "uuid": "8e146f5d-91d9-472f-b91a-9e3730bb20ee"
+          },
+          {
+            "position": "right",
+            "rotatable": true,
+            "uuid": "908e9f96-6560-458e-94b5-4f78ab48ae62"
+          },
+          {
+            "position": "bottom",
+            "rotatable": true,
+            "uuid": "ceafb4f3-4c3e-4ecf-8a5b-c1430eeabe0d"
+          }
+        ],
+        "meta": { "label": "Pipe join 2", "labelPosition": "none" }
+      },
+      "zIndex": 20,
+      "hidden": false,
+      "width": 28,
+      "height": 28,
+      "measured": { "width": 28, "height": 28 },
+      "dragging": false
+    },
+    {
+      "id": "85a0db08-c3a6-4074-9a1d-062651936456",
+      "type": "svg",
+      "selected": false,
+      "position": { "x": 594.16, "y": 103.54 },
+      "data": {
+        "id": "85a0db08-c3a6-4074-9a1d-062651936456",
+        "library": "basic",
+        "name": "pipe-tjoin",
+        "version": "1.0",
+        "handles": [
+          {
+            "position": "top",
+            "rotatable": true,
+            "uuid": "df4e71fb-af40-4f40-88b1-0f98f11e12f6"
+          },
+          {
+            "position": "right",
+            "rotatable": true,
+            "uuid": "3e02015d-d13c-407c-84cb-dbf4172e2f2a"
+          },
+          {
+            "position": "bottom",
+            "rotatable": true,
+            "uuid": "7a250888-76c1-4d41-97b4-81abc6345122"
+          }
+        ],
+        "meta": {
+          "label": "Pipe join 3",
+          "labelPosition": "none",
+          "rotate": 180
+        }
+      },
+      "zIndex": 20,
+      "hidden": false,
+      "width": 28,
+      "height": 28,
+      "measured": { "width": 28, "height": 28 },
+      "dragging": false
+    },
+    {
+      "id": "662c62b8-8250-40ce-ba0b-09c2adfe1fb7",
+      "type": "svg",
+      "selected": false,
+      "position": { "x": 594.16, "y": -47.95 },
+      "data": {
+        "id": "662c62b8-8250-40ce-ba0b-09c2adfe1fb7",
+        "library": "basic",
+        "name": "pipe-top-right",
+        "version": "1.0",
+        "handles": [
+          {
+            "position": "top",
+            "rotatable": true,
+            "uuid": "a54349f1-a260-4217-9386-44c6553e04d1"
+          },
+          {
+            "position": "right",
+            "rotatable": true,
+            "uuid": "9dab6479-82e8-484e-8472-f219f70f7781"
+          }
+        ],
+        "meta": { "label": "PipeTR 2", "labelPosition": "none", "rotate": 180 }
+      },
+      "zIndex": 20,
+      "hidden": false,
+      "width": 28,
+      "height": 28,
+      "measured": { "width": 28, "height": 28 },
+      "dragging": false
+    },
+    {
+      "id": "4984740a-6a73-4b23-95e3-3d35784f1747",
+      "type": "svg",
+      "selected": false,
+      "position": { "x": 93.89, "y": -224.25 },
+      "data": {
+        "id": "4984740a-6a73-4b23-95e3-3d35784f1747",
+        "library": "basic",
+        "name": "pipe-top-right",
+        "version": "1.0",
+        "handles": [
+          {
+            "position": "top",
+            "rotatable": true,
+            "uuid": "b30e8e75-4590-44b3-91f7-7eee9ad7143d"
+          },
+          {
+            "position": "right",
+            "rotatable": true,
+            "uuid": "c0816d6b-a75f-4964-bbec-f8cb7aa7f007"
+          }
+        ],
+        "meta": { "label": "PipeTR 3", "labelPosition": "none", "rotate": 270 }
+      },
+      "zIndex": 20,
+      "hidden": false,
+      "width": 28,
+      "height": 28,
+      "measured": { "width": 28, "height": 28 },
+      "dragging": false
+    },
+    {
+      "id": "cd1d30db-921f-4791-b7cc-77120cdc811d",
+      "type": "svg",
+      "position": { "x": 180, "y": -160.44 },
+      "hidden": false,
+      "selected": false,
+      "zIndex": 20,
+      "data": {
+        "id": "cd1d30db-921f-4791-b7cc-77120cdc811d",
+        "library": "basic",
+        "name": "vavle",
+        "version": "1.0",
+        "handles": [
+          {
+            "position": "left",
+            "rotatable": false,
+            "uuid": "7224c8c5-8c9d-4fd9-a009-33a5ff5b9281"
+          },
+          {
+            "position": "right",
+            "rotatable": false,
+            "uuid": "7e4ef34a-607b-4231-81cf-e8d8ccb0e97a"
+          }
+        ],
+        "meta": { "label": "Vavle 2", "labelPosition": "none" }
+      },
+      "width": 28,
+      "height": 28,
+      "measured": { "width": 28, "height": 28 },
+      "dragging": false
+    },
+    {
+      "id": "fc6dc53e-ee7a-4c9e-bf39-6ac105595f1f",
+      "type": "svg",
+      "position": { "x": 180, "y": -224.25 },
+      "hidden": false,
+      "selected": false,
+      "zIndex": 20,
+      "data": {
+        "id": "fc6dc53e-ee7a-4c9e-bf39-6ac105595f1f",
+        "library": "basic",
+        "name": "vavle",
+        "version": "1.0",
+        "handles": [
+          {
+            "position": "left",
+            "rotatable": false,
+            "uuid": "a6fd81ce-499c-443d-980c-dd4b33d026fc"
+          },
+          {
+            "position": "right",
+            "rotatable": false,
+            "uuid": "5989dae8-e6b7-4d2f-855c-2d0071474115"
+          }
+        ],
+        "meta": { "label": "Vavle 3", "labelPosition": "none" }
+      },
+      "width": 28,
+      "height": 28,
+      "measured": { "width": 28, "height": 28 },
+      "dragging": false
+    },
+    {
+      "id": "3fd4d31d-6cf9-47ac-a8af-eada132b3529",
+      "type": "svg",
+      "position": { "x": 311.16, "y": -224.25 },
+      "hidden": false,
+      "selected": false,
+      "zIndex": 20,
+      "data": {
+        "id": "3fd4d31d-6cf9-47ac-a8af-eada132b3529",
+        "library": "basic",
+        "name": "twin-tank",
+        "version": "1.0",
+        "handles": [
+          {
+            "position": "left",
+            "rotatable": false,
+            "uuid": "da519bd5-5748-4d5b-9937-1a8ce3bab28c"
+          },
+          {
+            "position": "left",
+            "rotatable": false,
+            "uuid": "4cbaca4f-a405-4d54-9a17-eb1b22ef832e"
+          },
+          {
+            "position": "right",
+            "rotatable": false,
+            "uuid": "4c79e0ab-511c-4f31-96c4-cc6d54945556"
+          }
+        ],
+        "meta": { "label": "Twin tank", "labelPosition": "bottom" }
+      },
+      "width": 68,
+      "height": 85,
+      "measured": { "width": 68, "height": 85 },
+      "dragging": false
+    },
+    {
+      "id": "0b159874-a64d-4a63-9389-e363c099cd50",
+      "type": "svg",
+      "position": { "x": 180, "y": -52.37 },
+      "hidden": false,
+      "selected": false,
+      "zIndex": 20,
+      "data": {
+        "id": "0b159874-a64d-4a63-9389-e363c099cd50",
+        "library": "basic",
+        "name": "heater",
+        "version": "1.0",
+        "handles": [
+          {
+            "position": "left",
+            "rotatable": false,
+            "uuid": "bb35ae18-d392-4d8c-817d-4697b0b9648f"
+          },
+          {
+            "position": "right",
+            "rotatable": false,
+            "uuid": "29e9d283-3b5d-403c-855e-00233044f812"
+          }
+        ],
+        "meta": {
+          "label": "Heater",
+          "labelPosition": "bottom",
+          "properties": [
+            {
+              "label": "Temperature",
+              "key": "temp",
+              "unit": "°C",
+              "value": 25.9,
+              "status": 1
+            },
+            {
+              "label": "Humidity",
+              "key": "hum",
+              "unit": "%",
+              "value": 48.7,
+              "status": 0
+            }
+          ],
+          "status": 1
+        }
+      },
+      "width": 36,
+      "height": 36,
+      "measured": { "width": 36, "height": 36 },
+      "dragging": false
+    },
+    {
+      "id": "7a3a3a0f-1023-476b-b1a0-9cc3f07a60f9",
+      "type": "svg",
+      "selected": false,
+      "position": { "x": 501.7, "y": -52.37 },
+      "data": {
+        "id": "7a3a3a0f-1023-476b-b1a0-9cc3f07a60f9",
+        "library": "basic",
+        "name": "heater",
+        "version": "1.0",
+        "handles": [
+          {
+            "position": "left",
+            "rotatable": false,
+            "uuid": "340829a4-1a4a-4cfb-b526-fb35d4a8b7bc"
+          },
+          {
+            "position": "right",
+            "rotatable": false,
+            "uuid": "7f0af4dc-e961-4645-a4f6-1c6a99fdc8b6"
+          }
+        ],
+        "meta": { "label": "Heater 1", "labelPosition": "bottom" }
+      },
+      "zIndex": 20,
+      "hidden": false,
+      "width": 36,
+      "height": 36,
+      "measured": { "width": 36, "height": 36 },
+      "dragging": false
+    },
+    {
+      "id": "18c8400b-14fd-48da-b76a-1af77b0256c2",
+      "type": "svg",
+      "selected": false,
+      "position": { "x": 513.59, "y": 99.65 },
+      "data": {
+        "id": "18c8400b-14fd-48da-b76a-1af77b0256c2",
+        "library": "basic",
+        "name": "heater",
+        "version": "1.0",
+        "handles": [
+          {
+            "position": "left",
+            "rotatable": false,
+            "uuid": "b4b992da-0bfe-4ead-9a5d-f656432c8107"
+          },
+          {
+            "position": "right",
+            "rotatable": false,
+            "uuid": "bb47df85-db20-45ad-886e-f6f894750058"
+          }
+        ],
+        "meta": {
+          "label": "Heater 2",
+          "labelPosition": "none",
+          "properties": [
+            {
+              "label": "Temperature",
+              "key": "temp",
+              "unit": "°C",
+              "value": 18.3,
+              "status": 2
             },
             {
               "label": "Property-5",
               "key": "prop-5",
-              "value": 30.8,
+              "value": 18.9,
               "status": 0
             }
-          ]
+          ],
+          "status": 2
         }
       },
-      "selected": false,
+      "zIndex": 20,
+      "hidden": false,
+      "width": 36,
+      "height": 36,
+      "measured": { "width": 36, "height": 36 },
       "dragging": false
     },
     {
-      "id": "c795b85c-dddd-4dcb-bfc0-f7c7351190e1",
+      "id": "a8f31217-5a45-41cf-b942-e717b2679a65",
+      "type": "svg",
+      "selected": false,
+      "position": { "x": 180, "y": 103.54 },
+      "data": {
+        "id": "a8f31217-5a45-41cf-b942-e717b2679a65",
+        "library": "basic",
+        "name": "heater",
+        "version": "1.0",
+        "handles": [
+          {
+            "position": "left",
+            "rotatable": false,
+            "uuid": "52a71c9c-ebd3-4f7b-9dcb-2330d9fb647e"
+          },
+          {
+            "position": "right",
+            "rotatable": false,
+            "uuid": "d9fe83a2-0c33-4ba1-9d7a-e7abb2785b2e"
+          }
+        ],
+        "meta": { "label": "Heater 2", "labelPosition": "none" }
+      },
+      "zIndex": 20,
+      "hidden": false,
+      "width": 36,
+      "height": 36,
+      "measured": { "width": 36, "height": 36 },
+      "dragging": false
+    },
+    {
+      "id": "8c245d49-1aa7-45bc-bad7-a22cd1dc2b3a",
+      "type": "svg",
+      "position": { "x": 441.44, "y": -211.98 },
+      "hidden": false,
+      "selected": false,
+      "zIndex": 20,
+      "data": {
+        "id": "8c245d49-1aa7-45bc-bad7-a22cd1dc2b3a",
+        "library": "basic",
+        "name": "tank-wagon",
+        "version": "1.0",
+        "handles": [
+          {
+            "position": "left",
+            "rotatable": false,
+            "uuid": "00f12ee8-2260-4e98-80da-36bd2802d58f"
+          },
+          {
+            "position": "right",
+            "rotatable": false,
+            "uuid": "54fa6bb9-daea-47c9-acac-c34d5336ff2c"
+          }
+        ],
+        "meta": {
+          "label": "Tank 1",
+          "labelPosition": "center",
+          "properties": [
+            {
+              "label": "Temperature",
+              "key": "temp",
+              "unit": "°C",
+              "value": 23.6,
+              "status": 1
+            },
+            {
+              "label": "Humidity",
+              "key": "hum",
+              "unit": "%",
+              "value": 35,
+              "status": 0
+            },
+            {
+              "label": "Property-1",
+              "key": "prop-1",
+              "value": 48.5,
+              "status": 0
+            }
+          ],
+          "status": 1
+        }
+      },
+      "width": 90,
+      "height": 60,
+      "measured": { "width": 90, "height": 60 },
+      "dragging": false
+    },
+    {
+      "id": "d30617d2-10bb-4f18-b295-18794667f694",
+      "type": "svg",
+      "position": { "x": 350.32, "y": -52.37 },
+      "hidden": false,
+      "selected": false,
+      "zIndex": 20,
+      "data": {
+        "id": "d30617d2-10bb-4f18-b295-18794667f694",
+        "library": "basic",
+        "name": "fan",
+        "version": "1.0",
+        "handles": [
+          {
+            "position": "left",
+            "rotatable": false,
+            "uuid": "3edb34e0-02bb-4506-8b7f-ad6ffed1f241"
+          },
+          {
+            "position": "right",
+            "rotatable": false,
+            "uuid": "a0e165b8-1de3-43f5-94a0-9c946ff0e55f"
+          }
+        ],
+        "meta": { "label": "Fan", "labelPosition": "bottom", "status": 1 }
+      },
+      "width": 47,
+      "height": 47,
+      "measured": { "width": 47, "height": 47 },
+      "dragging": false,
+      "resizing": false
+    },
+    {
+      "id": "1f0b42b9-5d95-4ffb-910d-d5e95d69f61c",
+      "type": "svg",
+      "position": { "x": 266.54, "y": -39.95 },
+      "hidden": false,
+      "selected": false,
+      "zIndex": 20,
+      "data": {
+        "id": "1f0b42b9-5d95-4ffb-910d-d5e95d69f61c",
+        "library": "basic",
+        "name": "bulb",
+        "version": "1.0",
+        "handles": [
+          {
+            "position": "left",
+            "rotatable": false,
+            "uuid": "ad3e4012-0529-4416-a338-2de1abf15e8f"
+          },
+          {
+            "position": "right",
+            "rotatable": false,
+            "uuid": "5a411e5b-6158-45f3-a80c-5e62ae2bd5e9"
+          }
+        ],
+        "meta": {
+          "label": "Bulb",
+          "status": 2,
+          "labelPosition": "none",
+          "rotate": 180
+        }
+      },
+      "width": 20,
+      "height": 20,
+      "measured": { "width": 20, "height": 20 },
+      "dragging": false
+    },
+    {
+      "id": "6b3edb43-4687-421e-ac77-84f90437e5bf",
+      "type": "svg",
+      "selected": false,
+      "position": { "x": 450.76, "y": -39.95 },
+      "data": {
+        "id": "6b3edb43-4687-421e-ac77-84f90437e5bf",
+        "library": "basic",
+        "name": "bulb",
+        "version": "1.0",
+        "handles": [
+          {
+            "position": "left",
+            "rotatable": false,
+            "uuid": "758a70b0-cbc6-4e35-8cc0-17d47074646b"
+          },
+          {
+            "position": "right",
+            "rotatable": false,
+            "uuid": "8e0d1b62-d318-40b1-a20e-dc8a12d38807"
+          }
+        ],
+        "meta": {
+          "label": "Bulb 1",
+          "status": 3,
+          "labelPosition": "none",
+          "rotate": 180
+        }
+      },
+      "zIndex": 20,
+      "hidden": false,
+      "width": 20,
+      "height": 20,
+      "measured": { "width": 20, "height": 20 },
+      "dragging": false
+    },
+    {
+      "id": "bf1096cc-09e9-4bcb-b861-eaaa9a23d3d1",
+      "type": "svg",
+      "position": { "x": 356, "y": 99.65 },
+      "hidden": false,
+      "selected": false,
+      "zIndex": 20,
+      "data": {
+        "id": "bf1096cc-09e9-4bcb-b861-eaaa9a23d3d1",
+        "library": "basic",
+        "name": "bulb",
+        "version": "1.0",
+        "handles": [
+          {
+            "position": "left",
+            "rotatable": false,
+            "uuid": "2ec91a70-6b5a-4469-99a1-b2a78b170c5f"
+          },
+          {
+            "position": "right",
+            "rotatable": false,
+            "uuid": "c845911c-4efc-40e2-931f-09ecd2a13e1c"
+          }
+        ],
+        "meta": { "label": "Bulb 2", "status": 1, "labelPosition": "none" }
+      },
+      "width": 36,
+      "height": 36,
+      "measured": { "width": 36, "height": 36 },
+      "dragging": false,
+      "resizing": false
+    },
+    {
+      "id": "e0a52f3b-d1d1-45da-a775-ed6ff40b8098",
+      "type": "svg",
+      "position": { "x": 275.08, "y": 103.54 },
+      "hidden": false,
+      "selected": false,
+      "zIndex": 20,
+      "data": {
+        "id": "e0a52f3b-d1d1-45da-a775-ed6ff40b8098",
+        "library": "basic",
+        "name": "fan",
+        "version": "1.0",
+        "handles": [
+          {
+            "position": "left",
+            "rotatable": false,
+            "uuid": "856d6474-f1ef-406d-9f5f-d567f3c6302e"
+          },
+          {
+            "position": "right",
+            "rotatable": false,
+            "uuid": "c8cc840c-1bfb-405e-ab9a-4161acba4374"
+          }
+        ],
+        "meta": { "label": "Fan 1", "labelPosition": "bottom", "status": 0 }
+      },
+      "width": 28,
+      "height": 28,
+      "measured": { "width": 28, "height": 28 },
+      "dragging": false
+    },
+    {
+      "id": "c66e7b5a-8199-49b1-9b81-1f7dcc252cd7",
+      "type": "svg",
+      "selected": false,
+      "position": { "x": 435.39, "y": 103.54 },
+      "data": {
+        "id": "c66e7b5a-8199-49b1-9b81-1f7dcc252cd7",
+        "library": "basic",
+        "name": "fan",
+        "version": "1.0",
+        "handles": [
+          {
+            "position": "left",
+            "rotatable": false,
+            "uuid": "4d3a99d8-8b77-40b9-a909-a52dee2afb0d"
+          },
+          {
+            "position": "right",
+            "rotatable": false,
+            "uuid": "315fbff9-153d-4f8a-9f3e-060e611779e6"
+          }
+        ],
+        "meta": { "label": "Fan 2", "labelPosition": "bottom", "status": 2 }
+      },
+      "zIndex": 20,
+      "hidden": false,
+      "width": 28,
+      "height": 28,
+      "measured": { "width": 28, "height": 28 },
+      "dragging": false
+    },
+    {
+      "id": "161cf203-fe75-4b2f-8c5c-b8235c39992b",
       "type": "shape",
-      "position": { "x": 235.68, "y": 229.53 },
+      "position": { "x": 250.56, "y": 71.54 },
       "hidden": false,
       "selected": false,
       "zIndex": 10,
       "data": {
-        "id": "c795b85c-dddd-4dcb-bfc0-f7c7351190e1",
+        "id": "161cf203-fe75-4b2f-8c5c-b8235c39992b",
         "library": "shape",
         "name": "round-rectangle",
-        "rotatable": false,
-        "content": "<svg width=\"26\" height=\"26\" style=\"height: 100%; width: 100%;\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#EBC347\"><rect rx=\"4\" x=\"0.5\" y=\"0.5\" width=\"25\" height=\"25\" fill=\"#EBC347\" fill-opacity=\"0\"></rect></g></svg>",
-        "minWidth": 28,
-        "minHeight": 28,
+        "version": "1.0",
         "meta": {
           "label": "Lobby",
           "labelPosition": "bottom",
@@ -70,27 +926,24 @@
           "fillColor": "#EBC347"
         }
       },
-      "width": 221,
-      "height": 137,
-      "measured": { "width": 221, "height": 137 },
+      "width": 232,
+      "height": 96,
+      "measured": { "width": 232, "height": 96 },
       "resizing": false,
       "dragging": false
     },
     {
-      "id": "c1badc0f-1959-4aee-87f4-0e17ad92963a",
+      "id": "4d5377d5-d521-40ba-ae81-e5beebe5f689",
       "type": "shape",
-      "position": { "x": 116.07, "y": 229.53 },
+      "position": { "x": 150.56, "y": 71.54 },
       "hidden": false,
       "selected": false,
       "zIndex": 10,
       "data": {
-        "id": "c1badc0f-1959-4aee-87f4-0e17ad92963a",
+        "id": "4d5377d5-d521-40ba-ae81-e5beebe5f689",
         "library": "shape",
         "name": "rectangle",
-        "rotatable": false,
-        "content": "<svg width=\"26\" height=\"26\" style=\"height: 100%; width: 100%;\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#84cc16\"><rect rx=\"0\" x=\"0.5\" y=\"0.5\" width=\"25\" height=\"25\" fill=\"#84cc16\" fill-opacity=\"0\"></rect></g></svg>",
-        "minWidth": 28,
-        "minHeight": 28,
+        "version": "1.0",
         "meta": {
           "label": "Office",
           "labelPosition": "bottom",
@@ -98,25 +951,47 @@
           "fillColor": "#84cc16"
         }
       },
-      "width": 111,
-      "height": 137,
-      "measured": { "width": 111, "height": 137 },
+      "width": 91,
+      "height": 96,
+      "measured": { "width": 91, "height": 96 },
       "resizing": false,
       "dragging": false
     },
     {
-      "id": "97456ba4-faaf-40b6-a7e4-00321db49e2a",
+      "id": "5285e4e1-c4e3-49ce-bbbf-5822ded80882",
       "type": "shape",
       "selected": false,
-      "position": { "x": 465.07, "y": 229.53 },
+      "position": { "x": 150, "y": -76.51 },
       "data": {
-        "id": "97456ba4-faaf-40b6-a7e4-00321db49e2a",
+        "id": "5285e4e1-c4e3-49ce-bbbf-5822ded80882",
+        "library": "shape",
+        "name": "round-rectangle",
+        "version": "1.0",
+        "meta": {
+          "label": "VIP area",
+          "labelPosition": "bottom",
+          "strokeColor": "#EBC347",
+          "fillColor": "#EBC347"
+        }
+      },
+      "zIndex": 10,
+      "hidden": false,
+      "width": 425,
+      "height": 100,
+      "measured": { "width": 425, "height": 100 },
+      "dragging": false,
+      "resizing": false
+    },
+    {
+      "id": "5d295888-452a-4cac-ae44-434f3f519f4b",
+      "type": "shape",
+      "selected": false,
+      "position": { "x": 491.1, "y": 71.54 },
+      "data": {
+        "id": "5d295888-452a-4cac-ae44-434f3f519f4b",
         "library": "shape",
         "name": "rectangle",
-        "rotatable": false,
-        "content": "<svg width=\"26\" height=\"26\" style=\"height: 100%; width: 100%;\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#84cc16\"><rect rx=\"0\" x=\"0.5\" y=\"0.5\" width=\"25\" height=\"25\" fill=\"#84cc16\" fill-opacity=\"0\"></rect></g></svg>",
-        "minWidth": 28,
-        "minHeight": 28,
+        "version": "1.0",
         "meta": {
           "label": "Restroom",
           "labelPosition": "bottom",
@@ -126,1031 +1001,44 @@
       },
       "zIndex": 10,
       "hidden": false,
-      "width": 111,
-      "height": 137,
-      "measured": { "width": 111, "height": 137 },
-      "dragging": false
-    },
-    {
-      "id": "37d3759a-be6d-48f6-ab44-0163be0d2f4c",
-      "type": "shape",
-      "position": { "x": 116.07, "y": 50.67 },
-      "hidden": false,
-      "selected": false,
-      "zIndex": 10,
-      "data": {
-        "id": "37d3759a-be6d-48f6-ab44-0163be0d2f4c",
-        "library": "shape",
-        "name": "round-rectangle",
-        "rotatable": false,
-        "content": "<svg width=\"26\" height=\"26\" style=\"height: 100%; width: 100%;\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#EBC347\"><rect rx=\"4\" x=\"0.5\" y=\"0.5\" width=\"25\" height=\"25\" fill=\"#EBC347\" fill-opacity=\"0\"></rect></g></svg>",
-        "minWidth": 28,
-        "minHeight": 28,
-        "meta": {
-          "label": "VIP area",
-          "labelPosition": "bottom",
-          "strokeColor": "#EBC347",
-          "fillColor": "#EBC347"
-        }
-      },
-      "width": 461,
-      "height": 132,
-      "measured": { "width": 461, "height": 132 },
-      "resizing": false,
-      "dragging": false
-    },
-    {
-      "id": "e9b08409-5c8a-4448-81d7-2f30ceeabcc3",
-      "type": "shape",
-      "position": { "x": -111.61, "y": 390.21 },
-      "hidden": false,
-      "selected": false,
-      "zIndex": 10,
-      "data": {
-        "id": "e9b08409-5c8a-4448-81d7-2f30ceeabcc3",
-        "library": "shape",
-        "name": "arrow-rectangle",
-        "rotatable": false,
-        "content": "<svg width=\"26\" height=\"26\" style=\"height: 100%; width: 100%;\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#0ea5e9\"><path d=\"M1,1 L21.32,1 L25,13 L21.32,25 L1,25 Z\" fill=\"#0ea5e9\" fill-opacity=\"0\"></path></g></svg>",
-        "minWidth": 28,
-        "minHeight": 28,
-        "meta": {
-          "label": "Basement",
-          "labelPosition": "center",
-          "strokeColor": "#0ea5e9",
-          "fillColor": "#0ea5e9"
-        }
-      },
-      "width": 97,
-      "height": 28,
-      "measured": { "width": 97, "height": 28 },
-      "resizing": false,
-      "dragging": false
-    },
-    {
-      "id": "28c8a4a2-3228-45ff-ae42-38703abf0351",
-      "type": "shape",
-      "position": { "x": -6, "y": 400 },
-      "hidden": false,
-      "selected": false,
-      "zIndex": 10,
-      "data": {
-        "id": "28c8a4a2-3228-45ff-ae42-38703abf0351",
-        "library": "shape",
-        "name": "dash-line",
-        "rotatable": false,
-        "content": "<svg width=\"26\" height=\"26\" style=\"height: 100%; width: 100%;\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#71717a\"><path d=\"M0,7 L598,7\" stroke-dasharray=\"3,3\"></path></g></svg>",
-        "minWidth": 28,
-        "minHeight": 14,
-        "maxHeight": 14,
-        "meta": {
-          "label": "Dash line",
-          "labelPosition": "none",
-          "strokeColor": "#71717a",
-          "fillColor": "#71717a"
-        }
-      },
-      "width": 687,
-      "height": 14,
-      "measured": { "width": 687, "height": 14 },
-      "resizing": false
-    },
-    {
-      "id": "a7a09525-6a10-48ee-a983-6228ccbcd818",
-      "type": "shape",
-      "selected": false,
-      "position": { "x": -111.61, "y": 190.55 },
-      "data": {
-        "id": "a7a09525-6a10-48ee-a983-6228ccbcd818",
-        "library": "shape",
-        "name": "arrow-rectangle",
-        "rotatable": false,
-        "content": "<svg width=\"26\" height=\"26\" style=\"height: 100%; width: 100%;\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#0ea5e9\"><path d=\"M1,1 L21.32,1 L25,13 L21.32,25 L1,25 Z\" fill=\"#0ea5e9\" fill-opacity=\"0\"></path></g></svg>",
-        "minWidth": 28,
-        "minHeight": 28,
-        "meta": {
-          "label": "Ground floor",
-          "labelPosition": "center",
-          "strokeColor": "#0ea5e9",
-          "fillColor": "#0ea5e9"
-        }
-      },
-      "zIndex": 10,
-      "hidden": false,
-      "width": 97,
-      "height": 28,
-      "measured": { "width": 97, "height": 28 },
-      "dragging": false
-    },
-    {
-      "id": "a5a00337-9e79-4d1a-950e-24c9627df34f",
-      "type": "shape",
-      "selected": false,
-      "position": { "x": -111.61, "y": 2.79 },
-      "data": {
-        "id": "a5a00337-9e79-4d1a-950e-24c9627df34f",
-        "library": "shape",
-        "name": "arrow-rectangle",
-        "rotatable": false,
-        "content": "<svg width=\"26\" height=\"26\" style=\"height: 100%; width: 100%;\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#0ea5e9\"><path d=\"M1,1 L21.32,1 L25,13 L21.32,25 L1,25 Z\" fill=\"#0ea5e9\" fill-opacity=\"0\"></path></g></svg>",
-        "minWidth": 28,
-        "minHeight": 28,
-        "meta": {
-          "label": "Floor 2",
-          "labelPosition": "center",
-          "strokeColor": "#0ea5e9",
-          "fillColor": "#0ea5e9"
-        }
-      },
-      "zIndex": 10,
-      "hidden": false,
-      "width": 97,
-      "height": 28,
-      "measured": { "width": 97, "height": 28 },
-      "dragging": false
-    },
-    {
-      "id": "45940b22-e9d8-473c-ab33-f1b69a0fbab5",
-      "type": "shape",
-      "selected": false,
-      "position": { "x": -6, "y": 199.84 },
-      "data": {
-        "id": "45940b22-e9d8-473c-ab33-f1b69a0fbab5",
-        "library": "shape",
-        "name": "dash-line",
-        "rotatable": false,
-        "content": "<svg width=\"26\" height=\"26\" style=\"height: 100%; width: 100%;\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#71717a\"><path d=\"M0,7 L598,7\" stroke-dasharray=\"3,3\"></path></g></svg>",
-        "minWidth": 28,
-        "minHeight": 14,
-        "maxHeight": 14,
-        "meta": {
-          "label": "Dash line 1",
-          "labelPosition": "none",
-          "strokeColor": "#71717a",
-          "fillColor": "#71717a"
-        }
-      },
-      "zIndex": 10,
-      "hidden": false,
-      "width": 687,
-      "height": 14,
-      "measured": { "width": 687, "height": 14 },
-      "dragging": false
-    },
-    {
-      "id": "649df09f-43ff-4934-a9da-0f6ee35d8a8e",
-      "type": "shape",
-      "selected": false,
-      "position": { "x": -6, "y": 11.43 },
-      "data": {
-        "id": "649df09f-43ff-4934-a9da-0f6ee35d8a8e",
-        "library": "shape",
-        "name": "dash-line",
-        "rotatable": false,
-        "content": "<svg width=\"26\" height=\"26\" style=\"height: 100%; width: 100%;\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#71717a\"><path d=\"M0,7 L598,7\" stroke-dasharray=\"3,3\"></path></g></svg>",
-        "minWidth": 28,
-        "minHeight": 14,
-        "maxHeight": 14,
-        "meta": {
-          "label": "Dash line 2",
-          "labelPosition": "none",
-          "strokeColor": "#71717a",
-          "fillColor": "#71717a"
-        }
-      },
-      "zIndex": 10,
-      "hidden": false,
-      "width": 687,
-      "height": 14,
-      "measured": { "width": 687, "height": 14 },
-      "dragging": false
-    },
-    {
-      "id": "ba69b699-88be-4daf-a6b5-ffe9dec64b2c",
-      "type": "chart",
-      "position": { "x": 707.47, "y": 235.65 },
-      "hidden": false,
-      "selected": false,
-      "zIndex": 20,
-      "data": {
-        "id": "ba69b699-88be-4daf-a6b5-ffe9dec64b2c",
-        "library": "other",
-        "name": "line",
-        "rotatable": false,
-        "content": "",
-        "minWidth": 230,
-        "minHeight": 160,
-        "meta": { "label": "Line Chart", "labelPosition": "bottom" }
-      },
-      "width": 260,
-      "height": 170,
-      "measured": { "width": 260, "height": 170 },
+      "width": 84,
+      "height": 96,
+      "measured": { "width": 84, "height": 96 },
       "dragging": false,
       "resizing": false
     },
     {
-      "id": "2c38dc10-ef9a-458b-b532-be2a1cdf5117",
-      "type": "chart",
-      "position": { "x": 707.47, "y": 97.84 },
-      "hidden": false,
-      "selected": false,
-      "zIndex": 20,
-      "data": {
-        "id": "2c38dc10-ef9a-458b-b532-be2a1cdf5117",
-        "library": "other",
-        "name": "gauge",
-        "rotatable": false,
-        "content": "",
-        "minWidth": 100,
-        "minHeight": 100,
-        "meta": { "label": "Gauge", "labelPosition": "bottom" }
-      },
-      "width": 123,
-      "height": 106,
-      "measured": { "width": 123, "height": 106 },
-      "dragging": false,
-      "resizing": false
-    },
-    {
-      "id": "49a49de0-72cb-45d5-a2a5-43f8cdf75eb7",
-      "type": "svg",
-      "position": { "x": 45, "y": 283.01 },
-      "hidden": false,
-      "selected": false,
-      "zIndex": 20,
-      "data": {
-        "id": "49a49de0-72cb-45d5-a2a5-43f8cdf75eb7",
-        "library": "basic",
-        "name": "pipe-tjoin",
-        "rotatable": true,
-        "content": "<svg width=\"20\" height=\"20\" viewBox=\"-3.9 0 18.5 26.67\" class=\"h-full w-full\" ><g class=\"stroke-muted-foreground fill-muted-foreground\" stroke-width=\".1\"><path d=\"M18.5 17.85v-8.9a.95.95 0 0 0-.15-.46c-.25-.31-.65-.49-.81-.49h-1.56a.97.97 0 0 0-.98.94v1.28H9.56a.68.68 0 0 1-.67-.67V7.1h.83c.52 0 .95-.42.95-.95V4.5a.95.95 0 0 0-.95-.94h-.83V.95A.95.95 0 0 0 7.94 0H2.73a.95.95 0 0 0-.95.95v2.6H.95A.95.95 0 0 0 0 4.5v1.66c0 .53.42.95.95.95h.83v12.45H.95a.95.95 0 0 0-.95.94v1.66c0 .53.42.95.95.95h.83v2.6c0 .53.42.96.95.96h5.21c.52 0 .95-.43.95-.95v-2.6h.83c.52 0 .95-.43.95-.96V20.5a.95.95 0 0 0-.95-.94h-.83v-2.44c0-.37.3-.68.67-.68H15v1.4c0 .53.46.83.98.83h1.56c.16 0 .55-.05.8-.32.08-.08.13-.24.16-.5Z\"/><g class=\"fill-muted\"><path d=\"M2.73.89h5.21c.03 0 .06.03.06.06v2.6H2.67V.96c0-.03.02-.06.06-.06ZM.89 6.16V4.5c0-.03.03-.06.06-.06h8.77c.03 0 .06.03.06.06v1.66c0 .04-.03.06-.06.06H.95a.06.06 0 0 1-.06-.06ZM8 25.72c0 .03-.03.06-.06.06H2.73a.06.06 0 0 1-.06-.06v-2.6H8v2.6ZM9.72 20.44c.03 0 .06.03.06.06v1.66c0 .04-.03.06-.06.06H.95a.06.06 0 0 1-.06-.06V20.5c0-.03.03-.06.06-.06h8.77ZM8 7.11v2.44c0 .86.7 1.56 1.56 1.56h5.48v4.45H9.56c-.86 0-1.56.7-1.56 1.56v2.44H2.67V7.1H8ZM17.6 8.89c.04 0 .07.03.07.06v8.77c0 .03-.03.06-.06.06h-1.66a.06.06 0 0 1-.06-.06V8.95c0-.03.03-.06.06-.06h1.66Z\"/></g></g></svg>",
-        "minWidth": 28,
-        "minHeight": 28,
-        "edgeType": "pipe",
-        "handles": [
-          {
-            "position": "top",
-            "rotatable": true,
-            "uuid": "59949569-855d-4f66-8762-6fe54932295a"
-          },
-          {
-            "position": "right",
-            "rotatable": true,
-            "uuid": "0ff4b5b9-f2ae-4108-bea5-1383a0c03e3f"
-          },
-          {
-            "position": "bottom",
-            "rotatable": true,
-            "uuid": "da51791f-78a1-4af7-bf0d-959e83ab2f11"
-          }
-        ],
-        "meta": { "label": "Pipe join", "labelPosition": "none" }
-      },
-      "width": 28,
-      "height": 28,
-      "measured": { "width": 28, "height": 28 },
-      "dragging": false
-    },
-    {
-      "id": "05ded051-0c77-41b4-a242-42e29c680556",
-      "type": "svg",
-      "selected": false,
-      "position": { "x": 615, "y": 283.93 },
-      "data": {
-        "id": "05ded051-0c77-41b4-a242-42e29c680556",
-        "library": "basic",
-        "name": "pipe-tjoin",
-        "rotatable": true,
-        "content": "<svg width=\"20\" height=\"20\" viewBox=\"-3.9 0 18.5 26.67\" class=\"h-full w-full\" ><g class=\"stroke-muted-foreground fill-muted-foreground\" stroke-width=\".1\"><path d=\"M18.5 17.85v-8.9a.95.95 0 0 0-.15-.46c-.25-.31-.65-.49-.81-.49h-1.56a.97.97 0 0 0-.98.94v1.28H9.56a.68.68 0 0 1-.67-.67V7.1h.83c.52 0 .95-.42.95-.95V4.5a.95.95 0 0 0-.95-.94h-.83V.95A.95.95 0 0 0 7.94 0H2.73a.95.95 0 0 0-.95.95v2.6H.95A.95.95 0 0 0 0 4.5v1.66c0 .53.42.95.95.95h.83v12.45H.95a.95.95 0 0 0-.95.94v1.66c0 .53.42.95.95.95h.83v2.6c0 .53.42.96.95.96h5.21c.52 0 .95-.43.95-.95v-2.6h.83c.52 0 .95-.43.95-.96V20.5a.95.95 0 0 0-.95-.94h-.83v-2.44c0-.37.3-.68.67-.68H15v1.4c0 .53.46.83.98.83h1.56c.16 0 .55-.05.8-.32.08-.08.13-.24.16-.5Z\"/><g class=\"fill-muted\"><path d=\"M2.73.89h5.21c.03 0 .06.03.06.06v2.6H2.67V.96c0-.03.02-.06.06-.06ZM.89 6.16V4.5c0-.03.03-.06.06-.06h8.77c.03 0 .06.03.06.06v1.66c0 .04-.03.06-.06.06H.95a.06.06 0 0 1-.06-.06ZM8 25.72c0 .03-.03.06-.06.06H2.73a.06.06 0 0 1-.06-.06v-2.6H8v2.6ZM9.72 20.44c.03 0 .06.03.06.06v1.66c0 .04-.03.06-.06.06H.95a.06.06 0 0 1-.06-.06V20.5c0-.03.03-.06.06-.06h8.77ZM8 7.11v2.44c0 .86.7 1.56 1.56 1.56h5.48v4.45H9.56c-.86 0-1.56.7-1.56 1.56v2.44H2.67V7.1H8ZM17.6 8.89c.04 0 .07.03.07.06v8.77c0 .03-.03.06-.06.06h-1.66a.06.06 0 0 1-.06-.06V8.95c0-.03.03-.06.06-.06h1.66Z\"/></g></g></svg>",
-        "minWidth": 28,
-        "minHeight": 28,
-        "edgeType": "pipe",
-        "handles": [
-          {
-            "position": "top",
-            "rotatable": true,
-            "uuid": "59949569-855d-4f66-8762-6fe54932295a"
-          },
-          {
-            "position": "right",
-            "rotatable": true,
-            "uuid": "0ff4b5b9-f2ae-4108-bea5-1383a0c03e3f"
-          },
-          {
-            "position": "bottom",
-            "rotatable": true,
-            "uuid": "da51791f-78a1-4af7-bf0d-959e83ab2f11"
-          }
-        ],
-        "meta": {
-          "label": "Pipe join 1",
-          "labelPosition": "none",
-          "rotate": 180
-        }
-      },
-      "zIndex": 20,
-      "hidden": false,
-      "width": 28,
-      "height": 28,
-      "measured": { "width": 28, "height": 28 },
-      "dragging": false
-    },
-    {
-      "id": "7a912ef8-7622-47a3-8eef-284cba7691d7",
-      "type": "svg",
-      "position": { "x": 493.72, "y": 92.26 },
-      "hidden": false,
-      "selected": false,
-      "zIndex": 20,
-      "data": {
-        "id": "7a912ef8-7622-47a3-8eef-284cba7691d7",
-        "library": "basic",
-        "name": "heater",
-        "rotatable": false,
-        "content": "<svg width=\"24\" height=\"24\" stroke-width=\".6\" viewBox=\"0 0 56 56\" class=\"h-full w-full stroke-muted-foreground fill-muted-foreground\"><g class=\"fill-muted\"><rect width=\"6\" height=\"39\" x=\"5\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"15\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"25\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"35\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"45\" y=\"8\" rx=\"3\"/><animate attributeName=\"fill\" attributeType=\"CSS\" dur=\"1.5\" repeatCount=\"indefinite\" values=\"#fff\"/></g><path d=\"M54 13.5h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2H2v-1H0v10h2v-1h2v22a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-22h2a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1zm-10 2v4h-2v-4h2zm-10 0v4h-2v-4h2zm-10 0v4h-2v-4h2zm-10 0v4h-2v-4h2zm-12 4v-4h2v4H2zm8 24a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm3-24h-1v-4h1v4z\"/></svg>",
-        "minWidth": 32,
-        "minHeight": 32,
-        "edgeType": "pipe",
-        "handles": [
-          {
-            "position": "left",
-            "rotatable": false,
-            "uuid": "294d12cf-a7b4-440e-b92d-922c9f858202"
-          },
-          {
-            "position": "right",
-            "rotatable": false,
-            "uuid": "87ecd6ef-02bf-45ad-8187-efbd884264c3"
-          }
-        ],
-        "meta": {
-          "label": "Heater",
-          "labelPosition": "bottom",
-          "props": [
-            {
-              "label": "Temperature",
-              "key": "temp",
-              "unit": "°C",
-              "value": 38.9,
-              "status": 3
-            },
-            {
-              "label": "Humidity",
-              "key": "hum",
-              "unit": "%",
-              "value": 23.8,
-              "status": 0
-            }
-          ],
-          "status": 3
-        }
-      },
-      "width": 53,
-      "height": 53,
-      "measured": { "width": 53, "height": 53 },
-      "resizing": false,
-      "dragging": false
-    },
-    {
-      "id": "24a75f26-e172-40b1-8d7b-a6368468743e",
-      "type": "svg",
-      "selected": false,
-      "position": { "x": 149.57, "y": 87.84 },
-      "data": {
-        "id": "24a75f26-e172-40b1-8d7b-a6368468743e",
-        "library": "basic",
-        "name": "heater",
-        "rotatable": false,
-        "content": "<svg width=\"24\" height=\"24\" stroke-width=\".6\" viewBox=\"0 0 56 56\" class=\"h-full w-full stroke-muted-foreground fill-muted-foreground\"><g class=\"fill-muted\"><rect width=\"6\" height=\"39\" x=\"5\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"15\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"25\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"35\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"45\" y=\"8\" rx=\"3\"/><animate attributeName=\"fill\" attributeType=\"CSS\" dur=\"1.5\" repeatCount=\"indefinite\" values=\"#fff\"/></g><path d=\"M54 13.5h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2H2v-1H0v10h2v-1h2v22a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-22h2a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1zm-10 2v4h-2v-4h2zm-10 0v4h-2v-4h2zm-10 0v4h-2v-4h2zm-10 0v4h-2v-4h2zm-12 4v-4h2v4H2zm8 24a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm3-24h-1v-4h1v4z\"/></svg>",
-        "minWidth": 32,
-        "minHeight": 32,
-        "edgeType": "pipe",
-        "handles": [
-          {
-            "position": "left",
-            "rotatable": false,
-            "uuid": "294d12cf-a7b4-440e-b92d-922c9f858202"
-          },
-          {
-            "position": "right",
-            "rotatable": false,
-            "uuid": "87ecd6ef-02bf-45ad-8187-efbd884264c3"
-          }
-        ],
-        "meta": { "label": "Heater 1", "labelPosition": "bottom" }
-      },
-      "zIndex": 20,
-      "hidden": false,
-      "width": 53,
-      "height": 53,
-      "measured": { "width": 53, "height": 53 },
-      "dragging": false
-    },
-    {
-      "id": "3de0c424-160d-42c5-a264-9ace24ed1210",
-      "type": "svg",
-      "selected": false,
-      "position": { "x": 155.15, "y": 279.93 },
-      "data": {
-        "id": "3de0c424-160d-42c5-a264-9ace24ed1210",
-        "library": "basic",
-        "name": "heater",
-        "rotatable": false,
-        "content": "<svg width=\"24\" height=\"24\" stroke-width=\".6\" viewBox=\"0 0 56 56\" class=\"h-full w-full stroke-muted-foreground fill-muted-foreground\"><g class=\"fill-muted\"><rect width=\"6\" height=\"39\" x=\"5\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"15\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"25\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"35\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"45\" y=\"8\" rx=\"3\"/><animate attributeName=\"fill\" attributeType=\"CSS\" dur=\"1.5\" repeatCount=\"indefinite\" values=\"#fff\"/></g><path d=\"M54 13.5h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2H2v-1H0v10h2v-1h2v22a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-22h2a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1zm-10 2v4h-2v-4h2zm-10 0v4h-2v-4h2zm-10 0v4h-2v-4h2zm-10 0v4h-2v-4h2zm-12 4v-4h2v4H2zm8 24a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm3-24h-1v-4h1v4z\"/></svg>",
-        "minWidth": 32,
-        "minHeight": 32,
-        "edgeType": "pipe",
-        "handles": [
-          {
-            "position": "left",
-            "rotatable": false,
-            "uuid": "294d12cf-a7b4-440e-b92d-922c9f858202"
-          },
-          {
-            "position": "right",
-            "rotatable": false,
-            "uuid": "87ecd6ef-02bf-45ad-8187-efbd884264c3"
-          }
-        ],
-        "meta": {
-          "label": "Heater 2",
-          "labelPosition": "none",
-          "props": [
-            {
-              "label": "Temperature",
-              "key": "temp",
-              "unit": "°C",
-              "value": 48.4,
-              "status": 3
-            },
-            {
-              "label": "Humidity",
-              "key": "hum",
-              "unit": "%",
-              "value": 25.1,
-              "status": 0
-            },
-            {
-              "label": "Property-3",
-              "key": "prop-3",
-              "value": 17.5,
-              "status": 0
-            }
-          ],
-          "status": 3
-        }
-      },
-      "zIndex": 20,
-      "hidden": false,
-      "width": 34,
-      "height": 34,
-      "measured": { "width": 34, "height": 34 },
-      "dragging": false
-    },
-    {
-      "id": "1cee05ea-aac2-4807-93b4-50d652547d5e",
-      "type": "svg",
-      "selected": false,
-      "position": { "x": 505.03, "y": 280.01 },
-      "data": {
-        "id": "1cee05ea-aac2-4807-93b4-50d652547d5e",
-        "library": "basic",
-        "name": "heater",
-        "rotatable": false,
-        "content": "<svg width=\"24\" height=\"24\" stroke-width=\".6\" viewBox=\"0 0 56 56\" class=\"h-full w-full stroke-muted-foreground fill-muted-foreground\"><g class=\"fill-muted\"><rect width=\"6\" height=\"39\" x=\"5\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"15\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"25\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"35\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"45\" y=\"8\" rx=\"3\"/><animate attributeName=\"fill\" attributeType=\"CSS\" dur=\"1.5\" repeatCount=\"indefinite\" values=\"#fff\"/></g><path d=\"M54 13.5h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2H2v-1H0v10h2v-1h2v22a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-22h2a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1zm-10 2v4h-2v-4h2zm-10 0v4h-2v-4h2zm-10 0v4h-2v-4h2zm-10 0v4h-2v-4h2zm-12 4v-4h2v4H2zm8 24a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm3-24h-1v-4h1v4z\"/></svg>",
-        "minWidth": 32,
-        "minHeight": 32,
-        "edgeType": "pipe",
-        "handles": [
-          {
-            "position": "left",
-            "rotatable": false,
-            "uuid": "294d12cf-a7b4-440e-b92d-922c9f858202"
-          },
-          {
-            "position": "right",
-            "rotatable": false,
-            "uuid": "87ecd6ef-02bf-45ad-8187-efbd884264c3"
-          }
-        ],
-        "meta": { "label": "Heater GF2", "labelPosition": "bottom" }
-      },
-      "zIndex": 20,
-      "hidden": false,
-      "width": 34,
-      "height": 34,
-      "measured": { "width": 34, "height": 34 },
-      "dragging": false,
-      "resizing": false
-    },
-    {
-      "id": "5f1906eb-3689-472a-a626-789d52e0895f",
-      "type": "svg",
-      "position": { "x": 45, "y": 99.84 },
-      "hidden": false,
-      "selected": false,
-      "zIndex": 20,
-      "data": {
-        "id": "5f1906eb-3689-472a-a626-789d52e0895f",
-        "library": "basic",
-        "name": "pipe-tjoin",
-        "rotatable": true,
-        "content": "<svg width=\"20\" height=\"20\" viewBox=\"-3.9 0 18.5 26.67\" class=\"h-full w-full\" ><g class=\"stroke-muted-foreground fill-muted-foreground\" stroke-width=\".1\"><path d=\"M18.5 17.85v-8.9a.95.95 0 0 0-.15-.46c-.25-.31-.65-.49-.81-.49h-1.56a.97.97 0 0 0-.98.94v1.28H9.56a.68.68 0 0 1-.67-.67V7.1h.83c.52 0 .95-.42.95-.95V4.5a.95.95 0 0 0-.95-.94h-.83V.95A.95.95 0 0 0 7.94 0H2.73a.95.95 0 0 0-.95.95v2.6H.95A.95.95 0 0 0 0 4.5v1.66c0 .53.42.95.95.95h.83v12.45H.95a.95.95 0 0 0-.95.94v1.66c0 .53.42.95.95.95h.83v2.6c0 .53.42.96.95.96h5.21c.52 0 .95-.43.95-.95v-2.6h.83c.52 0 .95-.43.95-.96V20.5a.95.95 0 0 0-.95-.94h-.83v-2.44c0-.37.3-.68.67-.68H15v1.4c0 .53.46.83.98.83h1.56c.16 0 .55-.05.8-.32.08-.08.13-.24.16-.5Z\"/><g class=\"fill-muted\"><path d=\"M2.73.89h5.21c.03 0 .06.03.06.06v2.6H2.67V.96c0-.03.02-.06.06-.06ZM.89 6.16V4.5c0-.03.03-.06.06-.06h8.77c.03 0 .06.03.06.06v1.66c0 .04-.03.06-.06.06H.95a.06.06 0 0 1-.06-.06ZM8 25.72c0 .03-.03.06-.06.06H2.73a.06.06 0 0 1-.06-.06v-2.6H8v2.6ZM9.72 20.44c.03 0 .06.03.06.06v1.66c0 .04-.03.06-.06.06H.95a.06.06 0 0 1-.06-.06V20.5c0-.03.03-.06.06-.06h8.77ZM8 7.11v2.44c0 .86.7 1.56 1.56 1.56h5.48v4.45H9.56c-.86 0-1.56.7-1.56 1.56v2.44H2.67V7.1H8ZM17.6 8.89c.04 0 .07.03.07.06v8.77c0 .03-.03.06-.06.06h-1.66a.06.06 0 0 1-.06-.06V8.95c0-.03.03-.06.06-.06h1.66Z\"/></g></g></svg>",
-        "minWidth": 28,
-        "minHeight": 28,
-        "edgeType": "pipe",
-        "handles": [
-          {
-            "position": "top",
-            "rotatable": true,
-            "uuid": "1d0cab36-2e91-496e-8e3e-68985cbeca1c"
-          },
-          {
-            "position": "right",
-            "rotatable": true,
-            "uuid": "f46ec0a5-2c1a-4c3b-824b-4fdcddaff3aa"
-          },
-          {
-            "position": "bottom",
-            "rotatable": true,
-            "uuid": "9b9dd42e-f9e0-4972-bad7-4e7f9f9e9b43"
-          }
-        ],
-        "meta": { "label": "Pipe join 2", "labelPosition": "none" }
-      },
-      "width": 28,
-      "height": 28,
-      "measured": { "width": 28, "height": 28 },
-      "dragging": false
-    },
-    {
-      "id": "e459a849-f3fb-4922-891f-bc0e6bed5365",
-      "type": "svg",
-      "position": { "x": 45, "y": -105.76 },
-      "hidden": false,
-      "selected": false,
-      "zIndex": 20,
-      "data": {
-        "id": "e459a849-f3fb-4922-891f-bc0e6bed5365",
-        "library": "basic",
-        "name": "pipe-top-right",
-        "rotatable": true,
-        "content": "<svg width=\"20\" height=\"20\" viewBox=\"-6.5 3 21.2 15\" class=\"h-full w-full\"><g class=\"stroke-muted-foreground fill-muted-foreground\" stroke-width=\".1\"><path d=\"M14 7h-2.55a.64.64 0 0 0-.64-.64h-1.9a.64.64 0 0 0-.64.64h-.38a.26.26 0 0 1-.26-.27v-.37c.35 0 .64-.28.64-.64v-1.9a.64.64 0 0 0-.64-.64V.64A.64.64 0 0 0 7 0H1.27a.64.64 0 0 0-.63.64v2.54a.64.64 0 0 0-.64.64v1.9c0 .36.28.64.64.64v1.49c0 3.4 2.75 6.14 6.14 6.14h1.49c0 .35.28.64.63.64h1.91c.35 0 .64-.29.64-.64h2.54c.35 0 .64-.28.64-.63V7.63a.64.64 0 0 0-.64-.63Z\"/><path class=\"fill-muted\" d=\"M1.27 4.45h5.72v.64H1.27zm.64-3.18h4.45v1.91H1.91zM1.9 7.85v-1.5h4.46v.38c0 .85.68 1.54 1.53 1.54h.38v4.45h-1.5a4.87 4.87 0 0 1-4.86-4.87Zm7.64 5.5V7.63h.63v5.72zm3.81-.63h-1.9V8.27h1.9z\"/></g></svg>",
-        "minWidth": 28,
-        "minHeight": 28,
-        "edgeType": "pipe",
-        "handles": [
-          {
-            "position": "top",
-            "rotatable": true,
-            "uuid": "516baca6-369c-4194-806e-5ff9fc4e99c4"
-          },
-          {
-            "position": "right",
-            "rotatable": true,
-            "uuid": "50b56302-a261-4931-9156-fd1284e2c6ca"
-          }
-        ],
-        "meta": { "label": "PipeTR 2", "labelPosition": "none", "rotate": 270 }
-      },
-      "width": 28,
-      "height": 28,
-      "measured": { "width": 28, "height": 28 },
-      "dragging": false
-    },
-    {
-      "id": "16cdb7f7-e734-4f92-87aa-976070259574",
-      "type": "svg",
-      "selected": false,
-      "position": { "x": 615, "y": 103.84 },
-      "data": {
-        "id": "16cdb7f7-e734-4f92-87aa-976070259574",
-        "library": "basic",
-        "name": "pipe-top-right",
-        "rotatable": true,
-        "content": "<svg width=\"20\" height=\"20\" viewBox=\"-6.5 3 21.2 15\" class=\"h-full w-full\"><g class=\"stroke-muted-foreground fill-muted-foreground\" stroke-width=\".1\"><path d=\"M14 7h-2.55a.64.64 0 0 0-.64-.64h-1.9a.64.64 0 0 0-.64.64h-.38a.26.26 0 0 1-.26-.27v-.37c.35 0 .64-.28.64-.64v-1.9a.64.64 0 0 0-.64-.64V.64A.64.64 0 0 0 7 0H1.27a.64.64 0 0 0-.63.64v2.54a.64.64 0 0 0-.64.64v1.9c0 .36.28.64.64.64v1.49c0 3.4 2.75 6.14 6.14 6.14h1.49c0 .35.28.64.63.64h1.91c.35 0 .64-.29.64-.64h2.54c.35 0 .64-.28.64-.63V7.63a.64.64 0 0 0-.64-.63Z\"/><path class=\"fill-muted\" d=\"M1.27 4.45h5.72v.64H1.27zm.64-3.18h4.45v1.91H1.91zM1.9 7.85v-1.5h4.46v.38c0 .85.68 1.54 1.53 1.54h.38v4.45h-1.5a4.87 4.87 0 0 1-4.86-4.87Zm7.64 5.5V7.63h.63v5.72zm3.81-.63h-1.9V8.27h1.9z\"/></g></svg>",
-        "minWidth": 28,
-        "minHeight": 28,
-        "edgeType": "pipe",
-        "handles": [
-          {
-            "position": "top",
-            "rotatable": true,
-            "uuid": "516baca6-369c-4194-806e-5ff9fc4e99c4"
-          },
-          {
-            "position": "right",
-            "rotatable": true,
-            "uuid": "50b56302-a261-4931-9156-fd1284e2c6ca"
-          }
-        ],
-        "meta": { "label": "PipeTR 3", "labelPosition": "none", "rotate": 180 }
-      },
-      "zIndex": 20,
-      "hidden": false,
-      "width": 28,
-      "height": 28,
-      "measured": { "width": 28, "height": 28 },
-      "dragging": false
-    },
-    {
-      "id": "34895460-b977-4187-9c68-fa9e7d4ba620",
-      "type": "svg",
-      "position": { "x": 45, "y": -30 },
-      "hidden": false,
-      "selected": false,
-      "zIndex": 20,
-      "data": {
-        "id": "34895460-b977-4187-9c68-fa9e7d4ba620",
-        "library": "basic",
-        "name": "pipe-tjoin",
-        "rotatable": true,
-        "content": "<svg width=\"20\" height=\"20\" viewBox=\"-3.9 0 18.5 26.67\" class=\"h-full w-full\" ><g class=\"stroke-muted-foreground fill-muted-foreground\" stroke-width=\".1\"><path d=\"M18.5 17.85v-8.9a.95.95 0 0 0-.15-.46c-.25-.31-.65-.49-.81-.49h-1.56a.97.97 0 0 0-.98.94v1.28H9.56a.68.68 0 0 1-.67-.67V7.1h.83c.52 0 .95-.42.95-.95V4.5a.95.95 0 0 0-.95-.94h-.83V.95A.95.95 0 0 0 7.94 0H2.73a.95.95 0 0 0-.95.95v2.6H.95A.95.95 0 0 0 0 4.5v1.66c0 .53.42.95.95.95h.83v12.45H.95a.95.95 0 0 0-.95.94v1.66c0 .53.42.95.95.95h.83v2.6c0 .53.42.96.95.96h5.21c.52 0 .95-.43.95-.95v-2.6h.83c.52 0 .95-.43.95-.96V20.5a.95.95 0 0 0-.95-.94h-.83v-2.44c0-.37.3-.68.67-.68H15v1.4c0 .53.46.83.98.83h1.56c.16 0 .55-.05.8-.32.08-.08.13-.24.16-.5Z\"/><g class=\"fill-muted\"><path d=\"M2.73.89h5.21c.03 0 .06.03.06.06v2.6H2.67V.96c0-.03.02-.06.06-.06ZM.89 6.16V4.5c0-.03.03-.06.06-.06h8.77c.03 0 .06.03.06.06v1.66c0 .04-.03.06-.06.06H.95a.06.06 0 0 1-.06-.06ZM8 25.72c0 .03-.03.06-.06.06H2.73a.06.06 0 0 1-.06-.06v-2.6H8v2.6ZM9.72 20.44c.03 0 .06.03.06.06v1.66c0 .04-.03.06-.06.06H.95a.06.06 0 0 1-.06-.06V20.5c0-.03.03-.06.06-.06h8.77ZM8 7.11v2.44c0 .86.7 1.56 1.56 1.56h5.48v4.45H9.56c-.86 0-1.56.7-1.56 1.56v2.44H2.67V7.1H8ZM17.6 8.89c.04 0 .07.03.07.06v8.77c0 .03-.03.06-.06.06h-1.66a.06.06 0 0 1-.06-.06V8.95c0-.03.03-.06.06-.06h1.66Z\"/></g></g></svg>",
-        "minWidth": 28,
-        "minHeight": 28,
-        "edgeType": "pipe",
-        "handles": [
-          {
-            "position": "top",
-            "rotatable": true,
-            "uuid": "56401fb8-9c9c-4ebc-a042-6845dea33fe7"
-          },
-          {
-            "position": "right",
-            "rotatable": true,
-            "uuid": "a0d3db3a-6b20-4ea7-8a89-6dd22df2dd4a"
-          },
-          {
-            "position": "bottom",
-            "rotatable": true,
-            "uuid": "daa01923-f808-4eca-8f0f-c0077eefce35"
-          }
-        ],
-        "meta": { "label": "Pipe join 4", "labelPosition": "none" }
-      },
-      "width": 28,
-      "height": 28,
-      "measured": { "width": 28, "height": 28 },
-      "dragging": false
-    },
-    {
-      "id": "e54381b2-4e13-428c-b16b-f2b8221be385",
-      "type": "svg",
-      "position": { "x": 164.38, "y": -109.76 },
-      "hidden": false,
-      "selected": false,
-      "zIndex": 20,
-      "data": {
-        "id": "e54381b2-4e13-428c-b16b-f2b8221be385",
-        "library": "basic",
-        "name": "vavle",
-        "rotatable": false,
-        "content": "<svg width=\"24\" height=\"24\" viewBox=\"0 45 490 490\" class=\"h-full w-full stroke-muted-foreground fill-muted-foreground\"><rect width=\"300\" height=\"190\" x=\"100\" y=\"200\" rx=\"5\" class=\"fill-muted\"/><path d=\"M469.1 180.95c-11.5 0-20.9 9.4-20.9 20.9v24h-44.8v-1c0-31.3-25-56.3-56.3-56.3h-81.3v-55.3H294c11.5 0 20.9-9.4 20.9-20.9s-9.4-20.9-20.9-20.9h-98c-11.5 0-20.9 9.4-20.9 20.9s9.4 20.9 20.9 20.9h28.1v55.3h-81.3c-31.3 0-56.3 25-56.3 56.3v1H41.7v-24c0-11.5-9.4-20.9-20.9-20.9S0 190.35 0 201.75v183.5c0 11.5 9.4 20.9 20.9 20.9 10.4 0 19.8-9.4 20.9-20.9v-22.9h44.8c0 31.3 25 56.3 56.3 56.3h204.3c31.3 0 56.3-25 56.3-56.3l44.8-.1v23c0 11.5 9.4 20.9 20.9 20.9s20.9-9.4 20.9-20.9v-183.5c-.1-11.4-9.5-20.8-21-20.8zM85.5 319.55H41.7v-52.1h43.8v52.1zm277.3 42.8c0 8.3-7.3 15.6-15.6 15.6H142.8c-8.3 0-15.6-7.3-15.6-15.6v-137.6c0-8.3 7.3-15.6 15.6-15.6h204.3c8.3 0 15.6 7.3 15.6 15.6v137.6h.1zm40.7-42.8v-52.1h44.8v52.1h-44.8z\"/></svg>",
-        "minWidth": 32,
-        "minHeight": 32,
-        "edgeType": "pipe",
-        "handles": [
-          {
-            "position": "left",
-            "rotatable": false,
-            "uuid": "04a631b0-a73e-4890-83d1-10ac04ff866f"
-          },
-          {
-            "position": "right",
-            "rotatable": false,
-            "uuid": "933cbe42-9fd9-45f1-8f92-746eb62165e6"
-          }
-        ],
-        "meta": { "label": "Vavle 2", "labelPosition": "none" }
-      },
-      "width": 32,
-      "height": 32,
-      "measured": { "width": 32, "height": 32 },
-      "dragging": false
-    },
-    {
-      "id": "b8a05722-9ec9-4945-bfd7-5911c53404ed",
-      "type": "svg",
-      "position": { "x": 161.18, "y": -34 },
-      "hidden": false,
-      "selected": false,
-      "zIndex": 20,
-      "data": {
-        "id": "b8a05722-9ec9-4945-bfd7-5911c53404ed",
-        "library": "basic",
-        "name": "heater",
-        "rotatable": false,
-        "content": "<svg width=\"24\" height=\"24\" stroke-width=\".6\" viewBox=\"0 0 56 56\" class=\"h-full w-full stroke-muted-foreground fill-muted-foreground\"><g class=\"fill-muted\"><rect width=\"6\" height=\"39\" x=\"5\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"15\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"25\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"35\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"45\" y=\"8\" rx=\"3\"/><animate attributeName=\"fill\" attributeType=\"CSS\" dur=\"1.5\" repeatCount=\"indefinite\" values=\"#fff\"/></g><path d=\"M54 13.5h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2H2v-1H0v10h2v-1h2v22a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-22h2a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1zm-10 2v4h-2v-4h2zm-10 0v4h-2v-4h2zm-10 0v4h-2v-4h2zm-10 0v4h-2v-4h2zm-12 4v-4h2v4H2zm8 24a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm3-24h-1v-4h1v4z\"/></svg>",
-        "minWidth": 32,
-        "minHeight": 32,
-        "edgeType": "pipe",
-        "handles": [
-          {
-            "position": "left",
-            "rotatable": false,
-            "uuid": "cad882a3-ef86-45b1-9c58-04b470e149c3"
-          },
-          {
-            "position": "right",
-            "rotatable": false,
-            "uuid": "e26959e0-494e-444a-8e4a-01bef577eb2a"
-          }
-        ],
-        "meta": { "label": "Heater 4", "labelPosition": "none" }
-      },
-      "width": 32,
-      "height": 32,
-      "measured": { "width": 32, "height": 32 },
-      "dragging": false
-    },
-    {
-      "id": "c1b88e64-5e99-4bdd-982a-fd3bd2c715e7",
+      "id": "1ca36e5b-92be-4e62-bb3a-a71377128f4f",
       "type": "table",
-      "position": { "x": 68.26, "y": -60.44 },
+      "position": { "x": 116.98, "y": 26.01 },
       "zIndex": 10,
-      "parentId": "7a912ef8-7622-47a3-8eef-284cba7691d7",
+      "parentId": "8c245d49-1aa7-45bc-bad7-a22cd1dc2b3a",
       "data": {
-        "id": "c1b88e64-5e99-4bdd-982a-fd3bd2c715e7",
+        "id": "1ca36e5b-92be-4e62-bb3a-a71377128f4f",
         "library": "other",
-        "name": "",
+        "name": "table",
+        "version": "",
         "meta": {
-          "label": "Heater",
-          "props": [
+          "label": "Tank 1",
+          "properties": [
             {
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 38.9,
-              "status": 3
+              "value": 23.6,
+              "status": 1
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 23.8,
-              "status": 0
-            }
-          ]
-        }
-      },
-      "selected": false,
-      "measured": { "width": 96, "height": 55 },
-      "dragging": false
-    },
-    {
-      "id": "ee2ade63-82b7-46a5-8e4f-48b495680997",
-      "type": "svg",
-      "position": { "x": 324.51, "y": 87.84 },
-      "hidden": false,
-      "selected": false,
-      "zIndex": 20,
-      "data": {
-        "id": "ee2ade63-82b7-46a5-8e4f-48b495680997",
-        "library": "basic",
-        "name": "fan",
-        "rotatable": false,
-        "content": "<svg width=\"24\" height=\"24\" viewBox=\"1 1 30 30\" class=\"h-full w-full fill-none stroke-muted-foreground\"><rect width=\"29\" height=\"29\" x=\"1.5\" y=\"1.5\" rx=\"2\" class=\"fill-muted\"/><circle cx=\"16\" cy=\"16\" r=\"10\"/><circle cx=\"16\" cy=\"16\" r=\"3\"/><path d=\"M14.5,13.4L14.5,13.4c0.6-2.4-0.6-4.8-2.8-5.8L11,7.3, M13,16L13,16c-1.7-1.7-4.4-1.9-6.4-0.5L6,16, M14.5,18.6L14.5,18.6c-2.4,0.6-3.9,2.9-3.6,5.3l0.1,0.8, M17.5,18.6L17.5,18.6c-0.6,2.4,0.6,4.8,2.8,5.8l0.7,0.3, M19,16L19,16c1.7,1.7,4.4,1.9,6.4,0.5L26,16, M17.5,13.4L17.5,13.4c2.4-0.6,3.9-2.9,3.6-5.3L21,7.3\"><animateTransform attributeName=\"transform\" begin=\"0\" dur=\"9999\" from=\"0 16 16\" repeatCount=\"0\" to=\"360 16 16\" type=\"rotate\"/></path><g fill=\"#71717a\" stroke=\"#a1a1aa\" stroke-width=\".5\"><circle cx=\"6\" cy=\"6\" r=\"1.2\"/><circle cx=\"26\" cy=\"6\" r=\"1.2\"/><circle cx=\"6\" cy=\"26\" r=\"1.2\"/><circle cx=\"26\" cy=\"26\" r=\"1.2\"/></g></svg>",
-        "minWidth": 32,
-        "minHeight": 32,
-        "edgeType": "cable",
-        "handles": [
-          {
-            "position": "left",
-            "rotatable": false,
-            "uuid": "4fba73ae-e22f-416e-9158-67f51e1a7d34"
-          },
-          {
-            "position": "right",
-            "rotatable": false,
-            "uuid": "971b2c3d-3362-4330-b26e-45ef3d1f6f08"
-          }
-        ],
-        "meta": { "status": 1, "label": "Fan 3", "labelPosition": "bottom" }
-      },
-      "width": 53,
-      "height": 53,
-      "measured": { "width": 53, "height": 53 },
-      "dragging": false,
-      "resizing": false
-    },
-    {
-      "id": "dc6c7d46-3074-46ab-b3db-1f9d2573f9f8",
-      "type": "svg",
-      "selected": false,
-      "position": { "x": 256.37, "y": 274.41 },
-      "data": {
-        "id": "dc6c7d46-3074-46ab-b3db-1f9d2573f9f8",
-        "library": "basic",
-        "name": "fan",
-        "rotatable": false,
-        "content": "<svg width=\"24\" height=\"24\" viewBox=\"1 1 30 30\" class=\"h-full w-full fill-none stroke-muted-foreground\"><rect width=\"29\" height=\"29\" x=\"1.5\" y=\"1.5\" rx=\"2\" class=\"fill-muted\"/><circle cx=\"16\" cy=\"16\" r=\"10\"/><circle cx=\"16\" cy=\"16\" r=\"3\"/><path d=\"M14.5,13.4L14.5,13.4c0.6-2.4-0.6-4.8-2.8-5.8L11,7.3, M13,16L13,16c-1.7-1.7-4.4-1.9-6.4-0.5L6,16, M14.5,18.6L14.5,18.6c-2.4,0.6-3.9,2.9-3.6,5.3l0.1,0.8, M17.5,18.6L17.5,18.6c-0.6,2.4,0.6,4.8,2.8,5.8l0.7,0.3, M19,16L19,16c1.7,1.7,4.4,1.9,6.4,0.5L26,16, M17.5,13.4L17.5,13.4c2.4-0.6,3.9-2.9,3.6-5.3L21,7.3\"><animateTransform attributeName=\"transform\" begin=\"0\" dur=\"9999\" from=\"0 16 16\" repeatCount=\"0\" to=\"360 16 16\" type=\"rotate\"/></path><g fill=\"#71717a\" stroke=\"#a1a1aa\" stroke-width=\".5\"><circle cx=\"6\" cy=\"6\" r=\"1.2\"/><circle cx=\"26\" cy=\"6\" r=\"1.2\"/><circle cx=\"6\" cy=\"26\" r=\"1.2\"/><circle cx=\"26\" cy=\"26\" r=\"1.2\"/></g></svg>",
-        "minWidth": 32,
-        "minHeight": 32,
-        "edgeType": "cable",
-        "handles": [
-          {
-            "position": "left",
-            "rotatable": false,
-            "uuid": "4fba73ae-e22f-416e-9158-67f51e1a7d34"
-          },
-          {
-            "position": "right",
-            "rotatable": false,
-            "uuid": "971b2c3d-3362-4330-b26e-45ef3d1f6f08"
-          }
-        ],
-        "meta": { "status": 3, "label": "Fan 1", "labelPosition": "bottom" }
-      },
-      "zIndex": 20,
-      "hidden": false,
-      "width": 32,
-      "height": 32,
-      "measured": { "width": 32, "height": 32 },
-      "dragging": false
-    },
-    {
-      "id": "71090b79-ef46-471c-b74a-f8c5c80d3182",
-      "type": "svg",
-      "position": { "x": 409.12, "y": 274.41 },
-      "hidden": false,
-      "selected": false,
-      "zIndex": 20,
-      "data": {
-        "id": "71090b79-ef46-471c-b74a-f8c5c80d3182",
-        "library": "basic",
-        "name": "fan",
-        "rotatable": false,
-        "content": "<svg width=\"24\" height=\"24\" viewBox=\"1 1 30 30\" class=\"h-full w-full fill-none stroke-muted-foreground\"><rect width=\"29\" height=\"29\" x=\"1.5\" y=\"1.5\" rx=\"2\" class=\"fill-muted\"/><circle cx=\"16\" cy=\"16\" r=\"10\"/><circle cx=\"16\" cy=\"16\" r=\"3\"/><path d=\"M14.5,13.4L14.5,13.4c0.6-2.4-0.6-4.8-2.8-5.8L11,7.3, M13,16L13,16c-1.7-1.7-4.4-1.9-6.4-0.5L6,16, M14.5,18.6L14.5,18.6c-2.4,0.6-3.9,2.9-3.6,5.3l0.1,0.8, M17.5,18.6L17.5,18.6c-0.6,2.4,0.6,4.8,2.8,5.8l0.7,0.3, M19,16L19,16c1.7,1.7,4.4,1.9,6.4,0.5L26,16, M17.5,13.4L17.5,13.4c2.4-0.6,3.9-2.9,3.6-5.3L21,7.3\"><animateTransform attributeName=\"transform\" begin=\"0\" dur=\"9999\" from=\"0 16 16\" repeatCount=\"0\" to=\"360 16 16\" type=\"rotate\"/></path><g fill=\"#71717a\" stroke=\"#a1a1aa\" stroke-width=\".5\"><circle cx=\"6\" cy=\"6\" r=\"1.2\"/><circle cx=\"26\" cy=\"6\" r=\"1.2\"/><circle cx=\"6\" cy=\"26\" r=\"1.2\"/><circle cx=\"26\" cy=\"26\" r=\"1.2\"/></g></svg>",
-        "minWidth": 32,
-        "minHeight": 32,
-        "edgeType": "cable",
-        "handles": [
-          {
-            "position": "left",
-            "rotatable": false,
-            "uuid": "eb2f1c68-74ab-4ab9-9792-dff8fc10a60e"
-          },
-          {
-            "position": "right",
-            "rotatable": false,
-            "uuid": "34ff8f09-e636-4e52-9f3d-9c030f43cf06"
-          }
-        ],
-        "meta": { "status": 2, "label": "Fan", "labelPosition": "bottom" }
-      },
-      "width": 32,
-      "height": 32,
-      "measured": { "width": 32, "height": 32 },
-      "dragging": false
-    },
-    {
-      "id": "e4aa4f29-258d-4418-ba76-c63197f852e6",
-      "type": "svg",
-      "position": { "x": 256.37, "y": 103.84 },
-      "hidden": false,
-      "selected": false,
-      "zIndex": 20,
-      "data": {
-        "id": "e4aa4f29-258d-4418-ba76-c63197f852e6",
-        "library": "basic",
-        "name": "bulb",
-        "rotatable": true,
-        "content": "<svg width=\"24\" height=\"24\" viewBox=\"-10 -10 150 150\" class=\"h-full w-full fill-muted-foreground\"><path class=\"fill-muted\" d=\"M82 93V81.82a20.38 20.38 0 0 1 6.65-15.23 37 37 0 1 0-49.39-.09A20.59 20.59 0 0 1 46 81.82v10.77z\"><animate attributeName=\"fill\" attributeType=\"CSS\" dur=\"9999\" repeatCount=\"0\"/></path><path stroke=\"#e4e4e7\" d=\"M82 95a2 2 0 0 1-2-2V81.82a22.38 22.38 0 0 1 7.31-16.72 35 35 0 1 0-46.72-.1A22.61 22.61 0 0 1 48 81.82v10.76a2 2 0 0 1-4 0V81.82A18.6 18.6 0 0 0 37.92 68a39 39 0 1 1 52.08.08 18.38 18.38 0 0 0-6 13.74V93a2 2 0 0 1-2 2Z\"/><path fill=\"#71717a\" d=\"M82 92v16a18.05 18.05 0 0 1-18 18 18.05 18.05 0 0 1-18-18V92Z\"/><g fill=\"#3f3f46\"><path d=\"M64 128a20 20 0 0 1-20-20V92a2 2 0 0 1 2-2h36a2 2 0 0 1 2 2v16a20 20 0 0 1-20 20ZM48 94v14a16 16 0 0 0 32 0V94Z\"/><path d=\"M54 104a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4ZM54 112a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4Z\"/></g><path d=\"m54 102 28-4M54 110l28-4\"/></svg>",
-        "minWidth": 20,
-        "minHeight": 20,
-        "edgeType": "cable",
-        "handles": [
-          {
-            "position": "left",
-            "rotatable": false,
-            "uuid": "5bd32b20-e9d5-4a9f-a210-237af89287b3"
-          },
-          {
-            "position": "right",
-            "rotatable": false,
-            "uuid": "7f8e1ad8-b538-4aaa-b230-1d54922541d5"
-          }
-        ],
-        "meta": { "status": 2, "label": "Bulb", "labelPosition": "none" }
-      },
-      "width": 21,
-      "height": 21,
-      "measured": { "width": 21, "height": 21 },
-      "dragging": false
-    },
-    {
-      "id": "2dbc28bd-586e-4154-b79a-74f4f1664a71",
-      "type": "svg",
-      "selected": false,
-      "position": { "x": 420.12, "y": 103.84 },
-      "data": {
-        "id": "2dbc28bd-586e-4154-b79a-74f4f1664a71",
-        "library": "basic",
-        "name": "bulb",
-        "rotatable": true,
-        "content": "<svg width=\"24\" height=\"24\" viewBox=\"-10 -10 150 150\" class=\"h-full w-full fill-muted-foreground\"><path class=\"fill-muted\" d=\"M82 93V81.82a20.38 20.38 0 0 1 6.65-15.23 37 37 0 1 0-49.39-.09A20.59 20.59 0 0 1 46 81.82v10.77z\"><animate attributeName=\"fill\" attributeType=\"CSS\" dur=\"9999\" repeatCount=\"0\"/></path><path stroke=\"#e4e4e7\" d=\"M82 95a2 2 0 0 1-2-2V81.82a22.38 22.38 0 0 1 7.31-16.72 35 35 0 1 0-46.72-.1A22.61 22.61 0 0 1 48 81.82v10.76a2 2 0 0 1-4 0V81.82A18.6 18.6 0 0 0 37.92 68a39 39 0 1 1 52.08.08 18.38 18.38 0 0 0-6 13.74V93a2 2 0 0 1-2 2Z\"/><path fill=\"#71717a\" d=\"M82 92v16a18.05 18.05 0 0 1-18 18 18.05 18.05 0 0 1-18-18V92Z\"/><g fill=\"#3f3f46\"><path d=\"M64 128a20 20 0 0 1-20-20V92a2 2 0 0 1 2-2h36a2 2 0 0 1 2 2v16a20 20 0 0 1-20 20ZM48 94v14a16 16 0 0 0 32 0V94Z\"/><path d=\"M54 104a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4ZM54 112a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4Z\"/></g><path d=\"m54 102 28-4M54 110l28-4\"/></svg>",
-        "minWidth": 20,
-        "minHeight": 20,
-        "edgeType": "cable",
-        "handles": [
-          {
-            "position": "left",
-            "rotatable": false,
-            "uuid": "5bd32b20-e9d5-4a9f-a210-237af89287b3"
-          },
-          {
-            "position": "right",
-            "rotatable": false,
-            "uuid": "7f8e1ad8-b538-4aaa-b230-1d54922541d5"
-          }
-        ],
-        "meta": {
-          "status": 1,
-          "label": "Bulb 1",
-          "labelPosition": "none",
-          "rotate": 180
-        }
-      },
-      "zIndex": 20,
-      "hidden": false,
-      "width": 21,
-      "height": 21,
-      "measured": { "width": 21, "height": 21 },
-      "dragging": false,
-      "resizing": false
-    },
-    {
-      "id": "66c04106-4aa3-4b7f-b332-e4130464eac8",
-      "type": "svg",
-      "selected": false,
-      "position": { "x": 335.19, "y": 272.41 },
-      "data": {
-        "id": "66c04106-4aa3-4b7f-b332-e4130464eac8",
-        "library": "basic",
-        "name": "bulb",
-        "rotatable": true,
-        "content": "<svg width=\"24\" height=\"24\" viewBox=\"-10 -10 150 150\" class=\"h-full w-full fill-muted-foreground\"><path class=\"fill-muted\" d=\"M82 93V81.82a20.38 20.38 0 0 1 6.65-15.23 37 37 0 1 0-49.39-.09A20.59 20.59 0 0 1 46 81.82v10.77z\"><animate attributeName=\"fill\" attributeType=\"CSS\" dur=\"9999\" repeatCount=\"0\"/></path><path stroke=\"#e4e4e7\" d=\"M82 95a2 2 0 0 1-2-2V81.82a22.38 22.38 0 0 1 7.31-16.72 35 35 0 1 0-46.72-.1A22.61 22.61 0 0 1 48 81.82v10.76a2 2 0 0 1-4 0V81.82A18.6 18.6 0 0 0 37.92 68a39 39 0 1 1 52.08.08 18.38 18.38 0 0 0-6 13.74V93a2 2 0 0 1-2 2Z\"/><path fill=\"#71717a\" d=\"M82 92v16a18.05 18.05 0 0 1-18 18 18.05 18.05 0 0 1-18-18V92Z\"/><g fill=\"#3f3f46\"><path d=\"M64 128a20 20 0 0 1-20-20V92a2 2 0 0 1 2-2h36a2 2 0 0 1 2 2v16a20 20 0 0 1-20 20ZM48 94v14a16 16 0 0 0 32 0V94Z\"/><path d=\"M54 104a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4ZM54 112a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4Z\"/></g><path d=\"m54 102 28-4M54 110l28-4\"/></svg>",
-        "minWidth": 20,
-        "minHeight": 20,
-        "edgeType": "cable",
-        "handles": [
-          {
-            "position": "left",
-            "rotatable": false,
-            "uuid": "5bd32b20-e9d5-4a9f-a210-237af89287b3"
-          },
-          {
-            "position": "right",
-            "rotatable": false,
-            "uuid": "7f8e1ad8-b538-4aaa-b230-1d54922541d5"
-          }
-        ],
-        "meta": {
-          "status": 3,
-          "label": "Bulb 2",
-          "labelPosition": "none",
-          "rotate": 180
-        }
-      },
-      "zIndex": 20,
-      "hidden": false,
-      "width": 34,
-      "height": 34,
-      "measured": { "width": 34, "height": 34 },
-      "dragging": false,
-      "resizing": false
-    },
-    {
-      "id": "2cd7d4b0-3ac5-4bce-bc54-7adc9c9de9dd",
-      "type": "table",
-      "position": { "x": -73.46, "y": -84.45 },
-      "zIndex": 10,
-      "parentId": "3de0c424-160d-42c5-a264-9ace24ed1210",
-      "data": {
-        "id": "2cd7d4b0-3ac5-4bce-bc54-7adc9c9de9dd",
-        "library": "other",
-        "name": "",
-        "meta": {
-          "label": "Heater G1",
-          "props": [
-            {
-              "label": "Temperature",
-              "key": "temp",
-              "unit": "°C",
-              "value": 48.4,
-              "status": 3
-            },
-            {
-              "label": "Humidity",
-              "key": "hum",
-              "unit": "%",
-              "value": 25.1,
+              "value": 35,
               "status": 0
             },
             {
-              "label": "Property-3",
-              "key": "prop-3",
-              "value": 17.5,
+              "label": "Property-1",
+              "key": "prop-1",
+              "value": 48.5,
               "status": 0
             }
           ]
@@ -1161,338 +1049,71 @@
       "dragging": false
     },
     {
-      "id": "b7ad3d70-961a-43da-907d-26f3cc1b19a7",
-      "type": "svg",
-      "position": { "x": 277.37, "y": 429.58 },
-      "hidden": false,
-      "selected": false,
-      "zIndex": 20,
-      "data": {
-        "name": "tank-wagon",
-        "content": "<svg width=\"33\" height=\"22\" viewBox=\"0 -1 32 22\" class=\"h-full w-full\"><g><path class=\"fill-muted-foreground\" stroke-width=\".1\" d=\"M31.78 15a.52.52 0 1 0 0-1.05h-1.12s0 0 0 0h-1.44A6.66 6.66 0 0 0 26.16 1.7v-.6c0-.6-.48-1.09-1.08-1.09h-2.23c-.6 0-1.08.49-1.08 1.08v.6H10.53v-.04a.52.52 0 1 0-1.04 0v.03h-2.3v-.03a.52.52 0 1 0-1.05 0v.05a6.67 6.67 0 0 0-3.06 12.26H1.64s0 0 0 0H.52a.52.52 0 1 0 0 1.05h.84l.83 1.24a1.91 1.91 0 0 0-.3 2.18H.51a.52.52 0 1 0 0 1.05h31.26a.52.52 0 1 0 0-1.05h-1.36a1.9 1.9 0 0 0-.3-2.18l.82-1.24h.84ZM22.8 1.08c0-.02.02-.03.04-.03h2.23c.02 0 .04.01.04.03v.6h-2.3v-.6ZM2.72 17.55a.87.87 0 1 1 1.75 0 .87.87 0 0 1-1.75 0Zm7.23-.32h12.4a1.92 1.92 0 0 0 .19 1.19H9.77a1.9 1.9 0 0 0 .18-1.19Zm16.19 0h.68a1.92 1.92 0 0 0 .18 1.19h-1.05a1.9 1.9 0 0 0 .19-1.19Zm-1.9 1.19a.87.87 0 1 1 0-1.75.87.87 0 0 1 0 1.75Zm-16.18 0a.87.87 0 1 1 0-1.75.87.87 0 0 1 0 1.75Zm-1.71 0H5.3a1.9 1.9 0 0 0 .19-1.19h.68a1.92 1.92 0 0 0 .18 1.19Zm21.49-.87a.87.87 0 1 1 1.74 0 .87.87 0 0 1-1.74 0Zm1.38-1.85a1.91 1.91 0 0 0-1.86.49H25.6a1.91 1.91 0 0 0-2.7 0H9.4a1.91 1.91 0 0 0-2.7 0H4.94a1.91 1.91 0 0 0-1.86-.5L2.62 15h27.07l-.47.7Z\"/><rect width=\"30.3\" height=\"11.4\" x=\"1\" y=\"2.58\" class=\"fill-muted\" rx=\"5.7\" stroke=\"none\"><animate attributeName=\"fill\" attributeType=\"CSS\" dur=\"9999\" repeatCount=\"0\"/></rect></g></svg>",
-        "minWidth": 90,
-        "minHeight": 60,
-        "edgeType": "pipe",
-        "handles": [
-          {
-            "position": "left",
-            "rotatable": false,
-            "uuid": "6cef42a8-518c-4833-8174-ec4dce677530"
-          },
-          {
-            "position": "right",
-            "rotatable": false,
-            "uuid": "1a36463c-d291-40df-8845-43ebe969d455"
-          }
-        ],
-        "hasTable": true,
-        "id": "b7ad3d70-961a-43da-907d-26f3cc1b19a7",
-        "library": "basic",
-        "meta": {
-          "label": "Tank 2",
-          "labelPosition": "center",
-          "props": [
-            {
-              "label": "Temperature",
-              "key": "temp",
-              "unit": "°C",
-              "value": 38.7,
-              "status": 3
-            },
-            {
-              "label": "Humidity",
-              "key": "hum",
-              "unit": "%",
-              "value": 45.7,
-              "status": 0
-            },
-            {
-              "label": "Property-1",
-              "key": "prop-1",
-              "value": 21.5,
-              "status": 0
-            },
-            {
-              "label": "Property-2",
-              "key": "prop-2",
-              "value": 15.6,
-              "status": 0
-            }
-          ],
-          "status": 3
-        }
-      },
-      "width": 155.49514563106797,
-      "height": 103.66343042071198,
-      "measured": { "width": 155, "height": 104 },
-      "resizing": false,
-      "dragging": false
-    },
-    {
-      "id": "246b8c30-6bf5-43fc-b771-c1cec2f24584",
-      "type": "svg",
-      "position": { "x": 150, "y": 465 },
-      "hidden": false,
-      "selected": false,
-      "zIndex": 20,
-      "data": {
-        "name": "vavle",
-        "content": "<svg width=\"24\" height=\"24\" viewBox=\"0 45 490 490\" class=\"h-full w-full stroke-muted-foreground fill-muted-foreground\"><rect width=\"300\" height=\"190\" x=\"100\" y=\"200\" rx=\"5\" class=\"fill-muted\"/><path d=\"M469.1 180.95c-11.5 0-20.9 9.4-20.9 20.9v24h-44.8v-1c0-31.3-25-56.3-56.3-56.3h-81.3v-55.3H294c11.5 0 20.9-9.4 20.9-20.9s-9.4-20.9-20.9-20.9h-98c-11.5 0-20.9 9.4-20.9 20.9s9.4 20.9 20.9 20.9h28.1v55.3h-81.3c-31.3 0-56.3 25-56.3 56.3v1H41.7v-24c0-11.5-9.4-20.9-20.9-20.9S0 190.35 0 201.75v183.5c0 11.5 9.4 20.9 20.9 20.9 10.4 0 19.8-9.4 20.9-20.9v-22.9h44.8c0 31.3 25 56.3 56.3 56.3h204.3c31.3 0 56.3-25 56.3-56.3l44.8-.1v23c0 11.5 9.4 20.9 20.9 20.9s20.9-9.4 20.9-20.9v-183.5c-.1-11.4-9.5-20.8-21-20.8zM85.5 319.55H41.7v-52.1h43.8v52.1zm277.3 42.8c0 8.3-7.3 15.6-15.6 15.6H142.8c-8.3 0-15.6-7.3-15.6-15.6v-137.6c0-8.3 7.3-15.6 15.6-15.6h204.3c8.3 0 15.6 7.3 15.6 15.6v137.6h.1zm40.7-42.8v-52.1h44.8v52.1h-44.8z\"/></svg>",
-        "minWidth": 32,
-        "minHeight": 32,
-        "edgeType": "pipe",
-        "handles": [
-          {
-            "position": "left",
-            "rotatable": false,
-            "uuid": "2915bb97-b74a-4893-a52b-01dd1c3aed15"
-          },
-          {
-            "position": "right",
-            "rotatable": false,
-            "uuid": "02be4af8-e82e-47bc-8552-1d90f4200bba"
-          }
-        ],
-        "id": "246b8c30-6bf5-43fc-b771-c1cec2f24584",
-        "library": "basic",
-        "meta": { "label": "Vavle", "labelPosition": "none" }
-      },
-      "width": 32,
-      "height": 32,
-      "measured": { "width": 32, "height": 32 }
-    },
-    {
-      "id": "d09ac38b-f890-4881-8fe6-be24ba0abd5c",
-      "type": "svg",
-      "position": { "x": 505.88, "y": 462.28 },
-      "hidden": false,
-      "selected": false,
-      "zIndex": 20,
-      "data": {
-        "name": "vavle",
-        "content": "<svg width=\"24\" height=\"24\" viewBox=\"0 45 490 490\" class=\"h-full w-full stroke-muted-foreground fill-muted-foreground\"><rect width=\"300\" height=\"190\" x=\"100\" y=\"200\" rx=\"5\" class=\"fill-muted\"/><path d=\"M469.1 180.95c-11.5 0-20.9 9.4-20.9 20.9v24h-44.8v-1c0-31.3-25-56.3-56.3-56.3h-81.3v-55.3H294c11.5 0 20.9-9.4 20.9-20.9s-9.4-20.9-20.9-20.9h-98c-11.5 0-20.9 9.4-20.9 20.9s9.4 20.9 20.9 20.9h28.1v55.3h-81.3c-31.3 0-56.3 25-56.3 56.3v1H41.7v-24c0-11.5-9.4-20.9-20.9-20.9S0 190.35 0 201.75v183.5c0 11.5 9.4 20.9 20.9 20.9 10.4 0 19.8-9.4 20.9-20.9v-22.9h44.8c0 31.3 25 56.3 56.3 56.3h204.3c31.3 0 56.3-25 56.3-56.3l44.8-.1v23c0 11.5 9.4 20.9 20.9 20.9s20.9-9.4 20.9-20.9v-183.5c-.1-11.4-9.5-20.8-21-20.8zM85.5 319.55H41.7v-52.1h43.8v52.1zm277.3 42.8c0 8.3-7.3 15.6-15.6 15.6H142.8c-8.3 0-15.6-7.3-15.6-15.6v-137.6c0-8.3 7.3-15.6 15.6-15.6h204.3c8.3 0 15.6 7.3 15.6 15.6v137.6h.1zm40.7-42.8v-52.1h44.8v52.1h-44.8z\"/></svg>",
-        "minWidth": 32,
-        "minHeight": 32,
-        "edgeType": "pipe",
-        "handles": [
-          {
-            "position": "left",
-            "rotatable": false,
-            "uuid": "81d7b8fa-a031-4f52-8e96-37d81b53addc"
-          },
-          {
-            "position": "right",
-            "rotatable": false,
-            "uuid": "207a0ffc-a2b4-43f1-abce-bb55c9538661"
-          }
-        ],
-        "id": "d09ac38b-f890-4881-8fe6-be24ba0abd5c",
-        "library": "basic",
-        "meta": { "label": "Vavle 1", "labelPosition": "none" }
-      },
-      "width": 37,
-      "height": 37,
-      "measured": { "width": 37, "height": 37 },
-      "dragging": false
-    },
-    {
-      "id": "94d332e0-b90a-453a-9f11-15092114756b",
-      "type": "svg",
-      "position": { "x": 45, "y": 465 },
-      "hidden": false,
-      "selected": false,
-      "zIndex": 20,
-      "data": {
-        "name": "pipe-top-right",
-        "content": "<svg width=\"20\" height=\"20\" viewBox=\"-6.5 3 21.2 15\" class=\"h-full w-full\"><g class=\"stroke-muted-foreground fill-muted-foreground\" stroke-width=\".1\"><path d=\"M14 7h-2.55a.64.64 0 0 0-.64-.64h-1.9a.64.64 0 0 0-.64.64h-.38a.26.26 0 0 1-.26-.27v-.37c.35 0 .64-.28.64-.64v-1.9a.64.64 0 0 0-.64-.64V.64A.64.64 0 0 0 7 0H1.27a.64.64 0 0 0-.63.64v2.54a.64.64 0 0 0-.64.64v1.9c0 .36.28.64.64.64v1.49c0 3.4 2.75 6.14 6.14 6.14h1.49c0 .35.28.64.63.64h1.91c.35 0 .64-.29.64-.64h2.54c.35 0 .64-.28.64-.63V7.63a.64.64 0 0 0-.64-.63Z\"/><path class=\"fill-muted\" d=\"M1.27 4.45h5.72v.64H1.27zm.64-3.18h4.45v1.91H1.91zM1.9 7.85v-1.5h4.46v.38c0 .85.68 1.54 1.53 1.54h.38v4.45h-1.5a4.87 4.87 0 0 1-4.86-4.87Zm7.64 5.5V7.63h.63v5.72zm3.81-.63h-1.9V8.27h1.9z\"/></g></svg>",
-        "rotatable": true,
-        "minWidth": 28,
-        "minHeight": 28,
-        "edgeType": "pipe",
-        "handles": [
-          {
-            "position": "top",
-            "rotatable": true,
-            "uuid": "e505aa08-d143-4915-b47f-1bced85e599c"
-          },
-          {
-            "position": "right",
-            "rotatable": true,
-            "uuid": "cc996343-b7e5-4a86-8861-84e2129fa7a0"
-          }
-        ],
-        "id": "94d332e0-b90a-453a-9f11-15092114756b",
-        "library": "basic",
-        "meta": { "label": "PipeTR", "labelPosition": "none" }
-      },
-      "width": 28,
-      "height": 28,
-      "measured": { "width": 28, "height": 28 },
-      "dragging": false
-    },
-    {
-      "id": "9697d727-a58c-41f2-be0d-507af8dbe5d0",
-      "type": "svg",
-      "selected": false,
-      "position": { "x": 606.16, "y": 462.28 },
-      "data": {
-        "name": "pipe-top-right",
-        "content": "<svg width=\"20\" height=\"20\" viewBox=\"-6.5 3 21.2 15\" class=\"h-full w-full\"><g class=\"stroke-muted-foreground fill-muted-foreground\" stroke-width=\".1\"><path d=\"M14 7h-2.55a.64.64 0 0 0-.64-.64h-1.9a.64.64 0 0 0-.64.64h-.38a.26.26 0 0 1-.26-.27v-.37c.35 0 .64-.28.64-.64v-1.9a.64.64 0 0 0-.64-.64V.64A.64.64 0 0 0 7 0H1.27a.64.64 0 0 0-.63.64v2.54a.64.64 0 0 0-.64.64v1.9c0 .36.28.64.64.64v1.49c0 3.4 2.75 6.14 6.14 6.14h1.49c0 .35.28.64.63.64h1.91c.35 0 .64-.29.64-.64h2.54c.35 0 .64-.28.64-.63V7.63a.64.64 0 0 0-.64-.63Z\"/><path class=\"fill-muted\" d=\"M1.27 4.45h5.72v.64H1.27zm.64-3.18h4.45v1.91H1.91zM1.9 7.85v-1.5h4.46v.38c0 .85.68 1.54 1.53 1.54h.38v4.45h-1.5a4.87 4.87 0 0 1-4.86-4.87Zm7.64 5.5V7.63h.63v5.72zm3.81-.63h-1.9V8.27h1.9z\"/></g></svg>",
-        "rotatable": true,
-        "minWidth": 28,
-        "minHeight": 28,
-        "edgeType": "pipe",
-        "handles": [
-          {
-            "position": "top",
-            "rotatable": true,
-            "uuid": "e505aa08-d143-4915-b47f-1bced85e599c"
-          },
-          {
-            "position": "right",
-            "rotatable": true,
-            "uuid": "cc996343-b7e5-4a86-8861-84e2129fa7a0"
-          }
-        ],
-        "id": "9697d727-a58c-41f2-be0d-507af8dbe5d0",
-        "library": "basic",
-        "meta": { "label": "PipeTR 1", "labelPosition": "none", "rotate": 90 }
-      },
-      "zIndex": 20,
-      "hidden": false,
-      "width": 37,
-      "height": 37,
-      "measured": { "width": 37, "height": 37 },
-      "dragging": false,
-      "resizing": false
-    },
-    {
-      "id": "a830c0c6-26fc-4555-be2e-866297b0e723",
+      "id": "22d5c294-6f3b-4910-bc4c-d67da0181155",
       "type": "table",
-      "position": { "x": -122.46, "y": 74.85 },
+      "position": { "x": -117.6, "y": 65.19 },
       "zIndex": 10,
-      "parentId": "b7ad3d70-961a-43da-907d-26f3cc1b19a7",
+      "parentId": "f285255f-416e-484f-aa3b-01e05b34e5a1",
       "data": {
-        "id": "a830c0c6-26fc-4555-be2e-866297b0e723",
+        "id": "22d5c294-6f3b-4910-bc4c-d67da0181155",
         "library": "other",
-        "name": "",
+        "name": "table",
+        "version": "",
         "meta": {
-          "label": "Tank 2",
-          "props": [
+          "label": "Tank base",
+          "properties": [
             {
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 38.7,
+              "value": 48.8,
               "status": 3
-            },
-            {
-              "label": "Humidity",
-              "key": "hum",
-              "unit": "%",
-              "value": 45.7,
-              "status": 0
-            },
-            {
-              "label": "Property-1",
-              "key": "prop-1",
-              "value": 21.5,
-              "status": 0
             },
             {
               "label": "Property-2",
               "key": "prop-2",
-              "value": 15.6,
+              "value": 15.1,
+              "status": 0
+            },
+            {
+              "label": "Property-4",
+              "key": "prop-4",
+              "value": 19.6,
               "status": 0
             }
           ]
         }
       },
       "selected": false,
-      "measured": { "width": 96, "height": 89 },
+      "measured": { "width": 96, "height": 72 },
       "dragging": false
     },
     {
-      "id": "014f8187-50d8-4b82-b961-72ec0a5fa756",
-      "type": "svg",
-      "position": { "x": 465.07, "y": -96.12 },
-      "hidden": false,
-      "selected": false,
-      "zIndex": 20,
-      "data": {
-        "name": "tank-wagon",
-        "content": "<svg width=\"33\" height=\"22\" viewBox=\"0 -1 32 22\" class=\"h-full w-full\"><g><path class=\"fill-muted-foreground\" stroke-width=\".1\" d=\"M31.78 15a.52.52 0 1 0 0-1.05h-1.12s0 0 0 0h-1.44A6.66 6.66 0 0 0 26.16 1.7v-.6c0-.6-.48-1.09-1.08-1.09h-2.23c-.6 0-1.08.49-1.08 1.08v.6H10.53v-.04a.52.52 0 1 0-1.04 0v.03h-2.3v-.03a.52.52 0 1 0-1.05 0v.05a6.67 6.67 0 0 0-3.06 12.26H1.64s0 0 0 0H.52a.52.52 0 1 0 0 1.05h.84l.83 1.24a1.91 1.91 0 0 0-.3 2.18H.51a.52.52 0 1 0 0 1.05h31.26a.52.52 0 1 0 0-1.05h-1.36a1.9 1.9 0 0 0-.3-2.18l.82-1.24h.84ZM22.8 1.08c0-.02.02-.03.04-.03h2.23c.02 0 .04.01.04.03v.6h-2.3v-.6ZM2.72 17.55a.87.87 0 1 1 1.75 0 .87.87 0 0 1-1.75 0Zm7.23-.32h12.4a1.92 1.92 0 0 0 .19 1.19H9.77a1.9 1.9 0 0 0 .18-1.19Zm16.19 0h.68a1.92 1.92 0 0 0 .18 1.19h-1.05a1.9 1.9 0 0 0 .19-1.19Zm-1.9 1.19a.87.87 0 1 1 0-1.75.87.87 0 0 1 0 1.75Zm-16.18 0a.87.87 0 1 1 0-1.75.87.87 0 0 1 0 1.75Zm-1.71 0H5.3a1.9 1.9 0 0 0 .19-1.19h.68a1.92 1.92 0 0 0 .18 1.19Zm21.49-.87a.87.87 0 1 1 1.74 0 .87.87 0 0 1-1.74 0Zm1.38-1.85a1.91 1.91 0 0 0-1.86.49H25.6a1.91 1.91 0 0 0-2.7 0H9.4a1.91 1.91 0 0 0-2.7 0H4.94a1.91 1.91 0 0 0-1.86-.5L2.62 15h27.07l-.47.7Z\"/><rect width=\"30.3\" height=\"11.4\" x=\"1\" y=\"2.58\" class=\"fill-muted\" rx=\"5.7\" stroke=\"none\"><animate attributeName=\"fill\" attributeType=\"CSS\" dur=\"9999\" repeatCount=\"0\"/></rect></g></svg>",
-        "minWidth": 90,
-        "minHeight": 60,
-        "edgeType": "pipe",
-        "handles": [
-          {
-            "position": "left",
-            "rotatable": false,
-            "uuid": "534e0843-3918-4ee2-914a-b40bc69d8d4b"
-          },
-          {
-            "position": "right",
-            "rotatable": false,
-            "uuid": "52a6d2b0-1459-4e8c-885b-56f62606c8de"
-          }
-        ],
-        "hasTable": true,
-        "id": "014f8187-50d8-4b82-b961-72ec0a5fa756",
-        "library": "basic",
-        "meta": {
-          "label": "Tank top",
-          "labelPosition": "center",
-          "props": [
-            {
-              "label": "Temperature",
-              "key": "temp",
-              "unit": "°C",
-              "value": 21.5,
-              "status": 2
-            },
-            {
-              "label": "Humidity",
-              "key": "hum",
-              "unit": "%",
-              "value": 44.5,
-              "status": 0
-            }
-          ],
-          "status": 2
-        }
-      },
-      "width": 110.4931506849315,
-      "height": 73.662100456621,
-      "measured": { "width": 110, "height": 74 },
-      "dragging": false,
-      "resizing": false
-    },
-    {
-      "id": "bafa21bd-eb00-4341-8082-85074905205e",
+      "id": "df269a87-a5c5-4b9b-83da-65915038ed6b",
       "type": "table",
-      "position": { "x": 151.63, "y": -7.86 },
+      "position": { "x": -3.19, "y": -71.23 },
       "zIndex": 10,
-      "parentId": "014f8187-50d8-4b82-b961-72ec0a5fa756",
+      "parentId": "0b159874-a64d-4a63-9389-e363c099cd50",
       "data": {
-        "id": "bafa21bd-eb00-4341-8082-85074905205e",
+        "id": "df269a87-a5c5-4b9b-83da-65915038ed6b",
         "library": "other",
-        "name": "",
+        "name": "table",
+        "version": "",
         "meta": {
-          "label": "Tank top",
-          "props": [
+          "label": "Heater",
+          "properties": [
             {
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 21.5,
-              "status": 2
+              "value": 25.9,
+              "status": 1
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 44.5,
+              "value": 48.7,
               "status": 0
             }
           ]
@@ -1503,373 +1124,643 @@
       "dragging": false
     },
     {
-      "id": "73c5d6f8-db39-473d-ad06-9e3bba2d44e2",
-      "type": "svg",
-      "position": { "x": 302.79, "y": -116 },
-      "hidden": false,
-      "selected": false,
-      "zIndex": 20,
+      "id": "af568873-79b9-4bb7-a839-520efd5fe119",
+      "type": "table",
+      "position": { "x": -20.39, "y": -72.19 },
+      "zIndex": 10,
+      "parentId": "18c8400b-14fd-48da-b76a-1af77b0256c2",
       "data": {
-        "name": "twin-tank",
-        "content": "<svg width=\"20\" height=\"25\" viewBox=\"-2 -2 208 256\" class=\"h-full w-full\"><g stroke-width=\".1\"><path class=\"fill-muted-foreground\" d=\"M165.74 45.95V22.03h15.42v-8.9H109.2V0H93.79v13.13H21.84v8.9h15.42v23.92C16.12 49.69 0 70.55 0 93.19V252h87.96v-31.5h27.67V252H203V93.19c0-22.65-16.12-43.5-37.26-47.24Zm-50.4 166.72h-28v-118h28v118Zm-.52-125h-27.3C83.9 65.4 67.46 47.8 46.67 43.95V21.67h109v22.28c-20.8 3.86-37.25 21.46-40.85 43.72Z\"/><path class=\"fill-muted\" d=\"M80.33 245h-73V94h73v151Zm115 0h-73V94h73v151Zm1-157h-73c4.35-19.56 19.07-34 36.5-34 17.44 0 32.15 14.44 36.5 34ZM43.83 54c17.44 0 32.15 14.44 36.5 34h-73c4.35-19.56 19.07-34 36.5-34Z\"/></g></svg>",
-        "rotatable": false,
-        "minWidth": 68,
-        "minHeight": 85,
-        "edgeType": "pipe",
-        "handles": [
-          {
-            "position": "left",
-            "rotatable": false,
-            "uuid": "6be50720-c5de-43eb-8e90-6063647f1d53"
-          },
-          {
-            "position": "left",
-            "rotatable": false,
-            "uuid": "65690d4f-4505-4425-a7a7-e19bae792acb"
-          },
-          {
-            "position": "right",
-            "rotatable": false,
-            "uuid": "bc621499-b060-4be7-8b0f-9ede49ff537a"
-          }
-        ],
-        "hasTable": true,
-        "id": "73c5d6f8-db39-473d-ad06-9e3bba2d44e2",
-        "library": "basic",
+        "id": "af568873-79b9-4bb7-a839-520efd5fe119",
+        "library": "other",
+        "name": "table",
+        "version": "",
         "meta": {
-          "label": "Twin tank",
-          "labelPosition": "bottom",
-          "props": [
+          "label": "Heater 2",
+          "properties": [
             {
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 17.4,
+              "value": 18.3,
               "status": 2
+            },
+            {
+              "label": "Property-5",
+              "key": "prop-5",
+              "value": 18.9,
+              "status": 0
             }
           ]
         }
       },
-      "width": 91,
-      "height": 113.75,
-      "measured": { "width": 91, "height": 114 },
+      "selected": false,
+      "measured": { "width": 96, "height": 55 },
+      "dragging": false
+    },
+    {
+      "id": "a5802a81-60ee-4382-a2b1-646082f3dfb0",
+      "type": "shape",
+      "position": { "x": 54.14, "y": 193.07 },
+      "hidden": false,
+      "selected": false,
+      "zIndex": 10,
+      "data": {
+        "id": "a5802a81-60ee-4382-a2b1-646082f3dfb0",
+        "library": "shape",
+        "name": "dash-line",
+        "version": "1.0",
+        "meta": {
+          "label": "Dash line",
+          "strokeColor": "#71717a",
+          "labelPosition": "none",
+          "fillColor": "#71717a"
+        }
+      },
+      "width": 620,
+      "height": 14,
+      "measured": { "width": 620, "height": 14 },
       "resizing": false,
       "dragging": false
     },
     {
-      "id": "98b39616-1d94-4d15-8b74-905202adce82",
-      "type": "table",
-      "position": { "x": -87.4, "y": -51.66 },
+      "id": "cf7129cd-7340-403e-bafd-55dddf9eddc1",
+      "type": "shape",
+      "position": { "x": -35.24, "y": 185.83 },
+      "hidden": false,
+      "selected": false,
       "zIndex": 10,
-      "parentId": "73c5d6f8-db39-473d-ad06-9e3bba2d44e2",
       "data": {
-        "id": "98b39616-1d94-4d15-8b74-905202adce82",
-        "library": "other",
-        "name": "",
+        "id": "cf7129cd-7340-403e-bafd-55dddf9eddc1",
+        "library": "shape",
+        "name": "arrow-rectangle",
+        "version": "1.0",
         "meta": {
-          "label": "Twin tank",
-          "props": [
+          "label": "Basement",
+          "labelPosition": "center",
+          "strokeColor": "#0ea5e9",
+          "fillColor": "#0ea5e9"
+        }
+      },
+      "width": 81,
+      "height": 28,
+      "measured": { "width": 81, "height": 28 },
+      "resizing": false,
+      "dragging": false
+    },
+    {
+      "id": "3b2392fa-513b-467e-9e53-3579acd03381",
+      "type": "shape",
+      "selected": false,
+      "position": { "x": 51.76, "y": 41.59 },
+      "data": {
+        "id": "3b2392fa-513b-467e-9e53-3579acd03381",
+        "library": "shape",
+        "name": "dash-line",
+        "version": "1.0",
+        "meta": {
+          "label": "Dash line 1",
+          "strokeColor": "#71717a",
+          "labelPosition": "none",
+          "fillColor": "#71717a"
+        }
+      },
+      "zIndex": 10,
+      "hidden": false,
+      "width": 620,
+      "height": 14,
+      "measured": { "width": 620, "height": 14 },
+      "dragging": false
+    },
+    {
+      "id": "9ef13000-011c-4893-9d76-f7a9771a7a3b",
+      "type": "shape",
+      "selected": false,
+      "position": { "x": -37.62, "y": 34.35 },
+      "data": {
+        "id": "9ef13000-011c-4893-9d76-f7a9771a7a3b",
+        "library": "shape",
+        "name": "arrow-rectangle",
+        "version": "1.0",
+        "meta": {
+          "label": "Ground floor ",
+          "labelPosition": "center",
+          "strokeColor": "#0ea5e9",
+          "fillColor": "#0ea5e9"
+        }
+      },
+      "zIndex": 10,
+      "hidden": false,
+      "width": 81,
+      "height": 28,
+      "measured": { "width": 81, "height": 28 },
+      "dragging": false
+    },
+    {
+      "id": "a2c3acd3-cb96-481c-b103-d900f072f9b5",
+      "type": "shape",
+      "selected": false,
+      "position": { "x": 51.38, "y": -108.98 },
+      "data": {
+        "id": "a2c3acd3-cb96-481c-b103-d900f072f9b5",
+        "library": "shape",
+        "name": "dash-line",
+        "version": "1.0",
+        "meta": {
+          "label": "Dash line 2",
+          "strokeColor": "#71717a",
+          "labelPosition": "none",
+          "fillColor": "#71717a"
+        }
+      },
+      "zIndex": 10,
+      "hidden": false,
+      "width": 620,
+      "height": 14,
+      "measured": { "width": 620, "height": 14 },
+      "dragging": false
+    },
+    {
+      "id": "e478f70d-9e42-4465-8076-cdb499fa40df",
+      "type": "shape",
+      "selected": false,
+      "position": { "x": -37.99, "y": -116.22 },
+      "data": {
+        "id": "e478f70d-9e42-4465-8076-cdb499fa40df",
+        "library": "shape",
+        "name": "arrow-rectangle",
+        "version": "1.0",
+        "meta": {
+          "label": "Floor 2",
+          "labelPosition": "center",
+          "strokeColor": "#0ea5e9",
+          "fillColor": "#0ea5e9"
+        }
+      },
+      "zIndex": 10,
+      "hidden": false,
+      "width": 81,
+      "height": 28,
+      "measured": { "width": 81, "height": 28 },
+      "dragging": false
+    },
+    {
+      "id": "b837efb7-2432-45d1-a3cc-55be893b1bdf",
+      "type": "chart",
+      "position": { "x": 701.11, "y": -102.11 },
+      "hidden": false,
+      "selected": false,
+      "zIndex": 20,
+      "data": {
+        "id": "b837efb7-2432-45d1-a3cc-55be893b1bdf",
+        "library": "chart",
+        "name": "gauge",
+        "version": "1.0",
+        "meta": { "label": "Gauge", "labelPosition": "bottom" }
+      },
+      "width": 115,
+      "height": 100,
+      "measured": { "width": 115, "height": 100 },
+      "dragging": false,
+      "resizing": false
+    },
+    {
+      "id": "68da3dfb-7372-44fb-a7e8-bcc0fb1dd546",
+      "type": "chart",
+      "position": { "x": 701.11, "y": 25.83 },
+      "hidden": false,
+      "selected": false,
+      "zIndex": 20,
+      "data": {
+        "id": "68da3dfb-7372-44fb-a7e8-bcc0fb1dd546",
+        "library": "chart",
+        "name": "line",
+        "version": "1.0",
+        "meta": { "label": "Line Chart", "labelPosition": "bottom" }
+      },
+      "width": 234,
+      "height": 160,
+      "measured": { "width": 234, "height": 160 },
+      "dragging": false,
+      "resizing": false
+    },
+    {
+      "id": "62ed5533-0866-43b9-bb15-ba401aed52bd",
+      "type": "table",
+      "position": { "x": 839.11, "y": -102.11 },
+      "hidden": false,
+      "selected": false,
+      "zIndex": 20,
+      "data": {
+        "id": "62ed5533-0866-43b9-bb15-ba401aed52bd",
+        "library": "basic",
+        "name": "table",
+        "version": "1.0",
+        "meta": {
+          "label": "Global monitor",
+          "labelPosition": "none",
+          "properties": [
             {
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 17.4,
-              "status": 2
+              "value": 31.9,
+              "status": 1
+            },
+            {
+              "label": "Humidity",
+              "key": "hum",
+              "unit": "%",
+              "value": 33.3,
+              "status": 0
+            },
+            {
+              "label": "Property-2",
+              "key": "prop-2",
+              "value": 21.5,
+              "status": 0
+            },
+            {
+              "label": "Property-3",
+              "key": "prop-3",
+              "value": 16.2,
+              "status": 0
             }
           ]
         }
       },
-      "selected": true,
-      "measured": { "width": 96, "height": 38 },
+      "measured": { "width": 96, "height": 89 },
       "dragging": false
     }
   ],
   "edges": [
     {
-      "source": "49a49de0-72cb-45d5-a2a5-43f8cdf75eb7",
-      "sourceHandle": "source:0ff4b5b9-f2ae-4108-bea5-1383a0c03e3f",
-      "target": "3de0c424-160d-42c5-a264-9ace24ed1210",
-      "targetHandle": "source:294d12cf-a7b4-440e-b92d-922c9f858202",
-      "id": "68948af7-371e-4fe1-9812-2210f2d4143c",
-      "type": "pipe",
-      "data": { "label": "", "animated": 1 },
-      "zIndex": 15
-    },
-    {
-      "source": "05ded051-0c77-41b4-a242-42e29c680556",
-      "sourceHandle": "source:0ff4b5b9-f2ae-4108-bea5-1383a0c03e3f",
-      "target": "1cee05ea-aac2-4807-93b4-50d652547d5e",
-      "targetHandle": "source:87ecd6ef-02bf-45ad-8187-efbd884264c3",
-      "id": "378be4e7-6c57-4115-b2c8-b198d1ba50c5",
-      "type": "pipe",
-      "data": { "label": "", "animated": 1 },
-      "zIndex": 15
-    },
-    {
-      "source": "34895460-b977-4187-9c68-fa9e7d4ba620",
-      "sourceHandle": "source:daa01923-f808-4eca-8f0f-c0077eefce35",
-      "target": "5f1906eb-3689-472a-a626-789d52e0895f",
-      "targetHandle": "source:1d0cab36-2e91-496e-8e3e-68985cbeca1c",
-      "id": "63b713fa-5f3c-4447-b3aa-3d0a01e42a1c",
+      "source": "c9d88d17-544c-4aac-8178-493722df4962",
+      "sourceHandle": "source:861cfe41-c51b-4464-a580-ca7733597f3f",
+      "target": "f4a1ed1e-1234-4978-8ecf-dc5b9ab79da4",
+      "targetHandle": "source:8e79e4e6-47b2-44cf-8020-a2000aab5b7c",
+      "id": "c850168c-46c3-41ea-be5a-6219001bfe40",
       "type": "pipe",
       "data": { "label": "", "animated": -1 },
       "zIndex": 15
     },
     {
-      "source": "e459a849-f3fb-4922-891f-bc0e6bed5365",
-      "sourceHandle": "source:50b56302-a261-4931-9156-fd1284e2c6ca",
-      "target": "34895460-b977-4187-9c68-fa9e7d4ba620",
-      "targetHandle": "source:56401fb8-9c9c-4ebc-a042-6845dea33fe7",
-      "id": "bd3e84c9-80c5-4a9f-aae3-b4882805b2c8",
+      "source": "f4a1ed1e-1234-4978-8ecf-dc5b9ab79da4",
+      "sourceHandle": "source:079c8523-bdbf-4684-a92c-9bc67d6ee686",
+      "target": "f285255f-416e-484f-aa3b-01e05b34e5a1",
+      "targetHandle": "source:98930f03-b1be-4659-a9cf-d6616d6ac0c2",
+      "id": "1b3f7551-badf-4471-9fd5-1104cc7ae96d",
       "type": "pipe",
       "data": { "label": "", "animated": -1 },
       "zIndex": 15
     },
     {
-      "source": "e459a849-f3fb-4922-891f-bc0e6bed5365",
-      "sourceHandle": "source:516baca6-369c-4194-806e-5ff9fc4e99c4",
-      "target": "e54381b2-4e13-428c-b16b-f2b8221be385",
-      "targetHandle": "source:04a631b0-a73e-4890-83d1-10ac04ff866f",
-      "id": "a6398e5a-d1a6-4013-a713-5229d2b786e3",
+      "source": "f285255f-416e-484f-aa3b-01e05b34e5a1",
+      "sourceHandle": "source:f3312003-800a-4de4-9ad1-58707a9a7324",
+      "target": "d76b135a-153b-4309-9fab-63ca0ac4bd21",
+      "targetHandle": "source:573a8b4c-2a7e-4652-be3c-d1f82f48f238",
+      "id": "c337ab90-8d2a-45dc-8ffd-bbc6be183d86",
       "type": "pipe",
       "data": { "label": "", "animated": 1 },
       "zIndex": 15
     },
     {
-      "source": "34895460-b977-4187-9c68-fa9e7d4ba620",
-      "sourceHandle": "source:a0d3db3a-6b20-4ea7-8a89-6dd22df2dd4a",
-      "target": "b8a05722-9ec9-4945-bfd7-5911c53404ed",
-      "targetHandle": "source:cad882a3-ef86-45b1-9c58-04b470e149c3",
-      "id": "0fc839a2-0d03-4570-8dc1-bb90d1f2a2b0",
+      "source": "d76b135a-153b-4309-9fab-63ca0ac4bd21",
+      "sourceHandle": "source:c4c0240c-12ef-457a-a9fd-4aecbdfd539b",
+      "target": "d93d6d78-f35e-4f6e-8c29-fa9b738d81cb",
+      "targetHandle": "source:accc2b77-ce1e-4093-86f0-cff0d3a4193c",
+      "id": "76b8af5f-8377-4f73-8802-bd2084709c2f",
       "type": "pipe",
       "data": { "label": "", "animated": 1 },
-      "zIndex": 15
+      "zIndex": 15,
+      "selected": false
     },
     {
-      "source": "5f1906eb-3689-472a-a626-789d52e0895f",
-      "sourceHandle": "source:9b9dd42e-f9e0-4972-bad7-4e7f9f9e9b43",
-      "target": "49a49de0-72cb-45d5-a2a5-43f8cdf75eb7",
-      "targetHandle": "source:59949569-855d-4f66-8762-6fe54932295a",
-      "id": "ac6b0ae7-0dbd-47ee-93b8-217435d17f7b",
-      "type": "pipe",
-      "data": { "label": "", "animated": -1 },
-      "zIndex": 15
-    },
-    {
-      "source": "5f1906eb-3689-472a-a626-789d52e0895f",
-      "sourceHandle": "source:f46ec0a5-2c1a-4c3b-824b-4fdcddaff3aa",
-      "target": "24a75f26-e172-40b1-8d7b-a6368468743e",
-      "targetHandle": "source:294d12cf-a7b4-440e-b92d-922c9f858202",
-      "id": "d8c4904d-097e-49a5-8722-1d1b6d2d6d36",
+      "source": "d93d6d78-f35e-4f6e-8c29-fa9b738d81cb",
+      "sourceHandle": "source:65cd33c5-37bc-4e83-9f47-8b7a8da41f36",
+      "target": "85a0db08-c3a6-4074-9a1d-062651936456",
+      "targetHandle": "source:df4e71fb-af40-4f40-88b1-0f98f11e12f6",
+      "id": "7fa8dd65-fcd7-4fc5-8ee6-622d2e68155c",
       "type": "pipe",
       "data": { "label": "", "animated": 1 },
-      "zIndex": 15
+      "zIndex": 15,
+      "selected": false
     },
     {
-      "source": "7a912ef8-7622-47a3-8eef-284cba7691d7",
-      "sourceHandle": "source:87ecd6ef-02bf-45ad-8187-efbd884264c3",
-      "target": "16cdb7f7-e734-4f92-87aa-976070259574",
-      "targetHandle": "source:50b56302-a261-4931-9156-fd1284e2c6ca",
+      "source": "85a0db08-c3a6-4074-9a1d-062651936456",
+      "sourceHandle": "source:7a250888-76c1-4d41-97b4-81abc6345122",
+      "target": "662c62b8-8250-40ce-ba0b-09c2adfe1fb7",
+      "targetHandle": "source:a54349f1-a260-4217-9386-44c6553e04d1",
+      "id": "8f2e69b1-a113-47bf-bdee-f754a4597be1",
+      "type": "pipe",
+      "data": { "label": "", "animated": 1 },
+      "zIndex": 15,
+      "selected": false
+    },
+    {
+      "source": "662c62b8-8250-40ce-ba0b-09c2adfe1fb7",
+      "sourceHandle": "source:9dab6479-82e8-484e-8472-f219f70f7781",
+      "target": "7a3a3a0f-1023-476b-b1a0-9cc3f07a60f9",
+      "targetHandle": "source:7f0af4dc-e961-4645-a4f6-1c6a99fdc8b6",
+      "id": "43f5ce4e-127e-43bc-a641-2de627f18236",
+      "type": "pipe",
+      "data": { "label": "", "animated": 1 },
+      "zIndex": 15,
+      "selected": false
+    },
+    {
+      "source": "18c8400b-14fd-48da-b76a-1af77b0256c2",
+      "sourceHandle": "source:bb47df85-db20-45ad-886e-f6f894750058",
+      "target": "85a0db08-c3a6-4074-9a1d-062651936456",
+      "targetHandle": "source:3e02015d-d13c-407c-84cb-dbf4172e2f2a",
+      "id": "4fed3d01-f1f0-4e96-aa7b-4221fa5ec3a6",
       "type": "pipe",
       "data": { "label": "", "animated": -1 },
       "zIndex": 15,
-      "id": "xy-edge__7a912ef8-7622-47a3-8eef-284cba7691d7source:87ecd6ef-02bf-45ad-8187-efbd884264c3-16cdb7f7-e734-4f92-87aa-976070259574source:50b56302-a261-4931-9156-fd1284e2c6ca"
+      "selected": false
     },
     {
-      "source": "16cdb7f7-e734-4f92-87aa-976070259574",
-      "sourceHandle": "source:516baca6-369c-4194-806e-5ff9fc4e99c4",
-      "target": "05ded051-0c77-41b4-a242-42e29c680556",
-      "targetHandle": "source:da51791f-78a1-4af7-bf0d-959e83ab2f11",
-      "id": "2b529a1f-ffa5-4466-a9e9-81216f00fc99",
-      "type": "pipe",
-      "data": { "label": "", "animated": -1 },
-      "zIndex": 15
-    },
-    {
-      "id": "8c7d81c3-ae52-45d3-9d8d-ae0d1dbc4e60",
-      "type": "dashed",
-      "source": "7a912ef8-7622-47a3-8eef-284cba7691d7",
-      "target": "c1b88e64-5e99-4bdd-982a-fd3bd2c715e7",
-      "sourceHandle": "center:source:7a912ef8-7622-47a3-8eef-284cba7691d7",
-      "targetHandle": "center:target:c1b88e64-5e99-4bdd-982a-fd3bd2c715e7",
-      "data": { "label": "" },
-      "zIndex": 15
-    },
-    {
-      "source": "ee2ade63-82b7-46a5-8e4f-48b495680997",
-      "sourceHandle": "source:971b2c3d-3362-4330-b26e-45ef3d1f6f08",
-      "target": "2dbc28bd-586e-4154-b79a-74f4f1664a71",
-      "targetHandle": "source:7f8e1ad8-b538-4aaa-b230-1d54922541d5",
-      "id": "744883b2-10f0-493a-9d36-456605ad7696",
+      "source": "bf1096cc-09e9-4bcb-b861-eaaa9a23d3d1",
+      "sourceHandle": "source:c845911c-4efc-40e2-931f-09ecd2a13e1c",
+      "target": "c66e7b5a-8199-49b1-9b81-1f7dcc252cd7",
+      "targetHandle": "source:4d3a99d8-8b77-40b9-a909-a52dee2afb0d",
+      "id": "facd062a-798e-41db-ba8c-838043b15d72",
       "type": "cable",
       "data": { "label": "", "animated": 1 },
       "zIndex": 15
     },
     {
-      "source": "ee2ade63-82b7-46a5-8e4f-48b495680997",
-      "sourceHandle": "source:4fba73ae-e22f-416e-9158-67f51e1a7d34",
-      "target": "e4aa4f29-258d-4418-ba76-c63197f852e6",
-      "targetHandle": "source:7f8e1ad8-b538-4aaa-b230-1d54922541d5",
-      "id": "c62b9c65-26e8-494f-8fac-c50d78a3baf1",
+      "source": "bf1096cc-09e9-4bcb-b861-eaaa9a23d3d1",
+      "sourceHandle": "source:2ec91a70-6b5a-4469-99a1-b2a78b170c5f",
+      "target": "e0a52f3b-d1d1-45da-a775-ed6ff40b8098",
+      "targetHandle": "source:c8cc840c-1bfb-405e-ab9a-4161acba4374",
+      "id": "803f6227-5214-41c4-b51e-6745eb1bd942",
       "type": "cable",
-      "data": { "label": "", "animated": 1 },
-      "zIndex": 15
-    },
-    {
-      "source": "dc6c7d46-3074-46ab-b3db-1f9d2573f9f8",
-      "sourceHandle": "source:971b2c3d-3362-4330-b26e-45ef3d1f6f08",
-      "target": "66c04106-4aa3-4b7f-b332-e4130464eac8",
-      "targetHandle": "source:7f8e1ad8-b538-4aaa-b230-1d54922541d5",
-      "id": "056e0347-fa54-4de1-b77b-2b830ebd7bfb",
-      "type": "cable",
-      "data": { "label": "", "animated": 1 },
-      "zIndex": 15
-    },
-    {
-      "source": "66c04106-4aa3-4b7f-b332-e4130464eac8",
-      "sourceHandle": "source:5bd32b20-e9d5-4a9f-a210-237af89287b3",
-      "target": "71090b79-ef46-471c-b74a-f8c5c80d3182",
-      "targetHandle": "source:eb2f1c68-74ab-4ab9-9792-dff8fc10a60e",
-      "id": "ee552f3a-41f5-4628-ba2d-3045afd6ffee",
-      "type": "cable",
-      "data": { "label": "", "animated": -1 },
-      "zIndex": 15
-    },
-    {
-      "id": "d94aa575-16a8-4b64-9667-b60c82547c90",
-      "type": "dashed",
-      "source": "3de0c424-160d-42c5-a264-9ace24ed1210",
-      "target": "2cd7d4b0-3ac5-4bce-bc54-7adc9c9de9dd",
-      "sourceHandle": "center:source:3de0c424-160d-42c5-a264-9ace24ed1210",
-      "targetHandle": "center:target:2cd7d4b0-3ac5-4bce-bc54-7adc9c9de9dd",
       "data": { "label": "" },
       "zIndex": 15
     },
     {
-      "source": "05ded051-0c77-41b4-a242-42e29c680556",
-      "sourceHandle": "source:59949569-855d-4f66-8762-6fe54932295a",
-      "target": "9697d727-a58c-41f2-be0d-507af8dbe5d0",
-      "targetHandle": "source:cc996343-b7e5-4a86-8861-84e2129fa7a0",
-      "id": "d45a7109-cb2a-483c-821f-44983f051c6e",
+      "source": "1f0b42b9-5d95-4ffb-910d-d5e95d69f61c",
+      "sourceHandle": "source:ad3e4012-0529-4416-a338-2de1abf15e8f",
+      "target": "d30617d2-10bb-4f18-b295-18794667f694",
+      "targetHandle": "source:3edb34e0-02bb-4506-8b7f-ad6ffed1f241",
+      "id": "c92454e1-8e4f-40bf-9a71-47256370c674",
+      "type": "cable",
+      "data": { "label": "", "animated": -1 },
+      "zIndex": 15,
+      "selected": false
+    },
+    {
+      "source": "d30617d2-10bb-4f18-b295-18794667f694",
+      "sourceHandle": "source:a0e165b8-1de3-43f5-94a0-9c946ff0e55f",
+      "target": "6b3edb43-4687-421e-ac77-84f90437e5bf",
+      "targetHandle": "source:8e0d1b62-d318-40b1-a20e-dc8a12d38807",
+      "id": "56c773d5-a2ee-4b2f-af5d-9412f5ff4176",
+      "type": "cable",
+      "data": { "label": "", "animated": 1 },
+      "zIndex": 15,
+      "selected": false
+    },
+    {
+      "source": "abba77f1-de98-44bb-91c7-1b6b5d3b16c3",
+      "sourceHandle": "source:d0131bd0-31db-4e8d-8e58-1b2b6bf7f513",
+      "target": "0b159874-a64d-4a63-9389-e363c099cd50",
+      "targetHandle": "source:bb35ae18-d392-4d8c-817d-4697b0b9648f",
+      "id": "12b733d4-2a14-4492-beb9-41f3e758595a",
+      "type": "pipe",
+      "data": { "label": "", "animated": 1 },
+      "zIndex": 15,
+      "selected": false
+    },
+    {
+      "source": "55a5d9f4-a059-464b-975d-9271e673c0cb",
+      "sourceHandle": "source:908e9f96-6560-458e-94b5-4f78ab48ae62",
+      "target": "a8f31217-5a45-41cf-b942-e717b2679a65",
+      "targetHandle": "source:52a71c9c-ebd3-4f7b-9dcb-2330d9fb647e",
+      "id": "a195fc48-82e9-41f6-a39e-21437e656e3a",
+      "type": "pipe",
+      "data": { "label": "" },
+      "zIndex": 15,
+      "selected": false
+    },
+    {
+      "source": "55a5d9f4-a059-464b-975d-9271e673c0cb",
+      "sourceHandle": "source:ceafb4f3-4c3e-4ecf-8a5b-c1430eeabe0d",
+      "target": "c9d88d17-544c-4aac-8178-493722df4962",
+      "targetHandle": "source:a9b31f1e-5a6e-4397-a897-f2df59448230",
+      "id": "6bcd16c2-4856-4076-b2e5-668a61d03929",
+      "type": "pipe",
+      "data": { "label": "", "animated": -1 },
+      "zIndex": 15
+    },
+    {
+      "source": "5cef21be-a086-4bf9-ad19-e19bfe19e452",
+      "sourceHandle": "source:ac09c002-f5c9-4a8f-b8ba-b69b906e256c",
+      "target": "abba77f1-de98-44bb-91c7-1b6b5d3b16c3",
+      "targetHandle": "source:cc830222-6033-4f34-86c9-d5aa0dfbc3fd",
+      "id": "105058bc-4161-433b-aac5-fc3dc482bec6",
       "type": "pipe",
       "data": { "label": "", "animated": -1 },
       "zIndex": 15,
       "selected": false
     },
     {
-      "source": "9697d727-a58c-41f2-be0d-507af8dbe5d0",
-      "sourceHandle": "source:e505aa08-d143-4915-b47f-1bced85e599c",
-      "target": "d09ac38b-f890-4881-8fe6-be24ba0abd5c",
-      "targetHandle": "source:207a0ffc-a2b4-43f1-abce-bb55c9538661",
-      "id": "c7eb601a-0854-4652-9202-1a86f001cca3",
+      "source": "5cef21be-a086-4bf9-ad19-e19bfe19e452",
+      "sourceHandle": "source:8849e7ac-b4cd-4ea4-990a-aa94d9b41f01",
+      "target": "4984740a-6a73-4b23-95e3-3d35784f1747",
+      "targetHandle": "source:c0816d6b-a75f-4964-bbec-f8cb7aa7f007",
+      "id": "660e2b5e-ae87-4f9b-9ce2-40359f11b8e3",
+      "type": "pipe",
+      "data": { "label": "", "animated": 1 },
+      "zIndex": 15,
+      "selected": false
+    },
+    {
+      "source": "4984740a-6a73-4b23-95e3-3d35784f1747",
+      "sourceHandle": "source:b30e8e75-4590-44b3-91f7-7eee9ad7143d",
+      "target": "fc6dc53e-ee7a-4c9e-bf39-6ac105595f1f",
+      "targetHandle": "source:a6fd81ce-499c-443d-980c-dd4b33d026fc",
+      "id": "4b53312e-cb93-473b-9cc2-4c8809b9e150",
+      "type": "pipe",
+      "data": { "label": "", "animated": 1 },
+      "zIndex": 15,
+      "selected": false
+    },
+    {
+      "source": "fc6dc53e-ee7a-4c9e-bf39-6ac105595f1f",
+      "sourceHandle": "source:5989dae8-e6b7-4d2f-855c-2d0071474115",
+      "target": "3fd4d31d-6cf9-47ac-a8af-eada132b3529",
+      "targetHandle": "source:da519bd5-5748-4d5b-9937-1a8ce3bab28c",
+      "id": "10de8d03-51c7-4947-bfee-89ab6808251c",
+      "type": "pipe",
+      "data": { "label": "", "animated": 1 },
+      "zIndex": 15,
+      "selected": false
+    },
+    {
+      "source": "cd1d30db-921f-4791-b7cc-77120cdc811d",
+      "sourceHandle": "source:7e4ef34a-607b-4231-81cf-e8d8ccb0e97a",
+      "target": "3fd4d31d-6cf9-47ac-a8af-eada132b3529",
+      "targetHandle": "source:4cbaca4f-a405-4d54-9a17-eb1b22ef832e",
+      "id": "862a1b3f-9252-4ae6-9b8b-73eddf7665b3",
+      "type": "pipe",
+      "data": { "label": "", "animated": 1 },
+      "zIndex": 15,
+      "selected": false
+    },
+    {
+      "source": "5cef21be-a086-4bf9-ad19-e19bfe19e452",
+      "sourceHandle": "source:74bf1ab4-632a-4ab1-b551-a35992e3cc7c",
+      "target": "cd1d30db-921f-4791-b7cc-77120cdc811d",
+      "targetHandle": "source:7224c8c5-8c9d-4fd9-a009-33a5ff5b9281",
+      "id": "d5cfb9fe-5af1-40ca-9350-a95ed66e75ca",
+      "type": "pipe",
+      "data": { "label": "", "animated": 1 },
+      "zIndex": 15,
+      "selected": false
+    },
+    {
+      "source": "3fd4d31d-6cf9-47ac-a8af-eada132b3529",
+      "sourceHandle": "source:4c79e0ab-511c-4f31-96c4-cc6d54945556",
+      "target": "8c245d49-1aa7-45bc-bad7-a22cd1dc2b3a",
+      "targetHandle": "source:00f12ee8-2260-4e98-80da-36bd2802d58f",
+      "id": "ab828e11-ba1d-481e-acae-9f1228eb1ff0",
       "type": "pipe",
       "data": { "label": "", "animated": -1 },
       "zIndex": 15,
       "selected": false
     },
     {
-      "source": "d09ac38b-f890-4881-8fe6-be24ba0abd5c",
-      "sourceHandle": "source:81d7b8fa-a031-4f52-8e96-37d81b53addc",
-      "target": "b7ad3d70-961a-43da-907d-26f3cc1b19a7",
-      "targetHandle": "source:1a36463c-d291-40df-8845-43ebe969d455",
-      "id": "bfa934fd-73f6-47f2-a93d-cecf9d83214e",
-      "type": "pipe",
-      "data": { "label": "", "animated": -1 },
-      "zIndex": 15,
-      "selected": false
-    },
-    {
-      "source": "b7ad3d70-961a-43da-907d-26f3cc1b19a7",
-      "sourceHandle": "source:6cef42a8-518c-4833-8174-ec4dce677530",
-      "target": "246b8c30-6bf5-43fc-b771-c1cec2f24584",
-      "targetHandle": "source:02be4af8-e82e-47bc-8552-1d90f4200bba",
-      "id": "26578947-12ba-47ad-832f-6ca14f6c2d11",
+      "source": "55a5d9f4-a059-464b-975d-9271e673c0cb",
+      "sourceHandle": "source:8e146f5d-91d9-472f-b91a-9e3730bb20ee",
+      "target": "abba77f1-de98-44bb-91c7-1b6b5d3b16c3",
+      "targetHandle": "source:8718b49b-dcef-4176-94eb-1b6b75806039",
+      "id": "7da8b17a-301d-44ed-bdb7-0c12822a1bd8",
       "type": "pipe",
       "data": { "label": "", "animated": 1 },
       "zIndex": 15
     },
     {
-      "source": "246b8c30-6bf5-43fc-b771-c1cec2f24584",
-      "sourceHandle": "source:2915bb97-b74a-4893-a52b-01dd1c3aed15",
-      "target": "94d332e0-b90a-453a-9f11-15092114756b",
-      "targetHandle": "source:cc996343-b7e5-4a86-8861-84e2129fa7a0",
-      "id": "4b6cd860-8e38-4dd4-83b5-326831942113",
-      "type": "pipe",
-      "data": { "label": "", "animated": 1 },
-      "zIndex": 15
-    },
-    {
-      "source": "49a49de0-72cb-45d5-a2a5-43f8cdf75eb7",
-      "sourceHandle": "source:da51791f-78a1-4af7-bf0d-959e83ab2f11",
-      "target": "94d332e0-b90a-453a-9f11-15092114756b",
-      "targetHandle": "source:e505aa08-d143-4915-b47f-1bced85e599c",
-      "id": "3aa74bb5-e8ea-4ca3-abaf-6771f156c14f",
-      "type": "pipe",
-      "data": { "label": "", "animated": -1 },
-      "zIndex": 15
-    },
-    {
-      "id": "f3a17e5b-08df-41f7-b13e-8e85892bb632",
+      "id": "e19939ed-06ce-4ac1-bcea-0dfa74b33b42",
       "type": "dashed",
-      "source": "b7ad3d70-961a-43da-907d-26f3cc1b19a7",
-      "target": "a830c0c6-26fc-4555-be2e-866297b0e723",
-      "sourceHandle": "center:source:b7ad3d70-961a-43da-907d-26f3cc1b19a7",
-      "targetHandle": "center:target:a830c0c6-26fc-4555-be2e-866297b0e723",
+      "source": "8c245d49-1aa7-45bc-bad7-a22cd1dc2b3a",
+      "target": "1ca36e5b-92be-4e62-bb3a-a71377128f4f",
+      "sourceHandle": "center:source:8c245d49-1aa7-45bc-bad7-a22cd1dc2b3a",
+      "targetHandle": "center:target:1ca36e5b-92be-4e62-bb3a-a71377128f4f",
+      "data": { "label": "" },
+      "zIndex": 15,
+      "selected": false
+    },
+    {
+      "id": "957066f4-1263-402b-8832-cc3dd012af21",
+      "type": "dashed",
+      "source": "f285255f-416e-484f-aa3b-01e05b34e5a1",
+      "target": "22d5c294-6f3b-4910-bc4c-d67da0181155",
+      "sourceHandle": "center:source:f285255f-416e-484f-aa3b-01e05b34e5a1",
+      "targetHandle": "center:target:22d5c294-6f3b-4910-bc4c-d67da0181155",
       "data": { "label": "" },
       "zIndex": 15
     },
     {
-      "id": "1cca2b05-54ff-42e6-835c-ff699f0412e9",
+      "id": "bbf931de-ef9a-4b96-b9be-044ee03921d5",
       "type": "dashed",
-      "source": "014f8187-50d8-4b82-b961-72ec0a5fa756",
-      "target": "bafa21bd-eb00-4341-8082-85074905205e",
-      "sourceHandle": "center:source:014f8187-50d8-4b82-b961-72ec0a5fa756",
-      "targetHandle": "center:target:bafa21bd-eb00-4341-8082-85074905205e",
+      "source": "0b159874-a64d-4a63-9389-e363c099cd50",
+      "target": "df269a87-a5c5-4b9b-83da-65915038ed6b",
+      "sourceHandle": "center:source:0b159874-a64d-4a63-9389-e363c099cd50",
+      "targetHandle": "center:target:df269a87-a5c5-4b9b-83da-65915038ed6b",
       "data": { "label": "" },
       "zIndex": 15
     },
     {
-      "source": "b8a05722-9ec9-4945-bfd7-5911c53404ed",
-      "sourceHandle": "source:e26959e0-494e-444a-8e4a-01bef577eb2a",
-      "target": "73c5d6f8-db39-473d-ad06-9e3bba2d44e2",
-      "targetHandle": "source:65690d4f-4505-4425-a7a7-e19bae792acb",
-      "id": "215a36b5-3f9a-45b1-b6ea-c30c612c633f",
-      "type": "pipe",
-      "data": { "label": "", "animated": 1 },
-      "zIndex": 15,
-      "selected": false
-    },
-    {
-      "source": "e54381b2-4e13-428c-b16b-f2b8221be385",
-      "sourceHandle": "source:933cbe42-9fd9-45f1-8f92-746eb62165e6",
-      "target": "73c5d6f8-db39-473d-ad06-9e3bba2d44e2",
-      "targetHandle": "source:6be50720-c5de-43eb-8e90-6063647f1d53",
-      "id": "ca8819da-a85f-47ae-bb65-be94d1885f87",
-      "type": "pipe",
-      "data": { "label": "", "animated": 1 },
-      "zIndex": 15
-    },
-    {
-      "source": "73c5d6f8-db39-473d-ad06-9e3bba2d44e2",
-      "sourceHandle": "source:bc621499-b060-4be7-8b0f-9ede49ff537a",
-      "target": "014f8187-50d8-4b82-b961-72ec0a5fa756",
-      "targetHandle": "source:534e0843-3918-4ee2-914a-b40bc69d8d4b",
-      "id": "abf8101f-24fb-411c-8406-a4cd0fc2c383",
-      "type": "pipe",
-      "data": { "label": "", "animated": -1 },
-      "zIndex": 15,
-      "selected": false
-    },
-    {
-      "id": "a3eb1f61-41ea-43c2-ba8a-e486f88bf849",
+      "id": "32a46f79-516a-4a85-99b0-8d179a8e74b1",
       "type": "dashed",
-      "source": "73c5d6f8-db39-473d-ad06-9e3bba2d44e2",
-      "target": "98b39616-1d94-4d15-8b74-905202adce82",
-      "sourceHandle": "center:source:73c5d6f8-db39-473d-ad06-9e3bba2d44e2",
-      "targetHandle": "center:target:98b39616-1d94-4d15-8b74-905202adce82",
+      "source": "18c8400b-14fd-48da-b76a-1af77b0256c2",
+      "target": "af568873-79b9-4bb7-a839-520efd5fe119",
+      "sourceHandle": "center:source:18c8400b-14fd-48da-b76a-1af77b0256c2",
+      "targetHandle": "center:target:af568873-79b9-4bb7-a839-520efd5fe119",
       "data": { "label": "" },
       "zIndex": 15
     }
   ],
-  "viewport": { "zoom": 1.47, "x": 243.4, "y": 316.35 }
+  "viewport": { "zoom": 1.76, "x": 152.18, "y": 547.72 },
+  "settings": {
+    "basic:::1.0:::tank-wagon": {
+      "content": "<svg width=\"33\" height=\"22\" viewBox=\"0 -1 32 22\" class=\"h-full w-full\"><g><path class=\"fill-muted-foreground\" stroke-width=\".1\" d=\"M31.78 15a.52.52 0 1 0 0-1.05h-1.12s0 0 0 0h-1.44A6.66 6.66 0 0 0 26.16 1.7v-.6c0-.6-.48-1.09-1.08-1.09h-2.23c-.6 0-1.08.49-1.08 1.08v.6H10.53v-.04a.52.52 0 1 0-1.04 0v.03h-2.3v-.03a.52.52 0 1 0-1.05 0v.05a6.67 6.67 0 0 0-3.06 12.26H1.64s0 0 0 0H.52a.52.52 0 1 0 0 1.05h.84l.83 1.24a1.91 1.91 0 0 0-.3 2.18H.51a.52.52 0 1 0 0 1.05h31.26a.52.52 0 1 0 0-1.05h-1.36a1.9 1.9 0 0 0-.3-2.18l.82-1.24h.84ZM22.8 1.08c0-.02.02-.03.04-.03h2.23c.02 0 .04.01.04.03v.6h-2.3v-.6ZM2.72 17.55a.87.87 0 1 1 1.75 0 .87.87 0 0 1-1.75 0Zm7.23-.32h12.4a1.92 1.92 0 0 0 .19 1.19H9.77a1.9 1.9 0 0 0 .18-1.19Zm16.19 0h.68a1.92 1.92 0 0 0 .18 1.19h-1.05a1.9 1.9 0 0 0 .19-1.19Zm-1.9 1.19a.87.87 0 1 1 0-1.75.87.87 0 0 1 0 1.75Zm-16.18 0a.87.87 0 1 1 0-1.75.87.87 0 0 1 0 1.75Zm-1.71 0H5.3a1.9 1.9 0 0 0 .19-1.19h.68a1.92 1.92 0 0 0 .18 1.19Zm21.49-.87a.87.87 0 1 1 1.74 0 .87.87 0 0 1-1.74 0Zm1.38-1.85a1.91 1.91 0 0 0-1.86.49H25.6a1.91 1.91 0 0 0-2.7 0H9.4a1.91 1.91 0 0 0-2.7 0H4.94a1.91 1.91 0 0 0-1.86-.5L2.62 15h27.07l-.47.7Z\"/><rect width=\"30.3\" height=\"11.4\" x=\"1\" y=\"2.58\" class=\"fill-muted\" rx=\"5.7\" stroke=\"none\"><animate attributeName=\"fill\" attributeType=\"CSS\" dur=\"9999\" repeatCount=\"0\"/></rect></g></svg>",
+      "minWidth": 90,
+      "minHeight": 60,
+      "edgeType": "pipe",
+      "hasTable": true
+    },
+    "basic:::1.0:::pipe-top-right": {
+      "content": "<svg width=\"20\" height=\"20\" viewBox=\"-6.5 3 21.2 15\" class=\"h-full w-full\"><g class=\"stroke-muted-foreground fill-muted-foreground\" stroke-width=\".1\"><path d=\"M14 7h-2.55a.64.64 0 0 0-.64-.64h-1.9a.64.64 0 0 0-.64.64h-.38a.26.26 0 0 1-.26-.27v-.37c.35 0 .64-.28.64-.64v-1.9a.64.64 0 0 0-.64-.64V.64A.64.64 0 0 0 7 0H1.27a.64.64 0 0 0-.63.64v2.54a.64.64 0 0 0-.64.64v1.9c0 .36.28.64.64.64v1.49c0 3.4 2.75 6.14 6.14 6.14h1.49c0 .35.28.64.63.64h1.91c.35 0 .64-.29.64-.64h2.54c.35 0 .64-.28.64-.63V7.63a.64.64 0 0 0-.64-.63Z\"/><path class=\"fill-muted\" d=\"M1.27 4.45h5.72v.64H1.27zm.64-3.18h4.45v1.91H1.91zM1.9 7.85v-1.5h4.46v.38c0 .85.68 1.54 1.53 1.54h.38v4.45h-1.5a4.87 4.87 0 0 1-4.86-4.87Zm7.64 5.5V7.63h.63v5.72zm3.81-.63h-1.9V8.27h1.9z\"/></g></svg>",
+      "rotatable": true,
+      "minWidth": 28,
+      "minHeight": 28,
+      "edgeType": "pipe"
+    },
+    "basic:::1.0:::vavle": {
+      "content": "<svg width=\"24\" height=\"24\" viewBox=\"0 45 490 490\" class=\"h-full w-full stroke-muted-foreground fill-muted-foreground\"><rect width=\"300\" height=\"190\" x=\"100\" y=\"200\" rx=\"5\" class=\"fill-muted\"/><path d=\"M469.1 180.95c-11.5 0-20.9 9.4-20.9 20.9v24h-44.8v-1c0-31.3-25-56.3-56.3-56.3h-81.3v-55.3H294c11.5 0 20.9-9.4 20.9-20.9s-9.4-20.9-20.9-20.9h-98c-11.5 0-20.9 9.4-20.9 20.9s9.4 20.9 20.9 20.9h28.1v55.3h-81.3c-31.3 0-56.3 25-56.3 56.3v1H41.7v-24c0-11.5-9.4-20.9-20.9-20.9S0 190.35 0 201.75v183.5c0 11.5 9.4 20.9 20.9 20.9 10.4 0 19.8-9.4 20.9-20.9v-22.9h44.8c0 31.3 25 56.3 56.3 56.3h204.3c31.3 0 56.3-25 56.3-56.3l44.8-.1v23c0 11.5 9.4 20.9 20.9 20.9s20.9-9.4 20.9-20.9v-183.5c-.1-11.4-9.5-20.8-21-20.8zM85.5 319.55H41.7v-52.1h43.8v52.1zm277.3 42.8c0 8.3-7.3 15.6-15.6 15.6H142.8c-8.3 0-15.6-7.3-15.6-15.6v-137.6c0-8.3 7.3-15.6 15.6-15.6h204.3c8.3 0 15.6 7.3 15.6 15.6v137.6h.1zm40.7-42.8v-52.1h44.8v52.1h-44.8z\"/></svg>",
+      "minWidth": 28,
+      "minHeight": 28,
+      "edgeType": "pipe"
+    },
+    "basic:::1.0:::pipe-tjoin": {
+      "content": "<svg width=\"20\" height=\"20\" viewBox=\"-3.9 0 18.5 26.67\" class=\"h-full w-full\" ><g class=\"stroke-muted-foreground fill-muted-foreground\" stroke-width=\".1\"><path d=\"M18.5 17.85v-8.9a.95.95 0 0 0-.15-.46c-.25-.31-.65-.49-.81-.49h-1.56a.97.97 0 0 0-.98.94v1.28H9.56a.68.68 0 0 1-.67-.67V7.1h.83c.52 0 .95-.42.95-.95V4.5a.95.95 0 0 0-.95-.94h-.83V.95A.95.95 0 0 0 7.94 0H2.73a.95.95 0 0 0-.95.95v2.6H.95A.95.95 0 0 0 0 4.5v1.66c0 .53.42.95.95.95h.83v12.45H.95a.95.95 0 0 0-.95.94v1.66c0 .53.42.95.95.95h.83v2.6c0 .53.42.96.95.96h5.21c.52 0 .95-.43.95-.95v-2.6h.83c.52 0 .95-.43.95-.96V20.5a.95.95 0 0 0-.95-.94h-.83v-2.44c0-.37.3-.68.67-.68H15v1.4c0 .53.46.83.98.83h1.56c.16 0 .55-.05.8-.32.08-.08.13-.24.16-.5Z\"/><g class=\"fill-muted\"><path d=\"M2.73.89h5.21c.03 0 .06.03.06.06v2.6H2.67V.96c0-.03.02-.06.06-.06ZM.89 6.16V4.5c0-.03.03-.06.06-.06h8.77c.03 0 .06.03.06.06v1.66c0 .04-.03.06-.06.06H.95a.06.06 0 0 1-.06-.06ZM8 25.72c0 .03-.03.06-.06.06H2.73a.06.06 0 0 1-.06-.06v-2.6H8v2.6ZM9.72 20.44c.03 0 .06.03.06.06v1.66c0 .04-.03.06-.06.06H.95a.06.06 0 0 1-.06-.06V20.5c0-.03.03-.06.06-.06h8.77ZM8 7.11v2.44c0 .86.7 1.56 1.56 1.56h5.48v4.45H9.56c-.86 0-1.56.7-1.56 1.56v2.44H2.67V7.1H8ZM17.6 8.89c.04 0 .07.03.07.06v8.77c0 .03-.03.06-.06.06h-1.66a.06.06 0 0 1-.06-.06V8.95c0-.03.03-.06.06-.06h1.66Z\"/></g></g></svg>",
+      "rotatable": true,
+      "minWidth": 28,
+      "minHeight": 28,
+      "edgeType": "pipe"
+    },
+    "basic:::1.0:::twin-tank": {
+      "content": "<svg width=\"20\" height=\"25\" viewBox=\"-2 -2 208 256\" class=\"h-full w-full\"><g stroke-width=\".1\"><path class=\"fill-muted-foreground\" d=\"M165.74 45.95V22.03h15.42v-8.9H109.2V0H93.79v13.13H21.84v8.9h15.42v23.92C16.12 49.69 0 70.55 0 93.19V252h87.96v-31.5h27.67V252H203V93.19c0-22.65-16.12-43.5-37.26-47.24Zm-50.4 166.72h-28v-118h28v118Zm-.52-125h-27.3C83.9 65.4 67.46 47.8 46.67 43.95V21.67h109v22.28c-20.8 3.86-37.25 21.46-40.85 43.72Z\"/><path class=\"fill-muted\" d=\"M80.33 245h-73V94h73v151Zm115 0h-73V94h73v151Zm1-157h-73c4.35-19.56 19.07-34 36.5-34 17.44 0 32.15 14.44 36.5 34ZM43.83 54c17.44 0 32.15 14.44 36.5 34h-73c4.35-19.56 19.07-34 36.5-34Z\"/></g></svg>",
+      "rotatable": false,
+      "minWidth": 68,
+      "minHeight": 85,
+      "edgeType": "pipe",
+      "hasTable": true
+    },
+    "basic:::1.0:::heater": {
+      "content": "<svg width=\"24\" height=\"24\" stroke-width=\".6\" viewBox=\"0 0 56 56\" class=\"h-full w-full stroke-muted-foreground fill-muted-foreground\"><g class=\"fill-muted\"><rect width=\"6\" height=\"39\" x=\"5\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"15\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"25\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"35\" y=\"8\" rx=\"3\"/><rect width=\"6\" height=\"39\" x=\"45\" y=\"8\" rx=\"3\"/><animate attributeName=\"fill\" attributeType=\"CSS\" dur=\"1.5\" repeatCount=\"indefinite\" values=\"#fff\"/></g><path d=\"M54 13.5h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2H2v-1H0v10h2v-1h2v22a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-22h2a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1zm-10 2v4h-2v-4h2zm-10 0v4h-2v-4h2zm-10 0v4h-2v-4h2zm-10 0v4h-2v-4h2zm-12 4v-4h2v4H2zm8 24a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm3-24h-1v-4h1v4z\"/></svg>",
+      "minWidth": 36,
+      "minHeight": 36,
+      "edgeType": "pipe",
+      "hasTable": true
+    },
+    "basic:::1.0:::fan": {
+      "content": "<svg width=\"24\" height=\"24\" viewBox=\"1 1 30 30\" class=\"h-full w-full stroke-muted-foreground\"><rect width=\"29\" height=\"29\" x=\"1.5\" y=\"1.5\" rx=\"2\" class=\"fill-muted\"/><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"none\"/><circle cx=\"16\" cy=\"16\" r=\"3\" fill=\"none\"/><path fill=\"none\" d=\"M14.5,13.4L14.5,13.4c0.6-2.4-0.6-4.8-2.8-5.8L11,7.3, M13,16L13,16c-1.7-1.7-4.4-1.9-6.4-0.5L6,16, M14.5,18.6L14.5,18.6c-2.4,0.6-3.9,2.9-3.6,5.3l0.1,0.8, M17.5,18.6L17.5,18.6c-0.6,2.4,0.6,4.8,2.8,5.8l0.7,0.3, M19,16L19,16c1.7,1.7,4.4,1.9,6.4,0.5L26,16, M17.5,13.4L17.5,13.4c2.4-0.6,3.9-2.9,3.6-5.3L21,7.3\"><animateTransform attributeName=\"transform\" begin=\"0\" dur=\"9999\" from=\"0 16 16\" repeatCount=\"0\" to=\"360 16 16\" type=\"rotate\"/></path><g fill=\"#71717a\" stroke=\"#a1a1aa\" stroke-width=\".5\"><circle cx=\"6\" cy=\"6\" r=\"1.2\"/><circle cx=\"26\" cy=\"6\" r=\"1.2\"/><circle cx=\"6\" cy=\"26\" r=\"1.2\"/><circle cx=\"26\" cy=\"26\" r=\"1.2\"/></g></svg>",
+      "minWidth": 28,
+      "minHeight": 28,
+      "edgeType": "cable"
+    },
+    "basic:::1.0:::bulb": {
+      "content": "<svg width=\"24\" height=\"24\" viewBox=\"-10 -10 150 150\" class=\"h-full w-full fill-muted-foreground\"><path class=\"fill-muted\" d=\"M82 93V81.82a20.38 20.38 0 0 1 6.65-15.23 37 37 0 1 0-49.39-.09A20.59 20.59 0 0 1 46 81.82v10.77z\"><animate attributeName=\"fill\" attributeType=\"CSS\" dur=\"9999\" repeatCount=\"0\"/></path><path stroke=\"#e4e4e7\" d=\"M82 95a2 2 0 0 1-2-2V81.82a22.38 22.38 0 0 1 7.31-16.72 35 35 0 1 0-46.72-.1A22.61 22.61 0 0 1 48 81.82v10.76a2 2 0 0 1-4 0V81.82A18.6 18.6 0 0 0 37.92 68a39 39 0 1 1 52.08.08 18.38 18.38 0 0 0-6 13.74V93a2 2 0 0 1-2 2Z\"/><path fill=\"#71717a\" d=\"M82 92v16a18.05 18.05 0 0 1-18 18 18.05 18.05 0 0 1-18-18V92Z\"/><g fill=\"#3f3f46\"><path d=\"M64 128a20 20 0 0 1-20-20V92a2 2 0 0 1 2-2h36a2 2 0 0 1 2 2v16a20 20 0 0 1-20 20ZM48 94v14a16 16 0 0 0 32 0V94Z\"/><path d=\"M54 104a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4ZM54 112a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4Z\"/></g><path d=\"m54 102 28-4M54 110l28-4\"/></svg>",
+      "rotatable": true,
+      "minWidth": 20,
+      "minHeight": 20,
+      "edgeType": "cable"
+    },
+    "shape:::1.0:::round-rectangle": {
+      "content": "<svg width=\"26\" height=\"26\" class=\"h-full w-full\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#EBC347\"><rect rx=\"4\" x=\"0.5\" y=\"0.5\" width=\"25\" height=\"25\" fill=\"#EBC347\" fill-opacity=\"0\"></rect></g></svg>",
+      "minWidth": 28,
+      "minHeight": 28
+    },
+    "shape:::1.0:::rectangle": {
+      "content": "<svg width=\"26\" height=\"26\" class=\"h-full w-full\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#84cc16\"><rect rx=\"0\" x=\"0.5\" y=\"0.5\" width=\"25\" height=\"25\" fill=\"#84cc16\" fill-opacity=\"0\"></rect></g></svg>",
+      "minWidth": 28,
+      "minHeight": 28
+    },
+    "shape:::1.0:::dash-line": {
+      "content": "<svg width=\"26\" height=\"26\" class=\"h-full w-full\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#71717a\"><path d=\"M0,7 L598,7\" stroke-dasharray=\"3,3\"></path></g></svg>",
+      "minWidth": 28,
+      "minHeight": 14,
+      "maxHeight": 14
+    },
+    "shape:::1.0:::arrow-rectangle": {
+      "content": "<svg width=\"26\" height=\"26\" class=\"h-full w-full\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#0ea5e9\"><path d=\"M1,1 L21.32,1 L25,13 L21.32,25 L1,25 Z\" fill=\"#0ea5e9\" fill-opacity=\"0\"></path></g></svg>",
+      "minWidth": 28,
+      "minHeight": 28
+    },
+    "chart:::1.0:::gauge": { "minWidth": 100, "minHeight": 100 },
+    "chart:::1.0:::line": { "minWidth": 230, "minHeight": 160 },
+    "basic:::1.0:::table": {}
+  }
 }
