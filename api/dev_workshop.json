@@ -838,9 +838,9 @@
         ],
         "meta": { "label": "Bulb 2", "status": 0, "labelPosition": "none" }
       },
-      "width": 20,
-      "height": 20,
-      "measured": { "width": 20, "height": 20 },
+      "width": 32,
+      "height": 32,
+      "measured": { "width": 32, "height": 32 },
       "dragging": false
     },
     {
