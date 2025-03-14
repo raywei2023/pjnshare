@@ -1441,7 +1441,7 @@
       "edgeType": "pipe"
     },
     "basic:::1.0:::heater": {
-      "content": "api/svg/pipe-heater.svg",
+      "content": "api/svg/heater.svg",
       "minWidth": 36,
       "minHeight": 36,
       "edgeType": "pipe",
