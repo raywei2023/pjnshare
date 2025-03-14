@@ -173,7 +173,7 @@
           "strokeColor": "#EA9C41"
         },
         "setting": {
-          "content": "<svg width=\"26\" height=\"26\" class=\"h-full w-full\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#EA9C41\"><ellipse cx=\"13\" cy=\"13\" rx=\"12\" ry=\"12\" fill=\"#EA9C41\" fill-opacity=\"0\"></ellipse></g></svg>",
+          "content": "/api/shape/circle.svg",
           "minWidth": 28,
           "minHeight": 28
         }
@@ -187,7 +187,7 @@
           "strokeColor": "#EBC347"
         },
         "setting": {
-          "content": "<svg width=\"26\" height=\"26\" class=\"h-full w-full\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#EBC347\"><rect rx=\"4\" x=\"0.5\" y=\"0.5\" width=\"25\" height=\"25\" fill=\"#EBC347\" fill-opacity=\"0\"></rect></g></svg>",
+          "content": "/api/shape/round-rect.svg",
           "minWidth": 28,
           "minHeight": 28
         }
@@ -201,7 +201,7 @@
           "strokeColor": "#84cc16"
         },
         "setting": {
-          "content": "<svg width=\"26\" height=\"26\" class=\"h-full w-full\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#84cc16\"><rect rx=\"0\" x=\"0.5\" y=\"0.5\" width=\"25\" height=\"25\" fill=\"#84cc16\" fill-opacity=\"0\"></rect></g></svg>",
+          "content": "/api/shape/rect.svg",
           "minWidth": 28,
           "minHeight": 28
         }
@@ -215,7 +215,7 @@
           "strokeColor": "#0ea5e9"
         },
         "setting": {
-          "content": "<svg width=\"26\" height=\"26\" class=\"h-full w-full\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#0ea5e9\"><path d=\"M1,13 L4.68,1 L21.32,1 L25,13 L21.32,25 L4.68,25 Z\" fill=\"#0ea5e9\" fill-opacity=\"0\"></path></g></svg>",
+          "content": "/api/shape/hexagon.svg",
           "minWidth": 28,
           "minHeight": 28
         }
@@ -229,7 +229,7 @@
           "strokeColor": "#803DEC"
         },
         "setting": {
-          "content": "<svg width=\"26\" height=\"26\" class=\"h-full w-full\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#803DEC\"><path d=\"M1,13 L13,1 L25,13 L13,25 Z\" fill=\"#803DEC\" fill-opacity=\"0\"></path></g></svg>",
+          "content": "/api/shape/diamond.svg",
           "minWidth": 28,
           "minHeight": 28
         }
@@ -243,7 +243,7 @@
           "strokeColor": "#0ea5e9"
         },
         "setting": {
-          "content": "<svg width=\"26\" height=\"26\" class=\"h-full w-full\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#0ea5e9\"><path d=\"M1,1 L21.32,1 L25,13 L21.32,25 L1,25 Z\" fill=\"#0ea5e9\" fill-opacity=\"0\"></path></g></svg>",
+          "content": "/api/shape/arrow-rect.svg",
           "minWidth": 28,
           "minHeight": 28
         }
@@ -257,7 +257,7 @@
           "strokeColor": "#84cc16"
         },
         "setting": {
-          "content": "<svg width=\"26\" height=\"26\" class=\"h-full w-full\"><path fill=\"none\" stroke=\"#84cc16\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" d=\"M1 3.6v18.8a12 2.6 0 1 0 24 0V3.6a12 3.6 0 1 1-25 0 12 2.6 0 1 1 25 0 12 3.6 0 1 1-25 0Z\"/></svg>",
+          "content": "/api/shape/cylinder.svg",
           "minWidth": 28,
           "minHeight": 28
         }
@@ -271,7 +271,7 @@
           "strokeColor": "#EBC347"
         },
         "setting": {
-          "content": "<svg width=\"26\" height=\"26\" class=\"h-full w-full\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#EBC347\"><path d=\"M1,25 L13,1 24,25 Z\" fill=\"#EBC347\" fill-opacity=\"0\"></path></g></svg>",
+          "content": "/api/shape/triangle.svg",
           "minWidth": 28,
           "minHeight": 28
         }
@@ -285,7 +285,7 @@
           "strokeColor": "#EA9C41"
         },
         "setting": {
-          "content": "<svg width=\"26\" height=\"26\" class=\"h-full w-full\"><path fill=\"none\" stroke=\"#EA9C41\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" d=\"M1 25 3.64 1H24l-2.64 24Z\"/></svg>",
+          "content": "/api/shape/parallelogram.svg",
           "minWidth": 28,
           "minHeight": 28
         }
@@ -299,7 +299,7 @@
           "strokeColor": "#803DEC"
         },
         "setting": {
-          "content": "<svg width=\"26\" height=\"26\" class=\"h-full w-full\"><path fill=\"none\" stroke=\"#803DEC\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" d=\"M8.67 1h8.66v7.67H25v8.66h1-8.67V25h0-8.66v-7.67H1V8.67h7.67Z\"/></svg>",
+          "content": "/api/shape/plus.svg",
           "minWidth": 28,
           "minHeight": 28
         }
@@ -309,7 +309,7 @@
         "name": "dash-line",
         "meta": { "label": "Dash line", "strokeColor": "#71717a" },
         "setting": {
-          "content": "<svg width=\"26\" height=\"26\" class=\"h-full w-full\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#71717a\"><path d=\"M0,7 L598,7\" stroke-dasharray=\"3,3\"></path></g></svg>",
+          "content": "/api/shape/dash-line.svg",
           "minWidth": 28,
           "minHeight": 14,
           "maxHeight": 14
