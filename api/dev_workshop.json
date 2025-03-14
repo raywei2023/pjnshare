@@ -1739,23 +1739,23 @@
       "edgeType": "cable"
     },
     "shape:::1.0:::round-rectangle": {
-      "content": "<svg width=\"26\" height=\"26\" class=\"h-full w-full\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#EBC347\"><rect rx=\"4\" x=\"0.5\" y=\"0.5\" width=\"25\" height=\"25\" fill=\"#EBC347\" fill-opacity=\"0\"></rect></g></svg>",
+      "content": "api/shape/round-rect.svg",
       "minWidth": 28,
       "minHeight": 28
     },
     "shape:::1.0:::rectangle": {
-      "content": "<svg width=\"26\" height=\"26\" class=\"h-full w-full\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#84cc16\"><rect rx=\"0\" x=\"0.5\" y=\"0.5\" width=\"25\" height=\"25\" fill=\"#84cc16\" fill-opacity=\"0\"></rect></g></svg>",
+      "content": "api/shape/rect.svg",
       "minWidth": 28,
       "minHeight": 28
     },
     "shape:::1.0:::dash-line": {
-      "content": "<svg width=\"26\" height=\"26\" class=\"h-full w-full\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#71717a\"><path d=\"M0,7 L598,7\" stroke-dasharray=\"3,3\"></path></g></svg>",
+      "content": "api/shape/dash-line.svg",
       "minWidth": 28,
       "minHeight": 14,
       "maxHeight": 14
     },
     "shape:::1.0:::arrow-rectangle": {
-      "content": "<svg width=\"26\" height=\"26\" class=\"h-full w-full\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" fill=\"none\" stroke=\"#0ea5e9\"><path d=\"M1,1 L21.32,1 L25,13 L21.32,25 L1,25 Z\" fill=\"#0ea5e9\" fill-opacity=\"0\"></path></g></svg>",
+      "content": "api/shape/arrow-rect.svg",
       "minWidth": 28,
       "minHeight": 28
     },
