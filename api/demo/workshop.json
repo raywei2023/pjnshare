@@ -36,19 +36,19 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 48.8,
+              "value": 45.7,
               "status": 3
             },
             {
               "label": "Property-2",
               "key": "prop-2",
-              "value": 15.1,
+              "value": 37.3,
               "status": 0
             },
             {
               "label": "Property-4",
               "key": "prop-4",
-              "value": 19.6,
+              "value": 21.9,
               "status": 0
             }
           ],
@@ -535,7 +535,32 @@
             "uuid": "4c79e0ab-511c-4f31-96c4-cc6d54945556"
           }
         ],
-        "meta": { "label": "Twin tank", "labelPosition": "bottom" }
+        "meta": {
+          "label": "Twin tank",
+          "labelPosition": "bottom",
+          "properties": [
+            {
+              "label": "Temperature",
+              "key": "temp",
+              "unit": "°C",
+              "value": 22.1,
+              "status": 2
+            },
+            {
+              "label": "Humidity",
+              "key": "hum",
+              "unit": "%",
+              "value": 25.9,
+              "status": 0
+            },
+            {
+              "label": "Property-5",
+              "key": "prop-5",
+              "value": 15.4,
+              "status": 0
+            }
+          ]
+        }
       },
       "width": 68,
       "height": 85,
@@ -578,14 +603,14 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 25.9,
+              "value": 32.7,
               "status": 1
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 48.7,
+              "value": 26.7,
               "status": 0
             }
           ],
@@ -666,13 +691,13 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 18.3,
+              "value": 21,
               "status": 2
             },
             {
               "label": "Property-5",
               "key": "prop-5",
-              "value": 18.9,
+              "value": 25.6,
               "status": 0
             }
           ],
@@ -757,24 +782,24 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 23.6,
-              "status": 1
+              "value": 21.8,
+              "status": 2
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 35,
+              "value": 15.7,
               "status": 0
             },
             {
               "label": "Property-1",
               "key": "prop-1",
-              "value": 48.5,
+              "value": 30.9,
               "status": 0
             }
           ],
-          "status": 1
+          "status": 2
         }
       },
       "width": 90,
@@ -1112,7 +1137,7 @@
     {
       "id": "1ca36e5b-92be-4e62-bb3a-a71377128f4f",
       "type": "table",
-      "position": { "x": 116.98, "y": 26.01 },
+      "position": { "x": 118.62, "y": -22.37 },
       "zIndex": 10,
       "parentId": "8c245d49-1aa7-45bc-bad7-a22cd1dc2b3a",
       "data": {
@@ -1126,20 +1151,20 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 23.6,
-              "status": 1
+              "value": 21.8,
+              "status": 2
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 35,
+              "value": 15.7,
               "status": 0
             },
             {
               "label": "Property-1",
               "key": "prop-1",
-              "value": 48.5,
+              "value": 30.9,
               "status": 0
             }
           ]
@@ -1152,7 +1177,7 @@
     {
       "id": "22d5c294-6f3b-4910-bc4c-d67da0181155",
       "type": "table",
-      "position": { "x": -117.6, "y": 65.19 },
+      "position": { "x": 147.28, "y": 73.39 },
       "zIndex": 10,
       "parentId": "f285255f-416e-484f-aa3b-01e05b34e5a1",
       "data": {
@@ -1166,19 +1191,19 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 48.8,
+              "value": 45.7,
               "status": 3
             },
             {
               "label": "Property-2",
               "key": "prop-2",
-              "value": 15.1,
+              "value": 37.3,
               "status": 0
             },
             {
               "label": "Property-4",
               "key": "prop-4",
-              "value": 19.6,
+              "value": 21.9,
               "status": 0
             }
           ]
@@ -1205,14 +1230,14 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 25.9,
+              "value": 32.7,
               "status": 1
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 48.7,
+              "value": 26.7,
               "status": 0
             }
           ]
@@ -1239,13 +1264,13 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 18.3,
+              "value": 21,
               "status": 2
             },
             {
               "label": "Property-5",
               "key": "prop-5",
-              "value": 18.9,
+              "value": 25.6,
               "status": 0
             }
           ]
@@ -1477,32 +1502,72 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 31.9,
-              "status": 1
+              "value": 21.3,
+              "status": 2
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 33.3,
+              "value": 38.9,
               "status": 0
             },
             {
               "label": "Property-2",
               "key": "prop-2",
-              "value": 21.5,
+              "value": 14.4,
               "status": 0
             },
             {
               "label": "Property-3",
               "key": "prop-3",
-              "value": 16.2,
+              "value": 35.4,
               "status": 0
             }
           ]
         }
       },
       "measured": { "width": 96, "height": 89 },
+      "dragging": false
+    },
+    {
+      "id": "17954adc-63d9-4553-aa8f-73177abbee84",
+      "type": "table",
+      "position": { "x": -108.01, "y": -83.16 },
+      "zIndex": 10,
+      "parentId": "3fd4d31d-6cf9-47ac-a8af-eada132b3529",
+      "data": {
+        "id": "17954adc-63d9-4553-aa8f-73177abbee84",
+        "library": "other",
+        "name": "table",
+        "meta": {
+          "label": "Twin tank",
+          "properties": [
+            {
+              "label": "Temperature",
+              "key": "temp",
+              "unit": "°C",
+              "value": 22.1,
+              "status": 2
+            },
+            {
+              "label": "Humidity",
+              "key": "hum",
+              "unit": "%",
+              "value": 25.9,
+              "status": 0
+            },
+            {
+              "label": "Property-5",
+              "key": "prop-5",
+              "value": 15.4,
+              "status": 0
+            }
+          ]
+        }
+      },
+      "selected": true,
+      "measured": { "width": 96, "height": 72 },
       "dragging": false
     }
   ],
@@ -1793,7 +1858,17 @@
       "targetHandle": "center:target:af568873-79b9-4bb7-a839-520efd5fe119",
       "data": { "label": "" },
       "zIndex": 15
+    },
+    {
+      "id": "f57ab4ac-639c-4a66-bf12-e2c0f7657e76",
+      "type": "dashed",
+      "source": "3fd4d31d-6cf9-47ac-a8af-eada132b3529",
+      "target": "17954adc-63d9-4553-aa8f-73177abbee84",
+      "sourceHandle": "center:source:3fd4d31d-6cf9-47ac-a8af-eada132b3529",
+      "targetHandle": "center:target:17954adc-63d9-4553-aa8f-73177abbee84",
+      "data": { "label": "" },
+      "zIndex": 15
     }
   ],
-  "viewport": { "zoom": 1.76, "x": 152.18, "y": 547.72 }
+  "viewport": { "zoom": 1.65, "x": 394.38, "y": 563.07 }
 }
