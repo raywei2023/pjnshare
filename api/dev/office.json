@@ -27,7 +27,7 @@
     {
       "id": "8053f7d6-fc1a-4422-ba01-9889114b7bcc",
       "type": "svg",
-      "position": { "x": 543.54, "y": 846.95 },
+      "position": { "x": 535.06, "y": 852.5 },
       "hidden": false,
       "selected": false,
       "zIndex": 20,
@@ -66,14 +66,14 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 27.5,
-              "status": 1
+              "value": 48.3,
+              "status": 3
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 25.9,
+              "value": 33.5,
               "status": 0
             }
           ]
@@ -121,23 +121,23 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 14.3,
-              "status": 2
+              "value": 34.1,
+              "status": 1
             },
             {
               "label": "Property-3",
               "key": "prop-3",
-              "value": 31,
+              "value": 45.8,
               "status": 0
             },
             {
               "label": "Property-4",
               "key": "prop-4",
-              "value": 36.1,
+              "value": 26.6,
               "status": 0
             }
           ],
-          "status": 2
+          "status": 1
         }
       },
       "width": 90,
@@ -387,7 +387,7 @@
     {
       "id": "a1d577ee-2135-4bb2-a029-e50f251fe044",
       "type": "svg",
-      "position": { "x": 616.79, "y": 156.75 },
+      "position": { "x": 596.79, "y": 146.75 },
       "hidden": false,
       "selected": false,
       "zIndex": 20,
@@ -420,30 +420,31 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 14.6,
-              "status": 2
+              "value": 32.6,
+              "status": 1
             },
             {
               "label": "Property-5",
               "key": "prop-5",
-              "value": 16.8,
+              "value": 35.9,
               "status": 0
             }
           ],
-          "status": 2
+          "status": 1
         }
       },
-      "width": 36,
-      "height": 36,
-      "measured": { "width": 36, "height": 36 },
+      "width": 56,
+      "height": 56,
+      "measured": { "width": 56, "height": 56 },
       "parentId": "g20250206",
-      "dragging": false
+      "dragging": false,
+      "resizing": false
     },
     {
       "id": "53fc935f-9090-4fc0-9c04-73fab06c3219",
       "type": "svg",
       "selected": false,
-      "position": { "x": 616.79, "y": 375.06 },
+      "position": { "x": 616.79, "y": 370.06 },
       "data": {
         "id": "53fc935f-9090-4fc0-9c04-73fab06c3219",
         "library": "basic",
@@ -473,27 +474,28 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 45.9,
-              "status": 3
+              "value": 22.5,
+              "status": 2
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 25.2,
+              "value": 30.2,
               "status": 0
             }
           ],
-          "status": 3
+          "status": 2
         }
       },
       "zIndex": 20,
       "hidden": false,
-      "width": 36,
-      "height": 36,
-      "measured": { "width": 36, "height": 36 },
+      "width": 42,
+      "height": 42,
+      "measured": { "width": 42, "height": 42 },
       "parentId": "g20250206",
-      "dragging": false
+      "dragging": false,
+      "resizing": false
     },
     {
       "id": "bab6bf83-9c30-4f36-84c3-bcc343427581",
@@ -535,7 +537,7 @@
       "id": "03adfcc6-cbde-4cec-b018-5b55315a00e6",
       "type": "svg",
       "selected": false,
-      "position": { "x": 621.99, "y": 794.99 },
+      "position": { "x": 605.99, "y": 788.99 },
       "data": {
         "id": "03adfcc6-cbde-4cec-b018-5b55315a00e6",
         "library": "basic",
@@ -561,11 +563,12 @@
       },
       "zIndex": 20,
       "hidden": false,
-      "width": 36,
-      "height": 36,
-      "measured": { "width": 36, "height": 36 },
+      "width": 52,
+      "height": 52,
+      "measured": { "width": 52, "height": 52 },
       "parentId": "g20250206",
-      "dragging": false
+      "dragging": false,
+      "resizing": false
     },
     {
       "id": "6bb51b9c-0ad7-4216-bc5d-4c33bbec441f",
@@ -589,8 +592,8 @@
         }
       },
       "width": 97,
-      "height": 41,
-      "measured": { "width": 97, "height": 41 },
+      "height": 36,
+      "measured": { "width": 97, "height": 36 },
       "parentId": "g20250206",
       "resizing": false,
       "dragging": false
@@ -617,8 +620,8 @@
       "zIndex": 10,
       "hidden": false,
       "width": 97,
-      "height": 41,
-      "measured": { "width": 97, "height": 41 },
+      "height": 36,
+      "measured": { "width": 97, "height": 36 },
       "parentId": "g20250206",
       "dragging": false
     },
@@ -644,8 +647,8 @@
       "zIndex": 10,
       "hidden": false,
       "width": 97,
-      "height": 41,
-      "measured": { "width": 97, "height": 41 },
+      "height": 36,
+      "measured": { "width": 97, "height": 36 },
       "parentId": "g20250206",
       "dragging": false
     },
@@ -671,8 +674,8 @@
       "zIndex": 10,
       "hidden": false,
       "width": 97,
-      "height": 41,
-      "measured": { "width": 97, "height": 41 },
+      "height": 36,
+      "measured": { "width": 97, "height": 36 },
       "parentId": "g20250206",
       "dragging": false
     },
@@ -790,7 +793,7 @@
     {
       "id": "2a5fbd31-42f1-4414-a70f-6a5090a91128",
       "type": "svg",
-      "position": { "x": 162.13, "y": 708.88 },
+      "position": { "x": 157.13, "y": 708.88 },
       "hidden": false,
       "selected": false,
       "zIndex": 20,
@@ -816,11 +819,12 @@
         ],
         "meta": { "label": "Fan", "labelPosition": "bottom", "status": 3 }
       },
-      "width": 28,
-      "height": 28,
-      "measured": { "width": 28, "height": 28 },
+      "width": 37,
+      "height": 37,
+      "measured": { "width": 37, "height": 37 },
       "parentId": "g20250206",
-      "dragging": false
+      "dragging": false,
+      "resizing": false
     },
     {
       "id": "b6548bf7-50dd-4655-9333-57679ff9ec63",
@@ -851,11 +855,12 @@
       },
       "zIndex": 20,
       "hidden": false,
-      "width": 28,
-      "height": 28,
-      "measured": { "width": 28, "height": 28 },
+      "width": 37,
+      "height": 37,
+      "measured": { "width": 37, "height": 37 },
       "parentId": "g20250206",
-      "dragging": false
+      "dragging": false,
+      "resizing": false
     },
     {
       "id": "d8640648-8cb3-4c39-a260-908e05df09dc",
@@ -1045,11 +1050,12 @@
       },
       "zIndex": 20,
       "hidden": false,
-      "width": 28,
-      "height": 28,
-      "measured": { "width": 28, "height": 28 },
+      "width": 35,
+      "height": 35,
+      "measured": { "width": 35, "height": 35 },
       "parentId": "g20250206",
-      "dragging": false
+      "dragging": false,
+      "resizing": false
     },
     {
       "id": "bc05e7a4-4f66-4922-8700-ead3f8d542e6",
@@ -1171,7 +1177,7 @@
     {
       "id": "b4b43dac-7cf8-472f-a478-09e48fb4ab10",
       "type": "table",
-      "position": { "x": -44.28, "y": -68.78 },
+      "position": { "x": 118.47, "y": 53.28 },
       "zIndex": 10,
       "parentId": "8053f7d6-fc1a-4422-ba01-9889114b7bcc",
       "data": {
@@ -1185,14 +1191,14 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 27.5,
-              "status": 1
+              "value": 48.3,
+              "status": 3
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 25.9,
+              "value": 33.5,
               "status": 0
             }
           ]
@@ -1205,7 +1211,7 @@
     {
       "id": "1b5a6ca9-3c7d-4e1e-b6e1-09845f932f89",
       "type": "table",
-      "position": { "x": -125.61, "y": -23.91 },
+      "position": { "x": -131.54, "y": -12.89 },
       "zIndex": 10,
       "parentId": "a45b15de-8ef7-40b7-a4c6-eaf6e7baa333",
       "data": {
@@ -1219,19 +1225,19 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 14.3,
-              "status": 2
+              "value": 34.1,
+              "status": 1
             },
             {
               "label": "Property-3",
               "key": "prop-3",
-              "value": 31,
+              "value": 45.8,
               "status": 0
             },
             {
               "label": "Property-4",
               "key": "prop-4",
-              "value": 36.1,
+              "value": 26.6,
               "status": 0
             }
           ]
@@ -1258,14 +1264,14 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 45.9,
-              "status": 3
+              "value": 22.5,
+              "status": 2
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 25.2,
+              "value": 30.2,
               "status": 0
             }
           ]
@@ -1278,7 +1284,7 @@
     {
       "id": "da3dd6c0-14ef-45aa-9662-f401341175b5",
       "type": "table",
-      "position": { "x": -70.29, "y": -87.07 },
+      "position": { "x": 22.95, "y": -80.29 },
       "zIndex": 10,
       "parentId": "a1d577ee-2135-4bb2-a029-e50f251fe044",
       "data": {
@@ -1292,13 +1298,13 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 14.6,
-              "status": 2
+              "value": 32.6,
+              "status": 1
             },
             {
               "label": "Property-5",
               "key": "prop-5",
-              "value": 16.8,
+              "value": 35.9,
               "status": 0
             }
           ]
@@ -1503,5 +1509,5 @@
       "zIndex": 15
     }
   ],
-  "viewport": { "zoom": 1.28, "x": 315.89, "y": 62.63 }
+  "viewport": { "zoom": 1.18, "x": 228.68, "y": 57.59 }
 }
