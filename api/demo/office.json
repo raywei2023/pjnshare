@@ -97,8 +97,8 @@
         "library": "basic",
         "name": "tank-wagon",
         "url": "/api/svg/tank-wagon.svg",
-        "minWidth": 90,
-        "minHeight": 60,
+        "minWidth": 78,
+        "minHeight": 52,
         "edgeType": "pipe",
         "hasTable": true,
         "handles": [
