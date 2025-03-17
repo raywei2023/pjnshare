@@ -749,7 +749,7 @@
     {
       "id": "8c245d49-1aa7-45bc-bad7-a22cd1dc2b3a",
       "type": "svg",
-      "position": { "x": 441.44, "y": -211.98 },
+      "position": { "x": 441.44, "y": -200 },
       "hidden": false,
       "selected": false,
       "zIndex": 20,
@@ -802,9 +802,9 @@
           "status": 2
         }
       },
-      "width": 90,
-      "height": 60,
-      "measured": { "width": 90, "height": 60 },
+      "width": 72,
+      "height": 48,
+      "measured": { "width": 72, "height": 48 },
       "dragging": false
     },
     {
