@@ -63,7 +63,8 @@
           "url": "/api/svg/vavle.svg",
           "minWidth": 28,
           "minHeight": 28,
-          "edgeType": "pipe"
+          "edgeType": "pipe",
+          "rotatable": true
         }
       },
       {
