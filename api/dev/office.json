@@ -880,14 +880,9 @@
         "edgeType": "cable",
         "handles": [
           {
-            "position": "left",
-            "rotatable": false,
+            "position": "bottom",
+            "rotatable": true,
             "uuid": "f53296b3-f34b-4abd-a24d-c6a4fc31d401"
-          },
-          {
-            "position": "right",
-            "rotatable": false,
-            "uuid": "1106ae4a-6118-442f-b52a-20293be6d3dd"
           }
         ],
         "meta": {
@@ -920,14 +915,9 @@
         "edgeType": "cable",
         "handles": [
           {
-            "position": "left",
-            "rotatable": false,
+            "position": "bottom",
+            "rotatable": true,
             "uuid": "e3355c3a-d05e-452c-a4c4-e8e4393c3b18"
-          },
-          {
-            "position": "right",
-            "rotatable": false,
-            "uuid": "1ef189f3-e856-420b-a416-909005decab0"
           }
         ],
         "meta": {
@@ -996,14 +986,9 @@
         "edgeType": "cable",
         "handles": [
           {
-            "position": "left",
-            "rotatable": false,
+            "position": "bottom",
+            "rotatable": true,
             "uuid": "55b4e973-d8d4-436d-a12f-2ae7a81914d3"
-          },
-          {
-            "position": "right",
-            "rotatable": false,
-            "uuid": "3418e853-5b57-49ac-aeb9-1315458ed3d1"
           }
         ],
         "meta": {
@@ -1073,14 +1058,9 @@
         "edgeType": "cable",
         "handles": [
           {
-            "position": "left",
-            "rotatable": false,
+            "position": "bottom",
+            "rotatable": true,
             "uuid": "30e3d75d-a0b9-4ab6-9000-815759811522"
-          },
-          {
-            "position": "right",
-            "rotatable": false,
-            "uuid": "685a2301-0805-47b3-80ea-d78286e3dd42"
           }
         ],
         "meta": {
@@ -1149,14 +1129,9 @@
         "edgeType": "cable",
         "handles": [
           {
-            "position": "left",
-            "rotatable": false,
+            "position": "bottom",
+            "rotatable": true,
             "uuid": "799c29b0-1c03-46f3-aad6-d23c21a8c89f"
-          },
-          {
-            "position": "right",
-            "rotatable": false,
-            "uuid": "d4949db3-1c4a-4ee1-8750-d1563efbc11e"
           }
         ],
         "meta": {
@@ -1330,14 +1305,9 @@
         "edgeType": "cable",
         "handles": [
           {
-            "position": "left",
-            "rotatable": false,
+            "position": "bottom",
+            "rotatable": true,
             "uuid": "dc9ce65c-6efa-4f17-b01a-921e16d4afd1"
-          },
-          {
-            "position": "right",
-            "rotatable": false,
-            "uuid": "e30d7ea4-58c3-4d59-bb55-dc17a9881e3d"
           }
         ],
         "meta": {
