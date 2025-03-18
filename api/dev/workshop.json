@@ -36,23 +36,23 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 45.7,
-              "status": 3
+              "value": 32.8,
+              "status": 1
             },
             {
               "label": "Property-2",
               "key": "prop-2",
-              "value": 37.3,
+              "value": 44.5,
               "status": 0
             },
             {
               "label": "Property-4",
               "key": "prop-4",
-              "value": 21.9,
+              "value": 36.5,
               "status": 0
             }
           ],
-          "status": 3
+          "status": 1
         }
       },
       "width": 113.49,
@@ -543,20 +543,20 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 22.1,
-              "status": 2
+              "value": 36.9,
+              "status": 1
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 25.9,
+              "value": 24.1,
               "status": 0
             },
             {
               "label": "Property-5",
               "key": "prop-5",
-              "value": 15.4,
+              "value": 39.6,
               "status": 0
             }
           ]
@@ -603,14 +603,14 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 32.7,
+              "value": 31.6,
               "status": 1
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 26.7,
+              "value": 23.4,
               "status": 0
             }
           ],
@@ -691,17 +691,17 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 21,
-              "status": 2
+              "value": 35.2,
+              "status": 1
             },
             {
               "label": "Property-5",
               "key": "prop-5",
-              "value": 25.6,
+              "value": 41.9,
               "status": 0
             }
           ],
-          "status": 2
+          "status": 1
         }
       },
       "zIndex": 20,
@@ -782,24 +782,19 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 21.8,
-              "status": 2
+              "value": 40.4,
+              "status": 3
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 15.7,
+              "value": 46.7,
               "status": 0
             },
-            {
-              "label": "Property-1",
-              "key": "prop-1",
-              "value": 30.9,
-              "status": 0
-            }
+            { "label": "Property-1", "key": "prop-1", "value": 46, "status": 0 }
           ],
-          "status": 2
+          "status": 3
         }
       },
       "width": 90,
@@ -810,7 +805,7 @@
     {
       "id": "d30617d2-10bb-4f18-b295-18794667f694",
       "type": "svg",
-      "position": { "x": 350.32, "y": -52.37 },
+      "position": { "x": 281.96, "y": -52.37 },
       "hidden": false,
       "selected": false,
       "zIndex": 20,
@@ -836,125 +831,9 @@
         ],
         "meta": { "label": "Fan", "labelPosition": "bottom", "status": 1 }
       },
-      "width": 47,
-      "height": 47,
-      "measured": { "width": 47, "height": 47 },
-      "dragging": false,
-      "resizing": false
-    },
-    {
-      "id": "1f0b42b9-5d95-4ffb-910d-d5e95d69f61c",
-      "type": "svg",
-      "position": { "x": 266.54, "y": -39.95 },
-      "hidden": false,
-      "selected": false,
-      "zIndex": 20,
-      "data": {
-        "id": "1f0b42b9-5d95-4ffb-910d-d5e95d69f61c",
-        "library": "basic",
-        "name": "bulb",
-        "url": "/api/svg/bulb.svg",
-        "rotatable": true,
-        "minWidth": 20,
-        "minHeight": 20,
-        "edgeType": "cable",
-        "handles": [
-          {
-            "position": "left",
-            "rotatable": false,
-            "uuid": "ad3e4012-0529-4416-a338-2de1abf15e8f"
-          },
-          {
-            "position": "right",
-            "rotatable": false,
-            "uuid": "5a411e5b-6158-45f3-a80c-5e62ae2bd5e9"
-          }
-        ],
-        "meta": {
-          "label": "Bulb",
-          "status": 2,
-          "labelPosition": "none",
-          "rotate": 180
-        }
-      },
-      "width": 20,
-      "height": 20,
-      "measured": { "width": 20, "height": 20 },
-      "dragging": false
-    },
-    {
-      "id": "6b3edb43-4687-421e-ac77-84f90437e5bf",
-      "type": "svg",
-      "selected": false,
-      "position": { "x": 450.76, "y": -39.95 },
-      "data": {
-        "id": "6b3edb43-4687-421e-ac77-84f90437e5bf",
-        "library": "basic",
-        "name": "bulb",
-        "url": "/api/svg/bulb.svg",
-        "rotatable": true,
-        "minWidth": 20,
-        "minHeight": 20,
-        "edgeType": "cable",
-        "handles": [
-          {
-            "position": "left",
-            "rotatable": false,
-            "uuid": "758a70b0-cbc6-4e35-8cc0-17d47074646b"
-          },
-          {
-            "position": "right",
-            "rotatable": false,
-            "uuid": "8e0d1b62-d318-40b1-a20e-dc8a12d38807"
-          }
-        ],
-        "meta": {
-          "label": "Bulb 1",
-          "status": 3,
-          "labelPosition": "none",
-          "rotate": 180
-        }
-      },
-      "zIndex": 20,
-      "hidden": false,
-      "width": 20,
-      "height": 20,
-      "measured": { "width": 20, "height": 20 },
-      "dragging": false
-    },
-    {
-      "id": "bf1096cc-09e9-4bcb-b861-eaaa9a23d3d1",
-      "type": "svg",
-      "position": { "x": 356, "y": 99.65 },
-      "hidden": false,
-      "selected": false,
-      "zIndex": 20,
-      "data": {
-        "id": "bf1096cc-09e9-4bcb-b861-eaaa9a23d3d1",
-        "library": "basic",
-        "name": "bulb",
-        "url": "/api/svg/bulb.svg",
-        "rotatable": true,
-        "minWidth": 20,
-        "minHeight": 20,
-        "edgeType": "cable",
-        "handles": [
-          {
-            "position": "left",
-            "rotatable": false,
-            "uuid": "2ec91a70-6b5a-4469-99a1-b2a78b170c5f"
-          },
-          {
-            "position": "right",
-            "rotatable": false,
-            "uuid": "c845911c-4efc-40e2-931f-09ecd2a13e1c"
-          }
-        ],
-        "meta": { "label": "Bulb 2", "status": 1, "labelPosition": "none" }
-      },
-      "width": 36,
-      "height": 36,
-      "measured": { "width": 36, "height": 36 },
+      "width": 44,
+      "height": 44,
+      "measured": { "width": 44, "height": 44 },
       "dragging": false,
       "resizing": false
     },
@@ -1151,22 +1030,17 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 21.8,
-              "status": 2
+              "value": 40.4,
+              "status": 3
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 15.7,
+              "value": 46.7,
               "status": 0
             },
-            {
-              "label": "Property-1",
-              "key": "prop-1",
-              "value": 30.9,
-              "status": 0
-            }
+            { "label": "Property-1", "key": "prop-1", "value": 46, "status": 0 }
           ]
         }
       },
@@ -1191,19 +1065,19 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 45.7,
-              "status": 3
+              "value": 32.8,
+              "status": 1
             },
             {
               "label": "Property-2",
               "key": "prop-2",
-              "value": 37.3,
+              "value": 44.5,
               "status": 0
             },
             {
               "label": "Property-4",
               "key": "prop-4",
-              "value": 21.9,
+              "value": 36.5,
               "status": 0
             }
           ]
@@ -1230,14 +1104,14 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 32.7,
+              "value": 31.6,
               "status": 1
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 26.7,
+              "value": 23.4,
               "status": 0
             }
           ]
@@ -1264,13 +1138,13 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 21,
-              "status": 2
+              "value": 35.2,
+              "status": 1
             },
             {
               "label": "Property-5",
               "key": "prop-5",
-              "value": 25.6,
+              "value": 41.9,
               "status": 0
             }
           ]
@@ -1502,26 +1376,26 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 21.3,
-              "status": 2
+              "value": 32.6,
+              "status": 1
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 38.9,
+              "value": 28.8,
               "status": 0
             },
             {
               "label": "Property-2",
               "key": "prop-2",
-              "value": 14.4,
+              "value": 22.9,
               "status": 0
             },
             {
               "label": "Property-3",
               "key": "prop-3",
-              "value": 35.4,
+              "value": 27.8,
               "status": 0
             }
           ]
@@ -1547,27 +1421,208 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 22.1,
-              "status": 2
+              "value": 36.9,
+              "status": 1
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 25.9,
+              "value": 24.1,
               "status": 0
             },
             {
               "label": "Property-5",
               "key": "prop-5",
-              "value": 15.4,
+              "value": 39.6,
               "status": 0
             }
           ]
         }
       },
-      "selected": true,
+      "selected": false,
       "measured": { "width": 96, "height": 72 },
+      "dragging": false
+    },
+    {
+      "id": "132312d6-30fd-4b0f-910d-c79fd312c7c1",
+      "type": "svg",
+      "selected": false,
+      "position": { "x": 413.42, "y": -31.88 },
+      "data": {
+        "name": "bulb",
+        "handles": [
+          {
+            "position": "bottom",
+            "rotatable": true,
+            "uuid": "f091f627-e655-4d8e-900a-ef7aacd2cadb"
+          }
+        ],
+        "url": "/api/svg/bulb.svg",
+        "rotatable": true,
+        "minWidth": 20,
+        "minHeight": 20,
+        "edgeType": "cable",
+        "id": "132312d6-30fd-4b0f-910d-c79fd312c7c1",
+        "library": "basic",
+        "meta": {
+          "label": "Bulb 4",
+          "status": 3,
+          "labelPosition": "none",
+          "rotate": 180,
+          "properties": []
+        }
+      },
+      "zIndex": 20,
+      "hidden": false,
+      "width": 24,
+      "height": 24,
+      "measured": { "width": 24, "height": 24 },
+      "dragging": false,
+      "resizing": false
+    },
+    {
+      "id": "3bb8cb56-7d92-4f99-80f1-f168e150e045",
+      "type": "svg",
+      "selected": false,
+      "position": { "x": 449.69, "y": -31.88 },
+      "data": {
+        "name": "bulb",
+        "handles": [
+          {
+            "position": "bottom",
+            "rotatable": true,
+            "uuid": "c436b704-c6ee-4210-90aa-7027a117128b"
+          }
+        ],
+        "url": "/api/svg/bulb.svg",
+        "rotatable": true,
+        "minWidth": 20,
+        "minHeight": 20,
+        "edgeType": "cable",
+        "id": "3bb8cb56-7d92-4f99-80f1-f168e150e045",
+        "library": "basic",
+        "meta": {
+          "label": "Bulb 1",
+          "status": null,
+          "labelPosition": "none",
+          "rotate": 180,
+          "properties": []
+        }
+      },
+      "zIndex": 20,
+      "hidden": false,
+      "width": 24,
+      "height": 24,
+      "measured": { "width": 24, "height": 24 },
+      "dragging": false
+    },
+    {
+      "id": "86f1d4d9-12ac-4c6e-8050-64e2cd449c90",
+      "type": "svg",
+      "selected": false,
+      "position": { "x": 377.59, "y": -31.88 },
+      "data": {
+        "name": "bulb",
+        "handles": [
+          {
+            "position": "bottom",
+            "rotatable": true,
+            "uuid": "f7841d77-8662-4666-8ab8-9c1d5d1d8295"
+          }
+        ],
+        "url": "/api/svg/bulb.svg",
+        "rotatable": true,
+        "minWidth": 20,
+        "minHeight": 20,
+        "edgeType": "cable",
+        "id": "86f1d4d9-12ac-4c6e-8050-64e2cd449c90",
+        "library": "basic",
+        "meta": {
+          "label": "Bulb 3",
+          "status": 1,
+          "labelPosition": "none",
+          "rotate": 180,
+          "properties": []
+        }
+      },
+      "zIndex": 20,
+      "hidden": false,
+      "width": 24,
+      "height": 24,
+      "measured": { "width": 24, "height": 24 },
+      "dragging": false
+    },
+    {
+      "id": "ca55027e-2df4-4a70-bef6-8be870268a1e",
+      "type": "svg",
+      "selected": false,
+      "position": { "x": 340.77, "y": 89.67 },
+      "data": {
+        "name": "bulb",
+        "handles": [
+          {
+            "position": "bottom",
+            "rotatable": true,
+            "uuid": "5b3e4077-876c-428c-871c-91975801c6c4"
+          }
+        ],
+        "url": "/api/svg/bulb.svg",
+        "rotatable": true,
+        "minWidth": 20,
+        "minHeight": 20,
+        "edgeType": "cable",
+        "id": "ca55027e-2df4-4a70-bef6-8be870268a1e",
+        "library": "basic",
+        "meta": {
+          "label": "Bulb 2",
+          "status": 1,
+          "labelPosition": "none",
+          "rotate": 0,
+          "properties": []
+        }
+      },
+      "zIndex": 20,
+      "hidden": false,
+      "width": 24,
+      "height": 24,
+      "measured": { "width": 24, "height": 24 },
+      "dragging": false
+    },
+    {
+      "id": "567a9e1b-efd9-4d1e-ae04-25f55932ab96",
+      "type": "svg",
+      "selected": false,
+      "position": { "x": 382.76, "y": 89.67 },
+      "data": {
+        "name": "bulb",
+        "handles": [
+          {
+            "position": "bottom",
+            "rotatable": true,
+            "uuid": "7c3b1525-fd5b-438e-859c-813bd43b73a6"
+          }
+        ],
+        "url": "/api/svg/bulb.svg",
+        "rotatable": true,
+        "minWidth": 20,
+        "minHeight": 20,
+        "edgeType": "cable",
+        "id": "567a9e1b-efd9-4d1e-ae04-25f55932ab96",
+        "library": "basic",
+        "meta": {
+          "label": "Bulb 5",
+          "status": 2,
+          "labelPosition": "none",
+          "rotate": 0,
+          "properties": []
+        }
+      },
+      "zIndex": 20,
+      "hidden": false,
+      "width": 24,
+      "height": 24,
+      "measured": { "width": 24, "height": 24 },
       "dragging": false
     }
   ],
@@ -1654,48 +1709,6 @@
       "id": "4fed3d01-f1f0-4e96-aa7b-4221fa5ec3a6",
       "type": "pipe",
       "data": { "label": "", "animated": -1 },
-      "zIndex": 15,
-      "selected": false
-    },
-    {
-      "source": "bf1096cc-09e9-4bcb-b861-eaaa9a23d3d1",
-      "sourceHandle": "source:c845911c-4efc-40e2-931f-09ecd2a13e1c",
-      "target": "c66e7b5a-8199-49b1-9b81-1f7dcc252cd7",
-      "targetHandle": "source:4d3a99d8-8b77-40b9-a909-a52dee2afb0d",
-      "id": "facd062a-798e-41db-ba8c-838043b15d72",
-      "type": "cable",
-      "data": { "label": "", "animated": 1 },
-      "zIndex": 15
-    },
-    {
-      "source": "bf1096cc-09e9-4bcb-b861-eaaa9a23d3d1",
-      "sourceHandle": "source:2ec91a70-6b5a-4469-99a1-b2a78b170c5f",
-      "target": "e0a52f3b-d1d1-45da-a775-ed6ff40b8098",
-      "targetHandle": "source:c8cc840c-1bfb-405e-ab9a-4161acba4374",
-      "id": "803f6227-5214-41c4-b51e-6745eb1bd942",
-      "type": "cable",
-      "data": { "label": "" },
-      "zIndex": 15
-    },
-    {
-      "source": "1f0b42b9-5d95-4ffb-910d-d5e95d69f61c",
-      "sourceHandle": "source:ad3e4012-0529-4416-a338-2de1abf15e8f",
-      "target": "d30617d2-10bb-4f18-b295-18794667f694",
-      "targetHandle": "source:3edb34e0-02bb-4506-8b7f-ad6ffed1f241",
-      "id": "c92454e1-8e4f-40bf-9a71-47256370c674",
-      "type": "cable",
-      "data": { "label": "", "animated": -1 },
-      "zIndex": 15,
-      "selected": false
-    },
-    {
-      "source": "d30617d2-10bb-4f18-b295-18794667f694",
-      "sourceHandle": "source:a0e165b8-1de3-43f5-94a0-9c946ff0e55f",
-      "target": "6b3edb43-4687-421e-ac77-84f90437e5bf",
-      "targetHandle": "source:8e0d1b62-d318-40b1-a20e-dc8a12d38807",
-      "id": "56c773d5-a2ee-4b2f-af5d-9412f5ff4176",
-      "type": "cable",
-      "data": { "label": "", "animated": 1 },
       "zIndex": 15,
       "selected": false
     },
@@ -1868,7 +1881,67 @@
       "targetHandle": "center:target:17954adc-63d9-4553-aa8f-73177abbee84",
       "data": { "label": "" },
       "zIndex": 15
+    },
+    {
+      "source": "86f1d4d9-12ac-4c6e-8050-64e2cd449c90",
+      "sourceHandle": "source:f7841d77-8662-4666-8ab8-9c1d5d1d8295",
+      "target": "132312d6-30fd-4b0f-910d-c79fd312c7c1",
+      "targetHandle": "source:f091f627-e655-4d8e-900a-ef7aacd2cadb",
+      "id": "67e3cf06-7d17-494c-9852-b63664e50338",
+      "type": "cable",
+      "data": { "label": "", "animated": 1 },
+      "zIndex": 15
+    },
+    {
+      "source": "d30617d2-10bb-4f18-b295-18794667f694",
+      "sourceHandle": "source:a0e165b8-1de3-43f5-94a0-9c946ff0e55f",
+      "target": "86f1d4d9-12ac-4c6e-8050-64e2cd449c90",
+      "targetHandle": "source:f7841d77-8662-4666-8ab8-9c1d5d1d8295",
+      "id": "231c3973-3e7c-4b89-94fc-353a3459cd52",
+      "type": "cable",
+      "data": { "label": "", "animated": 1 },
+      "zIndex": 15
+    },
+    {
+      "source": "132312d6-30fd-4b0f-910d-c79fd312c7c1",
+      "sourceHandle": "source:f091f627-e655-4d8e-900a-ef7aacd2cadb",
+      "target": "3bb8cb56-7d92-4f99-80f1-f168e150e045",
+      "targetHandle": "source:c436b704-c6ee-4210-90aa-7027a117128b",
+      "id": "c7348a98-60b5-443f-9344-0b5c97c01805",
+      "type": "cable",
+      "data": { "label": "" },
+      "zIndex": 15
+    },
+    {
+      "source": "e0a52f3b-d1d1-45da-a775-ed6ff40b8098",
+      "sourceHandle": "source:c8cc840c-1bfb-405e-ab9a-4161acba4374",
+      "target": "ca55027e-2df4-4a70-bef6-8be870268a1e",
+      "targetHandle": "source:5b3e4077-876c-428c-871c-91975801c6c4",
+      "id": "8c8d1937-1881-49a0-9b94-7aeba16bc2e5",
+      "type": "cable",
+      "data": { "label": "", "animated": 0 },
+      "zIndex": 15
+    },
+    {
+      "source": "567a9e1b-efd9-4d1e-ae04-25f55932ab96",
+      "sourceHandle": "source:7c3b1525-fd5b-438e-859c-813bd43b73a6",
+      "target": "c66e7b5a-8199-49b1-9b81-1f7dcc252cd7",
+      "targetHandle": "source:4d3a99d8-8b77-40b9-a909-a52dee2afb0d",
+      "id": "e5da2257-b747-47ff-a69f-c7bdaaf63207",
+      "type": "cable",
+      "data": { "label": "", "animated": -1 },
+      "zIndex": 15
+    },
+    {
+      "source": "567a9e1b-efd9-4d1e-ae04-25f55932ab96",
+      "sourceHandle": "source:7c3b1525-fd5b-438e-859c-813bd43b73a6",
+      "target": "ca55027e-2df4-4a70-bef6-8be870268a1e",
+      "targetHandle": "source:5b3e4077-876c-428c-871c-91975801c6c4",
+      "id": "1267970a-52d1-4c37-912e-20d2ffe574fa",
+      "type": "cable",
+      "data": { "label": "", "animated": 1 },
+      "zIndex": 15
     }
   ],
-  "viewport": { "zoom": 1.65, "x": 394.38, "y": 563.07 }
+  "viewport": { "zoom": 0.74, "x": 109.21, "y": 335.49 }
 }
