@@ -36,23 +36,23 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 45.7,
-              "status": 3
+              "value": 20.1,
+              "status": 2
             },
             {
               "label": "Property-2",
               "key": "prop-2",
-              "value": 37.3,
+              "value": 30.8,
               "status": 0
             },
             {
               "label": "Property-4",
               "key": "prop-4",
-              "value": 21.9,
+              "value": 34.1,
               "status": 0
             }
           ],
-          "status": 3
+          "status": 2
         }
       },
       "width": 113.49,
@@ -547,20 +547,20 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 22.1,
+              "value": 20.6,
               "status": 2
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 25.9,
+              "value": 41.5,
               "status": 0
             },
             {
               "label": "Property-5",
               "key": "prop-5",
-              "value": 15.4,
+              "value": 35.2,
               "status": 0
             }
           ]
@@ -607,14 +607,14 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 32.7,
+              "value": 37.7,
               "status": 1
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 26.7,
+              "value": 25.7,
               "status": 0
             }
           ],
@@ -695,17 +695,17 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 21,
-              "status": 2
+              "value": 25.9,
+              "status": 1
             },
             {
               "label": "Property-5",
               "key": "prop-5",
-              "value": 25.6,
+              "value": 34.2,
               "status": 0
             }
           ],
-          "status": 2
+          "status": 1
         }
       },
       "zIndex": 20,
@@ -786,24 +786,24 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 21.8,
-              "status": 2
+              "value": 26.9,
+              "status": 1
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 15.7,
+              "value": 24.4,
               "status": 0
             },
             {
               "label": "Property-1",
               "key": "prop-1",
-              "value": 30.9,
+              "value": 47.3,
               "status": 0
             }
           ],
-          "status": 2
+          "status": 1
         }
       },
       "width": 72,
@@ -814,7 +814,7 @@
     {
       "id": "d30617d2-10bb-4f18-b295-18794667f694",
       "type": "svg",
-      "position": { "x": 350.32, "y": -52.37 },
+      "position": { "x": 335.99, "y": -60.17 },
       "hidden": false,
       "selected": false,
       "zIndex": 20,
@@ -840,16 +840,16 @@
         ],
         "meta": { "label": "Fan", "labelPosition": "bottom", "status": 1 }
       },
-      "width": 44,
-      "height": 44,
-      "measured": { "width": 44, "height": 44 },
+      "width": 36,
+      "height": 36,
+      "measured": { "width": 36, "height": 36 },
       "dragging": false,
       "resizing": false
     },
     {
       "id": "e0a52f3b-d1d1-45da-a775-ed6ff40b8098",
       "type": "svg",
-      "position": { "x": 275.08, "y": 103.54 },
+      "position": { "x": 267.08, "y": 95.54 },
       "hidden": false,
       "selected": false,
       "zIndex": 20,
@@ -875,16 +875,17 @@
         ],
         "meta": { "label": "Fan 1", "labelPosition": "bottom", "status": 0 }
       },
-      "width": 28,
-      "height": 28,
-      "measured": { "width": 28, "height": 28 },
-      "dragging": false
+      "width": 31,
+      "height": 31,
+      "measured": { "width": 31, "height": 31 },
+      "dragging": false,
+      "resizing": false
     },
     {
       "id": "c66e7b5a-8199-49b1-9b81-1f7dcc252cd7",
       "type": "svg",
       "selected": false,
-      "position": { "x": 435.39, "y": 103.54 },
+      "position": { "x": 435.39, "y": 100.54 },
       "data": {
         "id": "c66e7b5a-8199-49b1-9b81-1f7dcc252cd7",
         "library": "basic",
@@ -909,10 +910,11 @@
       },
       "zIndex": 20,
       "hidden": false,
-      "width": 28,
-      "height": 28,
-      "measured": { "width": 28, "height": 28 },
-      "dragging": false
+      "width": 31,
+      "height": 31,
+      "measured": { "width": 31, "height": 31 },
+      "dragging": false,
+      "resizing": false
     },
     {
       "id": "161cf203-fe75-4b2f-8c5c-b8235c39992b",
@@ -971,7 +973,7 @@
     {
       "id": "5285e4e1-c4e3-49ce-bbbf-5822ded80882",
       "type": "shape",
-      "selected": false,
+      "selected": true,
       "position": { "x": 150, "y": -76.51 },
       "data": {
         "id": "5285e4e1-c4e3-49ce-bbbf-5822ded80882",
@@ -1039,20 +1041,20 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 21.8,
-              "status": 2
+              "value": 26.9,
+              "status": 1
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 15.7,
+              "value": 24.4,
               "status": 0
             },
             {
               "label": "Property-1",
               "key": "prop-1",
-              "value": 30.9,
+              "value": 47.3,
               "status": 0
             }
           ]
@@ -1079,19 +1081,19 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 45.7,
-              "status": 3
+              "value": 20.1,
+              "status": 2
             },
             {
               "label": "Property-2",
               "key": "prop-2",
-              "value": 37.3,
+              "value": 30.8,
               "status": 0
             },
             {
               "label": "Property-4",
               "key": "prop-4",
-              "value": 21.9,
+              "value": 34.1,
               "status": 0
             }
           ]
@@ -1118,14 +1120,14 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 32.7,
+              "value": 37.7,
               "status": 1
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 26.7,
+              "value": 25.7,
               "status": 0
             }
           ]
@@ -1152,13 +1154,13 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 21,
-              "status": 2
+              "value": 25.9,
+              "status": 1
             },
             {
               "label": "Property-5",
               "key": "prop-5",
-              "value": 25.6,
+              "value": 34.2,
               "status": 0
             }
           ]
@@ -1390,26 +1392,26 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 21.3,
+              "value": 16.8,
               "status": 2
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 38.9,
+              "value": 46.7,
               "status": 0
             },
             {
               "label": "Property-2",
               "key": "prop-2",
-              "value": 14.4,
+              "value": 41.1,
               "status": 0
             },
             {
               "label": "Property-3",
               "key": "prop-3",
-              "value": 35.4,
+              "value": 42.5,
               "status": 0
             }
           ]
@@ -1435,20 +1437,20 @@
               "label": "Temperature",
               "key": "temp",
               "unit": "°C",
-              "value": 22.1,
+              "value": 20.6,
               "status": 2
             },
             {
               "label": "Humidity",
               "key": "hum",
               "unit": "%",
-              "value": 25.9,
+              "value": 41.5,
               "status": 0
             },
             {
               "label": "Property-5",
               "key": "prop-5",
-              "value": 15.4,
+              "value": 35.2,
               "status": 0
             }
           ]
@@ -1462,7 +1464,7 @@
       "id": "132312d6-30fd-4b0f-910d-c79fd312c7c1",
       "type": "svg",
       "selected": false,
-      "position": { "x": 413.42, "y": -31.88 },
+      "position": { "x": 438.96, "y": -31.88 },
       "data": {
         "name": "bulb",
         "handles": [
@@ -1489,9 +1491,9 @@
       },
       "zIndex": 20,
       "hidden": false,
-      "width": 24,
-      "height": 24,
-      "measured": { "width": 24, "height": 24 },
+      "width": 28,
+      "height": 28,
+      "measured": { "width": 28, "height": 28 },
       "dragging": false,
       "resizing": false
     },
@@ -1499,7 +1501,7 @@
       "id": "3bb8cb56-7d92-4f99-80f1-f168e150e045",
       "type": "svg",
       "selected": false,
-      "position": { "x": 449.69, "y": -31.88 },
+      "position": { "x": 270.18, "y": -31.88 },
       "data": {
         "name": "bulb",
         "handles": [
@@ -1526,16 +1528,16 @@
       },
       "zIndex": 20,
       "hidden": false,
-      "width": 24,
-      "height": 24,
-      "measured": { "width": 24, "height": 24 },
+      "width": 28,
+      "height": 28,
+      "measured": { "width": 28, "height": 28 },
       "dragging": false
     },
     {
       "id": "86f1d4d9-12ac-4c6e-8050-64e2cd449c90",
       "type": "svg",
       "selected": false,
-      "position": { "x": 377.59, "y": -31.88 },
+      "position": { "x": 403.13, "y": -31.88 },
       "data": {
         "name": "bulb",
         "handles": [
@@ -1562,23 +1564,25 @@
       },
       "zIndex": 20,
       "hidden": false,
-      "width": 24,
-      "height": 24,
-      "measured": { "width": 24, "height": 24 },
+      "width": 28,
+      "height": 28,
+      "measured": { "width": 28, "height": 28 },
       "dragging": false
     },
     {
-      "id": "ca55027e-2df4-4a70-bef6-8be870268a1e",
+      "id": "6c589f4c-c1c5-4e10-bdf9-e36cb57501db",
       "type": "svg",
+      "position": { "x": 325.32, "y": 128.09 },
+      "hidden": false,
       "selected": false,
-      "position": { "x": 340.77, "y": 94.67 },
+      "zIndex": 20,
       "data": {
         "name": "bulb",
         "handles": [
           {
             "position": "bottom",
             "rotatable": true,
-            "uuid": "5b3e4077-876c-428c-871c-91975801c6c4"
+            "uuid": "1047d478-d840-4238-8f3c-25ab5e6dee78"
           }
         ],
         "url": "/api/svg/bulb.svg",
@@ -1586,35 +1590,69 @@
         "minWidth": 20,
         "minHeight": 20,
         "edgeType": "cable",
-        "id": "ca55027e-2df4-4a70-bef6-8be870268a1e",
+        "id": "6c589f4c-c1c5-4e10-bdf9-e36cb57501db",
+        "library": "basic",
+        "meta": {
+          "label": "Bulb",
+          "status": 1,
+          "labelPosition": "none",
+          "rotate": 180
+        }
+      },
+      "width": 20,
+      "height": 20,
+      "measured": { "width": 20, "height": 20 },
+      "dragging": false
+    },
+    {
+      "id": "b6b375c9-f9ec-428d-a765-4e7c4b158e08",
+      "type": "svg",
+      "selected": false,
+      "position": { "x": 359.16, "y": 93.66 },
+      "data": {
+        "name": "bulb",
+        "handles": [
+          {
+            "position": "bottom",
+            "rotatable": true,
+            "uuid": "64f8bdbe-c115-472b-8a1a-0cf8f15d3c55"
+          }
+        ],
+        "url": "/api/svg/bulb.svg",
+        "rotatable": true,
+        "minWidth": 20,
+        "minHeight": 20,
+        "edgeType": "cable",
+        "id": "b6b375c9-f9ec-428d-a765-4e7c4b158e08",
         "library": "basic",
         "meta": {
           "label": "Bulb 2",
-          "status": 1,
+          "status": 2,
           "labelPosition": "none",
-          "rotate": 0,
           "properties": []
         }
       },
       "zIndex": 20,
       "hidden": false,
-      "width": 24,
-      "height": 24,
-      "measured": { "width": 24, "height": 24 },
+      "width": 20,
+      "height": 20,
+      "measured": { "width": 20, "height": 20 },
       "dragging": false
     },
     {
-      "id": "567a9e1b-efd9-4d1e-ae04-25f55932ab96",
+      "id": "5b008eb3-0fab-4bc0-af48-e2eca8bf79e3",
       "type": "svg",
+      "position": { "x": 393.42, "y": 128.09 },
+      "hidden": false,
       "selected": false,
-      "position": { "x": 372.76, "y": 94.67 },
+      "zIndex": 20,
       "data": {
         "name": "bulb",
         "handles": [
           {
             "position": "bottom",
             "rotatable": true,
-            "uuid": "7c3b1525-fd5b-438e-859c-813bd43b73a6"
+            "uuid": "44c20977-61d2-4042-a6b0-9293fe30de7d"
           }
         ],
         "url": "/api/svg/bulb.svg",
@@ -1622,21 +1660,18 @@
         "minWidth": 20,
         "minHeight": 20,
         "edgeType": "cable",
-        "id": "567a9e1b-efd9-4d1e-ae04-25f55932ab96",
+        "id": "5b008eb3-0fab-4bc0-af48-e2eca8bf79e3",
         "library": "basic",
         "meta": {
           "label": "Bulb 5",
-          "status": 2,
+          "status": 3,
           "labelPosition": "none",
-          "rotate": 0,
-          "properties": []
+          "rotate": 180
         }
       },
-      "zIndex": 20,
-      "hidden": false,
-      "width": 24,
-      "height": 24,
-      "measured": { "width": 24, "height": 24 },
+      "width": 20,
+      "height": 20,
+      "measured": { "width": 20, "height": 20 },
       "dragging": false
     }
   ],
@@ -1897,13 +1932,43 @@
       "zIndex": 15
     },
     {
-      "source": "86f1d4d9-12ac-4c6e-8050-64e2cd449c90",
-      "sourceHandle": "source:f7841d77-8662-4666-8ab8-9c1d5d1d8295",
-      "target": "132312d6-30fd-4b0f-910d-c79fd312c7c1",
-      "targetHandle": "source:f091f627-e655-4d8e-900a-ef7aacd2cadb",
-      "id": "67e3cf06-7d17-494c-9852-b63664e50338",
+      "source": "b6b375c9-f9ec-428d-a765-4e7c4b158e08",
+      "sourceHandle": "source:64f8bdbe-c115-472b-8a1a-0cf8f15d3c55",
+      "target": "6c589f4c-c1c5-4e10-bdf9-e36cb57501db",
+      "targetHandle": "source:1047d478-d840-4238-8f3c-25ab5e6dee78",
+      "id": "16c5ce28-e041-45d4-bd9a-e22fac6e6a48",
       "type": "cable",
       "data": { "label": "", "animated": 1 },
+      "zIndex": 15
+    },
+    {
+      "source": "6c589f4c-c1c5-4e10-bdf9-e36cb57501db",
+      "sourceHandle": "source:1047d478-d840-4238-8f3c-25ab5e6dee78",
+      "target": "e0a52f3b-d1d1-45da-a775-ed6ff40b8098",
+      "targetHandle": "source:c8cc840c-1bfb-405e-ab9a-4161acba4374",
+      "id": "246fae76-4661-42c6-b37b-de9a2b84ce37",
+      "type": "cable",
+      "data": { "label": "", "animated": 1 },
+      "zIndex": 15
+    },
+    {
+      "source": "b6b375c9-f9ec-428d-a765-4e7c4b158e08",
+      "sourceHandle": "source:64f8bdbe-c115-472b-8a1a-0cf8f15d3c55",
+      "target": "5b008eb3-0fab-4bc0-af48-e2eca8bf79e3",
+      "targetHandle": "source:44c20977-61d2-4042-a6b0-9293fe30de7d",
+      "id": "ead393a2-4a70-405d-bead-5e2367f80008",
+      "type": "cable",
+      "data": { "label": "", "animated": -1 },
+      "zIndex": 15
+    },
+    {
+      "source": "5b008eb3-0fab-4bc0-af48-e2eca8bf79e3",
+      "sourceHandle": "source:44c20977-61d2-4042-a6b0-9293fe30de7d",
+      "target": "c66e7b5a-8199-49b1-9b81-1f7dcc252cd7",
+      "targetHandle": "source:4d3a99d8-8b77-40b9-a909-a52dee2afb0d",
+      "id": "39de61bf-50f5-414a-be9f-d4133fb28b65",
+      "type": "cable",
+      "data": { "label": "", "animated": -1 },
       "zIndex": 15
     },
     {
@@ -1911,51 +1976,31 @@
       "sourceHandle": "source:a0e165b8-1de3-43f5-94a0-9c946ff0e55f",
       "target": "86f1d4d9-12ac-4c6e-8050-64e2cd449c90",
       "targetHandle": "source:f7841d77-8662-4666-8ab8-9c1d5d1d8295",
-      "id": "231c3973-3e7c-4b89-94fc-353a3459cd52",
+      "id": "24bed9a1-d7b9-4ea3-b7cc-9b9d511985b6",
       "type": "cable",
       "data": { "label": "", "animated": 1 },
       "zIndex": 15
     },
     {
-      "source": "132312d6-30fd-4b0f-910d-c79fd312c7c1",
-      "sourceHandle": "source:f091f627-e655-4d8e-900a-ef7aacd2cadb",
-      "target": "3bb8cb56-7d92-4f99-80f1-f168e150e045",
-      "targetHandle": "source:c436b704-c6ee-4210-90aa-7027a117128b",
-      "id": "c7348a98-60b5-443f-9344-0b5c97c01805",
+      "source": "3bb8cb56-7d92-4f99-80f1-f168e150e045",
+      "sourceHandle": "source:c436b704-c6ee-4210-90aa-7027a117128b",
+      "target": "d30617d2-10bb-4f18-b295-18794667f694",
+      "targetHandle": "source:3edb34e0-02bb-4506-8b7f-ad6ffed1f241",
+      "id": "cd84428b-051b-4822-800d-233ed7ea6f86",
       "type": "cable",
       "data": { "label": "" },
       "zIndex": 15
     },
     {
-      "source": "e0a52f3b-d1d1-45da-a775-ed6ff40b8098",
-      "sourceHandle": "source:c8cc840c-1bfb-405e-ab9a-4161acba4374",
-      "target": "ca55027e-2df4-4a70-bef6-8be870268a1e",
-      "targetHandle": "source:5b3e4077-876c-428c-871c-91975801c6c4",
-      "id": "8c8d1937-1881-49a0-9b94-7aeba16bc2e5",
-      "type": "cable",
-      "data": { "label": "", "animated": 0 },
-      "zIndex": 15
-    },
-    {
-      "source": "567a9e1b-efd9-4d1e-ae04-25f55932ab96",
-      "sourceHandle": "source:7c3b1525-fd5b-438e-859c-813bd43b73a6",
-      "target": "c66e7b5a-8199-49b1-9b81-1f7dcc252cd7",
-      "targetHandle": "source:4d3a99d8-8b77-40b9-a909-a52dee2afb0d",
-      "id": "e5da2257-b747-47ff-a69f-c7bdaaf63207",
-      "type": "cable",
-      "data": { "label": "", "animated": -1 },
-      "zIndex": 15
-    },
-    {
-      "source": "567a9e1b-efd9-4d1e-ae04-25f55932ab96",
-      "sourceHandle": "source:7c3b1525-fd5b-438e-859c-813bd43b73a6",
-      "target": "ca55027e-2df4-4a70-bef6-8be870268a1e",
-      "targetHandle": "source:5b3e4077-876c-428c-871c-91975801c6c4",
-      "id": "1267970a-52d1-4c37-912e-20d2ffe574fa",
+      "source": "86f1d4d9-12ac-4c6e-8050-64e2cd449c90",
+      "sourceHandle": "source:f7841d77-8662-4666-8ab8-9c1d5d1d8295",
+      "target": "132312d6-30fd-4b0f-910d-c79fd312c7c1",
+      "targetHandle": "source:f091f627-e655-4d8e-900a-ef7aacd2cadb",
+      "id": "0bfad649-2625-45d6-9cab-3aef51154ebf",
       "type": "cable",
       "data": { "label": "", "animated": 1 },
       "zIndex": 15
     }
   ],
-  "viewport": { "zoom": 0.7, "x": 60.47, "y": 373.95 }
+  "viewport": { "zoom": 0.73, "x": 259.89, "y": 244.35 }
 }
