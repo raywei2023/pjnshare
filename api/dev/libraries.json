@@ -10,6 +10,7 @@
         "setting": {
           "name": "bulb",
           "handles": [
+            { "position": "bottom", "rotatable": true },
             { "position": "bottom", "rotatable": true }
           ],
           "url": "/api/svg/bulb.svg",
