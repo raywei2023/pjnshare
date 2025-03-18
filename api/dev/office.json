@@ -37,8 +37,8 @@
         "name": "twin-tank",
         "url": "/api/svg/twin-tank.svg",
         "rotatable": false,
-        "minWidth": 68,
-        "minHeight": 85,
+        "minWidth": 42,
+        "minHeight": 52.5,
         "edgeType": "pipe",
         "hasTable": true,
         "handles": [
@@ -97,8 +97,8 @@
         "library": "basic",
         "name": "tank-wagon",
         "url": "/api/svg/tank-wagon.svg",
-        "minWidth": 90,
-        "minHeight": 60,
+        "minWidth": 69,
+        "minHeight": 46,
         "edgeType": "pipe",
         "hasTable": true,
         "handles": [
@@ -161,6 +161,7 @@
         "minWidth": 28,
         "minHeight": 28,
         "edgeType": "pipe",
+        "rotatable": true,
         "handles": [
           {
             "position": "left",

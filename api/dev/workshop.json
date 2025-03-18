@@ -12,8 +12,8 @@
         "library": "basic",
         "name": "tank-wagon",
         "url": "/api/svg/tank-wagon.svg",
-        "minWidth": 78,
-        "minHeight": 52,
+        "minWidth": 69,
+        "minHeight": 46,
         "edgeType": "pipe",
         "hasTable": true,
         "handles": [
@@ -146,6 +146,7 @@
         "minWidth": 28,
         "minHeight": 28,
         "edgeType": "pipe",
+        "rotatable": true,
         "handles": [
           {
             "position": "left",
@@ -178,6 +179,7 @@
         "minWidth": 28,
         "minHeight": 28,
         "edgeType": "pipe",
+        "rotatable": true,
         "handles": [
           {
             "position": "left",
@@ -448,6 +450,7 @@
         "minWidth": 28,
         "minHeight": 28,
         "edgeType": "pipe",
+        "rotatable": true,
         "handles": [
           {
             "position": "left",
@@ -482,6 +485,7 @@
         "minWidth": 28,
         "minHeight": 28,
         "edgeType": "pipe",
+        "rotatable": true,
         "handles": [
           {
             "position": "left",
@@ -514,8 +518,8 @@
         "name": "twin-tank",
         "url": "/api/svg/twin-tank.svg",
         "rotatable": false,
-        "minWidth": 68,
-        "minHeight": 85,
+        "minWidth": 42,
+        "minHeight": 52.5,
         "edgeType": "pipe",
         "hasTable": true,
         "handles": [
@@ -614,7 +618,7 @@
               "status": 0
             }
           ],
-          "status": 2
+          "status": 1
         }
       },
       "width": 36,
@@ -701,7 +705,7 @@
               "status": 0
             }
           ],
-          "status": 1
+          "status": 2
         }
       },
       "zIndex": 20,
@@ -758,8 +762,8 @@
         "library": "basic",
         "name": "tank-wagon",
         "url": "/api/svg/tank-wagon.svg",
-        "minWidth": 78,
-        "minHeight": 52,
+        "minWidth": 69,
+        "minHeight": 46,
         "edgeType": "pipe",
         "hasTable": true,
         "handles": [
@@ -802,9 +806,9 @@
           "status": 1
         }
       },
-      "width": 90,
-      "height": 60,
-      "measured": { "width": 90, "height": 60 },
+      "width": 72,
+      "height": 48,
+      "measured": { "width": 72, "height": 48 },
       "dragging": false
     },
     {

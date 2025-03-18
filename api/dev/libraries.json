@@ -62,7 +62,8 @@
           "url": "/api/svg/vavle.svg",
           "minWidth": 28,
           "minHeight": 28,
-          "edgeType": "pipe"
+          "edgeType": "pipe",
+          "rotatable": true
         }
       },
       {
@@ -126,8 +127,8 @@
           ],
           "url": "/api/svg/twin-tank.svg",
           "rotatable": false,
-          "minWidth": 68,
-          "minHeight": 85,
+          "minWidth": 42,
+          "minHeight": 52.5,
           "edgeType": "pipe",
           "hasTable": true
         }
@@ -142,8 +143,8 @@
             { "position": "right", "rotatable": false }
           ],
           "url": "/api/svg/tank-wagon.svg",
-          "minWidth": 78,
-          "minHeight": 52,
+          "minWidth": 69,
+          "minHeight": 46,
           "edgeType": "pipe",
           "hasTable": true
         }
