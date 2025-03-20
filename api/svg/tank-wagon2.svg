@@ -9,7 +9,7 @@
       </path>
     </clipPath>
     <clipPath id="tank_clip">
-      <path d="M0 0h36.2c.33 0 .33 3.2 0 9.62H0L0 0Z" transform="translate(0 5)" />
+      <path d="M0 0h36.2c.33 0 .33 3.2 0 9.62H0L0 0Z" transform="translate(0 6)" />
     </clipPath>
   </defs>
   <g>
