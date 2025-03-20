@@ -26,7 +26,9 @@
     <g>
       <path d="M7.02 14.52H0V0h7.02zM18.08 14.52h-7.02V0h7.02z"
         clip-path="url(#twin_tank_clip_wave_low)"
-        transform="translate(.7 9)" />
+        transform="translate(.7 9)">
+        <animate attributeName="fill" attributeType="CSS" dur="9999" repeatCount="0" />
+      </path>
     </g>
   </g>
 </svg>
