@@ -11,7 +11,7 @@
     <clipPath id="tank_clip_wave_low">
       <path
         d="M0 1.88C6.17 1.88 12.07 0 18.23 0c6.18 0 11.8 1.88 17.96 1.88C42.37 1.88 48.13 0 54.3 0c6.18 0 11.93 1.88 18.1 1.88v7.79H0V1.88Z">
-        <animateTransform attributeName="transform" attributeType="XML" dur="6" from="-32 5"
+        <animateTransform attributeName="transform" attributeType="XML" dur="7" from="-32 5"
           repeatCount="indefinite" to="0.2 5" type="translate" />
       </path>
     </clipPath>
