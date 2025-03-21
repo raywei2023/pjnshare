@@ -11,7 +11,7 @@
         "id": "g20250206",
         "library": "other",
         "name": "background",
-        "url": "https://raywei2023.github.io/pjnshare/images/office_2025.jpg",
+        "url": "/static/images/office_2025.jpg",
         "meta": {
           "label": "Office 2025",
           "status": 1,

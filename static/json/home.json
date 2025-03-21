@@ -11,7 +11,7 @@
         "id": "g20250321",
         "library": "other",
         "name": "background",
-        "url": "https://raywei2023.github.io/pjnshare/images/home_2025.jpg",
+        "url": "/static/images/home_2025.jpg",
         "meta": {
           "label": "Home 2025",
           "labelPosition": "top",
