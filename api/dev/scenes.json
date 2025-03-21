@@ -8,6 +8,10 @@
     "label": "Office"
   },
   {
+    "id": "home",
+    "label": "Home"
+  },
+  {
     "id": "blank",
     "label": "Blank"
   }

@@ -1,0 +1,30 @@
+{
+  "nodes": [
+    {
+      "id": "g20250321",
+      "type": "background",
+      "zIndex": 2,
+      "measured": { "width": 993, "height": 938 },
+      "position": { "x": -10.1, "y": -1.77 },
+      "parentId": "",
+      "data": {
+        "id": "g20250321",
+        "library": "other",
+        "name": "background",
+        "url": "https://raywei2023.github.io/pjnshare/images/home_2025.jpg",
+        "meta": {
+          "label": "Home 2025",
+          "status": 1,
+          "labelPosition": "bottom"
+        }
+      },
+      "width": 993,
+      "height": 938,
+      "selected": false,
+      "focusable": false,
+      "dragging": false
+    }
+  ],
+  "edges": [],
+  "viewport": { "zoom": 0.75, "x": 0, "y": 0 }
+}
