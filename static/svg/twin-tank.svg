@@ -4,7 +4,7 @@
     <clipPath id="twin_tank_clip_wave_high">
       <path
         d="M0 3.77C5.63 3.77 10.88 0 16.5 0 22.13 0 27.38 3.77 33 3.77 38.63 3.77 43.88 0 49.5 0 55.13 0 60.38 3.77 66 3.77V13H0V3.77Z">
-        <animateTransform attributeName="transform" attributeType="XML" dur="2" from="-32 1"
+        <animateTransform attributeName="transform" attributeType="XML" dur="1.5" from="-32 1"
           repeatCount="indefinite" to="0.2 1" type="translate" />
       </path>
     </clipPath>
