@@ -1,0 +1,354 @@
+[
+  {
+    "name": "basic",
+    "label": "Basic",
+    "version": "1.0",
+    "items": [
+      {
+        "type": "svg",
+        "meta": { "label": "Bulb", "status": 0 },
+        "setting": {
+          "name": "bulb",
+          "handles": [
+            { "position": "bottom", "rotatable": true }
+          ],
+          "url": "/api/svg/bulb.svg",
+          "rotatable": true,
+          "minWidth": 20,
+          "minHeight": 20,
+          "edgeType": "cable"
+        }
+      },
+      {
+        "type": "svg",
+        "meta": { "label": "Fan", "labelPosition": "bottom", "status": 0 },
+        "setting": {
+          "name": "fan",
+          "handles": [
+            { "position": "left", "rotatable": false },
+            { "position": "right", "rotatable": false }
+          ],
+          "url": "/api/svg/fan.svg",
+          "minWidth": 28,
+          "minHeight": 28,
+          "edgeType": "cable"
+        }
+      },
+      {
+        "type": "svg",
+        "meta": { "label": "Heater", "labelPosition": "bottom" },
+        "setting": {
+          "name": "heater",
+          "handles": [
+            { "position": "left", "rotatable": false },
+            { "position": "right", "rotatable": false }
+          ],
+          "url": "/api/svg/heater.svg",
+          "minWidth": 36,
+          "minHeight": 36,
+          "edgeType": "pipe",
+          "hasTable": true
+        }
+      },
+      {
+        "type": "svg",
+        "meta": { "label": "Vavle" },
+        "setting": {
+          "name": "vavle",
+          "handles": [
+            { "position": "left", "rotatable": false },
+            { "position": "right", "rotatable": false }
+          ],
+          "url": "/api/svg/vavle.svg",
+          "minWidth": 28,
+          "minHeight": 28,
+          "edgeType": "pipe",
+          "rotatable": true
+        }
+      },
+      {
+        "type": "svg",
+        "meta": { "label": "PipeTR" },
+        "setting": {
+          "name": "pipe-top-right",
+          "handles": [
+            { "position": "top", "rotatable": true },
+            { "position": "right", "rotatable": true }
+          ],
+          "url": "/api/svg/pipe-top-right.svg",
+          "rotatable": true,
+          "minWidth": 28,
+          "minHeight": 28,
+          "edgeType": "pipe"
+        }
+      },
+      {
+        "type": "svg",
+        "meta": { "label": "Pipe join" },
+        "setting": {
+          "name": "pipe-tjoin",
+          "handles": [
+            { "position": "top", "rotatable": true },
+            { "position": "right", "rotatable": true },
+            { "position": "bottom", "rotatable": true }
+          ],
+          "url": "/api/svg/pipe-tjoin.svg",
+          "rotatable": true,
+          "minWidth": 28,
+          "minHeight": 28,
+          "edgeType": "pipe"
+        }
+      },
+      {
+        "type": "svg",
+        "meta": { "label": "PipeV" },
+        "setting": {
+          "name": "pipe-vertical",
+          "handles": [
+            { "position": "top", "rotatable": true },
+            { "position": "bottom", "rotatable": true }
+          ],
+          "url": "/api/svg/pipe-vertical.svg",
+          "rotatable": true,
+          "minWidth": 28,
+          "minHeight": 28,
+          "edgeType": "pipe"
+        }
+      },
+      {
+        "type": "svg",
+        "meta": { "label": "Twin tank", "labelPosition": "bottom" },
+        "setting": {
+          "name": "twin-tank",
+          "handles": [
+            { "position": "left", "rotatable": false },
+            { "position": "left", "rotatable": false },
+            { "position": "right", "rotatable": false }
+          ],
+          "url": "/api/svg/twin-tank.svg",
+          "rotatable": false,
+          "minWidth": 42,
+          "minHeight": 52.5,
+          "edgeType": "pipe",
+          "hasTable": true
+        }
+      },
+      {
+        "type": "svg",
+        "meta": { "label": "Tank", "labelPosition": "center" },
+        "setting": {
+          "name": "tank-wagon",
+          "handles": [
+            { "position": "left", "rotatable": false },
+            { "position": "right", "rotatable": false }
+          ],
+          "url": "/api/svg/tank-wagon.svg",
+          "minWidth": 69,
+          "minHeight": 46,
+          "edgeType": "pipe",
+          "hasTable": true
+        }
+      },
+      {
+        "type": "table",
+        "iconType": "Table",
+        "meta": { "label": "Table" },
+        "setting": { "name": "table" }
+      }
+    ]
+  },
+  {
+    "name": "shape",
+    "label": "Shape",
+    "version": "1.0",
+    "items": [
+      {
+        "type": "shape",
+        "meta": {
+          "label": "Circle",
+          "labelPosition": "center",
+          "strokeColor": "#EA9C41"
+        },
+        "setting": {
+          "name": "circle",
+          "url": "/api/shape/circle.svg",
+          "minWidth": 28,
+          "minHeight": 28
+        }
+      },
+      {
+        "type": "shape",
+        "meta": {
+          "label": "Round rect",
+          "labelPosition": "center",
+          "strokeColor": "#EBC347"
+        },
+        "setting": {
+          "name": "round-rectangle",
+          "url": "/api/shape/round-rect.svg",
+          "minWidth": 28,
+          "minHeight": 28
+        }
+      },
+      {
+        "type": "shape",
+        "meta": {
+          "label": "Rectangle",
+          "labelPosition": "center",
+          "strokeColor": "#84cc16"
+        },
+        "setting": {
+          "name": "rectangle",
+          "url": "/api/shape/rect.svg",
+          "minWidth": 28,
+          "minHeight": 28
+        }
+      },
+      {
+        "type": "shape",
+        "meta": {
+          "label": "Hexagon",
+          "labelPosition": "center",
+          "strokeColor": "#0ea5e9"
+        },
+        "setting": {
+          "name": "hexagon",
+          "url": "/api/shape/hexagon.svg",
+          "minWidth": 28,
+          "minHeight": 28
+        }
+      },
+      {
+        "type": "shape",
+        "meta": {
+          "label": "Diamond",
+          "labelPosition": "center",
+          "strokeColor": "#803DEC"
+        },
+        "setting": {
+          "name": "diamond",
+          "url": "/api/shape/diamond.svg",
+          "minWidth": 28,
+          "minHeight": 28
+        }
+      },
+      {
+        "type": "shape",
+        "meta": {
+          "label": "Arrow rect",
+          "labelPosition": "center",
+          "strokeColor": "#0ea5e9"
+        },
+        "setting": {
+          "name": "arrow-rectangle",
+          "url": "/api/shape/arrow-rect.svg",
+          "minWidth": 28,
+          "minHeight": 28
+        }
+      },
+      {
+        "type": "shape",
+        "meta": {
+          "label": "Cylinder",
+          "labelPosition": "center",
+          "strokeColor": "#84cc16"
+        },
+        "setting": {
+          "name": "cylinder",
+          "url": "/api/shape/cylinder.svg",
+          "minWidth": 28,
+          "minHeight": 28
+        }
+      },
+      {
+        "type": "shape",
+        "meta": {
+          "label": "Triangle",
+          "labelPosition": "center",
+          "strokeColor": "#EBC347"
+        },
+        "setting": {
+          "name": "triangle",
+          "url": "/api/shape/triangle.svg",
+          "minWidth": 28,
+          "minHeight": 28
+        }
+      },
+      {
+        "type": "shape",
+        "meta": {
+          "label": "Parallelogram",
+          "labelPosition": "center",
+          "strokeColor": "#EA9C41"
+        },
+        "setting": {
+          "name": "parallelogram",
+          "url": "/api/shape/parallelogram.svg",
+          "minWidth": 28,
+          "minHeight": 28
+        }
+      },
+      {
+        "type": "shape",
+        "meta": {
+          "label": "Plus",
+          "labelPosition": "center",
+          "strokeColor": "#803DEC"
+        },
+        "setting": {
+          "name": "plus",
+          "url": "/api/shape/plus.svg",
+          "minWidth": 28,
+          "minHeight": 28
+        }
+      },
+      {
+        "type": "shape",
+        "meta": {
+          "label": "Dash line",
+          "strokeColor": "#71717a"
+        },
+        "setting": {
+          "name": "dash-line",
+          "url": "/api/shape/dash-line.svg",
+          "minWidth": 28,
+          "minHeight": 14,
+          "maxHeight": 14
+        }
+      }
+    ]
+  },
+  {
+    "name": "chart",
+    "label": "Chart",
+    "version": "1.0",
+    "items": [
+      {
+        "type": "chart",
+        "iconType": "ChartLine",
+        "meta": {
+          "label": "Line Chart",
+          "labelPosition": "bottom"
+        },
+        "setting": {
+          "name": "line",
+          "minWidth": 230,
+          "minHeight": 160
+        }
+      },
+      {
+        "type": "chart",
+        "iconType": "Gauge",
+        "meta": {
+          "label": "Gauge",
+          "labelPosition": "bottom"
+        },
+        "setting": {
+          "name": "gauge",
+          "minWidth": 100,
+          "minHeight": 100
+        }
+      }
+    ]
+  }
+]
