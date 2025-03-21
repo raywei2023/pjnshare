@@ -1,0 +1,28 @@
+<svg width="34" height="22" viewBox="1.2 -1 31 22" class="h-full w-full"
+  xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="tank_clip_wave_high">
+      <path
+        d="M0 2.9C5.63 2.9 10.88 0 16.5 0 22.13 0 27.38 2.9 33 2.9 38.63 2.9 43.88 0 49.5 0 55.13 0 60.38 2.9 66 2.9V10H0V2.9Z">
+        <animateTransform attributeName="transform" attributeType="XML" dur="2" from="-32 5"
+          repeatCount="indefinite" to="0.2 5" type="translate" />
+      </path>
+    </clipPath>
+    <clipPath id="tank_clip_wave_low">
+      <path
+        d="M0 1.88C6.17 1.88 12.07 0 18.23 0c6.18 0 11.8 1.88 17.96 1.88C42.37 1.88 48.13 0 54.3 0c6.18 0 11.93 1.88 18.1 1.88v7.79H0V1.88Z">
+        <animateTransform attributeName="transform" attributeType="XML" dur="7" from="-32 5"
+          repeatCount="indefinite" to="0.2 5" type="translate" />
+      </path>
+    </clipPath>
+  </defs>
+  <g stroke="none">
+    <path class="fill-muted-foreground"
+      d="M32.79 15.46a.54.54 0 1 0 0-1.08H30.15a6.87 6.87 0 0 0-3.16-12.64v-.62C27 .51 26.5 0 25.88 0h-2.3c-.62 0-1.11.5-1.11 1.11v.62h-11.6V1.7a.54.54 0 1 0-1.07 0v.03H7.43V1.7a.54.54 0 1 0-1.08 0v.05A6.88 6.88 0 0 0 3.19 14.4H.55a.54.54 0 1 0 0 1.08h.87l.85 1.28c-.56.6-.69 1.5-.3 2.25H.53a.54.54 0 1 0 0 1.08h32.24a.54.54 0 1 0 0-1.08h-1.4c.38-.74.26-1.65-.31-2.25l.84-1.28h.87v-.01ZM23.53 1.1c0-.02.02-.03.04-.03h2.3c.02 0 .04.01.04.03v.62h-2.37V1.1h-.01ZM2.82 18.1a.9.9 0 1 1 1.8 0 .9.9 0 0 1-1.8 0Zm7.46-.33h12.78c-.06.42 0 .85.2 1.23H10.09c.2-.38.26-.81.19-1.23Zm16.7 0h.7c-.08.42-.01.85.18 1.23h-1.08c.2-.38.26-.81.2-1.23ZM25 18.99a.9.9 0 1 1 0-1.8.9.9 0 0 1 0 1.8Zm-16.68 0a.9.9 0 1 1 0-1.8.9.9 0 0 1 0 1.8Zm-1.77 0H5.48c.2-.38.27-.81.2-1.23h.7c-.07.42 0 .85.18 1.23Zm22.17-.9a.9.9 0 1 1 1.79 0 .9.9 0 0 1-1.8 0Zm1.42-1.91c-.69-.19-1.42 0-1.92.5h-1.81a1.97 1.97 0 0 0-2.79 0H9.71a1.97 1.97 0 0 0-2.79 0H5.11c-.5-.5-1.23-.7-1.92-.51l-.47-.71h27.91l-.48.72Z" />
+    <rect width="31.25" height="11.76" x="1" y="2.2" class="fill-muted"
+      clip-path="url(#tank_clip_wave_low)"
+      rx="5.5">
+      <animate attributeName="fill" attributeType="CSS" dur="9999" repeatCount="0" />
+    </rect>
+  </g>
+</svg>
