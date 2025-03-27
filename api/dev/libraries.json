@@ -9,9 +9,7 @@
         "meta": { "label": "Bulb", "status": 0 },
         "setting": {
           "name": "bulb",
-          "handles": [
-            { "position": "bottom", "rotatable": true }
-          ],
+          "handles": [{ "position": "bottom", "rotatable": true }],
           "url": "/api/svg/bulb.svg",
           "rotatable": true,
           "minWidth": 20,
@@ -31,7 +29,12 @@
           "url": "/api/svg/fan.svg",
           "minWidth": 28,
           "minHeight": 28,
-          "edgeType": "cable"
+          "edgeType": "cable",
+          "animations": [
+            { "name": "stop" },
+            { "name": "run1X" },
+            { "name": "run2X" }
+          ]
         }
       },
       {

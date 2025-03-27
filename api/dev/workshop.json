@@ -838,7 +838,35 @@
             "uuid": "a0e165b8-1de3-43f5-94a0-9c946ff0e55f"
           }
         ],
-        "meta": { "label": "Fan", "labelPosition": "bottom", "status": 1 }
+        "meta": { "label": "Fan", "labelPosition": "bottom", "status": 1 },
+        "bindings": [
+          {
+            "device": "xxx",
+            "folder": "xxxx",
+            "dataPoint:": "add2.out",
+            "property": "animation",
+            "bindingType": "stateMapping",
+            "mappings": [
+              {
+                "value": true,
+                "property": "run1X"
+              },
+              { "value": false, "property": "stop" }
+            ]
+          },
+          {
+            "dataPoint:": "/add2.out",
+            "bindingType": "rangeMapping",
+            "mappings": [
+              {
+                "min": 0,
+                "max": 50,
+                "animation": "run1X"
+              },
+              { "min": 50, "max": 100, "animation": "run2X" }
+            ]
+          }
+        ]
       },
       "width": 36,
       "height": 36,
