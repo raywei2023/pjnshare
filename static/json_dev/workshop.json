@@ -838,7 +838,7 @@
             "uuid": "a0e165b8-1de3-43f5-94a0-9c946ff0e55f"
           }
         ],
-        "meta": { "label": "Fan", "labelPosition": "bottom", "status": 1 }
+        "meta": { "label": "Fan", "labelPosition": "bottom", "status": 2 }
       },
       "width": 36,
       "height": 36,
@@ -873,7 +873,7 @@
             "uuid": "c8cc840c-1bfb-405e-ab9a-4161acba4374"
           }
         ],
-        "meta": { "label": "Fan 1", "labelPosition": "bottom", "status": 0 }
+        "meta": { "label": "Fan 1", "labelPosition": "bottom", "status": 3 }
       },
       "width": 31,
       "height": 31,
