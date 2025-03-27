@@ -2,7 +2,7 @@
   xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
     <filter id="shadow">
-      <feDropShadow dx="0.2" dy="0.4" stdDeviation="0.2" />
+      <feDropShadow dx="1" dy="2" stdDeviation="0.2" />
     </filter>
     <g id="bulb_status_0">
       <path stroke-width="3" stroke="#cbd5e1" fill="#e2e8f0ee"
