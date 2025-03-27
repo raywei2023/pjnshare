@@ -15,10 +15,10 @@
           repeatCount="indefinite" to="0 5" type="translate" />
       </path>
     </clipPath>
-    <rect id="tank_status_0" width="31.25" height="11.76" x="1" y="2.3" fill="#e2e8f0cc"
+    <rect id="tank_status_0" width="31.25" height="11.76" x="1" y="2.3" fill="#e2e8f0dd"
       stroke="none"
       clip-path="url(#tank_clip_wave_low)" rx="5.5" />
-    <rect id="tank_status_1" width="31.25" height="11.76" x="1" y="2.3" fill="#e2e8f0cc"
+    <rect id="tank_status_1" width="31.25" height="11.76" x="1" y="2.3" fill="#e2e8f0dd"
       stroke="none"
       clip-path="url(#tank_clip_wave_low)" rx="5.5" />
     <rect id="tank_status_2" width="31.25" height="11.76" x="1" y="2.3" stroke="none"

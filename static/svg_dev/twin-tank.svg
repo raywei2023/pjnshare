@@ -15,12 +15,12 @@
           repeatCount="indefinite" to="0 1" type="translate" />
       </path>
     </clipPath>
-    <path id="twin_tank_status_0" fill="#e2e8f0cc" d="M7.02 14.52H0V0h7.02zM18.08 14.52h-7.02V0h7.02z"
+    <path id="twin_tank_status_0" fill="#e2e8f0dd" d="M7.02 14.52H0V0h7.02zM18.08 14.52h-7.02V0h7.02z"
       clip-path="url(#twin_tank_clip_wave_low)"
       transform="translate(.7 9.3)">
       <animate attributeName="fill" attributeType="CSS" dur="9999" repeatCount="0" />
     </path>
-    <path id="twin_tank_status_1" fill="#e2e8f0cc" d="M7.02 14.52H0V0h7.02zM18.08 14.52h-7.02V0h7.02z"
+    <path id="twin_tank_status_1" fill="#e2e8f0dd" d="M7.02 14.52H0V0h7.02zM18.08 14.52h-7.02V0h7.02z"
       clip-path="url(#twin_tank_clip_wave_low)"
       transform="translate(.7 9.3)">
       <animate attributeName="fill" attributeType="CSS" dur="9999" repeatCount="0" />
