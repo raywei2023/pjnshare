@@ -816,7 +816,7 @@
       "type": "svg",
       "position": { "x": 335.99, "y": -47.95 },
       "hidden": false,
-      "selected": true,
+      "selected": false,
       "zIndex": 20,
       "data": {
         "id": "d30617d2-10bb-4f18-b295-18794667f694",
