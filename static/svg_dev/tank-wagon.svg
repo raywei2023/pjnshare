@@ -15,18 +15,18 @@
           repeatCount="indefinite" to="0.2 5" type="translate" />
       </path>
     </clipPath>
-    <rect id="tank_status_0" width="31.25" height="11.76" x="1" y="2.2" fill="#e2e8f0cc"
+    <rect id="tank_status_0" width="31.25" height="11.76" x="1" y="2.3" fill="#e2e8f0cc"
       stroke="none"
       clip-path="url(#tank_clip_wave_low)" rx="5.5" />
-    <rect id="tank_status_1" width="31.25" height="11.76" x="1" y="2.2" fill="#e2e8f0cc"
+    <rect id="tank_status_1" width="31.25" height="11.76" x="1" y="2.3" fill="#e2e8f0cc"
       stroke="none"
       clip-path="url(#tank_clip_wave_low)" rx="5.5" />
-    <rect id="tank_status_2" width="31.25" height="11.76" x="1" y="2.2" stroke="none"
+    <rect id="tank_status_2" width="31.25" height="11.76" x="1" y="2.3" stroke="none"
       clip-path="url(#tank_clip_wave_low)" rx="5.5">
       <animate attributeName="fill" attributeType="CSS" values="#86efac;#22c55e;#86efac" dur="2"
         repeatCount="indefinite" />
     </rect>
-    <rect id="tank_status_3" width="31.25" height="11.76" x="1" y="2.2" stroke="none"
+    <rect id="tank_status_3" width="31.25" height="11.76" x="1" y="2.3" stroke="none"
       clip-path="url(#tank_clip_wave_high)" rx="5.5">
       <animate attributeName="fill" attributeType="CSS" values="#fca5a5;#ef4444;#fca5a5" dur="1"
         repeatCount="indefinite" />
