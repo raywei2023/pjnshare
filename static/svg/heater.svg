@@ -1,14 +1,41 @@
 <svg width="24" height="24" stroke="none" viewBox="0 0 56 56"
-  class="h-full w-full fill-muted-foreground" xmlns="http://www.w3.org/2000/svg">
-  <g class="fill-muted">
-    <rect width="6" height="39" x="5" y="8" rx="3" />
-    <rect width="6" height="39" x="15" y="8" rx="3" />
-    <rect width="6" height="39" x="25" y="8" rx="3" />
-    <rect width="6" height="39" x="35" y="8" rx="3" />
-    <rect width="6" height="39" x="45" y="8" rx="3" />
-    <animate attributeName="fill" attributeType="CSS" dur="1.5" repeatCount="indefinite"
-      values="#fff" />
-  </g>
+  class="h-full w-full fill-muted-foreground" xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <g id="heater_status_0" fill="#e2e8f0ee">
+      <rect width="6" height="39" x="5" y="8" rx="3" />
+      <rect width="6" height="39" x="15" y="8" rx="3" />
+      <rect width="6" height="39" x="25" y="8" rx="3" />
+      <rect width="6" height="39" x="35" y="8" rx="3" />
+      <rect width="6" height="39" x="45" y="8" rx="3" />
+    </g>
+    <g id="heater_status_1" fill="#e2e8f0ee">
+      <rect width="6" height="39" x="5" y="8" rx="3" />
+      <rect width="6" height="39" x="15" y="8" rx="3" />
+      <rect width="6" height="39" x="25" y="8" rx="3" />
+      <rect width="6" height="39" x="35" y="8" rx="3" />
+      <rect width="6" height="39" x="45" y="8" rx="3" />
+    </g>
+    <g id="heater_status_2">
+      <rect width="6" height="39" x="5" y="8" rx="3" />
+      <rect width="6" height="39" x="15" y="8" rx="3" />
+      <rect width="6" height="39" x="25" y="8" rx="3" />
+      <rect width="6" height="39" x="35" y="8" rx="3" />
+      <rect width="6" height="39" x="45" y="8" rx="3" />
+      <animate attributeName="fill" attributeType="CSS" dur="2" repeatCount="indefinite"
+        values="#86efac;#22c55e;#86efac" />
+    </g>
+    <g id="heater_status_3">
+      <rect width="6" height="39" x="5" y="8" rx="3" />
+      <rect width="6" height="39" x="15" y="8" rx="3" />
+      <rect width="6" height="39" x="25" y="8" rx="3" />
+      <rect width="6" height="39" x="35" y="8" rx="3" />
+      <rect width="6" height="39" x="45" y="8" rx="3" />
+      <animate attributeName="fill" attributeType="CSS" dur="1.2" repeatCount="indefinite"
+        values="#fca5a5;#ef4444;#fca5a5" />
+    </g>
+  </defs>
+  <use xlink:href="#heater_status_0" />
   <path
     d="M54 13.5h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2h-2v-2a4 4 0 0 0-8 0v2H2v-1H0v10h2v-1h2v22a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-1h2v1a4 4 0 0 0 8 0v-22h2a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1zm-10 2v4h-2v-4h2zm-10 0v4h-2v-4h2zm-10 0v4h-2v-4h2zm-10 0v4h-2v-4h2zm-12 4v-4h2v4H2zm8 24a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm2-3v-19h2v19h-2zm8 3a2 2 0 0 1-4 0v-32a2 2 0 0 1 4 0v32zm3-24h-1v-4h1v4z" />
 </svg>
