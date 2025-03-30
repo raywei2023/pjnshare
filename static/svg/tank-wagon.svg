@@ -1,9 +1,9 @@
 <svg width="34" height="22" viewBox="1.2 -1 31 22" class="h-full w-full" stroke="none"
   xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
-    <rect id="tank_status_0" width="31.25" height="11.76" x="1" y="2.6" rx="5.5" fill="#e2e8f0ee"
+    <rect id="tank_status_0" width="31.25" height="11.76" x="1" y="2.6" rx="5.5" class="fill-muted"
       mask="url(#mask_tank_wave_base)" />
-    <rect id="tank_status_1" width="31.25" height="11.76" x="1" y="2.6" rx="5.5" fill="#e2e8f0ee"
+    <rect id="tank_status_1" width="31.25" height="11.76" x="1" y="2.6" rx="5.5" class="fill-muted"
       mask="url(#mask_tank_wave_base)" />
     <rect id="tank_status_2" width="31.25" height="11.76" x="1" y="2.6" rx="5.5"
       mask="url(#mask_tank_wave_base)">
@@ -30,7 +30,7 @@
         repeatCount="indefinite" to="0 5" type="translate" />
     </path>
   </mask>
-  <path fill="#475569"
+  <path class="fill-muted-foreground"
     d="M32.79 15.46a.54.54 0 1 0 0-1.08H30.15a6.87 6.87 0 0 0-3.16-12.64v-.62C27 .51 26.5 0 25.88 0h-2.3c-.62 0-1.11.5-1.11 1.11v.62h-11.6V1.7a.54.54 0 1 0-1.07 0v.03H7.43V1.7a.54.54 0 1 0-1.08 0v.05A6.88 6.88 0 0 0 3.19 14.4H.55a.54.54 0 1 0 0 1.08h.87l.85 1.28c-.56.6-.69 1.5-.3 2.25H.53a.54.54 0 1 0 0 1.08h32.24a.54.54 0 1 0 0-1.08h-1.4c.38-.74.26-1.65-.31-2.25l.84-1.28h.87v-.01ZM23.53 1.1c0-.02.02-.03.04-.03h2.3c.02 0 .04.01.04.03v.62h-2.37V1.1h-.01ZM2.82 18.1a.9.9 0 1 1 1.8 0 .9.9 0 0 1-1.8 0Zm7.46-.33h12.78c-.06.42 0 .85.2 1.23H10.09c.2-.38.26-.81.19-1.23Zm16.7 0h.7c-.08.42-.01.85.18 1.23h-1.08c.2-.38.26-.81.2-1.23ZM25 18.99a.9.9 0 1 1 0-1.8.9.9 0 0 1 0 1.8Zm-16.68 0a.9.9 0 1 1 0-1.8.9.9 0 0 1 0 1.8Zm-1.77 0H5.48c.2-.38.27-.81.2-1.23h.7c-.07.42 0 .85.18 1.23Zm22.17-.9a.9.9 0 1 1 1.79 0 .9.9 0 0 1-1.8 0Zm1.42-1.91c-.69-.19-1.42 0-1.92.5h-1.81a1.97 1.97 0 0 0-2.79 0H9.71a1.97 1.97 0 0 0-2.79 0H5.11c-.5-.5-1.23-.7-1.92-.51l-.47-.71h27.91l-.48.72Z" />
   <use xlink:href="#tank_status_0" />
 </svg>
