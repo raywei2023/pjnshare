@@ -95,7 +95,7 @@
             "uuid": "4889fa02-e0f2-4668-a263-e1a5d7a9da51"
           }
         ],
-        "url": "/static/svg/twin-tank.svg",
+        "url": "/static/svg_dev/twin-tank.svg",
         "rotatable": false,
         "minWidth": 42,
         "minHeight": 52.5,
@@ -159,7 +159,7 @@
             "uuid": "29c4896a-6ee6-4956-8d33-5aecc40eca2e"
           }
         ],
-        "url": "/static/svg/fan.svg",
+        "url": "/static/svg_dev/fan.svg",
         "minWidth": 28,
         "minHeight": 28,
         "edgeType": "cable",
@@ -195,7 +195,7 @@
             "uuid": "9c91b788-7bfe-470d-b8f1-1a2063edb1ce"
           }
         ],
-        "url": "/static/svg/fan.svg",
+        "url": "/static/svg_dev/fan.svg",
         "minWidth": 28,
         "minHeight": 28,
         "edgeType": "cable",
@@ -296,7 +296,7 @@
             "uuid": "11f2666b-3ced-4be8-8fe6-57f2cab1882a"
           }
         ],
-        "url": "/static/svg/vavle.svg",
+        "url": "/static/svg_dev/vavle.svg",
         "minWidth": 28,
         "minHeight": 28,
         "edgeType": "pipe",
@@ -332,7 +332,7 @@
             "uuid": "3960e212-ba9d-4fdd-ae98-d991c55b07fb"
           }
         ],
-        "url": "/static/svg/pipe-top-right.svg",
+        "url": "/static/svg_dev/pipe-top-right.svg",
         "rotatable": true,
         "minWidth": 28,
         "minHeight": 28,
@@ -368,7 +368,7 @@
             "uuid": "4e6b3885-378d-465f-ae81-71155ef5f95d"
           }
         ],
-        "url": "/static/svg/tank-wagon.svg",
+        "url": "/static/svg_dev/tank-wagon.svg",
         "minWidth": 69,
         "minHeight": 46,
         "edgeType": "pipe",
@@ -405,7 +405,7 @@
             "uuid": "a37eed6e-db4a-4e1c-90d4-49fe5c45be16"
           }
         ],
-        "url": "/static/svg/heater.svg",
+        "url": "/static/svg_dev/heater.svg",
         "minWidth": 36,
         "minHeight": 36,
         "edgeType": "pipe",
@@ -460,7 +460,7 @@
             "uuid": "9632ab09-b9c9-4b90-989f-8ecfab0f5895"
           }
         ],
-        "url": "/static/svg/heater.svg",
+        "url": "/static/svg_dev/heater.svg",
         "minWidth": 36,
         "minHeight": 36,
         "edgeType": "pipe",
@@ -501,7 +501,7 @@
             "uuid": "c5615e09-8011-4ad2-86d2-35ae9a20b769"
           }
         ],
-        "url": "/static/svg/heater.svg",
+        "url": "/static/svg_dev/heater.svg",
         "minWidth": 36,
         "minHeight": 36,
         "edgeType": "pipe",
@@ -569,7 +569,7 @@
             "uuid": "d9dbd907-531b-40ad-909b-c63da9ce50a5"
           }
         ],
-        "url": "/static/svg/heater.svg",
+        "url": "/static/svg_dev/heater.svg",
         "minWidth": 36,
         "minHeight": 36,
         "edgeType": "pipe",
@@ -627,7 +627,7 @@
             "uuid": "0ba22af7-baa7-40b1-9830-043462cbd409"
           }
         ],
-        "url": "/static/svg/pipe-top-right.svg",
+        "url": "/static/svg_dev/pipe-top-right.svg",
         "rotatable": true,
         "minWidth": 28,
         "minHeight": 28,
@@ -668,7 +668,7 @@
             "uuid": "54a0e10b-fe1d-4816-a82f-b02375e8eac0"
           }
         ],
-        "url": "/static/svg/pipe-tjoin.svg",
+        "url": "/static/svg_dev/pipe-tjoin.svg",
         "rotatable": true,
         "minWidth": 28,
         "minHeight": 28,
@@ -707,7 +707,7 @@
             "uuid": "1068719a-c6f5-4169-a137-937dc085c2c6"
           }
         ],
-        "url": "/static/svg/pipe-tjoin.svg",
+        "url": "/static/svg_dev/pipe-tjoin.svg",
         "rotatable": true,
         "minWidth": 28,
         "minHeight": 28,
@@ -750,7 +750,7 @@
             "uuid": "16175d53-a32a-48f7-8580-74cc962f2b42"
           }
         ],
-        "url": "/static/svg/pipe-top-right.svg",
+        "url": "/static/svg_dev/pipe-top-right.svg",
         "rotatable": true,
         "minWidth": 28,
         "minHeight": 28,
@@ -786,7 +786,7 @@
             "uuid": "6a75f209-3491-40d1-b9e6-a669da84f2b7"
           }
         ],
-        "url": "/static/svg/fan.svg",
+        "url": "/static/svg_dev/fan.svg",
         "minWidth": 28,
         "minHeight": 28,
         "edgeType": "cable",
@@ -819,7 +819,7 @@
             "uuid": "329f636b-19e4-4e98-9fe9-105e2b92b91b"
           }
         ],
-        "url": "/static/svg/fan.svg",
+        "url": "/static/svg_dev/fan.svg",
         "minWidth": 28,
         "minHeight": 28,
         "edgeType": "cable",
@@ -856,7 +856,7 @@
             "uuid": "5c107f90-7ce4-4c00-ad57-6237c05de00b"
           }
         ],
-        "url": "/static/svg/bulb.svg",
+        "url": "/static/svg_dev/bulb.svg",
         "rotatable": true,
         "minWidth": 20,
         "minHeight": 20,
@@ -891,7 +891,7 @@
             "uuid": "ca8d8d91-e80a-400d-9a8b-af31bd10110c"
           }
         ],
-        "url": "/static/svg/bulb.svg",
+        "url": "/static/svg_dev/bulb.svg",
         "rotatable": true,
         "minWidth": 20,
         "minHeight": 20,
@@ -929,7 +929,7 @@
             "uuid": "d467eb40-61e8-4218-a6e4-f8d6af667848"
           }
         ],
-        "url": "/static/svg/bulb.svg",
+        "url": "/static/svg_dev/bulb.svg",
         "rotatable": true,
         "minWidth": 20,
         "minHeight": 20,
@@ -966,7 +966,7 @@
             "uuid": "711ef73a-9bb7-4886-8c0d-d8d8accf4abd"
           }
         ],
-        "url": "/static/svg/bulb.svg",
+        "url": "/static/svg_dev/bulb.svg",
         "rotatable": true,
         "minWidth": 20,
         "minHeight": 20,
@@ -1003,7 +1003,7 @@
             "uuid": "3eae2f03-f527-4d7e-b969-13041c9b9d4f"
           }
         ],
-        "url": "/static/svg/bulb.svg",
+        "url": "/static/svg_dev/bulb.svg",
         "rotatable": true,
         "minWidth": 20,
         "minHeight": 20,
@@ -1147,7 +1147,7 @@
             "uuid": "70ec9dc4-0bef-4f3e-a0a0-e620d469de80"
           }
         ],
-        "url": "/static/svg/fan.svg",
+        "url": "/static/svg_dev/fan.svg",
         "minWidth": 28,
         "minHeight": 28,
         "edgeType": "cable",

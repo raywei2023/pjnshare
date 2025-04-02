@@ -12,7 +12,7 @@
           "handles": [
             { "position": "bottom", "rotatable": true }
           ],
-          "url": "/static/svg/bulb.svg",
+          "url": "/static/svg_dev/bulb.svg",
           "rotatable": true,
           "minWidth": 20,
           "minHeight": 20,
@@ -28,7 +28,7 @@
             { "position": "left", "rotatable": false },
             { "position": "right", "rotatable": false }
           ],
-          "url": "/static/svg/fan.svg",
+          "url": "/static/svg_dev/fan.svg",
           "minWidth": 28,
           "minHeight": 28,
           "edgeType": "cable"
@@ -43,7 +43,7 @@
             { "position": "left", "rotatable": false },
             { "position": "right", "rotatable": false }
           ],
-          "url": "/static/svg/heater.svg",
+          "url": "/static/svg_dev/heater.svg",
           "minWidth": 36,
           "minHeight": 36,
           "edgeType": "pipe",
@@ -59,7 +59,7 @@
             { "position": "left", "rotatable": false },
             { "position": "right", "rotatable": false }
           ],
-          "url": "/static/svg/vavle.svg",
+          "url": "/static/svg_dev/vavle.svg",
           "minWidth": 28,
           "minHeight": 28,
           "edgeType": "pipe",
@@ -75,7 +75,7 @@
             { "position": "top", "rotatable": true },
             { "position": "right", "rotatable": true }
           ],
-          "url": "/static/svg/pipe-top-right.svg",
+          "url": "/static/svg_dev/pipe-top-right.svg",
           "rotatable": true,
           "minWidth": 28,
           "minHeight": 28,
@@ -92,7 +92,7 @@
             { "position": "right", "rotatable": true },
             { "position": "bottom", "rotatable": true }
           ],
-          "url": "/static/svg/pipe-tjoin.svg",
+          "url": "/static/svg_dev/pipe-tjoin.svg",
           "rotatable": true,
           "minWidth": 28,
           "minHeight": 28,
@@ -108,7 +108,7 @@
             { "position": "top", "rotatable": true },
             { "position": "bottom", "rotatable": true }
           ],
-          "url": "/static/svg/pipe-vertical.svg",
+          "url": "/static/svg_dev/pipe-vertical.svg",
           "rotatable": true,
           "minWidth": 28,
           "minHeight": 28,
@@ -125,7 +125,7 @@
             { "position": "left", "rotatable": false },
             { "position": "right", "rotatable": false }
           ],
-          "url": "/static/svg/twin-tank.svg",
+          "url": "/static/svg_dev/twin-tank.svg",
           "rotatable": false,
           "minWidth": 42,
           "minHeight": 52.5,
@@ -142,7 +142,7 @@
             { "position": "left", "rotatable": false },
             { "position": "right", "rotatable": false }
           ],
-          "url": "/static/svg/tank-wagon.svg",
+          "url": "/static/svg_dev/tank-wagon.svg",
           "minWidth": 69,
           "minHeight": 46,
           "edgeType": "pipe",
