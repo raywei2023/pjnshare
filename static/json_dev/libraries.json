@@ -84,7 +84,7 @@
       },
       {
         "type": "svg",
-        "meta": { "label": "Pipe join" },
+        "meta": { "label": "Pipe joint" },
         "setting": {
           "name": "pipe-tjoin",
           "handles": [
