@@ -68,7 +68,7 @@
       },
       {
         "type": "svg",
-        "meta": { "label": "PipeTR" },
+        "meta": { "label": "Pipe elbow" },
         "setting": {
           "name": "pipe-top-right",
           "handles": [
