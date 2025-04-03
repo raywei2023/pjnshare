@@ -17,10 +17,18 @@
       <stop offset="95%" stop-color="#dc2626" />
     </linearGradient>
     <mask id="mask_wave_0">
-      <rect width="36" height="14" x="0" y="5.5" fill="#fff" />
+      <path fill="#fff" stroke="none"
+        d="M0 1.88C6.17 1.88 12.07 0 18.23 0c6.18 0 11.8 1.88 17.96 1.88C42.37 1.88 48.13 0 54.3 0c6.18 0 11.93 1.88 18.1 1.88v7.79H0V1.88Z">
+        <animateTransform attributeName="transform" attributeType="XML" dur="10" from="-36 5"
+          repeatCount="indefinite" to="0 5" type="translate" />
+      </path>
     </mask>
     <mask id="mask_wave_1">
-      <rect width="36" height="14" x="0" y="5.5" fill="#fff" />
+      <path fill="#fff" stroke="none"
+        d="M0 1.88C6.17 1.88 12.07 0 18.23 0c6.18 0 11.8 1.88 17.96 1.88C42.37 1.88 48.13 0 54.3 0c6.18 0 11.93 1.88 18.1 1.88v7.79H0V1.88Z">
+        <animateTransform attributeName="transform" attributeType="XML" dur="10" from="-36 5"
+          repeatCount="indefinite" to="0 5" type="translate" />
+      </path>
     </mask>
     <mask id="mask_wave_2">
       <path fill="#fff" stroke="none"
