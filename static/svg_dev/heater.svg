@@ -10,18 +10,18 @@
     </linearGradient>
     <linearGradient id="fill_2" gradientTransform="rotate(90)" opacity="0.0">
       <stop offset="15%" stop-color="#d9f99d">
-        <animate attributeName="stop-opacity" dur="0.5" values="1;0.6;1" repeatCount="indefinite" />
+        <animate attributeName="stop-opacity" dur="1" values="1;0.6;1" repeatCount="indefinite" />
       </stop>
       <stop offset="85%" stop-color="#22c55e">
-        <animate attributeName="stop-opacity" dur="0.5" values="1;0.6;1" repeatCount="indefinite" />
+        <animate attributeName="stop-opacity" dur="1" values="1;0.6;1" repeatCount="indefinite" />
       </stop>
     </linearGradient>
     <linearGradient id="fill_3" gradientTransform="rotate(90)">
       <stop offset="15%" stop-color="#fcd34d">
-        <animate attributeName="stop-opacity" dur="0.5" values="1;0.6;1" repeatCount="indefinite" />
+        <animate attributeName="stop-opacity" dur="1" values="1;0.6;1" repeatCount="indefinite" />
       </stop>
       <stop offset="85%" stop-color="#ef4444">
-        <animate attributeName="stop-opacity" dur="0.5" values="1;0.6;1" repeatCount="indefinite" />
+        <animate attributeName="stop-opacity" dur="1" values="1;0.6;1" repeatCount="indefinite" />
       </stop>
     </linearGradient>
   </defs>
