@@ -1466,7 +1466,7 @@
       "selected": false,
       "position": { "x": 438.96, "y": -31.88 },
       "data": {
-        "name": "bulb",
+        "name": "lamp",
         "handles": [
           {
             "position": "bottom",
@@ -1474,7 +1474,7 @@
             "uuid": "f091f627-e655-4d8e-900a-ef7aacd2cadb"
           }
         ],
-        "url": "/static/svg_dev/bulb.svg",
+        "url": "/static/svg_dev/lamp.svg",
         "rotatable": true,
         "minWidth": 20,
         "minHeight": 20,
@@ -1482,7 +1482,7 @@
         "id": "132312d6-30fd-4b0f-910d-c79fd312c7c1",
         "library": "basic",
         "meta": {
-          "label": "Bulb 4",
+          "label": "Lamp 4",
           "status": 3,
           "labelPosition": "none",
           "rotate": 180,
@@ -1539,7 +1539,7 @@
       "selected": false,
       "position": { "x": 403.13, "y": -31.88 },
       "data": {
-        "name": "bulb",
+        "name": "lamp",
         "handles": [
           {
             "position": "bottom",
@@ -1547,7 +1547,7 @@
             "uuid": "f7841d77-8662-4666-8ab8-9c1d5d1d8295"
           }
         ],
-        "url": "/static/svg_dev/bulb.svg",
+        "url": "/static/svg_dev/lamp.svg",
         "rotatable": true,
         "minWidth": 20,
         "minHeight": 20,
@@ -1555,7 +1555,7 @@
         "id": "86f1d4d9-12ac-4c6e-8050-64e2cd449c90",
         "library": "basic",
         "meta": {
-          "label": "Bulb 3",
+          "label": "Lamp 3",
           "status": 1,
           "labelPosition": "none",
           "rotate": 180,
