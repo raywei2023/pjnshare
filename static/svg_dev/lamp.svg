@@ -6,7 +6,7 @@
     <linearGradient id="fill_1" gradientTransform="rotate(90)">
       <stop offset="100%" stop-color="#4ade80">
         <animate attributeName="stop-color" attributeType="XML" values="#86efac;#4ade80;#22c55e"
-          dur="0.7" repeatCount="indefinite" />
+          dur="2" repeatCount="indefinite" />
       </stop>
     </linearGradient>
     <linearGradient id="fill_2" gradientTransform="rotate(90)">
@@ -22,7 +22,7 @@
       </stop>
     </linearGradient>
   </defs>
-  <path fill="url(#fill_1)"
+  <path fill="url(#fill_0)"
     d="M342.047 510.236H33.386V292.913c0-83.15 67.401-150.55 150.551-150.55h7.56c83.149 0 150.55 67.4 150.55 150.55v217.323Z" />
   <g>
     <path fill="#FFFFFFaa"
