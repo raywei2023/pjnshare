@@ -29,8 +29,8 @@
           ],
           "url": "/static/svg_dev/lamp.svg",
           "rotatable": true,
-          "minWidth": 24,
-          "minHeight": 24,
+          "minWidth": 20,
+          "minHeight": 20,
           "edgeType": "cable"
         }
       },
