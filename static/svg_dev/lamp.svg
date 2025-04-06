@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 543 543">
+  <defs>
+    <linearGradient id="fill_1" gradientTransform="rotate(90)">
+      <stop offset="100%" stop-color="#4ade80">
+        <animate attributeName="stop-color" attributeType="XML" values="#86efac;#4ade80;#22c55e"
+          dur="1"
+          repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+    <linearGradient id="fill_2" gradientTransform="rotate(90)">
+      <stop offset="100%" stop-color="#f59e0b">
+        <animate attributeName="stop-color" attributeType="XML" values="#fde047;#facc15;#eab308"
+          dur="1"
+          repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+    <linearGradient id="fill_3" gradientTransform="rotate(90)">
+      <stop offset="100%" stop-color="#ef4444">
+        <animate attributeName="stop-color" attributeType="XML" values="#f87171;#ef4444;#dc2626"
+          dur="1"
+          repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+  </defs>
+  <path fill="#e2e8f0"
+    d="M342.047 510.236H33.386V292.913c0-83.15 67.401-150.55 150.551-150.55h7.56c83.149 0 150.55 67.4 150.55 150.55v217.323Z" />
+  <path fill="none"
+    d="M182.677 0c-7.559 0-13.858 5.67-13.858 12.598V80c0 6.93 6.3 12.598 13.858 12.598 7.56 0 13.858-5.669 13.858-12.598V12.598C196.535 5.67 190.236 0 182.677 0ZM35.276 59.843c5.669-5.04 13.858-5.04 19.527 0l51.024 47.874c5.67 5.039 5.67 13.228 0 18.267-5.67 5.04-13.858 5.04-19.528 0L35.276 78.11c-5.04-5.04-5.04-13.228 0-18.267ZM330.079 59.843c-5.67-5.04-13.859-5.04-19.528 0l-51.023 47.874c-5.67 5.039-5.67 13.228 0 18.267 5.669 5.04 13.858 5.04 19.527 0L330.08 78.11c5.669-5.04 5.669-13.228 0-18.267Z" />
+  <g>
+    <path fill="#FFFFFFaa"
+      d="M148.031 246.93c-21.417 20.157-49.133 27.086-61.102 15.747-11.968-11.338-4.41-37.165 17.008-57.323 21.417-20.157 49.134-27.086 61.102-15.748 11.969 11.339 4.41 37.166-17.008 57.323Z" />
+    <path fill="#324A5E"
+      d="M375.433 542.992H0v-38.425c0-18.268 15.118-33.386 33.386-33.386h308.661c18.268 0 33.386 15.118 33.386 33.386v38.425Z" />
+  </g>
+</svg>
