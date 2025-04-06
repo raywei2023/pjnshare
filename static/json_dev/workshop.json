@@ -1491,9 +1491,9 @@
       },
       "zIndex": 20,
       "hidden": false,
-      "width": 28,
-      "height": 28,
-      "measured": { "width": 28, "height": 28 },
+      "width": 20,
+      "height": 20,
+      "measured": { "width": 20, "height": 20 },
       "dragging": false,
       "resizing": false
     },
@@ -1564,9 +1564,9 @@
       },
       "zIndex": 20,
       "hidden": false,
-      "width": 28,
-      "height": 28,
-      "measured": { "width": 28, "height": 28 },
+      "width": 20,
+      "height": 20,
+      "measured": { "width": 20, "height": 20 },
       "dragging": false
     },
     {
@@ -1647,7 +1647,7 @@
       "selected": false,
       "zIndex": 20,
       "data": {
-        "name": "bulb",
+        "name": "lamp",
         "handles": [
           {
             "position": "bottom",
@@ -1655,7 +1655,7 @@
             "uuid": "44c20977-61d2-4042-a6b0-9293fe30de7d"
           }
         ],
-        "url": "/static/svg_dev/bulb.svg",
+        "url": "/static/svg_dev/lamp.svg",
         "rotatable": true,
         "minWidth": 20,
         "minHeight": 20,
@@ -1663,7 +1663,7 @@
         "id": "5b008eb3-0fab-4bc0-af48-e2eca8bf79e3",
         "library": "basic",
         "meta": {
-          "label": "Bulb 5",
+          "label": "Lamp 5",
           "status": 3,
           "labelPosition": "none",
           "rotate": 180
