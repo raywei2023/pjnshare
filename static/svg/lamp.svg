@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="-36 94 450 450" class="h-full w-full">
+  <defs>
+    <linearGradient id="fill_0" gradientTransform="rotate(90)">
+      <stop offset="100%" stop-color="#e2e8f0" />
+    </linearGradient>
+    <linearGradient id="fill_1" gradientTransform="rotate(90)">
+      <stop offset="100%" stop-color="#4ade80">
+        <animate attributeName="stop-color" attributeType="XML" values="#86efac;#4ade80;#22c55e"
+          dur="2" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+    <linearGradient id="fill_2" gradientTransform="rotate(90)">
+      <stop offset="100%" stop-color="#f59e0b">
+        <animate attributeName="stop-color" attributeType="XML" values="#fde047;#facc15;#eab308"
+          dur="0.7" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+    <linearGradient id="fill_3" gradientTransform="rotate(90)">
+      <stop offset="100%" stop-color="#ef4444">
+        <animate attributeName="stop-color" attributeType="XML" values="#f87171;#dc2626;#ef4444"
+          dur="0.6" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+  </defs>
+  <path fill="url(#fill_0)"
+    d="M342.047 510.236H33.386V292.913c0-83.15 67.401-150.55 150.551-150.55h7.56c83.149 0 150.55 67.4 150.55 150.55v217.323Z" />
+  <g>
+    <path fill="#ffffff88"
+      d="M148.031 246.93c-21.417 20.157-49.133 27.086-61.102 15.747-11.968-11.338-4.41-37.165 17.008-57.323 21.417-20.157 49.134-27.086 61.102-15.748 11.969 11.339 4.41 37.166-17.008 57.323Z" />
+    <path class="fill-muted-foreground"
+      d="M375.433 542.992H0v-38.425c0-18.268 15.118-33.386 33.386-33.386h308.661c18.268 0 33.386 15.118 33.386 33.386v38.425Z" />
+  </g>
+</svg>
