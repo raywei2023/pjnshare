@@ -1,5 +1,5 @@
-<svg width="24" height="24" viewBox="1 1 30 30" class="h-full w-full stroke-muted-foreground"
-  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="24" height="24" viewBox="1 1 30 30" class="h-full w-full"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" stroke="#64748b">
   <defs>
     <g id="fan_status_0">
       <path fill="none"
