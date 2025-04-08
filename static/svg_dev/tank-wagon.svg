@@ -10,11 +10,17 @@
     </linearGradient>
     <linearGradient id="fill_2" gradientTransform="rotate(90)">
       <stop offset="15%" stop-color="#d9f99d" />
-      <stop offset="85%" stop-color="#22c55e" />
+      <stop offset="85%" stop-color="#22c55e">
+        <animate attributeName="stop-color" values="#84cc16;#22c55e;#84cc16" dur="3"
+          repeatCount="indefinite" />
+      </stop>
     </linearGradient>
     <linearGradient id="fill_3" gradientTransform="rotate(90)">
       <stop offset="15%" stop-color="#fcd34d" />
-      <stop offset="85%" stop-color="#ef4444" />
+      <stop offset="85%" stop-color="#ef4444">
+        <animate attributeName="stop-color" values="#f97316;#ef4444;#f97316" dur="3"
+          repeatCount="indefinite" />
+      </stop>
     </linearGradient>
   </defs>
   <mask id="mask_wave_0">

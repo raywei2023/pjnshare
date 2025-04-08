@@ -9,9 +9,7 @@
         "meta": { "label": "Bulb", "status": 0 },
         "setting": {
           "name": "bulb",
-          "handles": [
-            { "position": "bottom", "rotatable": true }
-          ],
+          "handles": [{ "position": "bottom", "rotatable": true }],
           "url": "/static/svg_dev/bulb.svg",
           "rotatable": true,
           "minWidth": 20,
@@ -24,9 +22,7 @@
         "meta": { "label": "Lamp", "status": 0 },
         "setting": {
           "name": "lamp",
-          "handles": [
-            { "position": "bottom", "rotatable": true }
-          ],
+          "handles": [{ "position": "bottom", "rotatable": true }],
           "url": "/static/svg_dev/lamp.svg",
           "rotatable": true,
           "minWidth": 20,
@@ -145,7 +141,21 @@
           "minWidth": 42,
           "minHeight": 52.5,
           "edgeType": "pipe",
-          "hasTable": true
+          "hasTable": true,
+          "animation": {
+            "normal": [
+              { "svg.rect.@_fill": "#e2e8f0" },
+              { "svg.rect.@_mask": "url(#mask_wave_0)" }
+            ],
+            "overcold": [
+              { "svg.rect.@_fill": "url(#fill_2)" },
+              { "svg.rect.@_mask": "url(#mask_wave_2)" }
+            ],
+            "overheat": [
+              { "svg.rect.@_fill": "url(#fill_3)" },
+              { "svg.rect.@_mask": "url(#mask_wave_3)" }
+            ]
+          }
         }
       },
       {
@@ -161,7 +171,21 @@
           "minWidth": 69,
           "minHeight": 46,
           "edgeType": "pipe",
-          "hasTable": true
+          "hasTable": true,
+          "animation": {
+            "normal": [
+              { "svg.rect.@_fill": "#e2e8f0" },
+              { "svg.rect.@_mask": "url(#mask_wave_0)" }
+            ],
+            "overcold": [
+              { "svg.rect.@_fill": "url(#fill_2)" },
+              { "svg.rect.@_mask": "url(#mask_wave_2)" }
+            ],
+            "overheat": [
+              { "svg.rect.@_fill": "url(#fill_3)" },
+              { "svg.rect.@_mask": "url(#mask_wave_3)" }
+            ]
+          }
         }
       },
       {

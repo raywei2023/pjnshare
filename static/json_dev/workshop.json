@@ -28,6 +28,17 @@
             "uuid": "f3312003-800a-4de4-9ad1-58707a9a7324"
           }
         ],
+        "bindings": [
+          {
+            "dataPoint:": "/device-dummy-1/random/float1.out",
+            "bindingType": "rangeMapping",
+            "mappings": [
+              { "animation": "normal" },
+              { "min": -999, "max": 23, "animation": "overcold" },
+              { "min": 38, "max": 999, "animation": "overheat" }
+            ]
+          }
+        ],
         "meta": {
           "label": "Tank base",
           "labelPosition": "center",
@@ -776,6 +787,17 @@
             "position": "right",
             "rotatable": false,
             "uuid": "54fa6bb9-daea-47c9-acac-c34d5336ff2c"
+          }
+        ],
+        "bindings": [
+          {
+            "dataPoint:": "/device-dummy-1/random/float1.out",
+            "bindingType": "rangeMapping",
+            "mappings": [
+              { "animation": "normal" },
+              { "min": -999, "max": 23, "animation": "overcold" },
+              { "min": 38, "max": 999, "animation": "overheat" }
+            ]
           }
         ],
         "meta": {

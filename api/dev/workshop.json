@@ -841,6 +841,15 @@
         "meta": { "label": "Fan", "labelPosition": "bottom", "status": 1 },
         "bindings": [
           {
+            "dataPoint:": "demo01/random/int1.out",
+            "bindingType": "valueMapping",
+            "mappings": [
+              { "value": 0, "animation": "normal" },
+              { "value": 2, "animation": "overcold" },
+              { "value": 3, "animation": "overheat" }
+            ]
+          },
+          {
             "device": "xxx",
             "folder": "xxxx",
             "dataPoint:": "add2.out",
