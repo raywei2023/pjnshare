@@ -1,40 +1,12 @@
-<svg width="24" height="24" viewBox="-10 -10 150 150" class="h-full w-full fill-muted-foreground"
-  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <defs>
-    <g id="bulb_status_0">
-      <path stroke-width="3" stroke="#cbd5e1" fill="#e2e8f0ee"
-        d="M82 93V81.82a20.38 20.38 0 0 1 6.65-15.23 37 37 0 1 0-49.39-.09A20.59 20.59 0 0 1 46 81.82v10.77z" />
-    </g>
-    <g id="bulb_status_1">
-      <path stroke-width="3" stroke="#86efac"
-        d="M82 93V81.82a20.38 20.38 0 0 1 6.65-15.23 37 37 0 1 0-49.39-.09A20.59 20.59 0 0 1 46 81.82v10.77z">
-        <animate attributeName="fill" attributeType="CSS" values="#86efac;#22c55e;#86efac" dur="2"
-          repeatCount="indefinite" />
-      </path>
-    </g>
-    <g id="bulb_status_2">
-      <path stroke-width="3" stroke="#fcd34d"
-        d="M82 93V81.82a20.38 20.38 0 0 1 6.65-15.23 37 37 0 1 0-49.39-.09A20.59 20.59 0 0 1 46 81.82v10.77z">
-        <animate attributeName="fill" attributeType="CSS" values="#fef3c7;#f59e0b;#fcd34d" dur="1.2"
-          repeatCount="indefinite" />
-      </path>
-    </g>
-    <g id="bulb_status_3">
-      <path stroke-width="3" stroke="#fca5a5"
-        d="M82 93V81.82a20.38 20.38 0 0 1 6.65-15.23 37 37 0 1 0-49.39-.09A20.59 20.59 0 0 1 46 81.82v10.77z">
-        <animate attributeName="fill" attributeType="CSS" values="#fee2e2;#ef4444;#fca5a5" dur="1.2"
-          repeatCount="indefinite" />
-      </path>
-    </g>
-  </defs>
-  <use xlink:href="#bulb_status_0" />
-  <path fill="#71717a"
-    d="M82 92v16a18.05 18.05 0 0 1-18 18 18.05 18.05 0 0 1-18-18V92Z" />
-  <g fill="#3f3f46">
-    <path
-      d="M64 128a20 20 0 0 1-20-20V92a2 2 0 0 1 2-2h36a2 2 0 0 1 2 2v16a20 20 0 0 1-20 20ZM48 94v14a16 16 0 0 0 32 0V94Z" />
-    <path
-      d="M54 104a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4ZM54 112a2 2 0 0 1-.28-4l28-4a2 2 0 0 1 .57 4l-28 4Z" />
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 581 800">
+  <g fill="none">
+    <path fill="#453C5C"
+      d="M495.726 85.025A288.181 288.181 0 0 0 290.52 0C130.521 0 0 130.222 0 290.29c-.305 102.735 53.896 197.926 142.401 250.094V715.69c.016 46.29 37.339 83.918 83.628 84.31h129.546c45.47 0 83.123-37.874 83.123-84.31V540.23c77.194-45.733 128.897-124.598 140.05-213.626 11.154-89.03-19.496-178.212-83.022-241.575v-.005Z" />
+    <path fill="#B2B2B2"
+      d="M366.327 749.996H216.249c-12.895 0-25.248-12.42-25.248-26.169v-57.831h200v57.831c0 13.743-12.08 26.163-24.662 26.163l-.012.006Z" />
+    <path fill="#F80"
+      d="M401.747 508.725c-11.235 5.727-18.198 17.345-17.928 29.914v88.357H198.35v-88.211c.272-12.574-6.698-24.196-17.942-29.917C97.296 467.74 46.001 384.274 46.001 291.038c0-134.78 109.69-244.042 245-244.042s245 109.262 245 244.043c-.008 93.12-51.184 176.521-134.243 217.68l-.011.006Z" />
+    <path fill="#FF3C5C"
+      d="M325.683 627.996V358.581h65.318c18.347 0 24.542-7.4 24.542-28.842s-6.195-31.743-24.542-31.743h-200c-18.347 0-24.253 10.301-24.253 31.743 0 21.441 5.906 28.842 24.253 28.842h68.253v269.415h66.43Z" />
   </g>
-  <path d="m54 102 28-4M54 110l28-4" />
 </svg>
