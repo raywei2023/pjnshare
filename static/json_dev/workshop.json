@@ -28,10 +28,24 @@
             "uuid": "f3312003-800a-4de4-9ad1-58707a9a7324"
           }
         ],
+        "animation": {
+          "normal": {
+            "svg.rect.@_fill": "#e2e8f0",
+            "svg.rect.@_mask": "url(#mask_wave_0)"
+          },
+          "overcold": {
+            "svg.rect.@_fill": "url(#fill_2)",
+            "svg.rect.@_mask": "url(#mask_wave_2)"
+          },
+          "overheat": {
+            "svg.rect.@_fill": "url(#fill_3)",
+            "svg.rect.@_mask": "url(#mask_wave_3)"
+          }
+        },
         "bindings": [
           {
-            "dataPoint:": "/device-dummy-1/random/float1.out",
-            "bindingType": "rangeMapping",
+            "dataPoint:": "/device-2/random/int.out",
+            "bindingType": "range",
             "mappings": [
               { "animation": "normal" },
               { "min": -999, "max": 23, "animation": "overcold" },
@@ -789,10 +803,24 @@
             "uuid": "54fa6bb9-daea-47c9-acac-c34d5336ff2c"
           }
         ],
+        "animation": {
+          "normal": {
+            "svg.rect.@_fill": "#e2e8f0",
+            "svg.rect.@_mask": "url(#mask_wave_0)"
+          },
+          "overcold": {
+            "svg.rect.@_fill": "url(#fill_2)",
+            "svg.rect.@_mask": "url(#mask_wave_2)"
+          },
+          "overheat": {
+            "svg.rect.@_fill": "url(#fill_3)",
+            "svg.rect.@_mask": "url(#mask_wave_3)"
+          }
+        },
         "bindings": [
           {
-            "dataPoint:": "/device-dummy-1/random/float1.out",
-            "bindingType": "rangeMapping",
+            "dataPoint:": "/device-1/random/int.out",
+            "bindingType": "range",
             "mappings": [
               { "animation": "normal" },
               { "min": -999, "max": 23, "animation": "overcold" },
