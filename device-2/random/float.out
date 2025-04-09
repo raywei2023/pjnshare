@@ -1,4 +1,4 @@
 <script>
-  let value = Math.round(Math.random()*20 + 23.0);
+  let value = (Math.random()*20 + 23.0).toFixed(2);
   document.writeln(`{code:0, value:"${value}", message:"success"}`);
 </script>
