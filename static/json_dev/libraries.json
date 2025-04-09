@@ -19,19 +19,6 @@
       },
       {
         "type": "svg",
-        "meta": { "label": "Lamp", "status": 0 },
-        "setting": {
-          "name": "lamp",
-          "handles": [{ "position": "bottom", "rotatable": true }],
-          "url": "/static/svg_dev/lamp.svg",
-          "rotatable": true,
-          "minWidth": 20,
-          "minHeight": 20,
-          "edgeType": "cable"
-        }
-      },
-      {
-        "type": "svg",
         "meta": { "label": "Fan", "labelPosition": "bottom", "status": 0 },
         "setting": {
           "name": "fan",

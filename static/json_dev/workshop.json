@@ -1488,7 +1488,7 @@
       "selected": false,
       "position": { "x": 438.96, "y": -31.88 },
       "data": {
-        "name": "lamp",
+        "name": "bulb",
         "handles": [
           {
             "position": "bottom",
@@ -1496,7 +1496,7 @@
             "uuid": "f091f627-e655-4d8e-900a-ef7aacd2cadb"
           }
         ],
-        "url": "/static/svg_dev/lamp.svg",
+        "url": "/static/svg_dev/bulb.svg",
         "rotatable": true,
         "minWidth": 20,
         "minHeight": 20,
@@ -1504,7 +1504,7 @@
         "id": "132312d6-30fd-4b0f-910d-c79fd312c7c1",
         "library": "basic",
         "meta": {
-          "label": "Lamp 4",
+          "label": "bulb 4",
           "status": 3,
           "labelPosition": "none",
           "rotate": 180,
@@ -1525,7 +1525,7 @@
       "selected": false,
       "position": { "x": 270.18, "y": -31.88 },
       "data": {
-        "name": "lamp",
+        "name": "bulb",
         "handles": [
           {
             "position": "bottom",
@@ -1533,7 +1533,7 @@
             "uuid": "c436b704-c6ee-4210-90aa-7027a117128b"
           }
         ],
-        "url": "/static/svg_dev/lamp.svg",
+        "url": "/static/svg_dev/bulb.svg",
         "rotatable": true,
         "minWidth": 20,
         "minHeight": 20,
@@ -1541,7 +1541,7 @@
         "id": "3bb8cb56-7d92-4f99-80f1-f168e150e045",
         "library": "basic",
         "meta": {
-          "label": "Lamp 1",
+          "label": "bulb 1",
           "status": null,
           "labelPosition": "none",
           "rotate": 180,
@@ -1561,7 +1561,7 @@
       "selected": false,
       "position": { "x": 403.13, "y": -31.88 },
       "data": {
-        "name": "lamp",
+        "name": "bulb",
         "handles": [
           {
             "position": "bottom",
@@ -1569,7 +1569,7 @@
             "uuid": "f7841d77-8662-4666-8ab8-9c1d5d1d8295"
           }
         ],
-        "url": "/static/svg_dev/lamp.svg",
+        "url": "/static/svg_dev/bulb.svg",
         "rotatable": true,
         "minWidth": 20,
         "minHeight": 20,
@@ -1577,7 +1577,7 @@
         "id": "86f1d4d9-12ac-4c6e-8050-64e2cd449c90",
         "library": "basic",
         "meta": {
-          "label": "Lamp 3",
+          "label": "bulb 3",
           "status": 1,
           "labelPosition": "none",
           "rotate": 180,
@@ -1599,7 +1599,7 @@
       "selected": false,
       "zIndex": 20,
       "data": {
-        "name": "lamp",
+        "name": "bulb",
         "handles": [
           {
             "position": "bottom",
@@ -1607,7 +1607,7 @@
             "uuid": "1047d478-d840-4238-8f3c-25ab5e6dee78"
           }
         ],
-        "url": "/static/svg_dev/lamp.svg",
+        "url": "/static/svg_dev/bulb.svg",
         "rotatable": true,
         "minWidth": 20,
         "minHeight": 20,
@@ -1615,7 +1615,7 @@
         "id": "6c589f4c-c1c5-4e10-bdf9-e36cb57501db",
         "library": "basic",
         "meta": {
-          "label": "Lamp",
+          "label": "bulb",
           "status": 1,
           "labelPosition": "none",
           "rotate": 180
@@ -1632,7 +1632,7 @@
       "selected": false,
       "position": { "x": 359.16, "y": 93.66 },
       "data": {
-        "name": "lamp",
+        "name": "bulb",
         "handles": [
           {
             "position": "bottom",
@@ -1640,7 +1640,7 @@
             "uuid": "64f8bdbe-c115-472b-8a1a-0cf8f15d3c55"
           }
         ],
-        "url": "/static/svg_dev/lamp.svg",
+        "url": "/static/svg_dev/bulb.svg",
         "rotatable": true,
         "minWidth": 20,
         "minHeight": 20,
@@ -1648,7 +1648,7 @@
         "id": "b6b375c9-f9ec-428d-a765-4e7c4b158e08",
         "library": "basic",
         "meta": {
-          "label": "Lamp 2",
+          "label": "bulb 2",
           "status": 2,
           "labelPosition": "none",
           "properties": []
@@ -1669,7 +1669,7 @@
       "selected": false,
       "zIndex": 20,
       "data": {
-        "name": "lamp",
+        "name": "bulb",
         "handles": [
           {
             "position": "bottom",
@@ -1677,7 +1677,7 @@
             "uuid": "44c20977-61d2-4042-a6b0-9293fe30de7d"
           }
         ],
-        "url": "/static/svg_dev/lamp.svg",
+        "url": "/static/svg_dev/bulb.svg",
         "rotatable": true,
         "minWidth": 20,
         "minHeight": 20,
@@ -1685,7 +1685,7 @@
         "id": "5b008eb3-0fab-4bc0-af48-e2eca8bf79e3",
         "library": "basic",
         "meta": {
-          "label": "Lamp 5",
+          "label": "bulb 5",
           "status": 3,
           "labelPosition": "none",
           "rotate": 180

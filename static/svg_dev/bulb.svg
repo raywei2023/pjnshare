@@ -5,25 +5,25 @@
       <stop offset="100%" stop-color="#e2e8f0" />
     </linearGradient>
     <linearGradient id="fill_1" gradientTransform="rotate(90)">
-      <stop offset="15%" stop-color="#22c55e" />
-      <stop offset="85%" stop-color="#86efac">
-        <animate attributeName="stop-color" values="#86efac;#22c55e;#86efac" dur="2"
+      <stop offset="25%" stop-color="#16a34a">
+        <animate attributeName="stop-color" values="#4ade80;#16a34a;#4ade80" dur="1"
           repeatCount="indefinite" />
       </stop>
+      <stop offset="75%" stop-color="#4ade80" />
     </linearGradient>
     <linearGradient id="fill_2" gradientTransform="rotate(90)">
-      <stop offset="15%" stop-color="#eab308" />
-      <stop offset="85%" stop-color="#fde047">
-        <animate attributeName="stop-color" values="#fde047;#eab308;#fde047" dur="2"
+      <stop offset="25%" stop-color="#d97706">
+        <animate attributeName="stop-color" values="#fbbf24;#d97706;#fbbf24" dur="1"
           repeatCount="indefinite" />
       </stop>
+      <stop offset="75%" stop-color="#fbbf24" />
     </linearGradient>
     <linearGradient id="fill_3" gradientTransform="rotate(90)">
-      <stop offset="15%" stop-color="#ef4444" />
-      <stop offset="85%" stop-color="#fca5a5">
-        <animate attributeName="stop-color" values="#fca5a5;#dc2626;#fca5a5" dur="2"
+      <stop offset="25%" stop-color="#dc2626">
+        <animate attributeName="stop-color" values="#f87171;#dc2626;#f87171" dur="1"
           repeatCount="indefinite" />
       </stop>
+      <stop offset="75%" stop-color="#f87171"></stop>
     </linearGradient>
   </defs>
   <path fill="url(#fill_0)" stroke="url(#fill_0)" stroke-width="0.5" stroke-opacity="0.6"
