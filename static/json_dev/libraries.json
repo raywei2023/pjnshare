@@ -6,19 +6,41 @@
     "items": [
       {
         "type": "svg",
+        "width": 20,
+        "height": 20,
         "meta": { "label": "Bulb", "status": 0 },
         "setting": {
           "name": "bulb",
           "handles": [{ "position": "bottom", "rotatable": true }],
           "url": "/static/svg_dev/bulb.svg",
           "rotatable": true,
-          "minWidth": 20,
-          "minHeight": 20,
-          "edgeType": "cable"
+          "minWidth": 16,
+          "minHeight": 16,
+          "edgeType": "cable",
+          "animation": {
+            "off": {
+              "svg.path.0.@_fill": "#e2e8f0",
+              "svg.path.0.@_stroke": "#e2e8f0"
+            },
+            "green": {
+              "svg.path.0.@_fill": "url(#fill_1)",
+              "svg.path.0.@_stroke": "url(#fill_1)"
+            },
+            "warning": {
+              "svg.path.0.@_fill": "url(#fill_2)",
+              "svg.path.0.@_stroke": "url(#fill_2)"
+            },
+            "error": {
+              "svg.path.0.@_fill": "url(#fill_3)",
+              "svg.path.0.@_stroke": "url(#fill_3)"
+            }
+          }
         }
       },
       {
         "type": "svg",
+        "width": 32,
+        "height": 32,
         "meta": { "label": "Fan", "labelPosition": "bottom", "status": 0 },
         "setting": {
           "name": "fan",
@@ -27,13 +49,15 @@
             { "position": "right", "rotatable": false }
           ],
           "url": "/static/svg_dev/fan.svg",
-          "minWidth": 28,
-          "minHeight": 28,
+          "minWidth": 24,
+          "minHeight": 24,
           "edgeType": "cable"
         }
       },
       {
         "type": "svg",
+        "width": 40,
+        "height": 40,
         "meta": { "label": "Heater", "labelPosition": "bottom" },
         "setting": {
           "name": "heater",
@@ -42,14 +66,16 @@
             { "position": "right", "rotatable": false }
           ],
           "url": "/static/svg_dev/heater.svg",
-          "minWidth": 36,
-          "minHeight": 36,
+          "minWidth": 30,
+          "minHeight": 30,
           "edgeType": "pipe",
           "hasTable": true
         }
       },
       {
         "type": "svg",
+        "width": 28,
+        "height": 28,
         "meta": { "label": "Vavle" },
         "setting": {
           "name": "vavle",
@@ -58,63 +84,71 @@
             { "position": "right", "rotatable": false }
           ],
           "url": "/static/svg_dev/vavle.svg",
-          "minWidth": 28,
-          "minHeight": 28,
+          "minWidth": 24,
+          "minHeight": 24,
           "edgeType": "pipe",
           "rotatable": true
         }
       },
       {
         "type": "svg",
+        "width": 28,
+        "height": 28,
         "meta": { "label": "Pipe elbow" },
         "setting": {
-          "name": "pipe-top-right",
+          "name": "pipe-elbow",
           "handles": [
             { "position": "top", "rotatable": true },
             { "position": "right", "rotatable": true }
           ],
-          "url": "/static/svg_dev/pipe-top-right.svg",
+          "url": "/static/svg_dev/pipe-elbow.svg",
           "rotatable": true,
-          "minWidth": 28,
-          "minHeight": 28,
+          "minWidth": 24,
+          "minHeight": 24,
           "edgeType": "pipe"
         }
       },
       {
         "type": "svg",
+        "width": 28,
+        "height": 28,
         "meta": { "label": "Pipe joint" },
         "setting": {
-          "name": "pipe-tjoin",
+          "name": "pipe-joint",
           "handles": [
             { "position": "top", "rotatable": true },
             { "position": "right", "rotatable": true },
             { "position": "bottom", "rotatable": true }
           ],
-          "url": "/static/svg_dev/pipe-tjoin.svg",
+          "url": "/static/svg_dev/pipe-joint.svg",
           "rotatable": true,
-          "minWidth": 28,
-          "minHeight": 28,
+          "minWidth": 24,
+          "minHeight": 24,
           "edgeType": "pipe"
         }
       },
       {
         "type": "svg",
-        "meta": { "label": "PipeV" },
+        "width": 28,
+        "height": 28,
+        "meta": { "label": "Pipe" },
         "setting": {
-          "name": "pipe-vertical",
+          "name": "pipe",
           "handles": [
             { "position": "top", "rotatable": true },
             { "position": "bottom", "rotatable": true }
           ],
-          "url": "/static/svg_dev/pipe-vertical.svg",
+          "url": "/static/svg_dev/pipe.svg",
           "rotatable": true,
-          "minWidth": 28,
-          "minHeight": 28,
+          "minWidth": 24,
+          "minHeight": 24,
           "edgeType": "pipe"
         }
       },
       {
         "type": "svg",
+        "width": 56,
+        "height": 70,
         "meta": { "label": "Twin tank", "labelPosition": "bottom" },
         "setting": {
           "name": "twin-tank",
@@ -125,28 +159,30 @@
           ],
           "url": "/static/svg_dev/twin-tank.svg",
           "rotatable": false,
-          "minWidth": 42,
-          "minHeight": 52.5,
+          "minWidth": 36,
+          "minHeight": 45,
           "edgeType": "pipe",
           "hasTable": true,
           "animation": {
-            "normal": [
-              { "svg.rect.@_fill": "#e2e8f0" },
-              { "svg.rect.@_mask": "url(#mask_wave_0)" }
-            ],
-            "overcold": [
-              { "svg.rect.@_fill": "url(#fill_2)" },
-              { "svg.rect.@_mask": "url(#mask_wave_2)" }
-            ],
-            "overheat": [
-              { "svg.rect.@_fill": "url(#fill_3)" },
-              { "svg.rect.@_mask": "url(#mask_wave_3)" }
-            ]
+            "normal": {
+              "svg.rect.@_fill": "#e2e8f0",
+              "svg.rect.@_mask": "url(#mask_wave_0)"
+            },
+            "overcold": {
+              "svg.rect.@_fill": "url(#fill_2)",
+              "svg.rect.@_mask": "url(#mask_wave_2)"
+            },
+            "overheat": {
+              "svg.rect.@_fill": "url(#fill_3)",
+              "svg.rect.@_mask": "url(#mask_wave_3)"
+            }
           }
         }
       },
       {
         "type": "svg",
+        "width": 72,
+        "height": 48,
         "meta": { "label": "Tank", "labelPosition": "center" },
         "setting": {
           "name": "tank-wagon",
@@ -155,23 +191,23 @@
             { "position": "right", "rotatable": false }
           ],
           "url": "/static/svg_dev/tank-wagon.svg",
-          "minWidth": 69,
-          "minHeight": 46,
+          "minWidth": 52,
+          "minHeight": 36,
           "edgeType": "pipe",
           "hasTable": true,
           "animation": {
-            "normal": [
-              { "svg.rect.@_fill": "#e2e8f0" },
-              { "svg.rect.@_mask": "url(#mask_wave_0)" }
-            ],
-            "overcold": [
-              { "svg.rect.@_fill": "url(#fill_2)" },
-              { "svg.rect.@_mask": "url(#mask_wave_2)" }
-            ],
-            "overheat": [
-              { "svg.rect.@_fill": "url(#fill_3)" },
-              { "svg.rect.@_mask": "url(#mask_wave_3)" }
-            ]
+            "normal": {
+              "svg.rect.@_fill": "#e2e8f0",
+              "svg.rect.@_mask": "url(#mask_wave_0)"
+            },
+            "overcold": {
+              "svg.rect.@_fill": "url(#fill_2)",
+              "svg.rect.@_mask": "url(#mask_wave_2)"
+            },
+            "overheat": {
+              "svg.rect.@_fill": "url(#fill_3)",
+              "svg.rect.@_mask": "url(#mask_wave_3)"
+            }
           }
         }
       },
