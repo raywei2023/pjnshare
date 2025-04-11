@@ -42,18 +42,6 @@
             "svg.rect.@_mask": "url(#mask_wave_3)"
           }
         },
-        "bindings": [
-          {
-            "endpoint": "/device-2/random/int.out",
-            "property": "status",
-            "mappingType": "range",
-            "mappings": [
-              { "animation": "normal" },
-              { "min": -999, "max": 23, "animation": "overcold" },
-              { "min": 38, "max": 999, "animation": "overheat" }
-            ]
-          }
-        ],
         "meta": {
           "label": "Tank base",
           "labelPosition": "center",
@@ -63,12 +51,20 @@
           "temperature": {
             "type": "float",
             "label": "Temperature",
-            "unit": "°C"
+            "unit": "°C",
+            "endpoint": "/device-2/random/temperature.float.out",
+            "mappingType": "range",
+            "mappings": [
+              { "animation": "normal" },
+              { "min": -999, "max": 20, "animation": "overcold" },
+              { "min": 36, "max": 999, "animation": "overheat" }
+            ]
           },
           "humidity": {
             "type": "float",
             "label": "Humidity",
-            "unit": "%"
+            "unit": "%",
+            "endpoint": "/device-2/random/humidity.float.out"
           },
           "weight": {
             "type": "int",
@@ -809,18 +805,6 @@
             "svg.rect.@_mask": "url(#mask_wave_3)"
           }
         },
-        "bindings": [
-          {
-            "endpoint": "/device-1/random/int.out",
-            "property": "status",
-            "mappingType": "range",
-            "mappings": [
-              { "animation": "normal" },
-              { "min": -999, "max": 23, "animation": "overcold" },
-              { "min": 38, "max": 999, "animation": "overheat" }
-            ]
-          }
-        ],
         "meta": {
           "label": "Tank 1",
           "labelPosition": "center",
@@ -830,9 +814,17 @@
           "temperature": {
             "type": "float",
             "label": "Temperature",
-            "unit": "°C"
+            "unit": "°C",
+            "endpoint": "/device-1/random/temperature.float.out",
+            "mappingType": "range",
+            "mappings": [
+              { "animation": "normal" },
+              { "min": -999, "max": 20, "animation": "overcold" },
+              { "min": 36, "max": 999, "animation": "overheat" }
+            ]
           },
           "humidity": {
+            "endpoint": "/device-1/random/humidity.float.out",
             "type": "float",
             "label": "Humidity",
             "unit": "%"
@@ -1073,11 +1065,20 @@
         "library": "other",
         "name": "table",
         "meta": { "label": "Tank 1" },
+        "animations": {
+          "overcold": { "color": "#22c55e" },
+          "overheat": { "color": "#ef4444" }
+        },
         "properties": {
           "temperature": {
             "type": "float",
             "label": "Temperature",
-            "unit": "°C"
+            "unit": "°C",
+            "mappingType": "range",
+            "mappings": [
+              { "min": -999, "max": 20, "animation": "overcold" },
+              { "min": 36, "max": 999, "animation": "overheat" }
+            ]
           },
           "humidity": {
             "type": "float",
@@ -1106,11 +1107,20 @@
         "library": "other",
         "name": "table",
         "meta": { "label": "Tank base" },
+        "animations":{
+          "overcold": { "color": "#22c55e" },
+          "overheat": { "color": "#ef4444" }
+        },
         "properties": {
           "temperature": {
             "type": "float",
             "label": "Temperature",
-            "unit": "°C"
+            "unit": "°C",
+            "mappingType": "range",
+            "mappings": [
+              { "min": -999, "max": 20, "animation": "overcold" },
+              { "min": 36, "max": 999, "animation": "overheat" }
+            ]
           },
           "humidity": {
             "type": "float",
