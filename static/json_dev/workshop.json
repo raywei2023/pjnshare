@@ -28,7 +28,7 @@
             "uuid": "f3312003-800a-4de4-9ad1-58707a9a7324"
           }
         ],
-        "animation": {
+        "animations": {
           "normal": {
             "svg.rect.@_fill": "#e2e8f0",
             "svg.rect.@_mask": "url(#mask_wave_0)"
@@ -44,8 +44,9 @@
         },
         "bindings": [
           {
-            "dataPoint:": "/device-2/random/int.out",
-            "bindingType": "range",
+            "endpoint": "/device-2/random/int.out",
+            "property": "status",
+            "mappingType": "range",
             "mappings": [
               { "animation": "normal" },
               { "min": -999, "max": 23, "animation": "overcold" },
@@ -56,28 +57,24 @@
         "meta": {
           "label": "Tank base",
           "labelPosition": "center",
-          "properties": [
-            {
-              "label": "Temperature",
-              "key": "temp",
-              "unit": "°C",
-              "value": 49.6,
-              "status": 3
-            },
-            {
-              "label": "Property-2",
-              "key": "prop-2",
-              "value": 49.6,
-              "status": 0
-            },
-            {
-              "label": "Property-4",
-              "key": "prop-4",
-              "value": 18.8,
-              "status": 0
-            }
-          ],
           "status": 3
+        },
+        "properties": {
+          "temperature": {
+            "type": "float",
+            "label": "Temperature",
+            "unit": "°C"
+          },
+          "humidity": {
+            "type": "float",
+            "label": "Humidity",
+            "unit": "%"
+          },
+          "weight": {
+            "type": "int",
+            "label": "Weight",
+            "unit": "t"
+          }
         }
       },
       "width": 113.49,
@@ -564,31 +561,23 @@
             "uuid": "4c79e0ab-511c-4f31-96c4-cc6d54945556"
           }
         ],
-        "meta": {
-          "label": "Twin tank",
-          "labelPosition": "bottom",
-          "properties": [
-            {
-              "label": "Temperature",
-              "key": "temp",
-              "unit": "°C",
-              "value": 37,
-              "status": 1
-            },
-            {
-              "label": "Humidity",
-              "key": "hum",
-              "unit": "%",
-              "value": 39.5,
-              "status": 0
-            },
-            {
-              "label": "Property-5",
-              "key": "prop-5",
-              "value": 35.9,
-              "status": 0
-            }
-          ]
+        "meta": { "label": "Twin tank", "labelPosition": "bottom" },
+        "properties": {
+          "temperature": {
+            "type": "float",
+            "label": "Temperature",
+            "unit": "°C"
+          },
+          "humidity": {
+            "type": "float",
+            "label": "Humidity",
+            "unit": "%"
+          },
+          "weight": {
+            "type": "int",
+            "label": "Weight",
+            "unit": "t"
+          }
         }
       },
       "width": 68,
@@ -627,23 +616,24 @@
         "meta": {
           "label": "Heater",
           "labelPosition": "bottom",
-          "properties": [
-            {
-              "label": "Temperature",
-              "key": "temp",
-              "unit": "°C",
-              "value": 14.1,
-              "status": 2
-            },
-            {
-              "label": "Humidity",
-              "key": "hum",
-              "unit": "%",
-              "value": 43.4,
-              "status": 0
-            }
-          ],
           "status": 2
+        },
+        "properties": {
+          "temperature": {
+            "type": "float",
+            "label": "Temperature",
+            "unit": "°C"
+          },
+          "humidity": {
+            "type": "float",
+            "label": "Humidity",
+            "unit": "%"
+          },
+          "weight": {
+            "type": "int",
+            "label": "Weight",
+            "unit": "t"
+          }
         }
       },
       "width": 36,
@@ -715,22 +705,24 @@
         "meta": {
           "label": "Heater 2",
           "labelPosition": "none",
-          "properties": [
-            {
-              "label": "Temperature",
-              "key": "temp",
-              "unit": "°C",
-              "value": 49.8,
-              "status": 3
-            },
-            {
-              "label": "Property-5",
-              "key": "prop-5",
-              "value": 18.2,
-              "status": 0
-            }
-          ],
           "status": 3
+        },
+        "properties": {
+          "temperature": {
+            "type": "float",
+            "label": "Temperature",
+            "unit": "°C"
+          },
+          "humidity": {
+            "type": "float",
+            "label": "Humidity",
+            "unit": "%"
+          },
+          "weight": {
+            "type": "int",
+            "label": "Weight",
+            "unit": "t"
+          }
         }
       },
       "zIndex": 20,
@@ -803,7 +795,7 @@
             "uuid": "54fa6bb9-daea-47c9-acac-c34d5336ff2c"
           }
         ],
-        "animation": {
+        "animations": {
           "normal": {
             "svg.rect.@_fill": "#e2e8f0",
             "svg.rect.@_mask": "url(#mask_wave_0)"
@@ -819,8 +811,9 @@
         },
         "bindings": [
           {
-            "dataPoint:": "/device-1/random/int.out",
-            "bindingType": "range",
+            "endpoint": "/device-1/random/int.out",
+            "property": "status",
+            "mappingType": "range",
             "mappings": [
               { "animation": "normal" },
               { "min": -999, "max": 23, "animation": "overcold" },
@@ -831,29 +824,24 @@
         "meta": {
           "label": "Tank 1",
           "labelPosition": "center",
-          "properties": [
-            {
-              "label": "Temperature",
-              "key": "temp",
-              "unit": "°C",
-              "value": 34.9,
-              "status": 1
-            },
-            {
-              "label": "Humidity",
-              "key": "hum",
-              "unit": "%",
-              "value": 23.7,
-              "status": 0
-            },
-            {
-              "label": "Property-1",
-              "key": "prop-1",
-              "value": 22.4,
-              "status": 0
-            }
-          ],
           "status": 1
+        },
+        "properties": {
+          "temperature": {
+            "type": "float",
+            "label": "Temperature",
+            "unit": "°C"
+          },
+          "humidity": {
+            "type": "float",
+            "label": "Humidity",
+            "unit": "%"
+          },
+          "weight": {
+            "type": "int",
+            "label": "Weight",
+            "unit": "t"
+          }
         }
       },
       "width": 72,
@@ -1084,30 +1072,23 @@
         "id": "1ca36e5b-92be-4e62-bb3a-a71377128f4f",
         "library": "other",
         "name": "table",
-        "meta": {
-          "label": "Tank 1",
-          "properties": [
-            {
-              "label": "Temperature",
-              "key": "temp",
-              "unit": "°C",
-              "value": 34.9,
-              "status": 1
-            },
-            {
-              "label": "Humidity",
-              "key": "hum",
-              "unit": "%",
-              "value": 23.7,
-              "status": 0
-            },
-            {
-              "label": "Property-1",
-              "key": "prop-1",
-              "value": 22.4,
-              "status": 0
-            }
-          ]
+        "meta": { "label": "Tank 1" },
+        "properties": {
+          "temperature": {
+            "type": "float",
+            "label": "Temperature",
+            "unit": "°C"
+          },
+          "humidity": {
+            "type": "float",
+            "label": "Humidity",
+            "unit": "%"
+          },
+          "weight": {
+            "type": "int",
+            "label": "Weight",
+            "unit": "t"
+          }
         }
       },
       "selected": false,
@@ -1124,29 +1105,23 @@
         "id": "22d5c294-6f3b-4910-bc4c-d67da0181155",
         "library": "other",
         "name": "table",
-        "meta": {
-          "label": "Tank base",
-          "properties": [
-            {
-              "label": "Temperature",
-              "key": "temp",
-              "unit": "°C",
-              "value": 49.6,
-              "status": 3
-            },
-            {
-              "label": "Property-2",
-              "key": "prop-2",
-              "value": 49.6,
-              "status": 0
-            },
-            {
-              "label": "Property-4",
-              "key": "prop-4",
-              "value": 18.8,
-              "status": 0
-            }
-          ]
+        "meta": { "label": "Tank base" },
+        "properties": {
+          "temperature": {
+            "type": "float",
+            "label": "Temperature",
+            "unit": "°C"
+          },
+          "humidity": {
+            "type": "float",
+            "label": "Humidity",
+            "unit": "%"
+          },
+          "weight": {
+            "type": "int",
+            "label": "Weight",
+            "unit": "t"
+          }
         }
       },
       "selected": false,
@@ -1163,24 +1138,18 @@
         "id": "df269a87-a5c5-4b9b-83da-65915038ed6b",
         "library": "other",
         "name": "table",
-        "meta": {
-          "label": "Heater",
-          "properties": [
-            {
-              "label": "Temperature",
-              "key": "temp",
-              "unit": "°C",
-              "value": 14.1,
-              "status": 2
-            },
-            {
-              "label": "Humidity",
-              "key": "hum",
-              "unit": "%",
-              "value": 43.4,
-              "status": 0
-            }
-          ]
+        "meta": { "label": "Heater" },
+        "properties": {
+          "temperature": {
+            "type": "float",
+            "label": "Temperature",
+            "unit": "°C"
+          },
+          "humidity": {
+            "type": "float",
+            "label": "Humidity",
+            "unit": "%"
+          }
         }
       },
       "selected": false,
@@ -1197,23 +1166,23 @@
         "id": "af568873-79b9-4bb7-a839-520efd5fe119",
         "library": "other",
         "name": "table",
-        "meta": {
-          "label": "Heater 2",
-          "properties": [
-            {
-              "label": "Temperature",
-              "key": "temp",
-              "unit": "°C",
-              "value": 49.8,
-              "status": 3
-            },
-            {
-              "label": "Property-5",
-              "key": "prop-5",
-              "value": 18.2,
-              "status": 0
-            }
-          ]
+        "meta": { "label": "Heater 2" },
+        "properties": {
+          "temperature": {
+            "type": "float",
+            "label": "Temperature",
+            "unit": "°C"
+          },
+          "humidity": {
+            "type": "float",
+            "label": "Humidity",
+            "unit": "%"
+          },
+          "weight": {
+            "type": "int",
+            "label": "Weight",
+            "unit": "t"
+          }
         }
       },
       "selected": false,
@@ -1434,37 +1403,18 @@
         "id": "62ed5533-0866-43b9-bb15-ba401aed52bd",
         "library": "basic",
         "name": "table",
-        "meta": {
-          "label": "Global monitor",
-          "labelPosition": "none",
-          "properties": [
-            {
-              "label": "Temperature",
-              "key": "temp",
-              "unit": "°C",
-              "value": 17.6,
-              "status": 2
-            },
-            {
-              "label": "Humidity",
-              "key": "hum",
-              "unit": "%",
-              "value": 28.7,
-              "status": 0
-            },
-            {
-              "label": "Property-2",
-              "key": "prop-2",
-              "value": 17.9,
-              "status": 0
-            },
-            {
-              "label": "Property-3",
-              "key": "prop-3",
-              "value": 24.4,
-              "status": 0
-            }
-          ]
+        "meta": { "label": "Global monitor", "labelPosition": "none" },
+        "properties": {
+          "temperature": {
+            "type": "float",
+            "label": "Temperature",
+            "unit": "°C"
+          },
+          "humidity": {
+            "type": "float",
+            "label": "Humidity",
+            "unit": "%"
+          }
         }
       },
       "measured": { "width": 96, "height": 89 },
@@ -1480,30 +1430,23 @@
         "id": "17954adc-63d9-4553-aa8f-73177abbee84",
         "library": "other",
         "name": "table",
-        "meta": {
-          "label": "Twin tank",
-          "properties": [
-            {
-              "label": "Temperature",
-              "key": "temp",
-              "unit": "°C",
-              "value": 37,
-              "status": 1
-            },
-            {
-              "label": "Humidity",
-              "key": "hum",
-              "unit": "%",
-              "value": 39.5,
-              "status": 0
-            },
-            {
-              "label": "Property-5",
-              "key": "prop-5",
-              "value": 35.9,
-              "status": 0
-            }
-          ]
+        "meta": { "label": "Twin tank" },
+        "properties": {
+          "temperature": {
+            "type": "float",
+            "label": "Temperature",
+            "unit": "°C"
+          },
+          "humidity": {
+            "type": "float",
+            "label": "Humidity",
+            "unit": "%"
+          },
+          "weight": {
+            "type": "int",
+            "label": "Weight",
+            "unit": "t"
+          }
         }
       },
       "selected": false,
@@ -1535,9 +1478,9 @@
           "label": "bulb 4",
           "status": 3,
           "labelPosition": "none",
-          "rotate": 180,
-          "properties": []
-        }
+          "rotate": 180
+        },
+        "properties": {}
       },
       "zIndex": 20,
       "hidden": false,
@@ -1572,9 +1515,9 @@
           "label": "bulb 1",
           "status": null,
           "labelPosition": "none",
-          "rotate": 180,
-          "properties": []
-        }
+          "rotate": 180
+        },
+        "properties": {}
       },
       "zIndex": 20,
       "hidden": false,
@@ -1608,9 +1551,9 @@
           "label": "bulb 3",
           "status": 1,
           "labelPosition": "none",
-          "rotate": 180,
-          "properties": []
-        }
+          "rotate": 180
+        },
+        "properties": {}
       },
       "zIndex": 20,
       "hidden": false,
@@ -1678,9 +1621,9 @@
         "meta": {
           "label": "bulb 2",
           "status": 2,
-          "labelPosition": "none",
-          "properties": []
-        }
+          "labelPosition": "none"
+        },
+        "properties": {}
       },
       "zIndex": 20,
       "hidden": false,
