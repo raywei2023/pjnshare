@@ -1,25 +1,5 @@
-<svg width="24" height="24" viewBox="1 1 30 30" class="h-full w-full"
-  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" stroke="#64748b">
-  <defs>
-    <path id="fan_0" fill="none"
-      d="M14.5,13.4L14.5,13.4c0.6-2.4-0.6-4.8-2.8-5.8L11,7.3, M13,16L13,16c-1.7-1.7-4.4-1.9-6.4-0.5L6,16, M14.5,18.6L14.5,18.6c-2.4,0.6-3.9,2.9-3.6,5.3l0.1,0.8, M17.5,18.6L17.5,18.6c-0.6,2.4,0.6,4.8,2.8,5.8l0.7,0.3, M19,16L19,16c1.7,1.7,4.4,1.9,6.4,0.5L26,16, M17.5,13.4L17.5,13.4c2.4-0.6,3.9-2.9,3.6-5.3L21,7.3">
-    </path>
-    <path id="fan_1" fill="none"
-      d="M14.5,13.4L14.5,13.4c0.6-2.4-0.6-4.8-2.8-5.8L11,7.3, M13,16L13,16c-1.7-1.7-4.4-1.9-6.4-0.5L6,16, M14.5,18.6L14.5,18.6c-2.4,0.6-3.9,2.9-3.6,5.3l0.1,0.8, M17.5,18.6L17.5,18.6c-0.6,2.4,0.6,4.8,2.8,5.8l0.7,0.3, M19,16L19,16c1.7,1.7,4.4,1.9,6.4,0.5L26,16, M17.5,13.4L17.5,13.4c2.4-0.6,3.9-2.9,3.6-5.3L21,7.3">
-      <animateTransform attributeName="transform" dur="2" from="0 16 16" to="360 16 16"
-        type="rotate" repeatCount="indefinite" />
-    </path>
-    <path id="fan_2" fill="none"
-      d="M14.5,13.4L14.5,13.4c0.6-2.4-0.6-4.8-2.8-5.8L11,7.3, M13,16L13,16c-1.7-1.7-4.4-1.9-6.4-0.5L6,16, M14.5,18.6L14.5,18.6c-2.4,0.6-3.9,2.9-3.6,5.3l0.1,0.8, M17.5,18.6L17.5,18.6c-0.6,2.4,0.6,4.8,2.8,5.8l0.7,0.3, M19,16L19,16c1.7,1.7,4.4,1.9,6.4,0.5L26,16, M17.5,13.4L17.5,13.4c2.4-0.6,3.9-2.9,3.6-5.3L21,7.3">
-      <animateTransform attributeName="transform" dur="1.2" from="0 16 16"
-        to="360 16 16" type="rotate" repeatCount="indefinite" />
-    </path>
-    <path id="fan_3" fill="none"
-      d="M14.5,13.4L14.5,13.4c0.6-2.4-0.6-4.8-2.8-5.8L11,7.3, M13,16L13,16c-1.7-1.7-4.4-1.9-6.4-0.5L6,16, M14.5,18.6L14.5,18.6c-2.4,0.6-3.9,2.9-3.6,5.3l0.1,0.8, M17.5,18.6L17.5,18.6c-0.6,2.4,0.6,4.8,2.8,5.8l0.7,0.3, M19,16L19,16c1.7,1.7,4.4,1.9,6.4,0.5L26,16, M17.5,13.4L17.5,13.4c2.4-0.6,3.9-2.9,3.6-5.3L21,7.3">
-      <animateTransform attributeName="transform" dur="0.6" from="0 16 16"
-        to="360 16 16" type="rotate" repeatCount="indefinite" />
-    </path>
-  </defs>
+<svg width="24" height="24" viewBox="1 1 30 30" stroke="#64748b" class="h-full w-full"
+  xmlns="http://www.w3.org/2000/svg">
   <rect width="29" height="29" x="1.5" y="1.5" rx="2" class="fill-muted" />
   <circle cx="16" cy="16" r="10" fill="none" />
   <circle cx="16" cy="16" r="3" fill="none" />
