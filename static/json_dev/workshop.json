@@ -52,6 +52,8 @@
             "type": "float",
             "label": "Temperature",
             "unit": "°C",
+            "min": 12,
+            "max": 45,
             "endpoint": "/device-2/random/temperature.float.out",
             "mappingType": "range",
             "mappings": [
@@ -1107,7 +1109,7 @@
         "library": "other",
         "name": "table",
         "meta": { "label": "Tank base" },
-        "animations":{
+        "animations": {
           "overcold": { "color": "#22c55e" },
           "overheat": { "color": "#ef4444" }
         },
@@ -1486,11 +1488,43 @@
         "library": "basic",
         "meta": {
           "label": "bulb 4",
-          "status": 3,
           "labelPosition": "none",
           "rotate": 180
         },
-        "properties": {}
+        "animations": {
+          "off": {
+            "svg.path.0.@_stroke": "#e2e8f0",
+            "svg.path.0.@_fill": "#e2e8f0"
+          },
+          "green": {
+            "svg.path.0.@_stroke": "#16a34a",
+            "svg.path.0.@_fill": "url(#fill_1)"
+          },
+          "yellow": {
+            "svg.path.0.@_stroke": "#d97706",
+            "svg.path.0.@_fill": "url(#fill_2)"
+          },
+          "red": {
+            "svg.path.0.@_stroke": "#dc2626",
+            "svg.path.0.@_fill": "url(#fill_3)"
+          }
+        },
+        "properties": {
+          "status": {
+            "type": "int",
+            "label": "Status",
+            "min": 0,
+            "max": 3,
+            "value": 3,
+            "mappingType": "value",
+            "mappings": [
+              { "animation": "off" },
+              { "value": 1, "animation": "green" },
+              { "value": 2, "animation": "yellow" },
+              { "value": 3, "animation": "red" }
+            ]
+          }
+        }
       },
       "zIndex": 20,
       "hidden": false,
@@ -1521,13 +1555,44 @@
         "edgeType": "cable",
         "id": "3bb8cb56-7d92-4f99-80f1-f168e150e045",
         "library": "basic",
+        "animations": {
+          "off": {
+            "svg.path.0.@_stroke": "#e2e8f0",
+            "svg.path.0.@_fill": "#e2e8f0"
+          },
+          "green": {
+            "svg.path.0.@_stroke": "#16a34a",
+            "svg.path.0.@_fill": "url(#fill_1)"
+          },
+          "yellow": {
+            "svg.path.0.@_stroke": "#d97706",
+            "svg.path.0.@_fill": "url(#fill_2)"
+          },
+          "red": {
+            "svg.path.0.@_stroke": "#dc2626",
+            "svg.path.0.@_fill": "url(#fill_3)"
+          }
+        },
         "meta": {
           "label": "bulb 1",
-          "status": null,
           "labelPosition": "none",
           "rotate": 180
         },
-        "properties": {}
+        "properties": {
+          "status": {
+            "type": "int",
+            "label": "Status",
+            "min": 0,
+            "max": 3,
+            "mappingType": "value",
+            "mappings": [
+              { "animation": "off" },
+              { "value": 1, "animation": "green" },
+              { "value": 2, "animation": "yellow" },
+              { "value": 3, "animation": "red" }
+            ]
+          }
+        }
       },
       "zIndex": 20,
       "hidden": false,
@@ -1559,11 +1624,43 @@
         "library": "basic",
         "meta": {
           "label": "bulb 3",
-          "status": 1,
           "labelPosition": "none",
           "rotate": 180
         },
-        "properties": {}
+        "animations": {
+          "off": {
+            "svg.path.0.@_stroke": "#e2e8f0",
+            "svg.path.0.@_fill": "#e2e8f0"
+          },
+          "green": {
+            "svg.path.0.@_stroke": "#16a34a",
+            "svg.path.0.@_fill": "url(#fill_1)"
+          },
+          "yellow": {
+            "svg.path.0.@_stroke": "#d97706",
+            "svg.path.0.@_fill": "url(#fill_2)"
+          },
+          "red": {
+            "svg.path.0.@_stroke": "#dc2626",
+            "svg.path.0.@_fill": "url(#fill_3)"
+          }
+        },
+        "properties": {
+          "status": {
+            "type": "int",
+            "label": "Status",
+            "min": 0,
+            "max": 3,
+            "value": 1,
+            "mappingType": "value",
+            "mappings": [
+              { "animation": "off" },
+              { "value": 1, "animation": "green" },
+              { "value": 2, "animation": "yellow" },
+              { "value": 3, "animation": "red" }
+            ]
+          }
+        }
       },
       "zIndex": 20,
       "hidden": false,
@@ -1597,9 +1694,42 @@
         "library": "basic",
         "meta": {
           "label": "bulb",
-          "status": 1,
           "labelPosition": "none",
           "rotate": 180
+        },
+        "animations": {
+          "off": {
+            "svg.path.0.@_stroke": "#e2e8f0",
+            "svg.path.0.@_fill": "#e2e8f0"
+          },
+          "green": {
+            "svg.path.0.@_stroke": "#16a34a",
+            "svg.path.0.@_fill": "url(#fill_1)"
+          },
+          "yellow": {
+            "svg.path.0.@_stroke": "#d97706",
+            "svg.path.0.@_fill": "url(#fill_2)"
+          },
+          "red": {
+            "svg.path.0.@_stroke": "#dc2626",
+            "svg.path.0.@_fill": "url(#fill_3)"
+          }
+        },
+        "properties": {
+          "status": {
+            "type": "int",
+            "label": "Status",
+            "min": 0,
+            "max": 3,
+            "value": 1,
+            "mappingType": "value",
+            "mappings": [
+              { "animation": "off" },
+              { "value": 1, "animation": "green" },
+              { "value": 2, "animation": "yellow" },
+              { "value": 3, "animation": "red" }
+            ]
+          }
         }
       },
       "width": 20,
@@ -1630,10 +1760,42 @@
         "library": "basic",
         "meta": {
           "label": "bulb 2",
-          "status": 2,
           "labelPosition": "none"
         },
-        "properties": {}
+        "animations": {
+          "off": {
+            "svg.path.0.@_stroke": "#e2e8f0",
+            "svg.path.0.@_fill": "#e2e8f0"
+          },
+          "green": {
+            "svg.path.0.@_stroke": "#16a34a",
+            "svg.path.0.@_fill": "url(#fill_1)"
+          },
+          "yellow": {
+            "svg.path.0.@_stroke": "#d97706",
+            "svg.path.0.@_fill": "url(#fill_2)"
+          },
+          "red": {
+            "svg.path.0.@_stroke": "#dc2626",
+            "svg.path.0.@_fill": "url(#fill_3)"
+          }
+        },
+        "properties": {
+          "status": {
+            "type": "int",
+            "label": "Status",
+            "min": 0,
+            "max": 3,
+            "value": 2,
+            "mappingType": "value",
+            "mappings": [
+              { "animation": "off" },
+              { "value": 1, "animation": "green" },
+              { "value": 2, "animation": "yellow" },
+              { "value": 3, "animation": "red" }
+            ]
+          }
+        }
       },
       "zIndex": 20,
       "hidden": false,
@@ -1667,9 +1829,42 @@
         "library": "basic",
         "meta": {
           "label": "bulb 5",
-          "status": 3,
           "labelPosition": "none",
           "rotate": 180
+        },
+        "animations": {
+          "off": {
+            "svg.path.0.@_stroke": "#e2e8f0",
+            "svg.path.0.@_fill": "#e2e8f0"
+          },
+          "green": {
+            "svg.path.0.@_stroke": "#16a34a",
+            "svg.path.0.@_fill": "url(#fill_1)"
+          },
+          "yellow": {
+            "svg.path.0.@_stroke": "#d97706",
+            "svg.path.0.@_fill": "url(#fill_2)"
+          },
+          "red": {
+            "svg.path.0.@_stroke": "#dc2626",
+            "svg.path.0.@_fill": "url(#fill_3)"
+          }
+        },
+        "properties": {
+          "status": {
+            "type": "int",
+            "label": "Status",
+            "min": 0,
+            "max": 3,
+            "value": 3,
+            "mappingType": "value",
+            "mappings": [
+              { "animation": "off" },
+              { "value": 1, "animation": "green" },
+              { "value": 2, "animation": "yellow" },
+              { "value": 3, "animation": "red" }
+            ]
+          }
         }
       },
       "width": 20,

@@ -1,32 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="-4 -1.2 20 20.3"
   class="h-full w-full">
   <defs>
-    <linearGradient id="fill_0" gradientTransform="rotate(90)">
-      <stop offset="100%" stop-color="#e2e8f0" />
-    </linearGradient>
-    <linearGradient id="fill_1" gradientTransform="rotate(90)">
-      <stop offset="25%" stop-color="#16a34a">
-        <animate attributeName="stop-color" values="#4ade80;#16a34a;#4ade80" dur="1"
+    <radialGradient id="fill_1">
+      <stop offset="5%" stop-color="#16a34a">
+        <animate attributeName="stop-color" values="#4ade80;#16a34a;#4ade80" dur="1.5"
           repeatCount="indefinite" />
       </stop>
-      <stop offset="75%" stop-color="#4ade80" />
-    </linearGradient>
-    <linearGradient id="fill_2" gradientTransform="rotate(90)">
-      <stop offset="25%" stop-color="#d97706">
+      <stop offset="95%" stop-color="#4ade80" />
+    </radialGradient>
+    <radialGradient id="fill_2">
+      <stop offset="5%" stop-color="#d97706">
         <animate attributeName="stop-color" values="#fbbf24;#d97706;#fbbf24" dur="1"
           repeatCount="indefinite" />
       </stop>
-      <stop offset="75%" stop-color="#fbbf24" />
-    </linearGradient>
-    <linearGradient id="fill_3" gradientTransform="rotate(90)">
-      <stop offset="25%" stop-color="#dc2626">
-        <animate attributeName="stop-color" values="#f87171;#dc2626;#f87171" dur="1"
+      <stop offset="95%" stop-color="#fbbf24" />
+    </radialGradient>
+    <radialGradient id="fill_3">
+      <stop offset="5%" stop-color="#dc2626">
+        <animate attributeName="stop-color" values="#fca5a5;#dc2626;#fca5a5" dur="1"
           repeatCount="indefinite" />
       </stop>
-      <stop offset="75%" stop-color="#f87171"></stop>
-    </linearGradient>
+      <stop offset="95%" stop-color="#fca5a5" />
+    </radialGradient>
   </defs>
-  <path fill="url(#fill_0)" stroke="url(#fill_0)" stroke-width="0.5" stroke-opacity="0.6"
+  <path fill="#e2e8f0" stroke="#e2e8f0" stroke-width="0.5" stroke-opacity="0.6"
     d="M8.8 14.561v-1.789a3.26 3.26 0 0 1 1.063-2.436 5.92 5.92 0 1 0-7.902-.015 3.294 3.294 0 0 1 1.078 2.451v1.724l5.76.065Z" />
   <path fill="#71717A"
     d="M8.8 14.401v2.56c-.005 1.589-1.29 1.414-2.879 1.418-1.588-.004-2.877.171-2.882-1.418v-2.56H8.8Z" />
@@ -36,6 +33,6 @@
     <path
       d="M4.32 16.321a.32.32 0 1 1-.045-.64l4.48-.64a.323.323 0 0 1 .09.64l-4.48.64H4.32Zm0 1.28a.32.32 0 0 1-.045-.64l4.48-.64a.323.323 0 0 1 .09.64l-4.48.64H4.32Z" />
   </g>
-  <path fill="#FFF" fill-opacity="0.5"
+  <path fill="#FFF" fill-opacity="0.4"
     d="M3.173 4.924c-.479.72-1.099.968-1.366.563-.268-.405-.1-1.329.38-2.049.478-.72 1.099-.968 1.365-.562.268.405.1 1.328-.38 2.048Z" />
 </svg>
