@@ -870,7 +870,49 @@
             "uuid": "a0e165b8-1de3-43f5-94a0-9c946ff0e55f"
           }
         ],
-        "meta": { "label": "Fan", "labelPosition": "bottom", "status": 2 }
+        "meta": { "label": "Fan", "labelPosition": "bottom" },
+        "animations": {
+          "off": {
+            "svg.path.animateTransform.@_dur": "9999s",
+            "svg.path.animateTransform.@_repeatCount": "0",
+            "svg.g.@_stroke": "#cbd5e1",
+            "svg.g.@_fill": "#64748b"
+          },
+          "speed1": {
+            "svg.path.animateTransform.@_dur": "2s",
+            "svg.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.@_stroke": "#86efac",
+            "svg.g.@_fill": "#22c55e"
+          },
+          "speed2": {
+            "svg.path.animateTransform.@_dur": "1.2s",
+            "svg.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.@_stroke": "#86efac",
+            "svg.g.@_fill": "#22c55e"
+          },
+          "speed3": {
+            "svg.path.animateTransform.@_dur": "0.6s",
+            "svg.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.@_stroke": "#86efac",
+            "svg.g.@_fill": "#22c55e"
+          }
+        },
+        "properties": {
+          "status": {
+            "type": "int",
+            "label": "Status",
+            "min": 0,
+            "max": 3,
+            "value": 3,
+            "mappingType": "value",
+            "mappings": [
+              { "animation": "off" },
+              { "value": 1, "animation": "speed1" },
+              { "value": 2, "animation": "speed2" },
+              { "value": 3, "animation": "speed3" }
+            ]
+          }
+        }
       },
       "width": 36,
       "height": 36,
@@ -905,7 +947,49 @@
             "uuid": "c8cc840c-1bfb-405e-ab9a-4161acba4374"
           }
         ],
-        "meta": { "label": "Fan 1", "labelPosition": "bottom", "status": 3 }
+        "meta": { "label": "Fan 1", "labelPosition": "bottom" },
+        "animations": {
+          "off": {
+            "svg.path.animateTransform.@_dur": "9999s",
+            "svg.path.animateTransform.@_repeatCount": "0",
+            "svg.g.@_stroke": "#cbd5e1",
+            "svg.g.@_fill": "#64748b"
+          },
+          "speed1": {
+            "svg.path.animateTransform.@_dur": "2s",
+            "svg.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.@_stroke": "#86efac",
+            "svg.g.@_fill": "#22c55e"
+          },
+          "speed2": {
+            "svg.path.animateTransform.@_dur": "1.2s",
+            "svg.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.@_stroke": "#86efac",
+            "svg.g.@_fill": "#22c55e"
+          },
+          "speed3": {
+            "svg.path.animateTransform.@_dur": "0.6s",
+            "svg.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.@_stroke": "#86efac",
+            "svg.g.@_fill": "#22c55e"
+          }
+        },
+        "properties": {
+          "status": {
+            "type": "int",
+            "label": "Status",
+            "min": 0,
+            "max": 3,
+            "value": 1,
+            "mappingType": "value",
+            "mappings": [
+              { "animation": "off" },
+              { "value": 1, "animation": "speed1" },
+              { "value": 2, "animation": "speed2" },
+              { "value": 3, "animation": "speed3" }
+            ]
+          }
+        }
       },
       "width": 31,
       "height": 31,
@@ -938,7 +1022,49 @@
             "uuid": "315fbff9-153d-4f8a-9f3e-060e611779e6"
           }
         ],
-        "meta": { "label": "Fan 2", "labelPosition": "bottom", "status": 2 }
+        "meta": { "label": "Fan 2", "labelPosition": "bottom" },
+        "animations": {
+          "off": {
+            "svg.path.animateTransform.@_dur": "9999s",
+            "svg.path.animateTransform.@_repeatCount": "0",
+            "svg.g.@_stroke": "#cbd5e1",
+            "svg.g.@_fill": "#64748b"
+          },
+          "speed1": {
+            "svg.path.animateTransform.@_dur": "2s",
+            "svg.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.@_stroke": "#86efac",
+            "svg.g.@_fill": "#22c55e"
+          },
+          "speed2": {
+            "svg.path.animateTransform.@_dur": "1.2s",
+            "svg.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.@_stroke": "#86efac",
+            "svg.g.@_fill": "#22c55e"
+          },
+          "speed3": {
+            "svg.path.animateTransform.@_dur": "0.6s",
+            "svg.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.@_stroke": "#86efac",
+            "svg.g.@_fill": "#22c55e"
+          }
+        },
+        "properties": {
+          "status": {
+            "type": "int",
+            "label": "Status",
+            "min": 0,
+            "max": 3,
+            "value": 2,
+            "mappingType": "value",
+            "mappings": [
+              { "animation": "off" },
+              { "value": 1, "animation": "speed1" },
+              { "value": 2, "animation": "speed2" },
+              { "value": 3, "animation": "speed3" }
+            ]
+          }
+        }
       },
       "zIndex": 20,
       "hidden": false,
