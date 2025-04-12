@@ -28,6 +28,11 @@
             "uuid": "f3312003-800a-4de4-9ad1-58707a9a7324"
           }
         ],
+        "meta": {
+          "label": "Tank base",
+          "labelPosition": "center",
+          "status": 3
+        },
         "animations": {
           "normal": {
             "svg.rect.@_fill": "#e2e8f0",
@@ -41,11 +46,6 @@
             "svg.rect.@_fill": "url(#fill_3)",
             "svg.rect.@_mask": "url(#mask_wave_3)"
           }
-        },
-        "meta": {
-          "label": "Tank base",
-          "labelPosition": "center",
-          "status": 3
         },
         "properties": {
           "temperature": {
@@ -71,6 +71,7 @@
           "weight": {
             "type": "int",
             "label": "Weight",
+            "value": 15,
             "unit": "t"
           }
         }
@@ -611,25 +612,37 @@
             "uuid": "29e9d283-3b5d-403c-855e-00233044f812"
           }
         ],
-        "meta": {
-          "label": "Heater",
-          "labelPosition": "bottom",
-          "status": 2
+        "meta": { "label": "Heater", "labelPosition": "none" },
+        "animations": {
+          "normal": { "svg.g.@_fill": "#e2e8f0" },
+          "overcold": { "svg.g.@_fill": "url(#fill_overcold)" },
+          "overheat": { "svg.g.@_fill": "url(#fill_overheat)" }
         },
         "properties": {
           "temperature": {
             "type": "float",
             "label": "Temperature",
-            "unit": "°C"
+            "unit": "°C",
+            "min": 12,
+            "max": 48,
+            "endpoint": "/device-3/random/temperature.float.out",
+            "mappingType": "range",
+            "mappings": [
+              { "animation": "normal" },
+              { "min": -999, "max": 20, "animation": "overcold" },
+              { "min": 40, "max": 999, "animation": "overheat" }
+            ]
           },
           "humidity": {
             "type": "float",
             "label": "Humidity",
-            "unit": "%"
+            "unit": "%",
+            "endpoint": "/device-3/random/humidity.float.out"
           },
           "weight": {
-            "type": "int",
+            "type": "float",
             "label": "Weight",
+            "value": 0.2,
             "unit": "t"
           }
         }
@@ -665,7 +678,40 @@
             "uuid": "7f0af4dc-e961-4645-a4f6-1c6a99fdc8b6"
           }
         ],
-        "meta": { "label": "Heater 1", "labelPosition": "bottom" }
+        "meta": { "label": "Heater 1", "labelPosition": "none" },
+        "animations": {
+          "normal": { "svg.g.@_fill": "#e2e8f0" },
+          "overcold": { "svg.g.@_fill": "url(#fill_overcold)" },
+          "overheat": { "svg.g.@_fill": "url(#fill_overheat)" }
+        },
+        "properties": {
+          "temperature": {
+            "type": "float",
+            "label": "Temperature",
+            "unit": "°C",
+            "min": 12,
+            "max": 48,
+            "endpoint": "/device-4/random/temperature.float.out",
+            "mappingType": "range",
+            "mappings": [
+              { "animation": "normal" },
+              { "min": -999, "max": 20, "animation": "overcold" },
+              { "min": 40, "max": 999, "animation": "overheat" }
+            ]
+          },
+          "humidity": {
+            "type": "float",
+            "label": "Humidity",
+            "unit": "%",
+            "endpoint": "/device-3/random/humidity.float.out"
+          },
+          "weight": {
+            "type": "float",
+            "label": "Weight",
+            "value": 0.2,
+            "unit": "t"
+          }
+        }
       },
       "zIndex": 20,
       "hidden": false,
@@ -700,25 +746,37 @@
             "uuid": "bb47df85-db20-45ad-886e-f6f894750058"
           }
         ],
-        "meta": {
-          "label": "Heater 2",
-          "labelPosition": "none",
-          "status": 3
+        "meta": { "label": "Heater restroom", "labelPosition": "none" },
+        "animations": {
+          "normal": { "svg.g.@_fill": "#e2e8f0" },
+          "overcold": { "svg.g.@_fill": "url(#fill_overcold)" },
+          "overheat": { "svg.g.@_fill": "url(#fill_overheat)" }
         },
         "properties": {
           "temperature": {
             "type": "float",
             "label": "Temperature",
-            "unit": "°C"
+            "unit": "°C",
+            "min": 12,
+            "max": 48,
+            "endpoint": "/device-4/random/temperature.float.out",
+            "mappingType": "range",
+            "mappings": [
+              { "animation": "normal" },
+              { "min": -999, "max": 20, "animation": "overcold" },
+              { "min": 40, "max": 999, "animation": "overheat" }
+            ]
           },
           "humidity": {
             "type": "float",
             "label": "Humidity",
-            "unit": "%"
+            "unit": "%",
+            "endpoint": "/device-4/random/humidity.float.out"
           },
           "weight": {
-            "type": "int",
+            "type": "float",
             "label": "Weight",
+            "value": 0.2,
             "unit": "t"
           }
         }
@@ -756,7 +814,38 @@
             "uuid": "d9fe83a2-0c33-4ba1-9d7a-e7abb2785b2e"
           }
         ],
-        "meta": { "label": "Heater 2", "labelPosition": "none" }
+        "meta": { "label": "Heater off", "labelPosition": "none" },
+        "animations": {
+          "normal": { "svg.g.@_fill": "#e2e8f0" },
+          "overcold": { "svg.g.@_fill": "url(#fill_overcold)" },
+          "overheat": { "svg.g.@_fill": "url(#fill_overheat)" }
+        },
+        "properties": {
+          "temperature": {
+            "type": "float",
+            "label": "Temperature",
+            "unit": "°C",
+            "min": 12,
+            "max": 48,
+            "mappingType": "range",
+            "mappings": [
+              { "animation": "normal" },
+              { "min": -999, "max": 20, "animation": "overcold" },
+              { "min": 40, "max": 999, "animation": "overheat" }
+            ]
+          },
+          "humidity": {
+            "type": "float",
+            "label": "Humidity",
+            "unit": "%"
+          },
+          "weight": {
+            "type": "float",
+            "label": "Weight",
+            "value": 0.2,
+            "unit": "t"
+          }
+        }
       },
       "zIndex": 20,
       "hidden": false,
@@ -834,6 +923,7 @@
           "weight": {
             "type": "int",
             "label": "Weight",
+            "value": 12,
             "unit": "t"
           }
         }
