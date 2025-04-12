@@ -36,15 +36,15 @@
         "animations": {
           "normal": {
             "svg.rect.@_fill": "#e2e8f0",
-            "svg.rect.@_mask": "url(#mask_wave_0)"
+            "svg.rect.@_mask": "url(#mask_still)"
           },
           "overcold": {
-            "svg.rect.@_fill": "url(#fill_2)",
-            "svg.rect.@_mask": "url(#mask_wave_2)"
+            "svg.rect.@_fill": "url(#fill_overcold)",
+            "svg.rect.@_mask": "url(#mask_overcold)"
           },
           "overheat": {
-            "svg.rect.@_fill": "url(#fill_3)",
-            "svg.rect.@_mask": "url(#mask_wave_3)"
+            "svg.rect.@_fill": "url(#fill_overheat)",
+            "svg.rect.@_mask": "url(#mask_overheat)"
           }
         },
         "properties": {
@@ -561,20 +561,45 @@
           }
         ],
         "meta": { "label": "Twin tank", "labelPosition": "bottom" },
+        "animations": {
+          "normal": {
+            "svg.path.2.@_fill": "#e2e8f0",
+            "svg.path.2.@_mask": "url(#mask_still)"
+          },
+          "overcold": {
+            "svg.path.2.@_fill": "url(#fill_overcold)",
+            "svg.path.2.@_mask": "url(#mask_overcold)"
+          },
+          "overheat": {
+            "svg.path.2.@_fill": "url(#fill_overheat)",
+            "svg.path.2.@_mask": "url(#mask_overheat)"
+          }
+        },
         "properties": {
           "temperature": {
             "type": "float",
             "label": "Temperature",
-            "unit": "°C"
+            "unit": "°C",
+            "min": 12,
+            "max": 45,
+            "endpoint": "/device-6/random/temperature.float.out",
+            "mappingType": "range",
+            "mappings": [
+              { "animation": "normal" },
+              { "min": -999, "max": 20, "animation": "overcold" },
+              { "min": 38, "max": 999, "animation": "overheat" }
+            ]
           },
           "humidity": {
             "type": "float",
             "label": "Humidity",
-            "unit": "%"
+            "unit": "%",
+            "endpoint": "/device-6/random/humidity.float.out"
           },
           "weight": {
             "type": "int",
             "label": "Weight",
+            "value": 14,
             "unit": "t"
           }
         }
@@ -885,15 +910,15 @@
         "animations": {
           "normal": {
             "svg.rect.@_fill": "#e2e8f0",
-            "svg.rect.@_mask": "url(#mask_wave_0)"
+            "svg.rect.@_mask": "url(#mask_still)"
           },
           "overcold": {
-            "svg.rect.@_fill": "url(#fill_2)",
-            "svg.rect.@_mask": "url(#mask_wave_2)"
+            "svg.rect.@_fill": "url(#fill_overcold)",
+            "svg.rect.@_mask": "url(#mask_overcold)"
           },
           "overheat": {
-            "svg.rect.@_fill": "url(#fill_3)",
-            "svg.rect.@_mask": "url(#mask_wave_3)"
+            "svg.rect.@_fill": "url(#fill_overheat)",
+            "svg.rect.@_mask": "url(#mask_overheat)"
           }
         },
         "meta": {

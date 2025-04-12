@@ -1,49 +1,35 @@
 <svg width="19.52" height="24.23" viewBox="0 0 19.52 24.23" class="h-full w-full"
   xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="fill_0" gradientTransform="rotate(90)">
-      <stop offset="100%" stop-color="#e2e8f0" />
-    </linearGradient>
-    <linearGradient id="fill_1" gradientTransform="rotate(90)">
-      <stop offset="15%" stop-color="#e2e8f0" />
-      <stop offset="85%" stop-color="#cbd5e1" />
-    </linearGradient>
-    <linearGradient id="fill_2" gradientTransform="rotate(90)">
-      <stop offset="15%" stop-color="#d9f99d" />
-      <stop offset="85%" stop-color="#22c55e">
+    <linearGradient id="fill_overcold" gradientTransform="rotate(90)">
+      <stop offset="10%" stop-color="#d9f99d" />
+      <stop offset="90%" stop-color="#22c55e">
         <animate attributeName="stop-color" values="#84cc16;#22c55e;#84cc16" dur="3"
           repeatCount="indefinite" />
       </stop>
     </linearGradient>
-    <linearGradient id="fill_3" gradientTransform="rotate(90)">
-      <stop offset="15%" stop-color="#fcd34d" />
-      <stop offset="85%" stop-color="#ef4444">
+    <linearGradient id="fill_overheat" gradientTransform="rotate(90)">
+      <stop offset="10%" stop-color="#fcd34d" />
+      <stop offset="90%" stop-color="#ef4444">
         <animate attributeName="stop-color" values="#f97316;#ef4444;#f97316" dur="3"
           repeatCount="indefinite" />
       </stop>
     </linearGradient>
-    <mask id="mask_wave_0">
+    <mask id="mask_still">
       <path fill="#fff" stroke="none"
         d="M0 2.53C6.17 2.53 12.07 0 18.23 0c6.18 0 11.8 2.53 17.96 2.53C42.37 2.53 48.13 0 54.3 0c6.18 0 11.93 2.53 18.1 2.53V13H0V2.53Z">
-        <animateTransform attributeName="transform" attributeType="XML" dur="10" from="-36 1"
+        <animateTransform attributeName="transform" attributeType="XML" dur="5" from="-36 1"
           repeatCount="indefinite" to="0 1" type="translate" />
       </path>
     </mask>
-    <mask id="mask_wave_1">
+    <mask id="mask_overcold">
       <path fill="#fff" stroke="none"
         d="M0 2.53C6.17 2.53 12.07 0 18.23 0c6.18 0 11.8 2.53 17.96 2.53C42.37 2.53 48.13 0 54.3 0c6.18 0 11.93 2.53 18.1 2.53V13H0V2.53Z">
-        <animateTransform attributeName="transform" attributeType="XML" dur="10" from="-36 1"
+        <animateTransform attributeName="transform" attributeType="XML" dur="4" from="-36 1"
           repeatCount="indefinite" to="0 1" type="translate" />
       </path>
     </mask>
-    <mask id="mask_wave_2">
-      <path fill="#fff" stroke="none"
-        d="M0 2.53C6.17 2.53 12.07 0 18.23 0c6.18 0 11.8 2.53 17.96 2.53C42.37 2.53 48.13 0 54.3 0c6.18 0 11.93 2.53 18.1 2.53V13H0V2.53Z">
-        <animateTransform attributeName="transform" attributeType="XML" dur="6" from="-36 1"
-          repeatCount="indefinite" to="0 1" type="translate" />
-      </path>
-    </mask>
-    <mask id="mask_wave_3">
+    <mask id="mask_overheat">
       <path fill="#fff" stroke="none"
         d="M0 3.77C5.63 3.77 10.88 0 16.5 0 22.13 0 27.38 3.77 33 3.77 38.63 3.77 43.88 0 49.5 0 55.13 0 60.38 3.77 66 3.77V13H0V3.77Z">
         <animateTransform attributeName="transform" attributeType="XML" dur="2" from="-33 1"
@@ -56,5 +42,5 @@
   <path stroke="none" fill="#e2e8f0ee"
     d="M18.88 8.46h-7.02c.42-1.88 1.83-3.27 3.5-3.27 1.69 0 3.1 1.4 3.52 3.27ZM4.21 5.2c1.68 0 3.1 1.38 3.51 3.26H.7C1.12 6.58 2.54 5.2 4.21 5.2Z" />
   <path d="M7.02 14.52H0V0h7.02zM18.08 14.52h-7.02V0h7.02z"
-    mask="url(#mask_wave_0)" fill="url(#fill_0)" transform="translate(.7 9.5)" />
+    mask="url(#mask_still)" fill="#e2e8f0" transform="translate(.7 9.5)" />
 </svg>
