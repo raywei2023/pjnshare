@@ -8,7 +8,7 @@
         "type": "svg",
         "width": 20,
         "height": 20,
-        "meta": { "label": "Bulb", "status": 0 },
+        "meta": { "label": "Bulb" },
         "setting": {
           "name": "bulb",
           "handles": [{ "position": "bottom", "rotatable": true }],
@@ -19,22 +19,38 @@
           "edgeType": "cable",
           "animation": {
             "off": {
-              "svg.path.0.@_fill": "#e2e8f0",
-              "svg.path.0.@_stroke": "#e2e8f0"
+              "svg.path.0.@_stroke": "#e2e8f0",
+              "svg.path.0.@_fill": "#e2e8f0"
             },
             "green": {
-              "svg.path.0.@_fill": "url(#fill_1)",
-              "svg.path.0.@_stroke": "url(#fill_1)"
+              "svg.path.0.@_stroke": "#16a34a",
+              "svg.path.0.@_fill": "url(#fill_1)"
             },
-            "warning": {
-              "svg.path.0.@_fill": "url(#fill_2)",
-              "svg.path.0.@_stroke": "url(#fill_2)"
+            "yellow": {
+              "svg.path.0.@_stroke": "#d97706",
+              "svg.path.0.@_fill": "url(#fill_2)"
             },
-            "error": {
-              "svg.path.0.@_fill": "url(#fill_3)",
-              "svg.path.0.@_stroke": "url(#fill_3)"
+            "red": {
+              "svg.path.0.@_stroke": "#dc2626",
+              "svg.path.0.@_fill": "url(#fill_3)"
             }
+          },
+          "properties": {
+          "status": {
+            "type": "int",
+            "label": "Status",
+            "min": 0,
+            "max": 3,
+            "value": 3,
+            "mappingType": "value",
+            "mappings": [
+              { "animation": "off" },
+              { "value": 1, "animation": "green" },
+              { "value": 2, "animation": "yellow" },
+              { "value": 3, "animation": "red" }
+            ]
           }
+        }
         }
       },
       {
