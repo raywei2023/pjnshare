@@ -1014,7 +1014,13 @@
         },
         "properties": {
           "status": {
-            "type": "int",
+            "type": "enum",
+            "enums": [
+              { "text": "Off", "value": 0 },
+              { "text": "X1", "value": 1 },
+              { "text": "X2", "value": 2 },
+              { "text": "X3", "value": 3 }
+            ],
             "label": "Status",
             "min": 0,
             "max": 3,
@@ -1091,7 +1097,13 @@
         },
         "properties": {
           "status": {
-            "type": "int",
+            "type": "enum",
+            "enums": [
+              { "text": "Off", "value": 0 },
+              { "text": "X1", "value": 1 },
+              { "text": "X2", "value": 2 },
+              { "text": "X3", "value": 3 }
+            ],
             "label": "Status",
             "min": 0,
             "max": 3,
@@ -1142,7 +1154,7 @@
           "off": {
             "svg.path.animateTransform.@_dur": "9999s",
             "svg.path.animateTransform.@_repeatCount": "0",
-            "svg.g.@_stroke": "#cbd5e1",
+            "svg.g.@_stroke": "#94a3b8",
             "svg.g.@_fill": "#64748b"
           },
           "speed1": {
@@ -1166,11 +1178,16 @@
         },
         "properties": {
           "status": {
-            "type": "int",
+            "type": "enum",
+            "enums": [
+              { "text": "Off", "value": 0 },
+              { "text": "X1", "value": 1 },
+              { "text": "X2", "value": 2 },
+              { "text": "X3", "value": 3 }
+            ],
             "label": "Status",
             "min": 0,
             "max": 3,
-            "value": 2,
             "mappingType": "value",
             "mappings": [
               { "animation": "off" },
@@ -1786,7 +1803,13 @@
         },
         "properties": {
           "status": {
-            "type": "int",
+            "type": "enum",
+            "enums": [
+              { "text": "Off", "value": 0 },
+              { "text": "On", "value": 1 },
+              { "text": "Warning", "value": 2 },
+              { "text": "Error", "value": 3 }
+            ],
             "label": "Status",
             "min": 0,
             "max": 3,
@@ -1855,7 +1878,13 @@
         },
         "properties": {
           "status": {
-            "type": "int",
+            "type": "enum",
+            "enums": [
+              { "text": "Off", "value": 0 },
+              { "text": "On", "value": 1 },
+              { "text": "Warning", "value": 2 },
+              { "text": "Error", "value": 3 }
+            ],
             "label": "Status",
             "min": 0,
             "max": 3,
@@ -1922,7 +1951,13 @@
         },
         "properties": {
           "status": {
-            "type": "int",
+            "type": "enum",
+            "enums": [
+              { "text": "Off", "value": 0 },
+              { "text": "On", "value": 1 },
+              { "text": "Warning", "value": 2 },
+              { "text": "Error", "value": 3 }
+            ],
             "label": "Status",
             "min": 0,
             "max": 3,
@@ -1992,7 +2027,13 @@
         },
         "properties": {
           "status": {
-            "type": "int",
+            "type": "enum",
+            "enums": [
+              { "text": "Off", "value": 0 },
+              { "text": "On", "value": 1 },
+              { "text": "Warning", "value": 2 },
+              { "text": "Error", "value": 3 }
+            ],
             "label": "Status",
             "min": 0,
             "max": 3,
@@ -2057,7 +2098,13 @@
         },
         "properties": {
           "status": {
-            "type": "int",
+            "type": "enum",
+            "enums": [
+              { "text": "Off", "value": 0 },
+              { "text": "On", "value": 1 },
+              { "text": "Warning", "value": 2 },
+              { "text": "Error", "value": 3 }
+            ],
             "label": "Status",
             "min": 0,
             "max": 3,
@@ -2127,7 +2174,13 @@
         },
         "properties": {
           "status": {
-            "type": "int",
+            "type": "enum",
+            "enums": [
+              { "text": "Off", "value": 0 },
+              { "text": "On", "value": 1 },
+              { "text": "Warning", "value": 2 },
+              { "text": "Error", "value": 3 }
+            ],
             "label": "Status",
             "min": 0,
             "max": 3,
