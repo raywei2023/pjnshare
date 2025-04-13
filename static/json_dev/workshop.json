@@ -1309,8 +1309,11 @@
         "name": "table",
         "meta": { "label": "Tank 1" },
         "animations": {
-          "overcold": { "color": "#22c55e" },
-          "overheat": { "color": "#ef4444" }
+          "gray": { "color": "#6b7280" },
+          "blue": { "color": "#3b82f6" },
+          "yellow": { "color": "#eab308" },
+          "green": { "color": "#22c55e" },
+          "red": { "color": "#ef4444" }
         },
         "properties": {
           "temperature": {
@@ -1319,8 +1322,8 @@
             "unit": "°C",
             "mappingType": "range",
             "mappings": [
-              { "min": -999, "max": 20, "animation": "overcold" },
-              { "min": 36, "max": 999, "animation": "overheat" }
+              { "min": -999, "max": 20, "animation": "green" },
+              { "min": 36, "max": 999, "animation": "red" }
             ]
           },
           "humidity": {
@@ -1351,8 +1354,11 @@
         "name": "table",
         "meta": { "label": "Tank base" },
         "animations": {
-          "overcold": { "color": "#22c55e" },
-          "overheat": { "color": "#ef4444" }
+          "gray": { "color": "#6b7280" },
+          "blue": { "color": "#3b82f6" },
+          "yellow": { "color": "#eab308" },
+          "green": { "color": "#22c55e" },
+          "red": { "color": "#ef4444" }
         },
         "properties": {
           "temperature": {
@@ -1361,8 +1367,8 @@
             "unit": "°C",
             "mappingType": "range",
             "mappings": [
-              { "min": -999, "max": 20, "animation": "overcold" },
-              { "min": 36, "max": 999, "animation": "overheat" }
+              { "min": -999, "max": 20, "animation": "green" },
+              { "min": 36, "max": 999, "animation": "red" }
             ]
           },
           "humidity": {
@@ -1392,6 +1398,13 @@
         "library": "other",
         "name": "table",
         "meta": { "label": "Heater" },
+        "animations": {
+          "gray": { "color": "#6b7280" },
+          "blue": { "color": "#3b82f6" },
+          "yellow": { "color": "#eab308" },
+          "green": { "color": "#22c55e" },
+          "red": { "color": "#ef4444" }
+        },
         "properties": {
           "temperature": {
             "type": "float",
@@ -1420,6 +1433,13 @@
         "library": "other",
         "name": "table",
         "meta": { "label": "Heater 2" },
+        "animations": {
+          "gray": { "color": "#6b7280" },
+          "blue": { "color": "#3b82f6" },
+          "yellow": { "color": "#eab308" },
+          "green": { "color": "#22c55e" },
+          "red": { "color": "#ef4444" }
+        },
         "properties": {
           "temperature": {
             "type": "float",
@@ -1657,6 +1677,13 @@
         "library": "basic",
         "name": "table",
         "meta": { "label": "Global monitor", "labelPosition": "none" },
+        "animations": {
+          "gray": { "color": "#6b7280" },
+          "blue": { "color": "#3b82f6" },
+          "yellow": { "color": "#eab308" },
+          "green": { "color": "#22c55e" },
+          "red": { "color": "#ef4444" }
+        },
         "properties": {
           "temperature": {
             "type": "float",
@@ -1684,6 +1711,13 @@
         "library": "other",
         "name": "table",
         "meta": { "label": "Twin tank" },
+        "animations": {
+          "gray": { "color": "#6b7280" },
+          "blue": { "color": "#3b82f6" },
+          "yellow": { "color": "#eab308" },
+          "green": { "color": "#22c55e" },
+          "red": { "color": "#ef4444" }
+        },
         "properties": {
           "temperature": {
             "type": "float",

@@ -215,6 +215,13 @@
         "type": "table",
         "iconType": "Table",
         "meta": { "label": "Table" },
+        "animations": {
+          "gray": { "color": "#6b7280" },
+          "blue": { "color": "#3b82f6" },
+          "yellow": { "color": "#eab308" },
+          "green": { "color": "#22c55e" },
+          "red": { "color": "#ef4444" }
+        },
         "setting": { "name": "table" }
       }
     ]
