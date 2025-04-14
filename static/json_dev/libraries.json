@@ -176,16 +176,16 @@
       },
       {
         "type": "svg",
-        "width": 28,
-        "height": 28,
-        "meta": { "label": "Vavle" },
+        "width": 32,
+        "height": 32,
+        "meta": { "label": "Valve" },
         "setting": {
-          "name": "vavle",
+          "name": "valve",
           "handles": [
             { "position": "left", "rotatable": false },
             { "position": "right", "rotatable": false }
           ],
-          "url": "/static/svg_dev/vavle.svg",
+          "url": "/static/svg_dev/valve.svg",
           "minWidth": 24,
           "minHeight": 24,
           "edgeType": "pipe",
@@ -374,6 +374,24 @@
             "green": { "color": "#22c55e" },
             "red": { "color": "#ef4444" }
           }
+        }
+      },
+      {
+        "type": "svg",
+        "width": 30,
+        "height": 30,
+        "meta": { "label": "Demo" },
+        "setting": {
+          "name": "demo",
+          "handles": [
+            { "position": "left", "rotatable": false },
+            { "position": "right", "rotatable": false }
+          ],
+          "url": "/static/svg_dev/valve3.svg",
+          "minWidth": 24,
+          "minHeight": 24,
+          "edgeType": "pipe",
+          "rotatable": true
         }
       }
     ]

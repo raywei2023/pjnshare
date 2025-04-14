@@ -162,8 +162,8 @@
       "data": {
         "id": "f4a1ed1e-1234-4978-8ecf-dc5b9ab79da4",
         "library": "basic",
-        "name": "vavle",
-        "url": "/static/svg_dev/vavle.svg",
+        "name": "valve",
+        "url": "/static/svg_dev/valve.svg",
         "minWidth": 24,
         "minHeight": 24,
         "edgeType": "pipe",
@@ -180,7 +180,7 @@
             "uuid": "079c8523-bdbf-4684-a92c-9bc67d6ee686"
           }
         ],
-        "meta": { "label": "Vavle", "labelPosition": "none" }
+        "meta": { "label": "Valve", "labelPosition": "none" }
       },
       "width": 28,
       "height": 28,
@@ -195,8 +195,8 @@
       "data": {
         "id": "d76b135a-153b-4309-9fab-63ca0ac4bd21",
         "library": "basic",
-        "name": "vavle",
-        "url": "/static/svg_dev/vavle.svg",
+        "name": "valve",
+        "url": "/static/svg_dev/valve.svg",
         "minWidth": 28,
         "minHeight": 28,
         "edgeType": "pipe",
@@ -213,7 +213,7 @@
             "uuid": "c4c0240c-12ef-457a-a9fd-4aecbdfd539b"
           }
         ],
-        "meta": { "label": "Vavle 1", "labelPosition": "none" }
+        "meta": { "label": "Valve 1", "labelPosition": "none" }
       },
       "zIndex": 20,
       "hidden": false,
@@ -466,8 +466,8 @@
       "data": {
         "id": "cd1d30db-921f-4791-b7cc-77120cdc811d",
         "library": "basic",
-        "name": "vavle",
-        "url": "/static/svg_dev/vavle.svg",
+        "name": "valve",
+        "url": "/static/svg_dev/valve.svg",
         "minWidth": 28,
         "minHeight": 28,
         "edgeType": "pipe",
@@ -484,7 +484,7 @@
             "uuid": "7e4ef34a-607b-4231-81cf-e8d8ccb0e97a"
           }
         ],
-        "meta": { "label": "Vavle 2", "labelPosition": "none" }
+        "meta": { "label": "Valve 2", "labelPosition": "none" }
       },
       "width": 28,
       "height": 28,
@@ -501,8 +501,8 @@
       "data": {
         "id": "fc6dc53e-ee7a-4c9e-bf39-6ac105595f1f",
         "library": "basic",
-        "name": "vavle",
-        "url": "/static/svg_dev/vavle.svg",
+        "name": "valve",
+        "url": "/static/svg_dev/valve.svg",
         "minWidth": 28,
         "minHeight": 28,
         "edgeType": "pipe",
@@ -519,7 +519,7 @@
             "uuid": "5989dae8-e6b7-4d2f-855c-2d0071474115"
           }
         ],
-        "meta": { "label": "Vavle 3", "labelPosition": "none" }
+        "meta": { "label": "Valve 3", "labelPosition": "none" }
       },
       "width": 28,
       "height": 28,
