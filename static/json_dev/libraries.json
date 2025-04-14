@@ -36,21 +36,27 @@
             }
           },
           "properties": {
-          "status": {
-            "type": "int",
-            "label": "Status",
-            "min": 0,
-            "max": 3,
-            "value": 3,
-            "mappingType": "value",
-            "mappings": [
-              { "animation": "off" },
-              { "value": 1, "animation": "green" },
-              { "value": 2, "animation": "yellow" },
-              { "value": 3, "animation": "red" }
-            ]
+            "status": {
+              "type": "enum",
+              "enums": [
+                { "text": "Off", "value": 0 },
+                { "text": "On", "value": 1 },
+                { "text": "Warning", "value": 2 },
+                { "text": "Error", "value": 3 }
+              ],
+              "label": "Status",
+              "min": 0,
+              "max": 3,
+              "value": 0,
+              "mappingType": "value",
+              "mappings": [
+                { "animation": "off" },
+                { "value": 1, "animation": "green" },
+                { "value": 2, "animation": "yellow" },
+                { "value": 3, "animation": "red" }
+              ]
+            }
           }
-        }
         }
       },
       {
@@ -67,7 +73,55 @@
           "url": "/static/svg_dev/fan.svg",
           "minWidth": 24,
           "minHeight": 24,
-          "edgeType": "cable"
+          "edgeType": "cable",
+          "animations": {
+            "off": {
+              "svg.path.animateTransform.@_dur": "9999s",
+              "svg.path.animateTransform.@_repeatCount": "0",
+              "svg.g.@_stroke": "#cbd5e1",
+              "svg.g.@_fill": "#64748b"
+            },
+            "speed1": {
+              "svg.path.animateTransform.@_dur": "2s",
+              "svg.path.animateTransform.@_repeatCount": "indefinite",
+              "svg.g.@_stroke": "#86efac",
+              "svg.g.@_fill": "#22c55e"
+            },
+            "speed2": {
+              "svg.path.animateTransform.@_dur": "1.2s",
+              "svg.path.animateTransform.@_repeatCount": "indefinite",
+              "svg.g.@_stroke": "#86efac",
+              "svg.g.@_fill": "#22c55e"
+            },
+            "speed3": {
+              "svg.path.animateTransform.@_dur": "0.6s",
+              "svg.path.animateTransform.@_repeatCount": "indefinite",
+              "svg.g.@_stroke": "#86efac",
+              "svg.g.@_fill": "#22c55e"
+            }
+          },
+          "properties": {
+            "status": {
+              "type": "enum",
+              "enums": [
+                { "text": "Off", "value": 0 },
+                { "text": "X1", "value": 1 },
+                { "text": "X2", "value": 2 },
+                { "text": "X3", "value": 3 }
+              ],
+              "label": "Status",
+              "min": 0,
+              "max": 3,
+              "value": 0,
+              "mappingType": "value",
+              "mappings": [
+                { "animation": "off" },
+                { "value": 1, "animation": "speed1" },
+                { "value": 2, "animation": "speed2" },
+                { "value": 3, "animation": "speed3" }
+              ]
+            }
+          }
         }
       },
       {
@@ -85,7 +139,39 @@
           "minWidth": 30,
           "minHeight": 30,
           "edgeType": "pipe",
-          "hasTable": true
+          "hasTable": true,
+          "animations": {
+            "normal": { "svg.g.@_fill": "#e2e8f0" },
+            "overcold": { "svg.g.@_fill": "url(#fill_overcold)" },
+            "overheat": { "svg.g.@_fill": "url(#fill_overheat)" }
+          },
+          "properties": {
+            "temperature": {
+              "type": "float",
+              "label": "Temperature",
+              "unit": "°C",
+              "min": 10,
+              "max": 60,
+              "endpoint": "/device-3/random/temperature.float.out",
+              "mappingType": "range",
+              "mappings": [
+                { "animation": "normal" },
+                { "min": -999, "max": 20, "animation": "overcold" },
+                { "min": 40, "max": 999, "animation": "overheat" }
+              ]
+            },
+            "humidity": {
+              "type": "float",
+              "label": "Humidity",
+              "unit": "%",
+              "endpoint": "/device-3/random/humidity.float.out"
+            },
+            "weight": {
+              "type": "float",
+              "label": "Weight",
+              "unit": "t"
+            }
+          }
         }
       },
       {
@@ -179,18 +265,43 @@
           "minHeight": 45,
           "edgeType": "pipe",
           "hasTable": true,
-          "animation": {
+          "animations": {
             "normal": {
-              "svg.rect.@_fill": "#e2e8f0",
-              "svg.rect.@_mask": "url(#mask_wave_0)"
+              "svg.path.2.@_fill": "#e2e8f0",
+              "svg.path.2.@_mask": "url(#mask_still)"
             },
             "overcold": {
-              "svg.rect.@_fill": "url(#fill_2)",
-              "svg.rect.@_mask": "url(#mask_wave_2)"
+              "svg.path.2.@_fill": "url(#fill_overcold)",
+              "svg.path.2.@_mask": "url(#mask_overcold)"
             },
             "overheat": {
-              "svg.rect.@_fill": "url(#fill_3)",
-              "svg.rect.@_mask": "url(#mask_wave_3)"
+              "svg.path.2.@_fill": "url(#fill_overheat)",
+              "svg.path.2.@_mask": "url(#mask_overheat)"
+            }
+          },
+          "properties": {
+            "temperature": {
+              "type": "float",
+              "label": "Temperature",
+              "unit": "°C",
+              "min": 10,
+              "max": 66,
+              "mappingType": "range",
+              "mappings": [
+                { "animation": "normal" },
+                { "min": -999, "max": 20, "animation": "overcold" },
+                { "min": 38, "max": 999, "animation": "overheat" }
+              ]
+            },
+            "humidity": {
+              "type": "float",
+              "label": "Humidity",
+              "unit": "%"
+            },
+            "weight": {
+              "type": "int",
+              "label": "Weight",
+              "unit": "t"
             }
           }
         }
@@ -211,18 +322,41 @@
           "minHeight": 36,
           "edgeType": "pipe",
           "hasTable": true,
-          "animation": {
+          "animations": {
             "normal": {
               "svg.rect.@_fill": "#e2e8f0",
-              "svg.rect.@_mask": "url(#mask_wave_0)"
+              "svg.rect.@_mask": "url(#mask_still)"
             },
             "overcold": {
-              "svg.rect.@_fill": "url(#fill_2)",
-              "svg.rect.@_mask": "url(#mask_wave_2)"
+              "svg.rect.@_fill": "url(#fill_overcold)",
+              "svg.rect.@_mask": "url(#mask_overcold)"
             },
             "overheat": {
-              "svg.rect.@_fill": "url(#fill_3)",
-              "svg.rect.@_mask": "url(#mask_wave_3)"
+              "svg.rect.@_fill": "url(#fill_overheat)",
+              "svg.rect.@_mask": "url(#mask_overheat)"
+            }
+          },
+          "properties": {
+            "temperature": {
+              "type": "float",
+              "label": "Temperature",
+              "unit": "°C",
+              "mappingType": "range",
+              "mappings": [
+                { "animation": "normal" },
+                { "min": -999, "max": 20, "animation": "overcold" },
+                { "min": 36, "max": 999, "animation": "overheat" }
+              ]
+            },
+            "humidity": {
+              "type": "float",
+              "label": "Humidity",
+              "unit": "%"
+            },
+            "weight": {
+              "type": "int",
+              "label": "Weight",
+              "unit": "t"
             }
           }
         }
@@ -231,14 +365,16 @@
         "type": "table",
         "iconType": "Table",
         "meta": { "label": "Table" },
-        "animations": {
-          "gray": { "color": "#6b7280" },
-          "blue": { "color": "#3b82f6" },
-          "yellow": { "color": "#eab308" },
-          "green": { "color": "#22c55e" },
-          "red": { "color": "#ef4444" }
-        },
-        "setting": { "name": "table" }
+        "setting": {
+          "name": "table",
+          "animations": {
+            "gray": { "color": "#6b7280" },
+            "blue": { "color": "#3b82f6" },
+            "yellow": { "color": "#eab308" },
+            "green": { "color": "#22c55e" },
+            "red": { "color": "#ef4444" }
+          }
+        }
       }
     ]
   },
