@@ -1,8 +1,8 @@
-<svg width="20" height="20" viewBox="0 0 26 26" stroke-width="1" stroke="#64748b"
-  class="h-full w-full fill-muted" xmlns="http://www.w3.org/2000/svg">
-  <g>
-    <rect x="9" y="1" width="8" height="24" />
-    <rect x="8" y="4" width="10" height="3" />
-    <rect x="8" y="19" width="10" height="3" />
+<svg width="20" height="20" viewBox="0 0 280 560" class="h-full w-full"
+  xmlns="http://www.w3.org/2000/svg">
+  <g fill="rgba(var(--muted))" stroke="rgba(var(--muted-foreground))" stroke-width="26">
+    <rect width="191" height="534" x="37.83" y="13" rx="18" />
+    <rect width="240" height="84" x="13" y="60" rx="18" />
+    <rect width="240" height="84" x="13" y="417" rx="18" />
   </g>
 </svg>
