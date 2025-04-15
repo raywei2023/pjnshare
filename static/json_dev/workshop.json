@@ -143,7 +143,11 @@
             "uuid": "65cd33c5-37bc-4e83-9f47-8b7a8da41f36"
           }
         ],
-        "meta": { "label": "Pipe Elbow 1", "labelPosition": "none", "rotate": 90 }
+        "meta": {
+          "label": "Pipe Elbow 1",
+          "labelPosition": "none",
+          "rotate": 90
+        }
       },
       "zIndex": 20,
       "hidden": false,
@@ -172,15 +176,15 @@
           {
             "position": "left",
             "rotatable": false,
-            "uuid": "8e79e4e6-47b2-44cf-8020-a2000aab5b7c"
+            "uuid": "079c8523-bdbf-4684-a92c-9bc67d6ee686"
           },
           {
             "position": "right",
             "rotatable": false,
-            "uuid": "079c8523-bdbf-4684-a92c-9bc67d6ee686"
+            "uuid": "8e79e4e6-47b2-44cf-8020-a2000aab5b7c"
           }
         ],
-        "meta": { "label": "Valve", "labelPosition": "none" }
+        "meta": { "label": "Valve", "labelPosition": "none", "rotate": 180 }
       },
       "width": 28,
       "height": 28,
