@@ -157,8 +157,8 @@
       "data": {
         "id": "ad813a70-924a-48e0-acb8-378d0886f897",
         "library": "basic",
-        "name": "vavle",
-        "url": "/static/svg_dev/vavle.svg",
+        "name": "valve",
+        "url": "/static/svg_dev/valve.svg",
         "minWidth": 28,
         "minHeight": 28,
         "edgeType": "pipe",
@@ -175,7 +175,7 @@
             "uuid": "d0c8ade7-f2b2-4b02-82dc-be909465c586"
           }
         ],
-        "meta": { "label": "Vavle", "labelPosition": "none" }
+        "meta": { "label": "Valve", "labelPosition": "none" }
       },
       "width": 28,
       "height": 28,
@@ -193,8 +193,8 @@
       "data": {
         "id": "5e755fab-b595-463a-bb1c-7f57cc0f6367",
         "library": "basic",
-        "name": "pipe-top-right",
-        "url": "/static/svg_dev/pipe-top-right.svg",
+        "name": "pipe-elbow",
+        "url": "/static/svg_dev/pipe-elbow.svg",
         "rotatable": true,
         "minWidth": 28,
         "minHeight": 28,
@@ -211,7 +211,7 @@
             "uuid": "9a061e3a-ae15-4452-aab9-09533d3818d1"
           }
         ],
-        "meta": { "label": "PipeTR", "labelPosition": "none", "rotate": 90 }
+        "meta": { "label": "Pipe Elbow", "labelPosition": "none", "rotate": 90 }
       },
       "width": 28,
       "height": 28,
@@ -227,8 +227,8 @@
       "data": {
         "id": "808ef159-8967-4161-8d08-c3c88bdaa8f3",
         "library": "basic",
-        "name": "pipe-top-right",
-        "url": "/static/svg_dev/pipe-top-right.svg",
+        "name": "pipe-elbow",
+        "url": "/static/svg_dev/pipe-elbow.svg",
         "rotatable": true,
         "minWidth": 28,
         "minHeight": 28,
@@ -265,8 +265,8 @@
       "data": {
         "id": "7786d2ae-d613-460c-b429-b201d9aee45a",
         "library": "basic",
-        "name": "pipe-tjoin",
-        "url": "/static/svg_dev/pipe-tjoin.svg",
+        "name": "pipe-joint",
+        "url": "/static/svg_dev/pipe-joint.svg",
         "rotatable": true,
         "minWidth": 28,
         "minHeight": 28,
@@ -304,8 +304,8 @@
       "data": {
         "id": "aac80fbf-5d69-49df-a26b-b4db644ab4c1",
         "library": "basic",
-        "name": "pipe-tjoin",
-        "url": "/static/svg_dev/pipe-tjoin.svg",
+        "name": "pipe-joint",
+        "url": "/static/svg_dev/pipe-joint.svg",
         "rotatable": true,
         "minWidth": 28,
         "minHeight": 28,
@@ -349,8 +349,8 @@
       "data": {
         "id": "83ccbd6a-9977-45b9-b28b-99f5a54e38df",
         "library": "basic",
-        "name": "pipe-tjoin",
-        "url": "/static/svg_dev/pipe-tjoin.svg",
+        "name": "pipe-joint",
+        "url": "/static/svg_dev/pipe-joint.svg",
         "rotatable": true,
         "minWidth": 28,
         "minHeight": 28,

@@ -283,7 +283,7 @@
       "selected": false,
       "zIndex": 20,
       "data": {
-        "name": "vavle",
+        "name": "valve",
         "handles": [
           {
             "position": "left",
@@ -296,7 +296,7 @@
             "uuid": "11f2666b-3ced-4be8-8fe6-57f2cab1882a"
           }
         ],
-        "url": "/static/svg_dev/vavle.svg",
+        "url": "/static/svg_dev/valve.svg",
         "minWidth": 28,
         "minHeight": 28,
         "edgeType": "pipe",
@@ -319,7 +319,7 @@
       "selected": false,
       "zIndex": 20,
       "data": {
-        "name": "pipe-top-right",
+        "name": "pipe-elbow",
         "handles": [
           {
             "position": "top",
@@ -332,14 +332,14 @@
             "uuid": "3960e212-ba9d-4fdd-ae98-d991c55b07fb"
           }
         ],
-        "url": "/static/svg_dev/pipe-top-right.svg",
+        "url": "/static/svg_dev/pipe-elbow.svg",
         "rotatable": true,
         "minWidth": 28,
         "minHeight": 28,
         "edgeType": "pipe",
         "id": "dc122e15-13ff-4bd6-b289-5daf28a03cab",
         "library": "basic",
-        "meta": { "label": "PipeTR", "labelPosition": "none", "rotate": 270 }
+        "meta": { "label": "Pipe Elbow", "labelPosition": "none", "rotate": 270 }
       },
       "width": 28,
       "height": 28,
@@ -614,7 +614,7 @@
       "selected": false,
       "zIndex": 20,
       "data": {
-        "name": "pipe-top-right",
+        "name": "pipe-elbow",
         "handles": [
           {
             "position": "top",
@@ -627,7 +627,7 @@
             "uuid": "0ba22af7-baa7-40b1-9830-043462cbd409"
           }
         ],
-        "url": "/static/svg_dev/pipe-top-right.svg",
+        "url": "/static/svg_dev/pipe-elbow.svg",
         "rotatable": true,
         "minWidth": 28,
         "minHeight": 28,
@@ -650,7 +650,7 @@
       "selected": false,
       "zIndex": 20,
       "data": {
-        "name": "pipe-tjoin",
+        "name": "pipe-joint",
         "handles": [
           {
             "position": "top",
@@ -668,7 +668,7 @@
             "uuid": "54a0e10b-fe1d-4816-a82f-b02375e8eac0"
           }
         ],
-        "url": "/static/svg_dev/pipe-tjoin.svg",
+        "url": "/static/svg_dev/pipe-joint.svg",
         "rotatable": true,
         "minWidth": 28,
         "minHeight": 28,
@@ -689,7 +689,7 @@
       "selected": false,
       "position": { "x": 216.57, "y": 482.4 },
       "data": {
-        "name": "pipe-tjoin",
+        "name": "pipe-joint",
         "handles": [
           {
             "position": "top",
@@ -707,7 +707,7 @@
             "uuid": "1068719a-c6f5-4169-a137-937dc085c2c6"
           }
         ],
-        "url": "/static/svg_dev/pipe-tjoin.svg",
+        "url": "/static/svg_dev/pipe-joint.svg",
         "rotatable": true,
         "minWidth": 28,
         "minHeight": 28,
@@ -737,7 +737,7 @@
       "selected": false,
       "zIndex": 20,
       "data": {
-        "name": "pipe-top-right",
+        "name": "pipe-elbow",
         "handles": [
           {
             "position": "top",
@@ -750,7 +750,7 @@
             "uuid": "16175d53-a32a-48f7-8580-74cc962f2b42"
           }
         ],
-        "url": "/static/svg_dev/pipe-top-right.svg",
+        "url": "/static/svg_dev/pipe-elbow.svg",
         "rotatable": true,
         "minWidth": 28,
         "minHeight": 28,
