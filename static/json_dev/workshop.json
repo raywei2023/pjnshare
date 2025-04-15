@@ -92,8 +92,8 @@
       "data": {
         "id": "c9d88d17-544c-4aac-8178-493722df4962",
         "library": "basic",
-        "name": "pipe-top-right",
-        "url": "/static/svg_dev/pipe-top-right.svg",
+        "name": "pipe-elbow",
+        "url": "/static/svg_dev/pipe-elbow.svg",
         "rotatable": true,
         "minWidth": 28,
         "minHeight": 28,
@@ -110,7 +110,7 @@
             "uuid": "861cfe41-c51b-4464-a580-ca7733597f3f"
           }
         ],
-        "meta": { "label": "PipeTR", "labelPosition": "none" }
+        "meta": { "label": "Pipe Elbow", "labelPosition": "none" }
       },
       "width": 28,
       "height": 28,
@@ -125,8 +125,8 @@
       "data": {
         "id": "d93d6d78-f35e-4f6e-8c29-fa9b738d81cb",
         "library": "basic",
-        "name": "pipe-top-right",
-        "url": "/static/svg_dev/pipe-top-right.svg",
+        "name": "pipe-elbow",
+        "url": "/static/svg_dev/pipe-elbow.svg",
         "rotatable": true,
         "minWidth": 28,
         "minHeight": 28,
@@ -143,7 +143,7 @@
             "uuid": "65cd33c5-37bc-4e83-9f47-8b7a8da41f36"
           }
         ],
-        "meta": { "label": "PipeTR 1", "labelPosition": "none", "rotate": 90 }
+        "meta": { "label": "Pipe Elbow 1", "labelPosition": "none", "rotate": 90 }
       },
       "zIndex": 20,
       "hidden": false,
@@ -1781,7 +1781,7 @@
         "edgeType": "cable",
         "animations": {
           "off": {
-            "svg.path.0.@_stroke": "#e2e8f0",
+            "svg.path.0.@_stroke": "#cbd5e1",
             "svg.path.0.@_fill": "#e2e8f0"
           },
           "green": {
@@ -1851,7 +1851,7 @@
         "library": "basic",
         "animations": {
           "off": {
-            "svg.path.0.@_stroke": "#e2e8f0",
+            "svg.path.0.@_stroke": "#cbd5e1",
             "svg.path.0.@_fill": "#e2e8f0"
           },
           "green": {
@@ -1929,7 +1929,7 @@
         },
         "animations": {
           "off": {
-            "svg.path.0.@_stroke": "#e2e8f0",
+            "svg.path.0.@_stroke": "#cbd5e1",
             "svg.path.0.@_fill": "#e2e8f0"
           },
           "green": {
@@ -2005,7 +2005,7 @@
         },
         "animations": {
           "off": {
-            "svg.path.0.@_stroke": "#e2e8f0",
+            "svg.path.0.@_stroke": "#cbd5e1",
             "svg.path.0.@_fill": "#e2e8f0"
           },
           "green": {
@@ -2076,7 +2076,7 @@
         },
         "animations": {
           "off": {
-            "svg.path.0.@_stroke": "#e2e8f0",
+            "svg.path.0.@_stroke": "#cbd5e1",
             "svg.path.0.@_fill": "#e2e8f0"
           },
           "green": {
@@ -2152,7 +2152,7 @@
         },
         "animations": {
           "off": {
-            "svg.path.0.@_stroke": "#e2e8f0",
+            "svg.path.0.@_stroke": "#cbd5e1",
             "svg.path.0.@_fill": "#e2e8f0"
           },
           "green": {

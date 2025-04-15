@@ -23,7 +23,7 @@
       <stop offset="95%" stop-color="#fca5a5" />
     </radialGradient>
   </defs>
-  <path fill="#e2e8f0" stroke="#e2e8f0" stroke-width="0.5" stroke-opacity="0.6"
+  <path fill="#e2e8f0" stroke="#cbd5e1" stroke-width="1" stroke-opacity="0.6"
     d="M8.8 14.561v-1.789a3.26 3.26 0 0 1 1.063-2.436 5.92 5.92 0 1 0-7.902-.015 3.294 3.294 0 0 1 1.078 2.451v1.724l5.76.065Z" />
   <path fill="#71717A"
     d="M8.8 14.401v2.56c-.005 1.589-1.29 1.414-2.879 1.418-1.588-.004-2.877.171-2.882-1.418v-2.56H8.8Z" />

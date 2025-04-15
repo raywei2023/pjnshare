@@ -1,7 +1,6 @@
 <svg width="22" height="22" viewBox="-90 0 514 711" class="h-full w-full"
   xmlns="http://www.w3.org/2000/svg">
-  <g fill="rgba(var(--muted))" stroke-width="30" stroke="rgba(var(--muted-foreground))"
-    transform="rotate(90 262.71 262.71)">
+  <g fill="rgba(var(--muted))" stroke-width="30" stroke="rgba(var(--muted-foreground))" transform="rotate(90 262.71 262.71)">
     <path d="M265.51 98h180v180h-180z" />
     <path d="M96.09 268.42h520v185h-520z" />
     <g transform="translate(106.09 92.42)">

@@ -19,7 +19,7 @@
           "edgeType": "cable",
           "animation": {
             "off": {
-              "svg.path.0.@_stroke": "#e2e8f0",
+              "svg.path.0.@_stroke": "#cbd5e1",
               "svg.path.0.@_fill": "#e2e8f0"
             },
             "green": {
