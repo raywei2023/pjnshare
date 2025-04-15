@@ -387,7 +387,7 @@
             { "position": "left", "rotatable": false },
             { "position": "right", "rotatable": false }
           ],
-          "url": "/static/svg_dev/valve3.svg",
+          "url": "/static/svg_dev/demo.svg",
           "minWidth": 24,
           "minHeight": 24,
           "edgeType": "pipe",
