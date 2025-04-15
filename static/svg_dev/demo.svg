@@ -1,8 +1,19 @@
-<svg width="20" height="20" viewBox="0 0 280 560" class="h-full w-full"
+<svg width="24" height="24" viewBox="0 0 204 204" class="h-full w-full"
   xmlns="http://www.w3.org/2000/svg">
-  <g fill="rgba(var(--muted))" stroke="rgba(var(--muted-foreground))" stroke-width="26">
-    <rect width="191" height="534" x="37.83" y="13" rx="18" />
-    <rect width="240" height="84" x="13" y="60" rx="18" />
-    <rect width="240" height="84" x="13" y="417" rx="18" />
+  <g fill="rgba(var(--muted))" stroke="rgba(var(--muted-foreground))" stroke-width="8">
+    <rect width="198" height="198" x="3" y="3" rx="20" />
+    <circle cx="102" cy="102" r="81.63" />
+    <circle cx="102" cy="102" r="24.49" />
+    <g stroke-opacity="0.6" stroke-width="4" transform="translate(14 14)">
+      <circle cx="6" cy="6" r="5" />
+      <circle cx="170" cy="170" r="5" />
+      <circle cx="6" cy="170" r="5" />
+      <circle cx="170" cy="6" r="5" />
+    </g>
+    <path
+      d="M89.76 80.78h0A40.85 40.85 0 0 0 66.9 33.43l-5.72-2.45M77.51 102h0c-13.88-13.88-35.92-15.51-52.24-4.08l-4.9 4.08M89.76 123.22h0c-19.6 4.9-31.84 23.68-29.4 43.27l.82 6.53M114.24 123.22h0a40.85 40.85 0 0 0 22.86 47.35l5.72 2.45M126.49 102h0c13.88 13.88 35.92 15.51 52.24 4.08l4.9-4.08M114.24 80.78h0c19.6-4.9 31.84-23.68 29.4-43.27l-.82-6.53">
+      <animateTransform attributeName="transform" dur="9999" from="0 102 102" to="360 102 102"
+        type="rotate" repeatCount="0" />
+    </path>
   </g>
 </svg>

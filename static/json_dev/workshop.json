@@ -988,28 +988,28 @@
         ],
         "animations": {
           "off": {
-            "svg.path.animateTransform.@_dur": "9999s",
-            "svg.path.animateTransform.@_repeatCount": "0",
-            "svg.g.@_stroke": "#cbd5e1",
-            "svg.g.@_fill": "#64748b"
+            "svg.g.path.animateTransform.@_dur": "9999s",
+            "svg.g.path.animateTransform.@_repeatCount": "0",
+            "svg.g.g.@_stroke": "#cbd5e1",
+            "svg.g.g.@_fill": "#64748b"
           },
           "speed1": {
-            "svg.path.animateTransform.@_dur": "2s",
-            "svg.path.animateTransform.@_repeatCount": "indefinite",
-            "svg.g.@_stroke": "#86efac",
-            "svg.g.@_fill": "#22c55e"
+            "svg.g.path.animateTransform.@_dur": "2s",
+            "svg.g.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.g.@_stroke": "#86efac",
+            "svg.g.g.@_fill": "#22c55e"
           },
           "speed2": {
-            "svg.path.animateTransform.@_dur": "1.2s",
-            "svg.path.animateTransform.@_repeatCount": "indefinite",
-            "svg.g.@_stroke": "#86efac",
-            "svg.g.@_fill": "#22c55e"
+            "svg.g.path.animateTransform.@_dur": "1.2s",
+            "svg.g.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.g.@_stroke": "#86efac",
+            "svg.g.g.@_fill": "#22c55e"
           },
           "speed3": {
-            "svg.path.animateTransform.@_dur": "0.6s",
-            "svg.path.animateTransform.@_repeatCount": "indefinite",
-            "svg.g.@_stroke": "#86efac",
-            "svg.g.@_fill": "#22c55e"
+            "svg.g.path.animateTransform.@_dur": "0.6s",
+            "svg.g.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.g.@_stroke": "#86efac",
+            "svg.g.g.@_fill": "#22c55e"
           }
         },
         "properties": {
@@ -1071,28 +1071,28 @@
         "meta": { "label": "Fan 1", "labelPosition": "bottom" },
         "animations": {
           "off": {
-            "svg.path.animateTransform.@_dur": "9999s",
-            "svg.path.animateTransform.@_repeatCount": "0",
-            "svg.g.@_stroke": "#cbd5e1",
-            "svg.g.@_fill": "#64748b"
+            "svg.g.path.animateTransform.@_dur": "9999s",
+            "svg.g.path.animateTransform.@_repeatCount": "0",
+            "svg.g.g.@_stroke": "#cbd5e1",
+            "svg.g.g.@_fill": "#64748b"
           },
           "speed1": {
-            "svg.path.animateTransform.@_dur": "2s",
-            "svg.path.animateTransform.@_repeatCount": "indefinite",
-            "svg.g.@_stroke": "#86efac",
-            "svg.g.@_fill": "#22c55e"
+            "svg.g.path.animateTransform.@_dur": "2s",
+            "svg.g.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.g.@_stroke": "#86efac",
+            "svg.g.g.@_fill": "#22c55e"
           },
           "speed2": {
-            "svg.path.animateTransform.@_dur": "1.2s",
-            "svg.path.animateTransform.@_repeatCount": "indefinite",
-            "svg.g.@_stroke": "#86efac",
-            "svg.g.@_fill": "#22c55e"
+            "svg.g.path.animateTransform.@_dur": "1.2s",
+            "svg.g.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.g.@_stroke": "#86efac",
+            "svg.g.g.@_fill": "#22c55e"
           },
           "speed3": {
-            "svg.path.animateTransform.@_dur": "0.6s",
-            "svg.path.animateTransform.@_repeatCount": "indefinite",
-            "svg.g.@_stroke": "#86efac",
-            "svg.g.@_fill": "#22c55e"
+            "svg.g.path.animateTransform.@_dur": "0.6s",
+            "svg.g.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.g.@_stroke": "#86efac",
+            "svg.g.g.@_fill": "#22c55e"
           }
         },
         "properties": {
@@ -1152,28 +1152,28 @@
         "meta": { "label": "Fan 2", "labelPosition": "bottom" },
         "animations": {
           "off": {
-            "svg.path.animateTransform.@_dur": "9999s",
-            "svg.path.animateTransform.@_repeatCount": "0",
-            "svg.g.@_stroke": "#94a3b8",
-            "svg.g.@_fill": "#64748b"
+            "svg.g.path.animateTransform.@_dur": "9999s",
+            "svg.g.path.animateTransform.@_repeatCount": "0",
+            "svg.g.g.@_stroke": "#94a3b8",
+            "svg.g.g.@_fill": "#64748b"
           },
           "speed1": {
-            "svg.path.animateTransform.@_dur": "2s",
-            "svg.path.animateTransform.@_repeatCount": "indefinite",
-            "svg.g.@_stroke": "#86efac",
-            "svg.g.@_fill": "#22c55e"
+            "svg.g.path.animateTransform.@_dur": "2s",
+            "svg.g.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.g.@_stroke": "#86efac",
+            "svg.g.g.@_fill": "#22c55e"
           },
           "speed2": {
-            "svg.path.animateTransform.@_dur": "1.2s",
-            "svg.path.animateTransform.@_repeatCount": "indefinite",
-            "svg.g.@_stroke": "#86efac",
-            "svg.g.@_fill": "#22c55e"
+            "svg.g.path.animateTransform.@_dur": "1.2s",
+            "svg.g.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.g.@_stroke": "#86efac",
+            "svg.g.g.@_fill": "#22c55e"
           },
           "speed3": {
-            "svg.path.animateTransform.@_dur": "0.6s",
-            "svg.path.animateTransform.@_repeatCount": "indefinite",
-            "svg.g.@_stroke": "#86efac",
-            "svg.g.@_fill": "#22c55e"
+            "svg.g.path.animateTransform.@_dur": "0.6s",
+            "svg.g.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.g.@_stroke": "#86efac",
+            "svg.g.g.@_fill": "#22c55e"
           }
         },
         "properties": {
