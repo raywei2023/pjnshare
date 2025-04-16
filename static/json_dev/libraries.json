@@ -58,7 +58,8 @@
             "rotate": {
               "type": "int",
               "label": "Rotate",
-              "value": 0
+              "value": 0,
+              "hidden": true
             }
           }
         }
@@ -199,7 +200,8 @@
             "rotate": {
               "type": "int",
               "label": "Rotate",
-              "value": 0
+              "value": 0,
+              "hidden": true
             }
           }
         }
@@ -223,7 +225,8 @@
             "rotate": {
               "type": "int",
               "label": "Rotate",
-              "value": 0
+              "value": 0,
+              "hidden": true
             }
           }
         }
@@ -272,7 +275,8 @@
             "rotate": {
               "type": "int",
               "label": "Rotate",
-              "value": 0
+              "value": 0,
+              "hidden": true
             }
           }
         }
@@ -427,7 +431,8 @@
             "rotate": {
               "type": "int",
               "label": "Rotate",
-              "value": 0
+              "value": 0,
+              "hidden": true
             }
           }
         }

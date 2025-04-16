@@ -112,7 +112,8 @@
           "rotate": {
             "type": "int",
             "label": "Rotate",
-            "value": 0
+            "value": 0,
+            "hidden": true
           }
         }
       },
@@ -152,7 +153,8 @@
           "rotate": {
             "type": "int",
             "label": "Rotate",
-            "value": 90
+            "value": 90,
+            "hidden": true
           }
         }
       },
@@ -196,7 +198,8 @@
           "rotate": {
             "type": "int",
             "label": "Rotate",
-            "value": 180
+            "value": 180,
+            "hidden": true
           }
         }
       },
@@ -236,7 +239,8 @@
           "rotate": {
             "type": "int",
             "label": "Rotate",
-            "value": 0
+            "value": 0,
+            "hidden": true
           }
         }
       },
@@ -283,7 +287,8 @@
           "rotate": {
             "type": "int",
             "label": "Rotate",
-            "value": 0
+            "value": 0,
+            "hidden": true
           }
         }
       },
@@ -330,7 +335,8 @@
           "rotate": {
             "type": "int",
             "label": "Rotate",
-            "value": 0
+            "value": 0,
+            "hidden": true
           }
         }
       },
@@ -377,7 +383,8 @@
           "rotate": {
             "type": "int",
             "label": "Rotate",
-            "value": 0
+            "value": 0,
+            "hidden": true
           }
         }
       },
@@ -424,7 +431,8 @@
           "rotate": {
             "type": "int",
             "label": "Rotate",
-            "value": 180
+            "value": 180,
+            "hidden": true
           }
         }
       },
@@ -466,7 +474,8 @@
           "rotate": {
             "type": "int",
             "label": "Rotate",
-            "value": 180
+            "value": 180,
+            "hidden": true
           }
         }
       },
@@ -508,7 +517,8 @@
           "rotate": {
             "type": "int",
             "label": "Rotate",
-            "value": 270
+            "value": 270,
+            "hidden": true
           }
         }
       },
@@ -552,7 +562,8 @@
           "rotate": {
             "type": "int",
             "label": "Rotate",
-            "value": 0
+            "value": 0,
+            "hidden": true
           }
         }
       },
@@ -594,7 +605,8 @@
           "rotate": {
             "type": "int",
             "label": "Rotate",
-            "value": 0
+            "value": 0,
+            "hidden": true
           }
         }
       },
@@ -1985,7 +1997,8 @@
           "rotate": {
             "type": "int",
             "label": "Rotate",
-            "value": 180
+            "value": 180,
+            "hidden": true
           }
         }
       },
@@ -2060,7 +2073,8 @@
           "rotate": {
             "type": "int",
             "label": "Rotate",
-            "value": 180
+            "value": 180,
+            "hidden": true
           }
         }
       },
@@ -2135,7 +2149,8 @@
           "rotate": {
             "type": "int",
             "label": "Rotate",
-            "value": 180
+            "value": 180,
+            "hidden": true
           }
         }
       },
@@ -2212,7 +2227,8 @@
           "rotate": {
             "type": "int",
             "label": "Rotate",
-            "value": 180
+            "value": 180,
+            "hidden": true
           }
         }
       },
@@ -2286,7 +2302,8 @@
           "rotate": {
             "type": "int",
             "label": "Rotate",
-            "value": 0
+            "value": 0,
+            "hidden": true
           }
         }
       },
@@ -2363,7 +2380,8 @@
           "rotate": {
             "type": "int",
             "label": "Rotate",
-            "value": 180
+            "value": 180,
+            "hidden": true
           }
         }
       },
