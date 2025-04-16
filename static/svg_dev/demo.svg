@@ -1,11 +1,19 @@
-<svg width="20" height="20" viewBox="0 0 280 560" class="h-full w-full"
-  xmlns="http://www.w3.org/2000/svg">
-  <g fill="rgba(var(--muted))" stroke="rgba(var(--muted-foreground))" stroke-width="26">
-    <rect width="191" height="534" x="37.83" y="13" rx="18" />
-    <rect width="240" height="84" x="13" y="60" rx="18" />
-    <rect width="240" height="84" x="13" y="417" rx="18" />
-    <g stroke="#FFF" stroke-linecap="round" stroke-width="22" stroke-opacity=".5">
-      <path d="M82.33 261.32V336M82.33 224v2.87"/>
+<svg width="22" height="22" viewBox="0 0 525.42 712.51" class="h-full w-full">
+  <g fill="none" fill-rule="evenodd" transform="rotate(90 262.71 262.71)">
+    <path fill="#999" stroke="#000" stroke-width="32" d="M260.51 99h188v188h-188z" />
+    <path fill="#999" stroke="#000" stroke-width="34" d="M98.09 267.42h516v186h-516z" />
+    <g fill="#999" transform="translate(106.09 92.42)">
+      <ellipse cx="250.42" cy="268" stroke="#000" stroke-width="32" rx="174" ry="149" />
+      <path d="M0 190h500v155H0zM170.42 0h156v180h-156z" />
+    </g>
+    <rect width="250" height="86" x="229.51" y="15" fill="#999" stroke="#000" stroke-width="30"
+      rx="26" />
+    <rect width="86" height="250" x="15" y="236" fill="#999" stroke="#000" stroke-width="30" rx="26" />
+    <rect width="86" height="250" x="611.51" y="236" fill="#999" stroke="#000" stroke-width="30"
+      rx="26" />
+    <g stroke="#FFF" stroke-linecap="round" stroke-width="22">
+      <path
+        d="M268.85 421.98c17.4 12.34 29.5 19.4 36.3 21.17 15.57 4.08 37.31 9.27 44.36 9.27 11.66 0 26.06-1.75 43.2-5.27M428.5 433.42l13-9" />
     </g>
   </g>
 </svg>
