@@ -4,5 +4,8 @@
     <rect width="191" height="534" x="37.83" y="13" rx="18" />
     <rect width="240" height="84" x="13" y="60" rx="18" />
     <rect width="240" height="84" x="13" y="417" rx="18" />
+    <g stroke="#FFF" stroke-linecap="round" stroke-width="22" stroke-opacity="0.9">
+      <path d="M82.33 261.32V336M82.33 224v2.87"/>
+    </g>
   </g>
 </svg>

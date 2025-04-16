@@ -29,7 +29,6 @@
           }
         ],
         "label": "Tank base",
-        "labelPosition": "center",
         "animations": {
           "normal": {
             "svg.rect.@_fill": "#e2e8f0",
@@ -70,6 +69,17 @@
             "label": "Weight",
             "value": 15,
             "unit": "t"
+          },
+          "labelPosition": {
+            "type": "enum",
+            "enums": [
+              { "text": "Top", "value": "top" },
+              { "text": "Center", "value": "center" },
+              { "text": "Bottom", "value": "bottom" },
+              { "text": "None", "value": "none" }
+            ],
+            "label": "Label Position",
+            "value": "center"
           }
         }
       },
@@ -107,13 +117,23 @@
           }
         ],
         "label": "Pipe Elbow",
-        "labelPosition": "none",
         "properties": {
           "rotate": {
             "type": "int",
             "label": "Rotate",
             "value": 0,
             "hidden": true
+          },
+          "labelPosition": {
+            "type": "enum",
+            "enums": [
+              { "text": "Top", "value": "top" },
+              { "text": "Center", "value": "center" },
+              { "text": "Bottom", "value": "bottom" },
+              { "text": "None", "value": "none" }
+            ],
+            "label": "Label Position",
+            "value": "none"
           }
         }
       },
@@ -148,13 +168,23 @@
           }
         ],
         "label": "Pipe Elbow 1",
-        "labelPosition": "none",
         "properties": {
           "rotate": {
             "type": "int",
             "label": "Rotate",
             "value": 90,
             "hidden": true
+          },
+          "labelPosition": {
+            "type": "enum",
+            "enums": [
+              { "text": "Top", "value": "top" },
+              { "text": "Center", "value": "center" },
+              { "text": "Bottom", "value": "bottom" },
+              { "text": "None", "value": "none" }
+            ],
+            "label": "Label Position",
+            "value": "none"
           }
         }
       },
@@ -193,13 +223,23 @@
           }
         ],
         "label": "Valve",
-        "labelPosition": "none",
         "properties": {
           "rotate": {
             "type": "int",
             "label": "Rotate",
             "value": 180,
             "hidden": true
+          },
+          "labelPosition": {
+            "type": "enum",
+            "enums": [
+              { "text": "Top", "value": "top" },
+              { "text": "Center", "value": "center" },
+              { "text": "Bottom", "value": "bottom" },
+              { "text": "None", "value": "none" }
+            ],
+            "label": "Label Position",
+            "value": "none"
           }
         }
       },
@@ -234,13 +274,23 @@
           }
         ],
         "label": "Valve 1",
-        "labelPosition": "none",
         "properties": {
           "rotate": {
             "type": "int",
             "label": "Rotate",
             "value": 0,
             "hidden": true
+          },
+          "labelPosition": {
+            "type": "enum",
+            "enums": [
+              { "text": "Top", "value": "top" },
+              { "text": "Center", "value": "center" },
+              { "text": "Bottom", "value": "bottom" },
+              { "text": "None", "value": "none" }
+            ],
+            "label": "Label Position",
+            "value": "none"
           }
         }
       },
@@ -282,13 +332,23 @@
           }
         ],
         "label": "Pipe join 1",
-        "labelPosition": "none",
         "properties": {
           "rotate": {
             "type": "int",
             "label": "Rotate",
             "value": 0,
             "hidden": true
+          },
+          "labelPosition": {
+            "type": "enum",
+            "enums": [
+              { "text": "Top", "value": "top" },
+              { "text": "Center", "value": "center" },
+              { "text": "Bottom", "value": "bottom" },
+              { "text": "None", "value": "none" }
+            ],
+            "label": "Label Position",
+            "value": "none"
           }
         }
       },
@@ -330,13 +390,23 @@
           }
         ],
         "label": "Pipe join 2",
-        "labelPosition": "none",
         "properties": {
           "rotate": {
             "type": "int",
             "label": "Rotate",
             "value": 0,
             "hidden": true
+          },
+          "labelPosition": {
+            "type": "enum",
+            "enums": [
+              { "text": "Top", "value": "top" },
+              { "text": "Center", "value": "center" },
+              { "text": "Bottom", "value": "bottom" },
+              { "text": "None", "value": "none" }
+            ],
+            "label": "Label Position",
+            "value": "none"
           }
         }
       },
@@ -378,13 +448,23 @@
           }
         ],
         "label": "Pipe join 2",
-        "labelPosition": "none",
         "properties": {
           "rotate": {
             "type": "int",
             "label": "Rotate",
             "value": 0,
             "hidden": true
+          },
+          "labelPosition": {
+            "type": "enum",
+            "enums": [
+              { "text": "Top", "value": "top" },
+              { "text": "Center", "value": "center" },
+              { "text": "Bottom", "value": "bottom" },
+              { "text": "None", "value": "none" }
+            ],
+            "label": "Label Position",
+            "value": "none"
           }
         }
       },
@@ -426,13 +506,23 @@
           }
         ],
         "label": "Pipe join 3",
-        "labelPosition": "none",
         "properties": {
           "rotate": {
             "type": "int",
             "label": "Rotate",
             "value": 180,
             "hidden": true
+          },
+          "labelPosition": {
+            "type": "enum",
+            "enums": [
+              { "text": "Top", "value": "top" },
+              { "text": "Center", "value": "center" },
+              { "text": "Bottom", "value": "bottom" },
+              { "text": "None", "value": "none" }
+            ],
+            "label": "Label Position",
+            "value": "none"
           }
         }
       },
@@ -469,13 +559,23 @@
           }
         ],
         "label": "PipeTR 2",
-        "labelPosition": "none",
         "properties": {
           "rotate": {
             "type": "int",
             "label": "Rotate",
             "value": 180,
             "hidden": true
+          },
+          "labelPosition": {
+            "type": "enum",
+            "enums": [
+              { "text": "Top", "value": "top" },
+              { "text": "Center", "value": "center" },
+              { "text": "Bottom", "value": "bottom" },
+              { "text": "None", "value": "none" }
+            ],
+            "label": "Label Position",
+            "value": "none"
           }
         }
       },
@@ -512,13 +612,23 @@
           }
         ],
         "label": "PipeTR 3",
-        "labelPosition": "none",
         "properties": {
           "rotate": {
             "type": "int",
             "label": "Rotate",
             "value": 270,
             "hidden": true
+          },
+          "labelPosition": {
+            "type": "enum",
+            "enums": [
+              { "text": "Top", "value": "top" },
+              { "text": "Center", "value": "center" },
+              { "text": "Bottom", "value": "bottom" },
+              { "text": "None", "value": "none" }
+            ],
+            "label": "Label Position",
+            "value": "none"
           }
         }
       },
@@ -557,13 +667,23 @@
           }
         ],
         "label": "Valve 2",
-        "labelPosition": "none",
         "properties": {
           "rotate": {
             "type": "int",
             "label": "Rotate",
             "value": 0,
             "hidden": true
+          },
+          "labelPosition": {
+            "type": "enum",
+            "enums": [
+              { "text": "Top", "value": "top" },
+              { "text": "Center", "value": "center" },
+              { "text": "Bottom", "value": "bottom" },
+              { "text": "None", "value": "none" }
+            ],
+            "label": "Label Position",
+            "value": "none"
           }
         }
       },
@@ -600,13 +720,23 @@
           }
         ],
         "label": "Valve 3",
-        "labelPosition": "none",
         "properties": {
           "rotate": {
             "type": "int",
             "label": "Rotate",
             "value": 0,
             "hidden": true
+          },
+          "labelPosition": {
+            "type": "enum",
+            "enums": [
+              { "text": "Top", "value": "top" },
+              { "text": "Center", "value": "center" },
+              { "text": "Bottom", "value": "bottom" },
+              { "text": "None", "value": "none" }
+            ],
+            "label": "Label Position",
+            "value": "none"
           }
         }
       },
@@ -650,7 +780,6 @@
           }
         ],
         "label": "Twin tank",
-        "labelPosition": "bottom",
         "animations": {
           "normal": {
             "svg.path.2.@_fill": "#e2e8f0",
@@ -691,6 +820,17 @@
             "label": "Weight",
             "value": 14,
             "unit": "t"
+          },
+          "labelPosition": {
+            "type": "enum",
+            "enums": [
+              { "text": "Top", "value": "top" },
+              { "text": "Center", "value": "center" },
+              { "text": "Bottom", "value": "bottom" },
+              { "text": "None", "value": "none" }
+            ],
+            "label": "Label Position",
+            "value": "bottom"
           }
         }
       },
@@ -711,7 +851,6 @@
         "library": "basic",
         "name": "heater",
         "label": "Heater",
-        "labelPosition": "none",
         "url": "/static/svg_dev/heater.svg",
         "minWidth": 30,
         "minHeight": 30,
@@ -760,6 +899,17 @@
             "label": "Weight",
             "value": 0.2,
             "unit": "t"
+          },
+          "labelPosition": {
+            "type": "enum",
+            "enums": [
+              { "text": "Top", "value": "top" },
+              { "text": "Center", "value": "center" },
+              { "text": "Bottom", "value": "bottom" },
+              { "text": "None", "value": "none" }
+            ],
+            "label": "Label Position",
+            "value": "none"
           }
         }
       },
@@ -795,7 +945,6 @@
           }
         ],
         "label": "Heater 1",
-        "labelPosition": "none",
         "animations": {
           "normal": { "svg.g.@_fill": "#e2e8f0" },
           "overcold": { "svg.g.@_fill": "url(#fill_overcold)" },
@@ -827,6 +976,17 @@
             "label": "Weight",
             "value": 0.2,
             "unit": "t"
+          },
+          "labelPosition": {
+            "type": "enum",
+            "enums": [
+              { "text": "Top", "value": "top" },
+              { "text": "Center", "value": "center" },
+              { "text": "Bottom", "value": "bottom" },
+              { "text": "None", "value": "none" }
+            ],
+            "label": "Label Position",
+            "value": "none"
           }
         }
       },
@@ -864,7 +1024,6 @@
           }
         ],
         "label": "Heater restroom",
-        "labelPosition": "none",
         "animations": {
           "normal": { "svg.g.@_fill": "#e2e8f0" },
           "overcold": { "svg.g.@_fill": "url(#fill_overcold)" },
@@ -896,6 +1055,17 @@
             "label": "Weight",
             "value": 0.2,
             "unit": "t"
+          },
+          "labelPosition": {
+            "type": "enum",
+            "enums": [
+              { "text": "Top", "value": "top" },
+              { "text": "Center", "value": "center" },
+              { "text": "Bottom", "value": "bottom" },
+              { "text": "None", "value": "none" }
+            ],
+            "label": "Label Position",
+            "value": "none"
           }
         }
       },
@@ -933,7 +1103,6 @@
           }
         ],
         "label": "Heater off",
-        "labelPosition": "none",
         "animations": {
           "normal": { "svg.g.@_fill": "#e2e8f0" },
           "overcold": { "svg.g.@_fill": "url(#fill_overcold)" },
@@ -963,6 +1132,17 @@
             "label": "Weight",
             "value": 0.2,
             "unit": "t"
+          },
+          "labelPosition": {
+            "type": "enum",
+            "enums": [
+              { "text": "Top", "value": "top" },
+              { "text": "Center", "value": "center" },
+              { "text": "Bottom", "value": "bottom" },
+              { "text": "None", "value": "none" }
+            ],
+            "label": "Label Position",
+            "value": "none"
           }
         }
       },
@@ -985,7 +1165,6 @@
         "library": "basic",
         "name": "tank-wagon",
         "label": "Tank 1",
-        "labelPosition": "center",
         "url": "/static/svg_dev/tank-wagon.svg",
         "minWidth": 69,
         "minHeight": 46,
@@ -1041,6 +1220,17 @@
             "label": "Weight",
             "value": 12,
             "unit": "t"
+          },
+          "labelPosition": {
+            "type": "enum",
+            "enums": [
+              { "text": "Top", "value": "top" },
+              { "text": "Center", "value": "center" },
+              { "text": "Bottom", "value": "bottom" },
+              { "text": "None", "value": "none" }
+            ],
+            "label": "Label Position",
+            "value": "center"
           }
         }
       },
@@ -1060,7 +1250,6 @@
         "id": "d30617d2-10bb-4f18-b295-18794667f694",
         "library": "basic",
         "label": "Fan",
-        "labelPosition": "bottom",
         "name": "fan",
         "url": "/static/svg_dev/fan.svg",
         "minWidth": 24,
@@ -1124,6 +1313,17 @@
               { "value": 2, "animation": "speed2" },
               { "value": 3, "animation": "speed3" }
             ]
+          },
+          "labelPosition": {
+            "type": "enum",
+            "enums": [
+              { "text": "Top", "value": "top" },
+              { "text": "Center", "value": "center" },
+              { "text": "Bottom", "value": "bottom" },
+              { "text": "None", "value": "none" }
+            ],
+            "label": "Label Position",
+            "value": "bottom"
           }
         }
       },
@@ -1161,7 +1361,6 @@
           }
         ],
         "label": "Fan 1",
-        "labelPosition": "bottom",
         "animations": {
           "off": {
             "svg.g.path.animateTransform.@_dur": "9999s",
@@ -1208,6 +1407,17 @@
               { "value": 2, "animation": "speed2" },
               { "value": 3, "animation": "speed3" }
             ]
+          },
+          "labelPosition": {
+            "type": "enum",
+            "enums": [
+              { "text": "Top", "value": "top" },
+              { "text": "Center", "value": "center" },
+              { "text": "Bottom", "value": "bottom" },
+              { "text": "None", "value": "none" }
+            ],
+            "label": "Label Position",
+            "value": "bottom"
           }
         }
       },
@@ -1243,7 +1453,6 @@
           }
         ],
         "label": "Fan 2",
-        "labelPosition": "bottom",
         "animations": {
           "off": {
             "svg.g.path.animateTransform.@_dur": "9999s",
@@ -1289,6 +1498,17 @@
               { "value": 2, "animation": "speed2" },
               { "value": 3, "animation": "speed3" }
             ]
+          },
+          "labelPosition": {
+            "type": "enum",
+            "enums": [
+              { "text": "Top", "value": "top" },
+              { "text": "Center", "value": "center" },
+              { "text": "Bottom", "value": "bottom" },
+              { "text": "None", "value": "none" }
+            ],
+            "label": "Label Position",
+            "value": "bottom"
           }
         }
       },
@@ -1315,7 +1535,6 @@
         "minWidth": 28,
         "minHeight": 28,
         "label": "Lobby",
-        "labelPosition": "bottom",
         "properties": {
           "strokeColor": {
             "type": "color",
@@ -1331,6 +1550,17 @@
             "type": "float",
             "lable": "Fill Opacity",
             "value": 0.6
+          },
+          "labelPosition": {
+            "type": "enum",
+            "enums": [
+              { "text": "Top", "value": "top" },
+              { "text": "Center", "value": "center" },
+              { "text": "Bottom", "value": "bottom" },
+              { "text": "None", "value": "none" }
+            ],
+            "label": "Label Position",
+            "value": "bottom"
           }
         }
       },
@@ -1355,7 +1585,6 @@
         "minWidth": 28,
         "minHeight": 28,
         "label": "Office",
-        "labelPosition": "bottom",
         "properties": {
           "strokeColor": {
             "type": "color",
@@ -1371,6 +1600,17 @@
             "type": "float",
             "lable": "Fill Opacity",
             "value": 0.6
+          },
+          "labelPosition": {
+            "type": "enum",
+            "enums": [
+              { "text": "Top", "value": "top" },
+              { "text": "Center", "value": "center" },
+              { "text": "Bottom", "value": "bottom" },
+              { "text": "None", "value": "none" }
+            ],
+            "label": "Label Position",
+            "value": "bottom"
           }
         }
       },
@@ -1393,7 +1633,6 @@
         "minWidth": 28,
         "minHeight": 28,
         "label": "VIP area",
-        "labelPosition": "bottom",
         "properties": {
           "strokeColor": {
             "type": "color",
@@ -1409,6 +1648,17 @@
             "type": "float",
             "lable": "Fill Opacity",
             "value": 0.6
+          },
+          "labelPosition": {
+            "type": "enum",
+            "enums": [
+              { "text": "Top", "value": "top" },
+              { "text": "Center", "value": "center" },
+              { "text": "Bottom", "value": "bottom" },
+              { "text": "None", "value": "none" }
+            ],
+            "label": "Label Position",
+            "value": "bottom"
           }
         }
       },
@@ -1433,7 +1683,6 @@
         "minWidth": 28,
         "minHeight": 28,
         "label": "Restroom",
-        "labelPosition": "bottom",
         "properties": {
           "strokeColor": {
             "type": "color",
@@ -1449,6 +1698,17 @@
             "type": "float",
             "lable": "Fill Opacity",
             "value": 0.6
+          },
+          "labelPosition": {
+            "type": "enum",
+            "enums": [
+              { "text": "Top", "value": "top" },
+              { "text": "Center", "value": "center" },
+              { "text": "Bottom", "value": "bottom" },
+              { "text": "None", "value": "none" }
+            ],
+            "label": "Label Position",
+            "value": "bottom"
           }
         }
       },
@@ -1640,8 +1900,7 @@
         "minWidth": 28,
         "minHeight": 14,
         "maxHeight": 14,
-        "label": "Dash line",
-        "labelPosition": "none"
+        "label": "Dash line"
       },
       "width": 620,
       "height": 14,
@@ -1664,7 +1923,6 @@
         "minWidth": 28,
         "minHeight": 28,
         "label": "Basement",
-        "labelPosition": "center",
         "properties": {
           "strokeColor": {
             "type": "color",
@@ -1680,6 +1938,17 @@
             "type": "float",
             "lable": "Fill Opacity",
             "value": 0.6
+          },
+          "labelPosition": {
+            "type": "enum",
+            "enums": [
+              { "text": "Top", "value": "top" },
+              { "text": "Center", "value": "center" },
+              { "text": "Bottom", "value": "bottom" },
+              { "text": "None", "value": "none" }
+            ],
+            "label": "Label Position",
+            "value": "center"
           }
         }
       },
@@ -1702,8 +1971,7 @@
         "minWidth": 28,
         "minHeight": 14,
         "maxHeight": 14,
-        "label": "Dash line 1",
-        "labelPosition": "none"
+        "label": "Dash line 1"
       },
       "zIndex": 10,
       "hidden": false,
@@ -1725,7 +1993,6 @@
         "minWidth": 28,
         "minHeight": 28,
         "label": "Ground floor ",
-        "labelPosition": "center",
         "properties": {
           "strokeColor": {
             "type": "color",
@@ -1741,6 +2008,17 @@
             "type": "float",
             "lable": "Fill Opacity",
             "value": 0.6
+          },
+          "labelPosition": {
+            "type": "enum",
+            "enums": [
+              { "text": "Top", "value": "top" },
+              { "text": "Center", "value": "center" },
+              { "text": "Bottom", "value": "bottom" },
+              { "text": "None", "value": "none" }
+            ],
+            "label": "Label Position",
+            "value": "center"
           }
         }
       },
@@ -1764,8 +2042,7 @@
         "minWidth": 28,
         "minHeight": 14,
         "maxHeight": 14,
-        "label": "Dash line 2",
-        "labelPosition": "none"
+        "label": "Dash line 2"
       },
       "zIndex": 10,
       "hidden": false,
@@ -1787,7 +2064,6 @@
         "minWidth": 28,
         "minHeight": 28,
         "label": "Floor 2",
-        "labelPosition": "center",
         "properties": {
           "strokeColor": {
             "type": "color",
@@ -1803,6 +2079,17 @@
             "type": "float",
             "lable": "Fill Opacity",
             "value": 0.6
+          },
+          "labelPosition": {
+            "type": "enum",
+            "enums": [
+              { "text": "Top", "value": "top" },
+              { "text": "Center", "value": "center" },
+              { "text": "Bottom", "value": "bottom" },
+              { "text": "None", "value": "none" }
+            ],
+            "label": "Label Position",
+            "value": "center"
           }
         }
       },
@@ -1827,7 +2114,19 @@
         "minWidth": 100,
         "minHeight": 100,
         "label": "Gauge",
-        "labelPosition": "bottom"
+        "properties": {
+          "labelPosition": {
+            "type": "enum",
+            "enums": [
+              { "text": "Top", "value": "top" },
+              { "text": "Center", "value": "center" },
+              { "text": "Bottom", "value": "bottom" },
+              { "text": "None", "value": "none" }
+            ],
+            "label": "Label Position",
+            "value": "bottom"
+          }
+        }
       },
       "width": 115,
       "height": 100,
@@ -1849,7 +2148,19 @@
         "minWidth": 230,
         "minHeight": 160,
         "label": "Line Chart",
-        "labelPosition": "bottom"
+        "properties": {
+          "labelPosition": {
+            "type": "enum",
+            "enums": [
+              { "text": "Top", "value": "top" },
+              { "text": "Center", "value": "center" },
+              { "text": "Bottom", "value": "bottom" },
+              { "text": "None", "value": "none" }
+            ],
+            "label": "Label Position",
+            "value": "bottom"
+          }
+        }
       },
       "width": 234,
       "height": 160,
@@ -1869,7 +2180,6 @@
         "library": "basic",
         "name": "table",
         "label": "Global monitor",
-        "labelPosition": "none",
         "animations": {
           "gray": { "color": "#6b7280" },
           "blue": { "color": "#3b82f6" },
@@ -1942,7 +2252,6 @@
         "id": "132312d6-30fd-4b0f-910d-c79fd312c7c1",
         "library": "basic",
         "label": "bulb 4",
-        "labelPosition": "none",
         "name": "bulb",
         "handles": [
           {
@@ -1999,6 +2308,17 @@
             "label": "Rotate",
             "value": 180,
             "hidden": true
+          },
+          "labelPosition": {
+            "type": "enum",
+            "enums": [
+              { "text": "Top", "value": "top" },
+              { "text": "Center", "value": "center" },
+              { "text": "Bottom", "value": "bottom" },
+              { "text": "None", "value": "none" }
+            ],
+            "label": "Label Position",
+            "value": "none"
           }
         }
       },
@@ -2049,7 +2369,6 @@
           }
         },
         "label": "bulb 1",
-        "labelPosition": "none",
         "properties": {
           "status": {
             "type": "enum",
@@ -2075,6 +2394,17 @@
             "label": "Rotate",
             "value": 180,
             "hidden": true
+          },
+          "labelPosition": {
+            "type": "enum",
+            "enums": [
+              { "text": "Top", "value": "top" },
+              { "text": "Center", "value": "center" },
+              { "text": "Bottom", "value": "bottom" },
+              { "text": "None", "value": "none" }
+            ],
+            "label": "Label Position",
+            "value": "none"
           }
         }
       },
@@ -2106,7 +2436,6 @@
         "id": "86f1d4d9-12ac-4c6e-8050-64e2cd449c90",
         "library": "basic",
         "label": "bulb 3",
-        "labelPosition": "none",
         "animations": {
           "off": {
             "svg.path.@_stroke": "#cbd5e1",
@@ -2151,6 +2480,17 @@
             "label": "Rotate",
             "value": 180,
             "hidden": true
+          },
+          "labelPosition": {
+            "type": "enum",
+            "enums": [
+              { "text": "Top", "value": "top" },
+              { "text": "Center", "value": "center" },
+              { "text": "Bottom", "value": "bottom" },
+              { "text": "None", "value": "none" }
+            ],
+            "label": "Label Position",
+            "value": "none"
           }
         }
       },
@@ -2184,7 +2524,6 @@
         "id": "6c589f4c-c1c5-4e10-bdf9-e36cb57501db",
         "library": "basic",
         "label": "bulb",
-        "labelPosition": "none",
         "animations": {
           "off": {
             "svg.path.@_stroke": "#cbd5e1",
@@ -2229,6 +2568,17 @@
             "label": "Rotate",
             "value": 180,
             "hidden": true
+          },
+          "labelPosition": {
+            "type": "enum",
+            "enums": [
+              { "text": "Top", "value": "top" },
+              { "text": "Center", "value": "center" },
+              { "text": "Bottom", "value": "bottom" },
+              { "text": "None", "value": "none" }
+            ],
+            "label": "Label Position",
+            "value": "none"
           }
         }
       },
@@ -2259,7 +2609,6 @@
         "id": "b6b375c9-f9ec-428d-a765-4e7c4b158e08",
         "library": "basic",
         "label": "bulb 2",
-        "labelPosition": "none",
         "animations": {
           "off": {
             "svg.path.@_stroke": "#cbd5e1",
@@ -2304,6 +2653,17 @@
             "label": "Rotate",
             "value": 0,
             "hidden": true
+          },
+          "labelPosition": {
+            "type": "enum",
+            "enums": [
+              { "text": "Top", "value": "top" },
+              { "text": "Center", "value": "center" },
+              { "text": "Bottom", "value": "bottom" },
+              { "text": "None", "value": "none" }
+            ],
+            "label": "Label Position",
+            "value": "none"
           }
         }
       },
@@ -2337,7 +2697,6 @@
         "id": "5b008eb3-0fab-4bc0-af48-e2eca8bf79e3",
         "library": "basic",
         "label": "bulb 5",
-        "labelPosition": "none",
         "animations": {
           "off": {
             "svg.path.@_stroke": "#cbd5e1",
@@ -2382,6 +2741,17 @@
             "label": "Rotate",
             "value": 180,
             "hidden": true
+          },
+          "labelPosition": {
+            "type": "enum",
+            "enums": [
+              { "text": "Top", "value": "top" },
+              { "text": "Center", "value": "center" },
+              { "text": "Bottom", "value": "bottom" },
+              { "text": "None", "value": "none" }
+            ],
+            "label": "Label Position",
+            "value": "none"
           }
         }
       },
