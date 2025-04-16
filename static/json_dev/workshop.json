@@ -145,8 +145,14 @@
         ],
         "meta": {
           "label": "Pipe Elbow 1",
-          "labelPosition": "none",
-          "rotate": 90
+          "labelPosition": "none"
+        },
+        "properties": {
+          "rotate": {
+            "type": "int",
+            "label": "Rotate",
+            "value": 90
+          }
         }
       },
       "zIndex": 20,
@@ -184,7 +190,14 @@
             "uuid": "8e79e4e6-47b2-44cf-8020-a2000aab5b7c"
           }
         ],
-        "meta": { "label": "Valve", "labelPosition": "none", "rotate": 180 }
+        "meta": { "label": "Valve", "labelPosition": "none" },
+        "properties": {
+          "rotate": {
+            "type": "int",
+            "label": "Rotate",
+            "value": 180
+          }
+        }
       },
       "width": 28,
       "height": 28,
@@ -379,8 +392,14 @@
         ],
         "meta": {
           "label": "Pipe join 3",
-          "labelPosition": "none",
-          "rotate": 180
+          "labelPosition": "none"
+        },
+        "properties": {
+          "rotate": {
+            "type": "int",
+            "label": "Rotate",
+            "value": 180
+          }
         }
       },
       "zIndex": 20,
@@ -416,7 +435,14 @@
             "uuid": "9dab6479-82e8-484e-8472-f219f70f7781"
           }
         ],
-        "meta": { "label": "PipeTR 2", "labelPosition": "none", "rotate": 180 }
+        "meta": { "label": "PipeTR 2", "labelPosition": "none" },
+        "properties": {
+          "rotate": {
+            "type": "int",
+            "label": "Rotate",
+            "value": 180
+          }
+        }
       },
       "zIndex": 20,
       "hidden": false,
@@ -451,7 +477,14 @@
             "uuid": "c0816d6b-a75f-4964-bbec-f8cb7aa7f007"
           }
         ],
-        "meta": { "label": "PipeTR 3", "labelPosition": "none", "rotate": 270 }
+        "meta": { "label": "PipeTR 3", "labelPosition": "none" },
+        "properties": {
+          "rotate": {
+            "type": "int",
+            "label": "Rotate",
+            "value": 270
+          }
+        }
       },
       "zIndex": 20,
       "hidden": false,
@@ -1872,8 +1905,7 @@
         "library": "basic",
         "meta": {
           "label": "bulb 4",
-          "labelPosition": "none",
-          "rotate": 180
+          "labelPosition": "none"
         },
         "name": "bulb",
         "handles": [
@@ -1926,6 +1958,11 @@
               { "value": 2, "animation": "yellow" },
               { "value": 3, "animation": "red" }
             ]
+          },
+          "rotate": {
+            "type": "int",
+            "label": "Rotate",
+            "value": 180
           }
         }
       },
@@ -1978,8 +2015,7 @@
         },
         "meta": {
           "label": "bulb 1",
-          "labelPosition": "none",
-          "rotate": 180
+          "labelPosition": "none"
         },
         "properties": {
           "status": {
@@ -2000,6 +2036,11 @@
               { "value": 2, "animation": "yellow" },
               { "value": 3, "animation": "red" }
             ]
+          },
+          "rotate": {
+            "type": "int",
+            "label": "Rotate",
+            "value": 180
           }
         }
       },
@@ -2033,8 +2074,7 @@
         "library": "basic",
         "meta": {
           "label": "bulb 3",
-          "labelPosition": "none",
-          "rotate": 180
+          "labelPosition": "none"
         },
         "animations": {
           "off": {
@@ -2074,6 +2114,11 @@
               { "value": 2, "animation": "yellow" },
               { "value": 3, "animation": "red" }
             ]
+          },
+          "rotate": {
+            "type": "int",
+            "label": "Rotate",
+            "value": 180
           }
         }
       },
@@ -2109,8 +2154,7 @@
         "library": "basic",
         "meta": {
           "label": "bulb",
-          "labelPosition": "none",
-          "rotate": 180
+          "labelPosition": "none"
         },
         "animations": {
           "off": {
@@ -2150,6 +2194,11 @@
               { "value": 2, "animation": "yellow" },
               { "value": 3, "animation": "red" }
             ]
+          },
+          "rotate": {
+            "type": "int",
+            "label": "Rotate",
+            "value": 180
           }
         }
       },
@@ -2256,8 +2305,7 @@
         "library": "basic",
         "meta": {
           "label": "bulb 5",
-          "labelPosition": "none",
-          "rotate": 180
+          "labelPosition": "none"
         },
         "animations": {
           "off": {
@@ -2297,6 +2345,11 @@
               { "value": 2, "animation": "yellow" },
               { "value": 3, "animation": "red" }
             ]
+          },
+          "rotate": {
+            "type": "int",
+            "label": "Rotate",
+            "value": 180
           }
         }
       },

@@ -405,10 +405,7 @@
         "type": "shape",
         "width": 28,
         "height": 28,
-        "meta": {
-          "label": "Circle",
-          "labelPosition": "center"
-        },
+        "meta": { "label": "Circle", "labelPosition": "center" },
         "setting": {
           "name": "circle",
           "minWidth": 28,
@@ -436,10 +433,7 @@
         "type": "shape",
         "width": 28,
         "height": 28,
-        "meta": {
-          "label": "Round rect",
-          "labelPosition": "center"
-        },
+        "meta": { "label": "Round rect", "labelPosition": "center" },
         "setting": {
           "name": "round-rectangle",
           "minWidth": 28,
@@ -467,10 +461,7 @@
         "type": "shape",
         "width": 28,
         "height": 28,
-        "meta": {
-          "label": "Rectangle",
-          "labelPosition": "center"
-        },
+        "meta": { "label": "Rectangle", "labelPosition": "center" },
         "setting": {
           "name": "rectangle",
           "minWidth": 28,
@@ -498,10 +489,7 @@
         "type": "shape",
         "width": 28,
         "height": 28,
-        "meta": {
-          "label": "Hexagon",
-          "labelPosition": "center"
-        },
+        "meta": { "label": "Hexagon", "labelPosition": "center" },
         "setting": {
           "name": "hexagon",
           "minWidth": 28,
@@ -557,10 +545,7 @@
         "type": "shape",
         "width": 28,
         "height": 28,
-        "meta": {
-          "label": "Arrow rect",
-          "labelPosition": "center"
-        },
+        "meta": { "label": "Arrow rect", "labelPosition": "center" },
         "setting": {
           "name": "arrow-rectangle",
           "minWidth": 28,
@@ -588,10 +573,7 @@
         "type": "shape",
         "width": 28,
         "height": 28,
-        "meta": {
-          "label": "Cylinder",
-          "labelPosition": "center"
-        },
+        "meta": { "label": "Cylinder", "labelPosition": "center" },
         "setting": {
           "name": "cylinder",
           "minWidth": 28,
@@ -619,10 +601,7 @@
         "type": "shape",
         "width": 28,
         "height": 28,
-        "meta": {
-          "label": "Triangle",
-          "labelPosition": "center"
-        },
+        "meta": { "label": "Triangle", "labelPosition": "center" },
         "setting": {
           "name": "triangle",
           "minWidth": 28,
@@ -650,10 +629,7 @@
         "type": "shape",
         "width": 28,
         "height": 28,
-        "meta": {
-          "label": "Parallelogram",
-          "labelPosition": "center"
-        },
+        "meta": { "label": "Parallelogram", "labelPosition": "center" },
         "setting": {
           "name": "parallelogram",
           "minWidth": 28,
@@ -681,10 +657,7 @@
         "type": "shape",
         "width": 28,
         "height": 28,
-        "meta": {
-          "label": "Plus",
-          "labelPosition": "center"
-        },
+        "meta": { "label": "Plus", "labelPosition": "center" },
         "setting": {
           "name": "plus",
           "minWidth": 28,
@@ -712,9 +685,7 @@
         "type": "shape",
         "width": 28,
         "height": 14,
-        "meta": {
-          "label": "Dash line"
-        },
+        "meta": { "label": "Dash line" },
         "setting": {
           "name": "dash-line",
           "minWidth": 28,
