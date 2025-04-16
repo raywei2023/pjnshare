@@ -1,37 +1,20 @@
-<svg width="24" height="24" viewBox="0 -7 140 220" class="h-full w-full"
-  xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <radialGradient id="fill_1">
-      <stop offset="5%" stop-color="#16a34a">
-        <animate attributeName="stop-color" values="#4ade80;#16a34a;#4ade80" dur="1.5"
-          repeatCount="indefinite" />
-      </stop>
-      <stop offset="95%" stop-color="#4ade80" />
-    </radialGradient>
-    <radialGradient id="fill_2">
-      <stop offset="5%" stop-color="#d97706">
-        <animate attributeName="stop-color" values="#fbbf24;#d97706;#fbbf24" dur="1"
-          repeatCount="indefinite" />
-      </stop>
-      <stop offset="95%" stop-color="#fbbf24" />
-    </radialGradient>
-    <radialGradient id="fill_3">
-      <stop offset="5%" stop-color="#dc2626">
-        <animate attributeName="stop-color" values="#fca5a5;#dc2626;#fca5a5" dur="1"
-          repeatCount="indefinite" />
-      </stop>
-      <stop offset="95%" stop-color="#fca5a5" />
-    </radialGradient>
-  </defs>
-  <path fill="rgba(var(--muted))" stroke="rgba(var(--muted-foreground))" stroke-width="7"
-    stroke-opacity="0.3"
-    d="M63.7 163.65H38.65v-25.67c0-2.63-1.4-5.05-3.66-6.37A70.86 70.86 0 0 1 0 70.47C0 31.61 31.21 0 69.59 0s69.62 31.61 69.62 70.47c0 25.9-14 49.66-36.5 62.03a7.3 7.3 0 0 0-3.8 6.45v24.7h-35.2Z" />
-  <ellipse cx="33.43" cy="41.83" fill="#FFF" fill-opacity="0.5" rx="7.5" ry="17" stroke="none"
-    transform="rotate(35 33.43 41.83)" />
-  <g fill="#334155" stroke-width="7" stroke="#64748b" transform="translate(31.6 157.32)">
-    <rect width="68" height="16" x="4" y="4" rx="8" />
-    <rect width="68" height="16" x="4" y="20" rx="8" />
-    <path
-      d="M62 35.5a5.48 5.48 0 0 1 5.5 5.5v1.74a5.49 5.49 0 0 1-4.48 5.4A134.82 134.82 0 0 1 38 50.5c-8.34 0-16.68-.79-25.02-2.36a5.49 5.49 0 0 1-4.48-5.4V41a5.48 5.48 0 0 1 5.5-5.5Z" />
+<svg width="24" height="24" viewBox="0 0 676 496">
+  <g fill="none" fill-rule="evenodd">
+    <path fill="#999" stroke="#000" stroke-width="28" d="M82 206h512v228H82z" />
+    <rect width="78" height="260" x="15" y="190" fill="#999" stroke="#000" stroke-width="30" rx="26" />
+    <rect width="78" height="260" x="583" y="190" fill="#999" stroke="#000" stroke-width="30"
+      rx="26" />
+    <rect width="120" height="120" x="279" y="103" fill="#999" stroke="#000" stroke-width="30"
+      rx="16" />
+    <circle cx="338" cy="321" r="161" fill="#999" stroke="#000" stroke-width="28" />
+    <g fill="#000">
+      <path d="M322 33h36v75h-36z" />
+      <path fill-rule="nonzero"
+        d="M443.63 48H232.37C218.57 48 208 37.6 208 24s10.56-24 24.37-24h211.26C457.43 0 468 10.4 468 24s-10.56 24-24.37 24Z" />
+    </g>
+    <g fill="#000" fill-rule="nonzero">
+      <path
+        d="M351.33 228.33c0 8-5.33 13.34-13.33 13.34s-13.33-5.34-13.33-13.34S330 215 338 215s13.33 5.33 13.33 13.33M444.67 321.67c0 8-5.34 13.33-13.34 13.33S418 329.67 418 321.67s5.33-13.34 13.33-13.34 13.34 5.34 13.34 13.34M258 321.67c0 8-5.33 13.33-13.33 13.33s-13.33-5.33-13.33-13.33 5.33-13.34 13.33-13.34S258 313.67 258 321.67M351.33 415c0 8-5.33 13.33-13.33 13.33S324.67 423 324.67 415 330 401.67 338 401.67 351.33 407 351.33 415M282 245.67a12.89 12.89 0 0 1 0 18.66 12.89 12.89 0 0 1-18.67 0 12.89 12.89 0 0 1 0-18.66c5.34-5.34 13.34-4 18.67 0M414 245.67a12.89 12.89 0 0 1 0 18.66 12.89 12.89 0 0 1-18.67 0 12.89 12.89 0 0 1 0-18.66c5.34-4 13.34-4 18.67 0M282 377.67a12.89 12.89 0 0 1 0 18.66 12.89 12.89 0 0 1-18.67 0 12.89 12.89 0 0 1 0-18.66c5.34-4 13.34-4 18.67 0M414 377.67a12.89 12.89 0 0 1 0 18.66 12.89 12.89 0 0 1-18.67 0 12.89 12.89 0 0 1 0-18.66c5.34-4 13.34-4 18.67 0" />
+    </g>
   </g>
 </svg>

@@ -1,7 +1,7 @@
 <svg width="24" height="24" viewBox="-2 78 678 480" class="h-full w-full"
   xmlns="http://www.w3.org/2000/svg">
   <g fill="rgba(var(--muted))" stroke="rgba(var(--muted-foreground))" stroke-width="30">
-    <path d="M83 217h510v210H83z" />
+    <path stroke-width="28" d="M82 206h512v228H82z" />
     <rect width="78" height="260" x="15" y="190" rx="26" />
     <rect width="78" height="260" x="583" y="190" rx="26" />
     <rect width="120" height="120" x="279" y="103" rx="16" />
