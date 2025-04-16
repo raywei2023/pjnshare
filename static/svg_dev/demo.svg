@@ -1,19 +1,37 @@
-<svg width="24" height="24" viewBox="0 0 204 204" class="h-full w-full"
+<svg width="24" height="24" viewBox="0 -7 140 220" class="h-full w-full"
   xmlns="http://www.w3.org/2000/svg">
-  <g fill="rgba(var(--muted))" stroke="rgba(var(--muted-foreground))" stroke-width="8">
-    <rect width="198" height="198" x="3" y="3" rx="20" />
-    <circle cx="102" cy="102" r="81.63" />
-    <circle cx="102" cy="102" r="24.49" />
-    <g stroke-opacity="0.6" stroke-width="4" transform="translate(14 14)">
-      <circle cx="6" cy="6" r="5" />
-      <circle cx="170" cy="170" r="5" />
-      <circle cx="6" cy="170" r="5" />
-      <circle cx="170" cy="6" r="5" />
-    </g>
+  <defs>
+    <radialGradient id="fill_1">
+      <stop offset="5%" stop-color="#16a34a">
+        <animate attributeName="stop-color" values="#4ade80;#16a34a;#4ade80" dur="1.5"
+          repeatCount="indefinite" />
+      </stop>
+      <stop offset="95%" stop-color="#4ade80" />
+    </radialGradient>
+    <radialGradient id="fill_2">
+      <stop offset="5%" stop-color="#d97706">
+        <animate attributeName="stop-color" values="#fbbf24;#d97706;#fbbf24" dur="1"
+          repeatCount="indefinite" />
+      </stop>
+      <stop offset="95%" stop-color="#fbbf24" />
+    </radialGradient>
+    <radialGradient id="fill_3">
+      <stop offset="5%" stop-color="#dc2626">
+        <animate attributeName="stop-color" values="#fca5a5;#dc2626;#fca5a5" dur="1"
+          repeatCount="indefinite" />
+      </stop>
+      <stop offset="95%" stop-color="#fca5a5" />
+    </radialGradient>
+  </defs>
+  <path fill="rgba(var(--muted))" stroke="rgba(var(--muted-foreground))" stroke-width="7"
+    stroke-opacity="0.3"
+    d="M63.7 163.65H38.65v-25.67c0-2.63-1.4-5.05-3.66-6.37A70.86 70.86 0 0 1 0 70.47C0 31.61 31.21 0 69.59 0s69.62 31.61 69.62 70.47c0 25.9-14 49.66-36.5 62.03a7.3 7.3 0 0 0-3.8 6.45v24.7h-35.2Z" />
+  <ellipse cx="33.43" cy="41.83" fill="#FFF" fill-opacity="0.5" rx="7.5" ry="17" stroke="none"
+    transform="rotate(35 33.43 41.83)" />
+  <g fill="#334155" stroke-width="7" stroke="#64748b" transform="translate(31.6 157.32)">
+    <rect width="68" height="16" x="4" y="4" rx="8" />
+    <rect width="68" height="16" x="4" y="20" rx="8" />
     <path
-      d="M89.76 80.78h0A40.85 40.85 0 0 0 66.9 33.43l-5.72-2.45M77.51 102h0c-13.88-13.88-35.92-15.51-52.24-4.08l-4.9 4.08M89.76 123.22h0c-19.6 4.9-31.84 23.68-29.4 43.27l.82 6.53M114.24 123.22h0a40.85 40.85 0 0 0 22.86 47.35l5.72 2.45M126.49 102h0c13.88 13.88 35.92 15.51 52.24 4.08l4.9-4.08M114.24 80.78h0c19.6-4.9 31.84-23.68 29.4-43.27l-.82-6.53">
-      <animateTransform attributeName="transform" dur="9999" from="0 102 102" to="360 102 102"
-        type="rotate" repeatCount="0" />
-    </path>
+      d="M62 35.5a5.48 5.48 0 0 1 5.5 5.5v1.74a5.49 5.49 0 0 1-4.48 5.4A134.82 134.82 0 0 1 38 50.5c-8.34 0-16.68-.79-25.02-2.36a5.49 5.49 0 0 1-4.48-5.4V41a5.48 5.48 0 0 1 5.5-5.5Z" />
   </g>
 </svg>

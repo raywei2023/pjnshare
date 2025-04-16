@@ -1,18 +1,19 @@
-<svg width="24" height="24" viewBox="0 0 204 204" class="h-full w-full"
+<svg width="24" height="24" viewBox="0 0 214 214" class="h-full w-full"
   xmlns="http://www.w3.org/2000/svg">
   <g fill="rgba(var(--muted))" stroke="rgba(var(--muted-foreground))" stroke-width="8">
-    <rect width="198" height="198" x="3" y="3" rx="20" />
-    <circle cx="102" cy="102" r="81.63" />
-    <circle cx="102" cy="102" r="24.49" />
-    <g fill="rgba(var(--muted-foreground))" stroke-opacity="0.8" stroke-width="4" transform="translate(14 14)">
-      <circle cx="6" cy="6" r="6" />
-      <circle cx="170" cy="170" r="6" />
-      <circle cx="6" cy="170" r="6" />
-      <circle cx="170" cy="6" r="6" />
+    <rect width="208" height="208" x="3" y="3" stroke-width="6" rx="20" />
+    <circle cx="107" cy="107" r="83" />
+    <circle cx="107" cy="107" r="24.49" />
+    <g fill="rgba(var(--muted-foreground))" stroke="rgba(var(--muted-foreground))" stroke-width="4" stroke-opacity="0.8"
+      transform="translate(17 17)">
+      <circle cx="8" cy="8" r="6" />
+      <circle cx="172" cy="172" r="6" />
+      <circle cx="8" cy="172" r="6" />
+      <circle cx="172" cy="8" r="6" />
     </g>
     <path
-      d="M89.76 80.78h0A40.85 40.85 0 0 0 66.9 33.43l-5.72-2.45M77.51 102h0c-13.88-13.88-35.92-15.51-52.24-4.08l-4.9 4.08M89.76 123.22h0c-19.6 4.9-31.84 23.68-29.4 43.27l.82 6.53M114.24 123.22h0a40.85 40.85 0 0 0 22.86 47.35l5.72 2.45M126.49 102h0c13.88 13.88 35.92 15.51 52.24 4.08l4.9-4.08M114.24 80.78h0c19.6-4.9 31.84-23.68 29.4-43.27l-.82-6.53">
-      <animateTransform attributeName="transform" dur="9999" from="0 102 102" to="360 102 102"
+      d="M94.76 85.78h0A40.85 40.85 0 0 0 71.9 38.43l-5.72-2.45M82.51 107h0c-13.88-13.88-35.92-15.51-52.24-4.08l-4.9 4.08M94.76 128.22h0c-19.6 4.9-31.84 23.68-29.4 43.27l.82 6.53M119.24 128.22h0a40.85 40.85 0 0 0 22.86 47.35l5.72 2.45M131.49 107h0c13.88 13.88 35.92 15.51 52.24 4.08l4.9-4.08M119.24 85.78h0c19.6-4.9 31.84-23.68 29.4-43.27l-.82-6.53">
+      <animateTransform attributeName="transform" dur="9999" from="0 106.5 106.5" to="360 106.5 106.5"
         type="rotate" repeatCount="0" />
     </path>
   </g>

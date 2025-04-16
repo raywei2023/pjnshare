@@ -19,20 +19,20 @@
           "edgeType": "cable",
           "animation": {
             "off": {
-              "svg.path.0.@_stroke": "#cbd5e1",
-              "svg.path.0.@_fill": "#e2e8f0"
+              "svg.path.@_stroke": "#cbd5e1",
+              "svg.path.@_fill": "#e2e8f0"
             },
             "green": {
-              "svg.path.0.@_stroke": "#16a34a",
-              "svg.path.0.@_fill": "url(#fill_1)"
+              "svg.path.@_stroke": "#16a34a",
+              "svg.path.@_fill": "url(#fill_1)"
             },
             "yellow": {
-              "svg.path.0.@_stroke": "#d97706",
-              "svg.path.0.@_fill": "url(#fill_2)"
+              "svg.path.@_stroke": "#d97706",
+              "svg.path.@_fill": "url(#fill_2)"
             },
             "red": {
-              "svg.path.0.@_stroke": "#dc2626",
-              "svg.path.0.@_fill": "url(#fill_3)"
+              "svg.path.@_stroke": "#dc2626",
+              "svg.path.@_fill": "url(#fill_3)"
             }
           },
           "properties": {

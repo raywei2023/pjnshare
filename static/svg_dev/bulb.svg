@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="-4 -1.2 20 20.3"
-  class="h-full w-full">
+<svg width="24" height="24" viewBox="0 -7 140 220" class="h-full w-full"
+  xmlns="http://www.w3.org/2000/svg">
   <defs>
     <radialGradient id="fill_1">
       <stop offset="5%" stop-color="#16a34a">
@@ -23,16 +23,15 @@
       <stop offset="95%" stop-color="#fca5a5" />
     </radialGradient>
   </defs>
-  <path fill="rgba(var(--muted))" stroke="rgba(var(--muted-foreground))" stroke-width="0.5" stroke-opacity="0.3"
-    d="M8.8 14.561v-1.789a3.26 3.26 0 0 1 1.063-2.436 5.92 5.92 0 1 0-7.902-.015 3.294 3.294 0 0 1 1.078 2.451v1.724l5.76.065Z" />
-  <path fill="#71717A"
-    d="M8.8 14.401v2.56c-.005 1.589-1.29 1.414-2.879 1.418-1.588-.004-2.877.171-2.882-1.418v-2.56H8.8Z" />
-  <g fill="#3F3F46">
+  <path fill="rgba(var(--muted))" stroke="rgba(var(--muted-foreground))" stroke-width="7"
+    stroke-opacity="0.3"
+    d="M63.7 163.65H38.65v-25.67c0-2.63-1.4-5.05-3.66-6.37A70.86 70.86 0 0 1 0 70.47C0 31.61 31.21 0 69.59 0s69.62 31.61 69.62 70.47c0 25.9-14 49.66-36.5 62.03a7.3 7.3 0 0 0-3.8 6.45v24.7h-35.2Z" />
+  <ellipse cx="33.43" cy="41.83" fill="#FFF" fill-opacity="0.5" rx="7.5" ry="17" stroke="none"
+    transform="rotate(35 33.43 41.83)" />
+  <g fill="#334155" stroke-width="7" stroke="#64748b" transform="translate(31.6 157.32)">
+    <rect width="68" height="16" x="4" y="4" rx="8" />
+    <rect width="68" height="16" x="4" y="20" rx="8" />
     <path
-      d="M5.921 19.081c-1.767 0-3.202-.352-3.202-2.12v-2.56a.32.32 0 0 1 .32-.32H8.8a.32.32 0 0 1 .32.32v2.56c0 1.768-1.43 2.12-3.198 2.12Zm-2.562-4.36v2.24c0 1.414 1.147 1.418 2.56 1.418 1.414 0 2.56-.004 2.56-1.418v-2.24H3.36Z" />
-    <path
-      d="M4.32 16.321a.32.32 0 1 1-.045-.64l4.48-.64a.323.323 0 0 1 .09.64l-4.48.64H4.32Zm0 1.28a.32.32 0 0 1-.045-.64l4.48-.64a.323.323 0 0 1 .09.64l-4.48.64H4.32Z" />
+      d="M62 35.5a5.48 5.48 0 0 1 5.5 5.5v1.74a5.49 5.49 0 0 1-4.48 5.4A134.82 134.82 0 0 1 38 50.5c-8.34 0-16.68-.79-25.02-2.36a5.49 5.49 0 0 1-4.48-5.4V41a5.48 5.48 0 0 1 5.5-5.5Z" />
   </g>
-  <path fill="#FFF" fill-opacity="0.5"
-    d="M3.173 4.924c-.479.72-1.099.968-1.366.563-.268-.405-.1-1.329.38-2.049.478-.72 1.099-.968 1.365-.562.268.405.1 1.328-.38 2.048Z" />
 </svg>
