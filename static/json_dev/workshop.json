@@ -28,11 +28,8 @@
             "uuid": "f3312003-800a-4de4-9ad1-58707a9a7324"
           }
         ],
-        "meta": {
-          "label": "Tank base",
-          "labelPosition": "center",
-          "status": 3
-        },
+        "label": "Tank base",
+        "labelPosition": "center",
         "animations": {
           "normal": {
             "svg.rect.@_fill": "#e2e8f0",
@@ -110,7 +107,8 @@
             "uuid": "861cfe41-c51b-4464-a580-ca7733597f3f"
           }
         ],
-        "meta": { "label": "Pipe Elbow", "labelPosition": "none" }
+        "label": "Pipe Elbow",
+        "labelPosition": "none"
       },
       "width": 28,
       "height": 28,
@@ -143,10 +141,9 @@
             "uuid": "65cd33c5-37bc-4e83-9f47-8b7a8da41f36"
           }
         ],
-        "meta": {
-          "label": "Pipe Elbow 1",
-          "labelPosition": "none"
-        },
+
+        "label": "Pipe Elbow 1",
+        "labelPosition": "none",
         "properties": {
           "rotate": {
             "type": "int",
@@ -190,7 +187,8 @@
             "uuid": "8e79e4e6-47b2-44cf-8020-a2000aab5b7c"
           }
         ],
-        "meta": { "label": "Valve", "labelPosition": "none" },
+        "label": "Valve",
+        "labelPosition": "none",
         "properties": {
           "rotate": {
             "type": "int",
@@ -230,7 +228,8 @@
             "uuid": "c4c0240c-12ef-457a-a9fd-4aecbdfd539b"
           }
         ],
-        "meta": { "label": "Valve 1", "labelPosition": "none" }
+        "label": "Valve 1",
+        "labelPosition": "none"
       },
       "zIndex": 20,
       "hidden": false,
@@ -270,7 +269,8 @@
             "uuid": "ac09c002-f5c9-4a8f-b8ba-b69b906e256c"
           }
         ],
-        "meta": { "label": "Pipe join 1", "labelPosition": "none" }
+        "label": "Pipe join 1",
+        "labelPosition": "none"
       },
       "zIndex": 20,
       "hidden": false,
@@ -310,7 +310,8 @@
             "uuid": "8718b49b-dcef-4176-94eb-1b6b75806039"
           }
         ],
-        "meta": { "label": "Pipe join 2", "labelPosition": "none" }
+        "label": "Pipe join 2",
+        "labelPosition": "none"
       },
       "zIndex": 20,
       "hidden": false,
@@ -350,7 +351,8 @@
             "uuid": "ceafb4f3-4c3e-4ecf-8a5b-c1430eeabe0d"
           }
         ],
-        "meta": { "label": "Pipe join 2", "labelPosition": "none" }
+        "label": "Pipe join 2",
+        "labelPosition": "none"
       },
       "zIndex": 20,
       "hidden": false,
@@ -390,10 +392,8 @@
             "uuid": "7a250888-76c1-4d41-97b4-81abc6345122"
           }
         ],
-        "meta": {
-          "label": "Pipe join 3",
-          "labelPosition": "none"
-        },
+        "label": "Pipe join 3",
+        "labelPosition": "none",
         "properties": {
           "rotate": {
             "type": "int",
@@ -435,7 +435,8 @@
             "uuid": "9dab6479-82e8-484e-8472-f219f70f7781"
           }
         ],
-        "meta": { "label": "PipeTR 2", "labelPosition": "none" },
+        "label": "PipeTR 2",
+        "labelPosition": "none",
         "properties": {
           "rotate": {
             "type": "int",
@@ -477,7 +478,8 @@
             "uuid": "c0816d6b-a75f-4964-bbec-f8cb7aa7f007"
           }
         ],
-        "meta": { "label": "PipeTR 3", "labelPosition": "none" },
+        "label": "PipeTR 3",
+        "labelPosition": "none",
         "properties": {
           "rotate": {
             "type": "int",
@@ -521,7 +523,8 @@
             "uuid": "7e4ef34a-607b-4231-81cf-e8d8ccb0e97a"
           }
         ],
-        "meta": { "label": "Valve 2", "labelPosition": "none" }
+        "label": "Valve 2",
+        "labelPosition": "none"
       },
       "width": 28,
       "height": 28,
@@ -556,7 +559,8 @@
             "uuid": "5989dae8-e6b7-4d2f-855c-2d0071474115"
           }
         ],
-        "meta": { "label": "Valve 3", "labelPosition": "none" }
+        "label": "Valve 3",
+        "labelPosition": "none"
       },
       "width": 28,
       "height": 28,
@@ -597,7 +601,8 @@
             "uuid": "4c79e0ab-511c-4f31-96c4-cc6d54945556"
           }
         ],
-        "meta": { "label": "Twin tank", "labelPosition": "bottom" },
+        "label": "Twin tank",
+        "labelPosition": "bottom",
         "animations": {
           "normal": {
             "svg.path.2.@_fill": "#e2e8f0",
@@ -657,7 +662,8 @@
         "id": "0b159874-a64d-4a63-9389-e363c099cd50",
         "library": "basic",
         "name": "heater",
-        "meta": { "label": "Heater", "labelPosition": "none" },
+        "label": "Heater",
+        "labelPosition": "none",
         "url": "/static/svg_dev/heater.svg",
         "minWidth": 30,
         "minHeight": 30,
@@ -740,7 +746,8 @@
             "uuid": "7f0af4dc-e961-4645-a4f6-1c6a99fdc8b6"
           }
         ],
-        "meta": { "label": "Heater 1", "labelPosition": "none" },
+        "label": "Heater 1",
+        "labelPosition": "none",
         "animations": {
           "normal": { "svg.g.@_fill": "#e2e8f0" },
           "overcold": { "svg.g.@_fill": "url(#fill_overcold)" },
@@ -808,7 +815,8 @@
             "uuid": "bb47df85-db20-45ad-886e-f6f894750058"
           }
         ],
-        "meta": { "label": "Heater restroom", "labelPosition": "none" },
+        "label": "Heater restroom",
+        "labelPosition": "none",
         "animations": {
           "normal": { "svg.g.@_fill": "#e2e8f0" },
           "overcold": { "svg.g.@_fill": "url(#fill_overcold)" },
@@ -876,7 +884,8 @@
             "uuid": "d9fe83a2-0c33-4ba1-9d7a-e7abb2785b2e"
           }
         ],
-        "meta": { "label": "Heater off", "labelPosition": "none" },
+        "label": "Heater off",
+        "labelPosition": "none",
         "animations": {
           "normal": { "svg.g.@_fill": "#e2e8f0" },
           "overcold": { "svg.g.@_fill": "url(#fill_overcold)" },
@@ -927,7 +936,8 @@
         "id": "8c245d49-1aa7-45bc-bad7-a22cd1dc2b3a",
         "library": "basic",
         "name": "tank-wagon",
-        "meta": { "label": "Tank 1", "labelPosition": "center" },
+        "label": "Tank 1",
+        "labelPosition": "center",
         "url": "/static/svg_dev/tank-wagon.svg",
         "minWidth": 69,
         "minHeight": 46,
@@ -1001,7 +1011,8 @@
       "data": {
         "id": "d30617d2-10bb-4f18-b295-18794667f694",
         "library": "basic",
-        "meta": { "label": "Fan", "labelPosition": "bottom" },
+        "label": "Fan",
+        "labelPosition": "bottom",
         "name": "fan",
         "url": "/static/svg_dev/fan.svg",
         "minWidth": 24,
@@ -1101,7 +1112,8 @@
             "uuid": "c8cc840c-1bfb-405e-ab9a-4161acba4374"
           }
         ],
-        "meta": { "label": "Fan 1", "labelPosition": "bottom" },
+        "label": "Fan 1",
+        "labelPosition": "bottom",
         "animations": {
           "off": {
             "svg.g.path.animateTransform.@_dur": "9999s",
@@ -1182,7 +1194,8 @@
             "uuid": "315fbff9-153d-4f8a-9f3e-060e611779e6"
           }
         ],
-        "meta": { "label": "Fan 2", "labelPosition": "bottom" },
+        "label": "Fan 2",
+        "labelPosition": "bottom",
         "animations": {
           "off": {
             "svg.g.path.animateTransform.@_dur": "9999s",
@@ -1253,10 +1266,8 @@
         "url": "/static/shape/round-rect.svg",
         "minWidth": 28,
         "minHeight": 28,
-        "meta": {
-          "label": "Lobby",
-          "labelPosition": "bottom"
-        },
+        "label": "Lobby",
+        "labelPosition": "bottom",
         "properties": {
           "strokeColor": {
             "type": "color",
@@ -1295,10 +1306,8 @@
         "url": "/static/shape/rect.svg",
         "minWidth": 28,
         "minHeight": 28,
-        "meta": {
-          "label": "Office",
-          "labelPosition": "bottom"
-        },
+        "label": "Office",
+        "labelPosition": "bottom",
         "properties": {
           "strokeColor": {
             "type": "color",
@@ -1335,10 +1344,8 @@
         "url": "/static/shape/round-rect.svg",
         "minWidth": 28,
         "minHeight": 28,
-        "meta": {
-          "label": "VIP area",
-          "labelPosition": "bottom"
-        },
+        "label": "VIP area",
+        "labelPosition": "bottom",
         "properties": {
           "strokeColor": {
             "type": "color",
@@ -1377,10 +1384,8 @@
         "url": "/static/shape/rect.svg",
         "minWidth": 28,
         "minHeight": 28,
-        "meta": {
-          "label": "Restroom",
-          "labelPosition": "bottom"
-        },
+        "label": "Restroom",
+        "labelPosition": "bottom",
         "properties": {
           "strokeColor": {
             "type": "color",
@@ -1417,7 +1422,7 @@
         "id": "1ca36e5b-92be-4e62-bb3a-a71377128f4f",
         "library": "other",
         "name": "table",
-        "meta": { "label": "Tank 1" },
+        "label": "Tank 1",
         "animations": {
           "gray": { "color": "#6b7280" },
           "blue": { "color": "#3b82f6" },
@@ -1462,7 +1467,7 @@
         "id": "22d5c294-6f3b-4910-bc4c-d67da0181155",
         "library": "other",
         "name": "table",
-        "meta": { "label": "Tank base" },
+        "label": "Tank base",
         "animations": {
           "gray": { "color": "#6b7280" },
           "blue": { "color": "#3b82f6" },
@@ -1507,7 +1512,7 @@
         "id": "df269a87-a5c5-4b9b-83da-65915038ed6b",
         "library": "other",
         "name": "table",
-        "meta": { "label": "Heater" },
+        "label": "Heater",
         "animations": {
           "gray": { "color": "#6b7280" },
           "blue": { "color": "#3b82f6" },
@@ -1542,7 +1547,7 @@
         "id": "af568873-79b9-4bb7-a839-520efd5fe119",
         "library": "other",
         "name": "table",
-        "meta": { "label": "Heater 2" },
+        "label": "Heater 2",
         "animations": {
           "gray": { "color": "#6b7280" },
           "blue": { "color": "#3b82f6" },
@@ -1587,12 +1592,8 @@
         "minWidth": 28,
         "minHeight": 14,
         "maxHeight": 14,
-        "meta": {
-          "label": "Dash line",
-          "strokeColor": "#71717a",
-          "labelPosition": "none",
-          "fillColor": "#71717a"
-        }
+        "label": "Dash line",
+        "labelPosition": "none"
       },
       "width": 620,
       "height": 14,
@@ -1614,10 +1615,8 @@
         "url": "/static/shape/arrow-rect.svg",
         "minWidth": 28,
         "minHeight": 28,
-        "meta": {
-          "label": "Basement",
-          "labelPosition": "center"
-        },
+        "label": "Basement",
+        "labelPosition": "center",
         "properties": {
           "strokeColor": {
             "type": "color",
@@ -1655,12 +1654,8 @@
         "minWidth": 28,
         "minHeight": 14,
         "maxHeight": 14,
-        "meta": {
-          "label": "Dash line 1",
-          "strokeColor": "#71717a",
-          "labelPosition": "none",
-          "fillColor": "#71717a"
-        }
+        "label": "Dash line 1",
+        "labelPosition": "none"
       },
       "zIndex": 10,
       "hidden": false,
@@ -1681,10 +1676,8 @@
         "url": "/static/shape/arrow-rect.svg",
         "minWidth": 28,
         "minHeight": 28,
-        "meta": {
-          "label": "Ground floor ",
-          "labelPosition": "center"
-        },
+        "label": "Ground floor ",
+        "labelPosition": "center",
         "properties": {
           "strokeColor": {
             "type": "color",
@@ -1723,12 +1716,8 @@
         "minWidth": 28,
         "minHeight": 14,
         "maxHeight": 14,
-        "meta": {
-          "label": "Dash line 2",
-          "strokeColor": "#71717a",
-          "labelPosition": "none",
-          "fillColor": "#71717a"
-        }
+        "label": "Dash line 2",
+        "labelPosition": "none"
       },
       "zIndex": 10,
       "hidden": false,
@@ -1749,10 +1738,8 @@
         "url": "/static/shape/arrow-rect.svg",
         "minWidth": 28,
         "minHeight": 28,
-        "meta": {
-          "label": "Floor 2",
-          "labelPosition": "center"
-        },
+        "label": "Floor 2",
+        "labelPosition": "center",
         "properties": {
           "strokeColor": {
             "type": "color",
@@ -1791,7 +1778,8 @@
         "name": "gauge",
         "minWidth": 100,
         "minHeight": 100,
-        "meta": { "label": "Gauge", "labelPosition": "bottom" }
+        "label": "Gauge",
+        "labelPosition": "bottom"
       },
       "width": 115,
       "height": 100,
@@ -1812,7 +1800,8 @@
         "name": "line",
         "minWidth": 230,
         "minHeight": 160,
-        "meta": { "label": "Line Chart", "labelPosition": "bottom" }
+        "label": "Line Chart",
+        "labelPosition": "bottom"
       },
       "width": 234,
       "height": 160,
@@ -1831,7 +1820,8 @@
         "id": "62ed5533-0866-43b9-bb15-ba401aed52bd",
         "library": "basic",
         "name": "table",
-        "meta": { "label": "Global monitor", "labelPosition": "none" },
+        "label": "Global monitor",
+        "labelPosition": "none",
         "animations": {
           "gray": { "color": "#6b7280" },
           "blue": { "color": "#3b82f6" },
@@ -1865,7 +1855,7 @@
         "id": "17954adc-63d9-4553-aa8f-73177abbee84",
         "library": "other",
         "name": "table",
-        "meta": { "label": "Twin tank" },
+        "label": "Twin tank",
         "animations": {
           "gray": { "color": "#6b7280" },
           "blue": { "color": "#3b82f6" },
@@ -1903,10 +1893,8 @@
       "data": {
         "id": "132312d6-30fd-4b0f-910d-c79fd312c7c1",
         "library": "basic",
-        "meta": {
-          "label": "bulb 4",
-          "labelPosition": "none"
-        },
+        "label": "bulb 4",
+        "labelPosition": "none",
         "name": "bulb",
         "handles": [
           {
@@ -2013,10 +2001,8 @@
             "svg.path.@_fill": "url(#fill_3)"
           }
         },
-        "meta": {
-          "label": "bulb 1",
-          "labelPosition": "none"
-        },
+        "label": "bulb 1",
+        "labelPosition": "none",
         "properties": {
           "status": {
             "type": "enum",
@@ -2072,10 +2058,8 @@
         "edgeType": "cable",
         "id": "86f1d4d9-12ac-4c6e-8050-64e2cd449c90",
         "library": "basic",
-        "meta": {
-          "label": "bulb 3",
-          "labelPosition": "none"
-        },
+        "label": "bulb 3",
+        "labelPosition": "none",
         "animations": {
           "off": {
             "svg.path.@_stroke": "#cbd5e1",
@@ -2152,10 +2136,8 @@
         "edgeType": "cable",
         "id": "6c589f4c-c1c5-4e10-bdf9-e36cb57501db",
         "library": "basic",
-        "meta": {
-          "label": "bulb",
-          "labelPosition": "none"
-        },
+        "label": "bulb",
+        "labelPosition": "none",
         "animations": {
           "off": {
             "svg.path.@_stroke": "#cbd5e1",
@@ -2228,10 +2210,8 @@
         "edgeType": "cable",
         "id": "b6b375c9-f9ec-428d-a765-4e7c4b158e08",
         "library": "basic",
-        "meta": {
-          "label": "bulb 2",
-          "labelPosition": "none"
-        },
+        "label": "bulb 2",
+        "labelPosition": "none",
         "animations": {
           "off": {
             "svg.path.@_stroke": "#cbd5e1",
@@ -2303,10 +2283,8 @@
         "edgeType": "cable",
         "id": "5b008eb3-0fab-4bc0-af48-e2eca8bf79e3",
         "library": "basic",
-        "meta": {
-          "label": "bulb 5",
-          "labelPosition": "none"
-        },
+        "label": "bulb 5",
+        "labelPosition": "none",
         "animations": {
           "off": {
             "svg.path.@_stroke": "#cbd5e1",

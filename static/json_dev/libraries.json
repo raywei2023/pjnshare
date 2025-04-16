@@ -8,9 +8,9 @@
         "type": "svg",
         "width": 20,
         "height": 20,
-        "meta": { "label": "Bulb" },
         "setting": {
           "name": "bulb",
+          "label": "Bulb",
           "handles": [{ "position": "bottom", "rotatable": true }],
           "url": "/static/svg_dev/bulb.svg",
           "rotatable": true,
@@ -63,9 +63,10 @@
         "type": "svg",
         "width": 32,
         "height": 32,
-        "meta": { "label": "Fan", "labelPosition": "bottom", "status": 0 },
         "setting": {
           "name": "fan",
+          "label": "Fan",
+          "labelPosition": "bottom",
           "handles": [
             { "position": "left", "rotatable": false },
             { "position": "right", "rotatable": false }
@@ -128,9 +129,10 @@
         "type": "svg",
         "width": 40,
         "height": 40,
-        "meta": { "label": "Heater", "labelPosition": "bottom" },
         "setting": {
           "name": "heater",
+          "label": "Heater",
+          "labelPosition": "bottom",
           "handles": [
             { "position": "left", "rotatable": false },
             { "position": "right", "rotatable": false }
@@ -178,9 +180,9 @@
         "type": "svg",
         "width": 30,
         "height": 30,
-        "meta": { "label": "Valve" },
         "setting": {
           "name": "valve",
+          "label": "Valve",
           "handles": [
             { "position": "left", "rotatable": false },
             { "position": "right", "rotatable": false }
@@ -196,9 +198,9 @@
         "type": "svg",
         "width": 28,
         "height": 28,
-        "meta": { "label": "Pipe elbow" },
         "setting": {
           "name": "pipe-elbow",
+          "label": "Pipe elbow",
           "handles": [
             { "position": "top", "rotatable": true },
             { "position": "right", "rotatable": true }
@@ -214,9 +216,9 @@
         "type": "svg",
         "width": 28,
         "height": 28,
-        "meta": { "label": "Pipe joint" },
         "setting": {
           "name": "pipe-joint",
+          "label": "Pipe joint",
           "handles": [
             { "position": "top", "rotatable": true },
             { "position": "right", "rotatable": true },
@@ -233,9 +235,9 @@
         "type": "svg",
         "width": 28,
         "height": 28,
-        "meta": { "label": "Pipe" },
         "setting": {
           "name": "pipe",
+          "label": "Pipe",
           "handles": [
             { "position": "top", "rotatable": true },
             { "position": "bottom", "rotatable": true }
@@ -251,9 +253,10 @@
         "type": "svg",
         "width": 56,
         "height": 70,
-        "meta": { "label": "Twin tank", "labelPosition": "bottom" },
         "setting": {
           "name": "twin-tank",
+          "label": "Twin tank",
+          "labelPosition": "bottom",
           "handles": [
             { "position": "left", "rotatable": false },
             { "position": "left", "rotatable": false },
@@ -310,9 +313,10 @@
         "type": "svg",
         "width": 72,
         "height": 48,
-        "meta": { "label": "Tank", "labelPosition": "center" },
         "setting": {
           "name": "tank-wagon",
+          "label": "Tank",
+          "labelPosition": "center",
           "handles": [
             { "position": "left", "rotatable": false },
             { "position": "right", "rotatable": false }
@@ -364,9 +368,9 @@
       {
         "type": "table",
         "iconType": "Table",
-        "meta": { "label": "Table" },
         "setting": {
           "name": "table",
+          "label": "Table",
           "animations": {
             "gray": { "color": "#6b7280" },
             "blue": { "color": "#3b82f6" },
@@ -380,9 +384,9 @@
         "type": "svg",
         "width": 30,
         "height": 30,
-        "meta": { "label": "Demo" },
         "setting": {
           "name": "demo",
+          "label": "Demo",
           "handles": [
             { "position": "left", "rotatable": false },
             { "position": "right", "rotatable": false }
@@ -405,9 +409,10 @@
         "type": "shape",
         "width": 28,
         "height": 28,
-        "meta": { "label": "Circle", "labelPosition": "center" },
         "setting": {
           "name": "circle",
+          "label": "Circle",
+          "labelPosition": "center",
           "minWidth": 28,
           "minHeight": 28,
           "properties": {
@@ -433,9 +438,10 @@
         "type": "shape",
         "width": 28,
         "height": 28,
-        "meta": { "label": "Round rect", "labelPosition": "center" },
         "setting": {
           "name": "round-rectangle",
+          "label": "Round rect",
+          "labelPosition": "center",
           "minWidth": 28,
           "minHeight": 28,
           "properties": {
@@ -461,9 +467,10 @@
         "type": "shape",
         "width": 28,
         "height": 28,
-        "meta": { "label": "Rectangle", "labelPosition": "center" },
         "setting": {
           "name": "rectangle",
+          "label": "Rectangle",
+          "labelPosition": "center",
           "minWidth": 28,
           "minHeight": 28,
           "properties": {
@@ -489,9 +496,10 @@
         "type": "shape",
         "width": 28,
         "height": 28,
-        "meta": { "label": "Hexagon", "labelPosition": "center" },
         "setting": {
           "name": "hexagon",
+          "label": "Hexagon",
+          "labelPosition": "center",
           "minWidth": 28,
           "minHeight": 28,
           "properties": {
@@ -517,9 +525,10 @@
         "type": "shape",
         "width": 28,
         "height": 28,
-        "meta": { "label": "Diamond", "labelPosition": "center" },
         "setting": {
           "name": "diamond",
+          "label": "Diamond",
+          "labelPosition": "center",
           "minWidth": 28,
           "minHeight": 28,
           "properties": {
@@ -545,9 +554,10 @@
         "type": "shape",
         "width": 28,
         "height": 28,
-        "meta": { "label": "Arrow rect", "labelPosition": "center" },
         "setting": {
           "name": "arrow-rectangle",
+          "label": "Arrow rect",
+          "labelPosition": "center",
           "minWidth": 28,
           "minHeight": 28,
           "properties": {
@@ -573,9 +583,10 @@
         "type": "shape",
         "width": 28,
         "height": 28,
-        "meta": { "label": "Cylinder", "labelPosition": "center" },
         "setting": {
           "name": "cylinder",
+          "label": "Cylinder",
+          "labelPosition": "center",
           "minWidth": 28,
           "minHeight": 28,
           "properties": {
@@ -601,9 +612,10 @@
         "type": "shape",
         "width": 28,
         "height": 28,
-        "meta": { "label": "Triangle", "labelPosition": "center" },
         "setting": {
           "name": "triangle",
+          "label": "Triangle",
+          "labelPosition": "center",
           "minWidth": 28,
           "minHeight": 28,
           "properties": {
@@ -629,9 +641,10 @@
         "type": "shape",
         "width": 28,
         "height": 28,
-        "meta": { "label": "Parallelogram", "labelPosition": "center" },
         "setting": {
           "name": "parallelogram",
+          "label": "Parallelogram",
+          "labelPosition": "center",
           "minWidth": 28,
           "minHeight": 28,
           "properties": {
@@ -657,9 +670,10 @@
         "type": "shape",
         "width": 28,
         "height": 28,
-        "meta": { "label": "Plus", "labelPosition": "center" },
         "setting": {
           "name": "plus",
+          "label": "Plus",
+          "labelPosition": "center",
           "minWidth": 28,
           "minHeight": 28,
           "properties": {
@@ -685,9 +699,9 @@
         "type": "shape",
         "width": 28,
         "height": 14,
-        "meta": { "label": "Dash line" },
         "setting": {
           "name": "dash-line",
+          "label": "Dash line",
           "minWidth": 28,
           "minHeight": 14,
           "maxHeight": 14,
@@ -710,12 +724,10 @@
       {
         "type": "chart",
         "iconType": "ChartLine",
-        "meta": {
-          "label": "Line Chart",
-          "labelPosition": "bottom"
-        },
         "setting": {
           "name": "line",
+          "label": "Line Chart",
+          "labelPosition": "bottom",
           "minWidth": 230,
           "minHeight": 160
         }
@@ -723,12 +735,10 @@
       {
         "type": "chart",
         "iconType": "Gauge",
-        "meta": {
-          "label": "Gauge",
-          "labelPosition": "bottom"
-        },
         "setting": {
           "name": "gauge",
+          "label": "Gauge",
+          "labelPosition": "bottom",
           "minWidth": 100,
           "minHeight": 100
         }
