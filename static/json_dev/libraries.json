@@ -13,7 +13,6 @@
           "label": "Bulb",
           "handles": [{ "position": "bottom", "rotatable": true }],
           "url": "/static/svg_dev/bulb.svg",
-          "rotatable": true,
           "minWidth": 16,
           "minHeight": 16,
           "edgeType": "cable",
@@ -55,6 +54,11 @@
                 { "value": 2, "animation": "yellow" },
                 { "value": 3, "animation": "red" }
               ]
+            },
+            "rotate": {
+              "type": "int",
+              "label": "Rotate",
+              "value": 0
             }
           }
         }
@@ -191,7 +195,13 @@
           "minWidth": 24,
           "minHeight": 24,
           "edgeType": "pipe",
-          "rotatable": true
+          "properties": {
+            "rotate": {
+              "type": "int",
+              "label": "Rotate",
+              "value": 0
+            }
+          }
         }
       },
       {
@@ -206,10 +216,16 @@
             { "position": "right", "rotatable": true }
           ],
           "url": "/static/svg_dev/pipe-elbow.svg",
-          "rotatable": true,
           "minWidth": 24,
           "minHeight": 24,
-          "edgeType": "pipe"
+          "edgeType": "pipe",
+          "properties": {
+            "rotate": {
+              "type": "int",
+              "label": "Rotate",
+              "value": 0
+            }
+          }
         }
       },
       {
@@ -225,10 +241,16 @@
             { "position": "bottom", "rotatable": true }
           ],
           "url": "/static/svg_dev/pipe-joint.svg",
-          "rotatable": true,
           "minWidth": 24,
           "minHeight": 24,
-          "edgeType": "pipe"
+          "edgeType": "pipe",
+          "properties": {
+            "rotate": {
+              "type": "int",
+              "label": "Rotate",
+              "value": 0
+            }
+          }
         }
       },
       {
@@ -243,10 +265,16 @@
             { "position": "bottom", "rotatable": true }
           ],
           "url": "/static/svg_dev/pipe.svg",
-          "rotatable": true,
           "minWidth": 24,
           "minHeight": 24,
-          "edgeType": "pipe"
+          "edgeType": "pipe",
+          "properties": {
+            "rotate": {
+              "type": "int",
+              "label": "Rotate",
+              "value": 0
+            }
+          }
         }
       },
       {
@@ -395,7 +423,13 @@
           "minWidth": 24,
           "minHeight": 24,
           "edgeType": "pipe",
-          "rotatable": true
+          "properties": {
+            "rotate": {
+              "type": "int",
+              "label": "Rotate",
+              "value": 0
+            }
+          }
         }
       }
     ]

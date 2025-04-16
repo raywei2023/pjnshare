@@ -91,7 +91,6 @@
         "library": "basic",
         "name": "pipe-elbow",
         "url": "/static/svg_dev/pipe-elbow.svg",
-        "rotatable": true,
         "minWidth": 28,
         "minHeight": 28,
         "edgeType": "pipe",
@@ -108,7 +107,14 @@
           }
         ],
         "label": "Pipe Elbow",
-        "labelPosition": "none"
+        "labelPosition": "none",
+        "properties": {
+          "rotate": {
+            "type": "int",
+            "label": "Rotate",
+            "value": 0
+          }
+        }
       },
       "width": 28,
       "height": 28,
@@ -125,7 +131,6 @@
         "library": "basic",
         "name": "pipe-elbow",
         "url": "/static/svg_dev/pipe-elbow.svg",
-        "rotatable": true,
         "minWidth": 28,
         "minHeight": 28,
         "edgeType": "pipe",
@@ -141,7 +146,6 @@
             "uuid": "65cd33c5-37bc-4e83-9f47-8b7a8da41f36"
           }
         ],
-
         "label": "Pipe Elbow 1",
         "labelPosition": "none",
         "properties": {
@@ -174,7 +178,6 @@
         "minWidth": 24,
         "minHeight": 24,
         "edgeType": "pipe",
-        "rotatable": true,
         "handles": [
           {
             "position": "left",
@@ -215,7 +218,6 @@
         "minWidth": 28,
         "minHeight": 28,
         "edgeType": "pipe",
-        "rotatable": true,
         "handles": [
           {
             "position": "left",
@@ -229,7 +231,14 @@
           }
         ],
         "label": "Valve 1",
-        "labelPosition": "none"
+        "labelPosition": "none",
+        "properties": {
+          "rotate": {
+            "type": "int",
+            "label": "Rotate",
+            "value": 0
+          }
+        }
       },
       "zIndex": 20,
       "hidden": false,
@@ -248,7 +257,6 @@
         "library": "basic",
         "name": "pipe-joint",
         "url": "/static/svg_dev/pipe-joint.svg",
-        "rotatable": true,
         "minWidth": 28,
         "minHeight": 28,
         "edgeType": "pipe",
@@ -270,7 +278,14 @@
           }
         ],
         "label": "Pipe join 1",
-        "labelPosition": "none"
+        "labelPosition": "none",
+        "properties": {
+          "rotate": {
+            "type": "int",
+            "label": "Rotate",
+            "value": 0
+          }
+        }
       },
       "zIndex": 20,
       "hidden": false,
@@ -289,7 +304,6 @@
         "library": "basic",
         "name": "pipe-joint",
         "url": "/static/svg_dev/pipe-joint.svg",
-        "rotatable": true,
         "minWidth": 28,
         "minHeight": 28,
         "edgeType": "pipe",
@@ -311,7 +325,14 @@
           }
         ],
         "label": "Pipe join 2",
-        "labelPosition": "none"
+        "labelPosition": "none",
+        "properties": {
+          "rotate": {
+            "type": "int",
+            "label": "Rotate",
+            "value": 0
+          }
+        }
       },
       "zIndex": 20,
       "hidden": false,
@@ -330,7 +351,6 @@
         "library": "basic",
         "name": "pipe-joint",
         "url": "/static/svg_dev/pipe-joint.svg",
-        "rotatable": true,
         "minWidth": 28,
         "minHeight": 28,
         "edgeType": "pipe",
@@ -352,7 +372,14 @@
           }
         ],
         "label": "Pipe join 2",
-        "labelPosition": "none"
+        "labelPosition": "none",
+        "properties": {
+          "rotate": {
+            "type": "int",
+            "label": "Rotate",
+            "value": 0
+          }
+        }
       },
       "zIndex": 20,
       "hidden": false,
@@ -371,7 +398,6 @@
         "library": "basic",
         "name": "pipe-joint",
         "url": "/static/svg_dev/pipe-joint.svg",
-        "rotatable": true,
         "minWidth": 28,
         "minHeight": 28,
         "edgeType": "pipe",
@@ -419,7 +445,6 @@
         "library": "basic",
         "name": "pipe-elbow",
         "url": "/static/svg_dev/pipe-elbow.svg",
-        "rotatable": true,
         "minWidth": 24,
         "minHeight": 24,
         "edgeType": "pipe",
@@ -462,7 +487,6 @@
         "library": "basic",
         "name": "pipe-elbow",
         "url": "/static/svg_dev/pipe-elbow.svg",
-        "rotatable": true,
         "minWidth": 24,
         "minHeight": 24,
         "edgeType": "pipe",
@@ -510,7 +534,6 @@
         "minWidth": 28,
         "minHeight": 28,
         "edgeType": "pipe",
-        "rotatable": true,
         "handles": [
           {
             "position": "left",
@@ -524,7 +547,14 @@
           }
         ],
         "label": "Valve 2",
-        "labelPosition": "none"
+        "labelPosition": "none",
+        "properties": {
+          "rotate": {
+            "type": "int",
+            "label": "Rotate",
+            "value": 0
+          }
+        }
       },
       "width": 28,
       "height": 28,
@@ -546,7 +576,6 @@
         "minWidth": 28,
         "minHeight": 28,
         "edgeType": "pipe",
-        "rotatable": true,
         "handles": [
           {
             "position": "left",
@@ -560,7 +589,14 @@
           }
         ],
         "label": "Valve 3",
-        "labelPosition": "none"
+        "labelPosition": "none",
+        "properties": {
+          "rotate": {
+            "type": "int",
+            "label": "Rotate",
+            "value": 0
+          }
+        }
       },
       "width": 28,
       "height": 28,
@@ -1904,7 +1940,6 @@
           }
         ],
         "url": "/static/svg_dev/bulb.svg",
-        "rotatable": true,
         "minWidth": 16,
         "minHeight": 16,
         "edgeType": "cable",
@@ -1977,7 +2012,6 @@
           }
         ],
         "url": "/static/svg_dev/bulb.svg",
-        "rotatable": true,
         "minWidth": 16,
         "minHeight": 16,
         "edgeType": "cable",
@@ -2052,7 +2086,6 @@
           }
         ],
         "url": "/static/svg_dev/bulb.svg",
-        "rotatable": true,
         "minWidth": 20,
         "minHeight": 20,
         "edgeType": "cable",
@@ -2130,7 +2163,6 @@
           }
         ],
         "url": "/static/svg_dev/bulb.svg",
-        "rotatable": true,
         "minWidth": 20,
         "minHeight": 20,
         "edgeType": "cable",
@@ -2204,7 +2236,7 @@
           }
         ],
         "url": "/static/svg_dev/bulb.svg",
-        "rotatable": true,
+
         "minWidth": 20,
         "minHeight": 20,
         "edgeType": "cable",
@@ -2250,6 +2282,11 @@
               { "value": 2, "animation": "yellow" },
               { "value": 3, "animation": "red" }
             ]
+          },
+          "rotate": {
+            "type": "int",
+            "label": "Rotate",
+            "value": 0
           }
         }
       },
@@ -2277,7 +2314,6 @@
           }
         ],
         "url": "/static/svg_dev/bulb.svg",
-        "rotatable": true,
         "minWidth": 20,
         "minHeight": 20,
         "edgeType": "cable",
