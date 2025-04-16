@@ -403,145 +403,330 @@
     "items": [
       {
         "type": "shape",
+        "width": 28,
+        "height": 28,
         "meta": {
           "label": "Circle",
-          "labelPosition": "center",
-          "strokeColor": "#EA9C41"
+          "labelPosition": "center"
         },
         "setting": {
           "name": "circle",
           "minWidth": 28,
-          "minHeight": 28
+          "minHeight": 28,
+          "properties": {
+            "strokeColor": {
+              "type": "color",
+              "lable": "Stroke Color",
+              "value": "#EA9C41"
+            },
+            "fillColor": {
+              "type": "color",
+              "lable": "Fill Color",
+              "value": "#EA9C41"
+            },
+            "fillOpacity": {
+              "type": "float",
+              "lable": "Fill Opacity",
+              "value": 0.6
+            }
+          }
         }
       },
       {
         "type": "shape",
+        "width": 28,
+        "height": 28,
         "meta": {
           "label": "Round rect",
-          "labelPosition": "center",
-          "strokeColor": "#EBC347"
+          "labelPosition": "center"
         },
         "setting": {
           "name": "round-rectangle",
           "minWidth": 28,
-          "minHeight": 28
+          "minHeight": 28,
+          "properties": {
+            "strokeColor": {
+              "type": "color",
+              "lable": "Stroke Color",
+              "value": "#EBC347"
+            },
+            "fillColor": {
+              "type": "color",
+              "lable": "Fill Color",
+              "value": "#EBC347"
+            },
+            "fillOpacity": {
+              "type": "float",
+              "lable": "Fill Opacity",
+              "value": 0.6
+            }
+          }
         }
       },
       {
         "type": "shape",
+        "width": 28,
+        "height": 28,
         "meta": {
           "label": "Rectangle",
-          "labelPosition": "center",
-          "strokeColor": "#84cc16"
+          "labelPosition": "center"
         },
         "setting": {
           "name": "rectangle",
           "minWidth": 28,
-          "minHeight": 28
+          "minHeight": 28,
+          "properties": {
+            "strokeColor": {
+              "type": "color",
+              "lable": "Stroke Color",
+              "value": "#84cc16"
+            },
+            "fillColor": {
+              "type": "color",
+              "lable": "Fill Color",
+              "value": "#84cc16"
+            },
+            "fillOpacity": {
+              "type": "float",
+              "lable": "Fill Opacity",
+              "value": 0.6
+            }
+          }
         }
       },
       {
         "type": "shape",
+        "width": 28,
+        "height": 28,
         "meta": {
           "label": "Hexagon",
-          "labelPosition": "center",
-          "strokeColor": "#0ea5e9"
+          "labelPosition": "center"
         },
         "setting": {
           "name": "hexagon",
           "minWidth": 28,
-          "minHeight": 28
+          "minHeight": 28,
+          "properties": {
+            "strokeColor": {
+              "type": "color",
+              "lable": "Stroke Color",
+              "value": "#0ea5e9"
+            },
+            "fillColor": {
+              "type": "color",
+              "lable": "Fill Color",
+              "value": "#0ea5e9"
+            },
+            "fillOpacity": {
+              "type": "float",
+              "lable": "Fill Opacity",
+              "value": 0.6
+            }
+          }
         }
       },
       {
         "type": "shape",
-        "meta": {
-          "label": "Diamond",
-          "labelPosition": "center",
-          "strokeColor": "#803DEC"
-        },
+        "width": 28,
+        "height": 28,
+        "meta": { "label": "Diamond", "labelPosition": "center" },
         "setting": {
           "name": "diamond",
           "minWidth": 28,
-          "minHeight": 28
+          "minHeight": 28,
+          "properties": {
+            "strokeColor": {
+              "type": "color",
+              "lable": "Stroke Color",
+              "value": "#803DEC"
+            },
+            "fillColor": {
+              "type": "color",
+              "lable": "Fill Color",
+              "value": "#803DEC"
+            },
+            "fillOpacity": {
+              "type": "float",
+              "lable": "Fill Opacity",
+              "value": 0.6
+            }
+          }
         }
       },
       {
         "type": "shape",
+        "width": 28,
+        "height": 28,
         "meta": {
           "label": "Arrow rect",
-          "labelPosition": "center",
-          "strokeColor": "#0ea5e9"
+          "labelPosition": "center"
         },
         "setting": {
           "name": "arrow-rectangle",
           "minWidth": 28,
-          "minHeight": 28
+          "minHeight": 28,
+          "properties": {
+            "strokeColor": {
+              "type": "color",
+              "lable": "Stroke Color",
+              "value": "#0ea5e9"
+            },
+            "fillColor": {
+              "type": "color",
+              "lable": "Fill Color",
+              "value": "#0ea5e9"
+            },
+            "fillOpacity": {
+              "type": "float",
+              "lable": "Fill Opacity",
+              "value": 0.6
+            }
+          }
         }
       },
       {
         "type": "shape",
+        "width": 28,
+        "height": 28,
         "meta": {
           "label": "Cylinder",
-          "labelPosition": "center",
-          "strokeColor": "#84cc16"
+          "labelPosition": "center"
         },
         "setting": {
           "name": "cylinder",
           "minWidth": 28,
-          "minHeight": 28
+          "minHeight": 28,
+          "properties": {
+            "strokeColor": {
+              "type": "color",
+              "lable": "Stroke Color",
+              "value": "#84cc16"
+            },
+            "fillColor": {
+              "type": "color",
+              "lable": "Fill Color",
+              "value": "#84cc16"
+            },
+            "fillOpacity": {
+              "type": "float",
+              "lable": "Fill Opacity",
+              "value": 0.6
+            }
+          }
         }
       },
       {
         "type": "shape",
+        "width": 28,
+        "height": 28,
         "meta": {
           "label": "Triangle",
-          "labelPosition": "center",
-          "strokeColor": "#EBC347"
+          "labelPosition": "center"
         },
         "setting": {
           "name": "triangle",
           "minWidth": 28,
-          "minHeight": 28
+          "minHeight": 28,
+          "properties": {
+            "strokeColor": {
+              "type": "color",
+              "lable": "Stroke Color",
+              "value": "#EBC347"
+            },
+            "fillColor": {
+              "type": "color",
+              "lable": "Fill Color",
+              "value": "#EBC347"
+            },
+            "fillOpacity": {
+              "type": "float",
+              "lable": "Fill Opacity",
+              "value": 0.6
+            }
+          }
         }
       },
       {
         "type": "shape",
+        "width": 28,
+        "height": 28,
         "meta": {
           "label": "Parallelogram",
-          "labelPosition": "center",
-          "strokeColor": "#EA9C41"
+          "labelPosition": "center"
         },
         "setting": {
           "name": "parallelogram",
           "minWidth": 28,
-          "minHeight": 28
+          "minHeight": 28,
+          "properties": {
+            "strokeColor": {
+              "type": "color",
+              "lable": "Stroke Color",
+              "value": "#EA9C41"
+            },
+            "fillColor": {
+              "type": "color",
+              "lable": "Fill Color",
+              "value": "#EA9C41"
+            },
+            "fillOpacity": {
+              "type": "float",
+              "lable": "Fill Opacity",
+              "value": 0.6
+            }
+          }
         }
       },
       {
         "type": "shape",
+        "width": 28,
+        "height": 28,
         "meta": {
           "label": "Plus",
-          "labelPosition": "center",
-          "strokeColor": "#803DEC"
+          "labelPosition": "center"
         },
         "setting": {
           "name": "plus",
           "minWidth": 28,
-          "minHeight": 28
+          "minHeight": 28,
+          "properties": {
+            "strokeColor": {
+              "type": "color",
+              "lable": "Stroke Color",
+              "value": "#803DEC"
+            },
+            "fillColor": {
+              "type": "color",
+              "lable": "Fill Color",
+              "value": "#803DEC"
+            },
+            "fillOpacity": {
+              "type": "float",
+              "lable": "Fill Opacity",
+              "value": 0.6
+            }
+          }
         }
       },
       {
         "type": "shape",
+        "width": 28,
+        "height": 14,
         "meta": {
-          "label": "Dash line",
-          "strokeColor": "#71717a"
+          "label": "Dash line"
         },
         "setting": {
           "name": "dash-line",
           "minWidth": 28,
           "minHeight": 14,
-          "maxHeight": 14
+          "maxHeight": 14,
+          "properties": {
+            "strokeColor": {
+              "type": "color",
+              "lable": "Stroke Color",
+              "value": "#71717a"
+            }
+          }
         }
       }
     ]
