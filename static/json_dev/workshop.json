@@ -616,7 +616,7 @@
     {
       "id": "0b159874-a64d-4a63-9389-e363c099cd50",
       "type": "svg",
-      "position": { "x": 180, "y": -52.37 },
+      "position": { "x": 183, "y": -52 },
       "hidden": false,
       "selected": false,
       "zIndex": 20,
@@ -1222,9 +1222,24 @@
         "minHeight": 28,
         "meta": {
           "label": "Lobby",
-          "labelPosition": "bottom",
-          "strokeColor": "#EBC347",
-          "fillColor": "#EBC347"
+          "labelPosition": "bottom"
+        },
+        "properties": {
+          "strokeColor": {
+            "type": "color",
+            "lable": "Stroke Color",
+            "value": "#EBC347"
+          },
+          "fillColor": {
+            "type": "color",
+            "lable": "Fill Color",
+            "value": "#EBC347"
+          },
+          "fillOpacity": {
+            "type": "float",
+            "lable": "Fill Opacity",
+            "value": 0.6
+          }
         }
       },
       "width": 232,
@@ -1249,9 +1264,24 @@
         "minHeight": 28,
         "meta": {
           "label": "Office",
-          "labelPosition": "bottom",
-          "strokeColor": "#84cc16",
-          "fillColor": "#84cc16"
+          "labelPosition": "bottom"
+        },
+        "properties": {
+          "strokeColor": {
+            "type": "color",
+            "lable": "Stroke Color",
+            "value": "#84cc16"
+          },
+          "fillColor": {
+            "type": "color",
+            "lable": "Fill Color",
+            "value": "#84cc16"
+          },
+          "fillOpacity": {
+            "type": "float",
+            "lable": "Fill Opacity",
+            "value": 0.6
+          }
         }
       },
       "width": 91,
@@ -1274,9 +1304,24 @@
         "minHeight": 28,
         "meta": {
           "label": "VIP area",
-          "labelPosition": "bottom",
-          "strokeColor": "#EBC347",
-          "fillColor": "#EBC347"
+          "labelPosition": "bottom"
+        },
+        "properties": {
+          "strokeColor": {
+            "type": "color",
+            "lable": "Stroke Color",
+            "value": "#EBC347"
+          },
+          "fillColor": {
+            "type": "color",
+            "lable": "Fill Color",
+            "value": "#EBC347"
+          },
+          "fillOpacity": {
+            "type": "float",
+            "lable": "Fill Opacity",
+            "value": 0.6
+          }
         }
       },
       "zIndex": 10,
@@ -1301,9 +1346,24 @@
         "minHeight": 28,
         "meta": {
           "label": "Restroom",
-          "labelPosition": "bottom",
-          "strokeColor": "#84cc16",
-          "fillColor": "#84cc16"
+          "labelPosition": "bottom"
+        },
+        "properties": {
+          "strokeColor": {
+            "type": "color",
+            "lable": "Stroke Color",
+            "value": "#84cc16"
+          },
+          "fillColor": {
+            "type": "color",
+            "lable": "Fill Color",
+            "value": "#84cc16"
+          },
+          "fillOpacity": {
+            "type": "float",
+            "lable": "Fill Opacity",
+            "value": 0.6
+          }
         }
       },
       "zIndex": 10,
@@ -1407,7 +1467,7 @@
     {
       "id": "df269a87-a5c5-4b9b-83da-65915038ed6b",
       "type": "table",
-      "position": { "x": -3.19, "y": -71.23 },
+      "position": { "x": -12, "y": -78 },
       "zIndex": 10,
       "parentId": "0b159874-a64d-4a63-9389-e363c099cd50",
       "data": {
@@ -1523,9 +1583,24 @@
         "minHeight": 28,
         "meta": {
           "label": "Basement",
-          "labelPosition": "center",
-          "strokeColor": "#0ea5e9",
-          "fillColor": "#0ea5e9"
+          "labelPosition": "center"
+        },
+        "properties": {
+          "strokeColor": {
+            "type": "color",
+            "lable": "Stroke Color",
+            "value": "#0ea5e9"
+          },
+          "fillColor": {
+            "type": "color",
+            "lable": "Fill Color",
+            "value": "#0ea5e9"
+          },
+          "fillOpacity": {
+            "type": "float",
+            "lable": "Fill Opacity",
+            "value": 0.6
+          }
         }
       },
       "width": 81,
@@ -1575,9 +1650,24 @@
         "minHeight": 28,
         "meta": {
           "label": "Ground floor ",
-          "labelPosition": "center",
-          "strokeColor": "#0ea5e9",
-          "fillColor": "#0ea5e9"
+          "labelPosition": "center"
+        },
+        "properties": {
+          "strokeColor": {
+            "type": "color",
+            "lable": "Stroke Color",
+            "value": "#0ea5e9"
+          },
+          "fillColor": {
+            "type": "color",
+            "lable": "Fill Color",
+            "value": "#0ea5e9"
+          },
+          "fillOpacity": {
+            "type": "float",
+            "lable": "Fill Opacity",
+            "value": 0.6
+          }
         }
       },
       "zIndex": 10,
@@ -1628,9 +1718,24 @@
         "minHeight": 28,
         "meta": {
           "label": "Floor 2",
-          "labelPosition": "center",
-          "strokeColor": "#0ea5e9",
-          "fillColor": "#0ea5e9"
+          "labelPosition": "center"
+        },
+        "properties": {
+          "strokeColor": {
+            "type": "color",
+            "lable": "Stroke Color",
+            "value": "#0ea5e9"
+          },
+          "fillColor": {
+            "type": "color",
+            "lable": "Fill Color",
+            "value": "#0ea5e9"
+          },
+          "fillOpacity": {
+            "type": "float",
+            "lable": "Fill Opacity",
+            "value": 0.6
+          }
         }
       },
       "zIndex": 10,
