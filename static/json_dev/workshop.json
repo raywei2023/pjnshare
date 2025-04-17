@@ -1532,8 +1532,8 @@
         "library": "shape",
         "name": "round-rectangle",
         "url": "/static/shape/round-rect.svg",
-        "minWidth": 28,
-        "minHeight": 28,
+        "minWidth": 24,
+        "minHeight": 24,
         "label": "Lobby",
         "properties": {
           "strokeColor": {
@@ -1582,8 +1582,8 @@
         "library": "shape",
         "name": "rectangle",
         "url": "/static/shape/rect.svg",
-        "minWidth": 28,
-        "minHeight": 28,
+        "minWidth": 24,
+        "minHeight": 24,
         "label": "Office",
         "properties": {
           "strokeColor": {
@@ -1630,8 +1630,8 @@
         "library": "shape",
         "name": "round-rectangle",
         "url": "/static/shape/round-rect.svg",
-        "minWidth": 28,
-        "minHeight": 28,
+        "minWidth": 24,
+        "minHeight": 24,
         "label": "VIP area",
         "properties": {
           "strokeColor": {
@@ -1680,8 +1680,8 @@
         "library": "shape",
         "name": "rectangle",
         "url": "/static/shape/rect.svg",
-        "minWidth": 28,
-        "minHeight": 28,
+        "minWidth": 24,
+        "minHeight": 24,
         "label": "Restroom",
         "properties": {
           "strokeColor": {
@@ -1897,7 +1897,7 @@
         "library": "shape",
         "name": "dash-line",
         "url": "/static/shape/dash-line.svg",
-        "minWidth": 28,
+        "minWidth": 24,
         "minHeight": 14,
         "maxHeight": 14,
         "label": "Dash line"
@@ -1920,8 +1920,8 @@
         "library": "shape",
         "name": "arrow-rectangle",
         "url": "/static/shape/arrow-rect.svg",
-        "minWidth": 28,
-        "minHeight": 28,
+        "minWidth": 24,
+        "minHeight": 24,
         "label": "Basement",
         "properties": {
           "strokeColor": {
@@ -1968,7 +1968,7 @@
         "library": "shape",
         "name": "dash-line",
         "url": "/static/shape/dash-line.svg",
-        "minWidth": 28,
+        "minWidth": 24,
         "minHeight": 14,
         "maxHeight": 14,
         "label": "Dash line 1"
@@ -1990,8 +1990,8 @@
         "library": "shape",
         "name": "arrow-rectangle",
         "url": "/static/shape/arrow-rect.svg",
-        "minWidth": 28,
-        "minHeight": 28,
+        "minWidth": 24,
+        "minHeight": 24,
         "label": "Ground floor ",
         "properties": {
           "strokeColor": {
@@ -2039,7 +2039,7 @@
         "library": "shape",
         "name": "dash-line",
         "url": "/static/shape/dash-line.svg",
-        "minWidth": 28,
+        "minWidth": 24,
         "minHeight": 14,
         "maxHeight": 14,
         "label": "Dash line 2"
@@ -2061,8 +2061,8 @@
         "library": "shape",
         "name": "arrow-rectangle",
         "url": "/static/shape/arrow-rect.svg",
-        "minWidth": 28,
-        "minHeight": 28,
+        "minWidth": 24,
+        "minHeight": 24,
         "label": "Floor 2",
         "properties": {
           "strokeColor": {

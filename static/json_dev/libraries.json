@@ -558,8 +558,8 @@
         "setting": {
           "name": "circle",
           "label": "Circle",
-          "minWidth": 28,
-          "minHeight": 28,
+          "minWidth": 24,
+          "minHeight": 24,
           "properties": {
             "strokeColor": {
               "type": "color",
@@ -597,8 +597,8 @@
         "setting": {
           "name": "round-rectangle",
           "label": "Round rect",
-          "minWidth": 28,
-          "minHeight": 28,
+          "minWidth": 24,
+          "minHeight": 24,
           "properties": {
             "strokeColor": {
               "type": "color",
@@ -636,8 +636,8 @@
         "setting": {
           "name": "rectangle",
           "label": "Rectangle",
-          "minWidth": 28,
-          "minHeight": 28,
+          "minWidth": 24,
+          "minHeight": 24,
           "properties": {
             "strokeColor": {
               "type": "color",
@@ -675,8 +675,8 @@
         "setting": {
           "name": "hexagon",
           "label": "Hexagon",
-          "minWidth": 28,
-          "minHeight": 28,
+          "minWidth": 24,
+          "minHeight": 24,
           "properties": {
             "strokeColor": {
               "type": "color",
@@ -714,8 +714,8 @@
         "setting": {
           "name": "diamond",
           "label": "Diamond",
-          "minWidth": 28,
-          "minHeight": 28,
+          "minWidth": 24,
+          "minHeight": 24,
           "properties": {
             "strokeColor": {
               "type": "color",
@@ -753,8 +753,8 @@
         "setting": {
           "name": "arrow-rectangle",
           "label": "Arrow rect",
-          "minWidth": 28,
-          "minHeight": 28,
+          "minWidth": 24,
+          "minHeight": 24,
           "properties": {
             "strokeColor": {
               "type": "color",
@@ -792,8 +792,8 @@
         "setting": {
           "name": "cylinder",
           "label": "Cylinder",
-          "minWidth": 28,
-          "minHeight": 28,
+          "minWidth": 24,
+          "minHeight": 24,
           "properties": {
             "strokeColor": {
               "type": "color",
@@ -831,8 +831,8 @@
         "setting": {
           "name": "triangle",
           "label": "Triangle",
-          "minWidth": 28,
-          "minHeight": 28,
+          "minWidth": 24,
+          "minHeight": 24,
           "properties": {
             "strokeColor": {
               "type": "color",
@@ -870,8 +870,8 @@
         "setting": {
           "name": "parallelogram",
           "label": "Parallelogram",
-          "minWidth": 28,
-          "minHeight": 28,
+          "minWidth": 24,
+          "minHeight": 24,
           "properties": {
             "strokeColor": {
               "type": "color",
@@ -909,8 +909,8 @@
         "setting": {
           "name": "plus",
           "label": "Plus",
-          "minWidth": 28,
-          "minHeight": 28,
+          "minWidth": 24,
+          "minHeight": 24,
           "properties": {
             "strokeColor": {
               "type": "color",
@@ -948,7 +948,7 @@
         "setting": {
           "name": "dash-line",
           "label": "Dash line",
-          "minWidth": 28,
+          "minWidth": 24,
           "minHeight": 14,
           "maxHeight": 14,
           "properties": {
