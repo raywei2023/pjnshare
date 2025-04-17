@@ -399,14 +399,20 @@
               "mappingType": "range",
               "mappings": [
                 { "animation": "normal" },
-                { "min": -999, "max": 20, "animation": "overcold" },
-                { "min": 38, "max": 999, "animation": "overheat" }
+                { "min": -9999999, "max": 20, "animation": "overcold" },
+                { "min": 38, "max": 9999999, "animation": "overheat" }
               ]
             },
             "humidity": {
               "type": "float",
               "label": "Humidity",
-              "unit": "%"
+              "unit": "%",
+              "mappingType": "range",
+              "mappings": [
+                { "animation": "normal" },
+                { "min": -9999999, "max": 20, "animation": "overcold" },
+                { "min": 38, "max": 9999999, "animation": "overheat" }
+              ]
             },
             "weight": {
               "type": "int",
@@ -506,6 +512,16 @@
             "green": { "color": "#22c55e" },
             "red": { "color": "#ef4444" }
           }
+        }
+      },
+      {
+        "type": "label",
+        "width": 60,
+        "height": 20,
+        "iconType": "TypeOutline",
+        "setting": {
+          "name": "label",
+          "label": "Label"
         }
       },
       {
@@ -975,7 +991,7 @@
           "label": "Line Chart",
           "minWidth": 230,
           "minHeight": 160,
-          "properties":{
+          "properties": {
             "labelPosition": {
               "type": "enum",
               "enums": [
@@ -998,7 +1014,7 @@
           "label": "Gauge",
           "minWidth": 100,
           "minHeight": 100,
-          "properties":{
+          "properties": {
             "labelPosition": {
               "type": "enum",
               "enums": [
