@@ -70,7 +70,7 @@
               "type": "int",
               "label": "Rotate",
               "value": 0,
-              "hidden": true
+              "unselectable": true
             }
           }
         }
@@ -232,7 +232,7 @@
               "type": "int",
               "label": "Rotate",
               "value": 0,
-              "hidden": true
+              "unselectable": true
             },
             "labelPosition": {
               "type": "enum",
@@ -268,7 +268,7 @@
               "type": "int",
               "label": "Rotate",
               "value": 0,
-              "hidden": true
+              "unselectable": true
             },
             "labelPosition": {
               "type": "enum",
@@ -305,7 +305,7 @@
               "type": "int",
               "label": "Rotate",
               "value": 0,
-              "hidden": true
+              "unselectable": true
             },
             "labelPosition": {
               "type": "enum",
@@ -341,7 +341,7 @@
               "type": "int",
               "label": "Rotate",
               "value": 0,
-              "hidden": true
+              "unselectable": true
             },
             "labelPosition": {
               "type": "enum",
@@ -528,7 +528,7 @@
               "type": "int",
               "label": "Rotate",
               "value": 0,
-              "hidden": true
+              "unselectable": true
             },
             "labelPosition": {
               "type": "enum",
