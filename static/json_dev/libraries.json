@@ -492,6 +492,35 @@
     ]
   },
   {
+    "name": "chart",
+    "label": "Chart",
+    "version": "1.0",
+    "items": [
+      {
+        "type": "chart",
+        "label": "Line Chart",
+        "setting": {
+          "name": "line",
+          "url": "/static/svg_dev/chart-line.svg",
+          "minWidth": 230,
+          "minHeight": 160,
+          "properties": {}
+        }
+      },
+      {
+        "type": "chart",
+        "label": "Gauge",
+        "setting": {
+          "name": "gauge",
+          "url": "/static/svg_dev/chart-gauge.svg",
+          "minWidth": 100,
+          "minHeight": 100,
+          "properties": {}
+        }
+      }
+    ]
+  },
+  {
     "name": "shape",
     "label": "Shape",
     "version": "1.0",
@@ -793,35 +822,6 @@
               "value": "#71717a"
             }
           }
-        }
-      }
-    ]
-  },
-  {
-    "name": "chart",
-    "label": "Chart",
-    "version": "1.0",
-    "items": [
-      {
-        "type": "chart",
-        "label": "Line Chart",
-        "setting": {
-          "name": "line",
-          "url": "/static/svg_dev/chart-line.svg",
-          "minWidth": 230,
-          "minHeight": 160,
-          "properties": {}
-        }
-      },
-      {
-        "type": "chart",
-        "label": "Gauge",
-        "setting": {
-          "name": "gauge",
-          "url": "/static/svg_dev/chart-gauge.svg",
-          "minWidth": 100,
-          "minHeight": 100,
-          "properties": {}
         }
       }
     ]
