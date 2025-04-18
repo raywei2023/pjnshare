@@ -3,7 +3,7 @@
     "name": "basic",
     "label": "Basic",
     "version": "1.0",
-    "items": [
+    "entries": [
       {
         "type": "svg",
         "label": "Bulb",
@@ -495,7 +495,7 @@
     "name": "chart",
     "label": "Chart",
     "version": "1.0",
-    "items": [
+    "entries": [
       {
         "type": "chart",
         "label": "Line Chart",
@@ -524,7 +524,7 @@
     "name": "shape",
     "label": "Shape",
     "version": "1.0",
-    "items": [
+    "entries": [
       {
         "type": "shape",
         "label": "Circle",
