@@ -1,5 +1,5 @@
 <svg width="24" height="24" stroke="none" viewBox="0 0 56 56" class="h-full w-full"
-  xmlns="http://www.w3.org/2000/svg" fill="rgba(var(--muted-foreground))">
+  fill="rgba(var(--muted-foreground))" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="fill_overcold" gradientTransform="rotate(90)" opacity="0.0">
       <stop offset="10%" stop-color="#d9f99d" />

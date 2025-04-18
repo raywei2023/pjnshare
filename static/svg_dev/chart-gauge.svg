@@ -1,0 +1,8 @@
+<svg width="24" height="24" viewBox="-30 -20 260 220" class="h-full w-full"
+  xmlns="http://www.w3.org/2000/svg">
+  <g fill="none">
+    <path stroke="rgba(var(--muted-foreground))" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"
+      d="M164.57 164.57c17.65-17.65 30.48-40.12 30.48-67.05C195.05 43.66 151.38 0 97.52 0S0 43.66 0 97.52c0 26.93 12.83 49.4 30.48 67.05M97.52 97.52 48.76 48.76" />
+    <circle cx="98" cy="98" r="18.4" fill="rgba(var(--muted-foreground))" />
+  </g>
+</svg>
