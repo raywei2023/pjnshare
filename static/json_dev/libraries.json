@@ -38,6 +38,7 @@
             "animation": {
               "type": "map",
               "label": "Status",
+              "endpoint":"/device-8/random/status.int.out?&min=0&max=3",
               "mappingType": "value",
               "mappings": [
                 { "action": "off" },
@@ -422,11 +423,13 @@
       {
         "type": "label",
         "label": "Text",
-        "width": 60,
-        "height": 20,
+        "width": 50,
+        "height": 16,
         "setting": {
           "name": "label",
           "url": "/static/svg_dev/label.svg",
+          "minWidth": 16,
+          "minHeight": 16,
           "properties": {
             "text": { "type": "string", "label": "Text" },
             "fontFamily": {
@@ -472,13 +475,13 @@
         "height": 30,
         "setting": {
           "name": "demo",
+          "minWidth": 24,
+          "minHeight": 24,
           "handles": [
             { "position": "left", "rotatable": false },
             { "position": "right", "rotatable": false }
           ],
           "url": "/static/svg_dev/demo.svg",
-          "minWidth": 24,
-          "minHeight": 24,
           "edgeType": "pipe",
           "properties": {
             "rotate": {

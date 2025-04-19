@@ -1457,7 +1457,7 @@
             "type": "float",
             "label": "Temperature",
             "unit": "°C",
-            "endpoint":"/device-1/random/humidity.float.out",
+            "endpoint": "/device-1/random/humidity.float.out",
             "mappingType": "range",
             "mappings": [
               { "min": -999, "max": 20, "animation": "green" },
@@ -1950,10 +1950,7 @@
               { "text": "Error", "value": 3 }
             ],
             "label": "Status",
-            "min": 0,
-            "max": 3,
-            "value": 3,
-            "endpoint":"/device-1/random/temperature.int.out",
+            "endpoint": "/device-1/random/status.int.out?&min=0&max=3",
             "mappingType": "value",
             "mappings": [
               { "animation": "off" },
@@ -2027,8 +2024,7 @@
               { "text": "Error", "value": 3 }
             ],
             "label": "Status",
-            "min": 0,
-            "max": 3,
+            "endpoint": "/device-2/random/status.int.out?&min=0&max=3",
             "mappingType": "value",
             "mappings": [
               { "animation": "off" },
@@ -2101,9 +2097,7 @@
               { "text": "Error", "value": 3 }
             ],
             "label": "Status",
-            "min": 0,
-            "max": 3,
-            "value": 1,
+            "endpoint": "/device-3/random/status.int.out?&min=0&max=3",
             "mappingType": "value",
             "mappings": [
               { "animation": "off" },
@@ -2178,9 +2172,7 @@
               { "text": "Error", "value": 3 }
             ],
             "label": "Status",
-            "min": 0,
-            "max": 3,
-            "value": 1,
+            "endpoint": "/device-4/random/status.int.out?&min=0&max=3",
             "mappingType": "value",
             "mappings": [
               { "animation": "off" },
@@ -2252,9 +2244,7 @@
               { "text": "Error", "value": 3 }
             ],
             "label": "Status",
-            "min": 0,
-            "max": 3,
-            "value": 2,
+            "endpoint": "/device-4/random/status.int.out?&min=0&max=3",
             "mappingType": "value",
             "mappings": [
               { "animation": "off" },
@@ -2329,9 +2319,7 @@
               { "text": "Error", "value": 3 }
             ],
             "label": "Status",
-            "min": 0,
-            "max": 3,
-            "value": 3,
+            "endpoint": "/device-5/random/status.int.out?&min=0&max=3",
             "mappingType": "value",
             "mappings": [
               { "animation": "off" },
