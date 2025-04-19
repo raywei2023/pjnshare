@@ -48,9 +48,7 @@
             "type": "float",
             "label": "Temperature",
             "unit": "°C",
-            "min": 12,
-            "max": 45,
-            "endpoint": "/device-2/random/temperature.float.out",
+            "endpoint": "/device-2/random/temperature.float.out?&min=12&max=45",
             "mappingType": "range",
             "mappings": [
               { "animation": "normal" },
@@ -656,9 +654,7 @@
             "type": "float",
             "label": "Temperature",
             "unit": "°C",
-            "min": 12,
-            "max": 45,
-            "endpoint": "/device-6/random/temperature.float.out",
+            "endpoint": "/device-6/random/temperature.float.out?&min=15&max=48",
             "mappingType": "range",
             "mappings": [
               { "animation": "normal" },
@@ -724,9 +720,7 @@
             "type": "float",
             "label": "Temperature",
             "unit": "°C",
-            "min": 10,
-            "max": 60,
-            "endpoint": "/device-3/random/temperature.float.out",
+            "endpoint": "/device-3/random/temperature.float.out?&min=10&max=60",
             "mappingType": "range",
             "mappings": [
               { "animation": "normal" },
@@ -790,9 +784,7 @@
             "type": "float",
             "label": "Temperature",
             "unit": "°C",
-            "min": 12,
-            "max": 48,
-            "endpoint": "/device-4/random/temperature.float.out",
+            "endpoint": "/device-4/random/temperature.float.out?&min=16&max=48",
             "mappingType": "range",
             "mappings": [
               { "animation": "normal" },
@@ -858,9 +850,7 @@
             "type": "float",
             "label": "Temperature",
             "unit": "°C",
-            "min": 12,
-            "max": 48,
-            "endpoint": "/device-4/random/temperature.float.out",
+            "endpoint": "/device-4/random/temperature.float.out?&min=15&max=49",
             "mappingType": "range",
             "mappings": [
               { "animation": "normal" },
@@ -926,8 +916,7 @@
             "type": "float",
             "label": "Temperature",
             "unit": "°C",
-            "min": 12,
-            "max": 48,
+            "endpoint": "/device-9/random/temperature.float.out?&min=13&max=51",
             "mappingType": "range",
             "mappings": [
               { "animation": "normal" },
@@ -1003,7 +992,7 @@
             "type": "float",
             "label": "Temperature",
             "unit": "°C",
-            "endpoint": "/device-1/random/temperature.float.out",
+            "endpoint": "/device-1/random/temperature.float.out?&min=25&max=52",
             "mappingType": "range",
             "mappings": [
               { "animation": "normal" },
@@ -1094,9 +1083,7 @@
               { "text": "X3", "value": 3 }
             ],
             "label": "Status",
-            "min": 0,
-            "max": 3,
-            "value": 3,
+            "endpoint":"/device-10/random/status.int.out?&min=0&max=3",
             "mappingType": "value",
             "mappings": [
               { "animation": "off" },
@@ -1177,9 +1164,7 @@
               { "text": "X3", "value": 3 }
             ],
             "label": "Status",
-            "min": 0,
-            "max": 3,
-            "value": 1,
+            "endpoint":"/device-12/random/status.int.out?&min=0&max=3",
             "mappingType": "value",
             "mappings": [
               { "animation": "off" },
@@ -1258,8 +1243,7 @@
               { "text": "X3", "value": 3 }
             ],
             "label": "Status",
-            "min": 0,
-            "max": 3,
+            "endpoint":"/device-13/random/status.int.out?&min=0&max=3",
             "mappingType": "value",
             "mappings": [
               { "animation": "off" },
@@ -1457,7 +1441,7 @@
             "type": "float",
             "label": "Temperature",
             "unit": "°C",
-            "endpoint": "/device-1/random/humidity.float.out",
+            "endpoint": "/device-1/random/humidity.float.out?&min=20&max=55",
             "mappingType": "range",
             "mappings": [
               { "min": -999, "max": 20, "animation": "green" },
@@ -1504,6 +1488,7 @@
             "label": "Temperature",
             "unit": "°C",
             "mappingType": "range",
+            "endpoint": "/device-2/random/humidity.float.out?&min=20&max=55",
             "mappings": [
               { "min": -999, "max": 20, "animation": "green" },
               { "min": 36, "max": 999, "animation": "red" }
