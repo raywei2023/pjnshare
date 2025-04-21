@@ -339,7 +339,14 @@
         "edgeType": "pipe",
         "id": "dc122e15-13ff-4bd6-b289-5daf28a03cab",
         "library": "basic",
-        "meta": { "label": "Pipe Elbow", "labelPosition": "none", "rotate": 270 }
+        "properties": {
+          "rotate": {
+            "type": "int",
+            "label": "Rotate",
+            "value": 270,
+            "hidden": true
+          }
+        }
       },
       "width": 28,
       "height": 28,
@@ -757,7 +764,14 @@
         "edgeType": "pipe",
         "id": "eda96287-370d-4cdb-897c-5c128f897be7",
         "library": "basic",
-        "meta": { "label": "PipeTR 2", "labelPosition": "none", "rotate": 270 }
+        "properties": {
+          "rotate": {
+            "type": "int",
+            "label": "Rotate",
+            "value": 270,
+            "hidden": true
+          }
+        }
       },
       "width": 28,
       "height": 28,
@@ -863,11 +877,13 @@
         "edgeType": "cable",
         "id": "5ff5a004-c915-4c1a-a0d7-a68c3b1aeb11",
         "library": "basic",
-        "meta": {
-          "label": "Bulb",
-          "status": 1,
-          "labelPosition": "none",
-          "rotate": 180
+        "properties": {
+          "rotate": {
+            "type": "int",
+            "label": "Rotate",
+            "value": 180,
+            "hidden": true
+          }
         }
       },
       "width": 24,
@@ -898,12 +914,13 @@
         "edgeType": "cable",
         "id": "56210aa7-9c68-4728-958a-0c29ec548774",
         "library": "basic",
-        "meta": {
-          "label": "Bulb 1",
-          "status": 2,
-          "labelPosition": "none",
-          "rotate": 180,
-          "properties": []
+        "properties": {
+          "rotate": {
+            "type": "int",
+            "label": "Rotate",
+            "value": 180,
+            "hidden": true
+          }
         }
       },
       "zIndex": 20,
@@ -936,12 +953,13 @@
         "edgeType": "cable",
         "id": "2ad94beb-9ed8-43f3-bb71-3d058aef649a",
         "library": "basic",
-        "meta": {
-          "label": "Bulb 2",
-          "status": 3,
-          "labelPosition": "none",
-          "rotate": 180,
-          "properties": []
+        "properties": {
+          "rotate": {
+            "type": "int",
+            "label": "Rotate",
+            "value": 180,
+            "hidden": true
+          }
         }
       },
       "zIndex": 20,
@@ -973,12 +991,13 @@
         "edgeType": "cable",
         "id": "8f425f7c-a6a9-4866-810b-9c98148d2da3",
         "library": "basic",
-        "meta": {
-          "label": "Bulb 3",
-          "status": null,
-          "labelPosition": "none",
-          "rotate": 180,
-          "properties": []
+        "properties": {
+          "rotate": {
+            "type": "int",
+            "label": "Rotate",
+            "value": 180,
+            "hidden": true
+          }
         }
       },
       "zIndex": 20,
@@ -1010,12 +1029,13 @@
         "edgeType": "cable",
         "id": "21a54c6d-5930-458d-838e-48ea642751cc",
         "library": "basic",
-        "meta": {
-          "label": "Bulb 4",
-          "status": 3,
-          "labelPosition": "none",
-          "rotate": 180,
-          "properties": []
+        "properties": {
+          "rotate": {
+            "type": "int",
+            "label": "Rotate",
+            "value": 180,
+            "hidden": true
+          }
         }
       },
       "zIndex": 20,

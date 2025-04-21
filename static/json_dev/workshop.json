@@ -103,7 +103,6 @@
             "uuid": "861cfe41-c51b-4464-a580-ca7733597f3f"
           }
         ],
-        "label": "Pipe Elbow",
         "properties": {
           "rotate": {
             "type": "int",

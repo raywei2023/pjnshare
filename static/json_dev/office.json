@@ -195,7 +195,6 @@
         "library": "basic",
         "name": "pipe-elbow",
         "url": "/static/svg_dev/pipe-elbow.svg",
-        "rotatable": true,
         "minWidth": 28,
         "minHeight": 28,
         "edgeType": "pipe",
@@ -211,7 +210,14 @@
             "uuid": "9a061e3a-ae15-4452-aab9-09533d3818d1"
           }
         ],
-        "meta": { "label": "Pipe Elbow", "labelPosition": "none", "rotate": 90 }
+        "properties": {
+          "rotate": {
+            "type": "int",
+            "label": "Rotate",
+            "value": 90,
+            "hidden": true
+          }
+        }
       },
       "width": 28,
       "height": 28,
@@ -229,7 +235,6 @@
         "library": "basic",
         "name": "pipe-elbow",
         "url": "/static/svg_dev/pipe-elbow.svg",
-        "rotatable": true,
         "minWidth": 28,
         "minHeight": 28,
         "edgeType": "pipe",
@@ -245,7 +250,14 @@
             "uuid": "992f9915-b787-4e5f-8b8b-29bee855a39f"
           }
         ],
-        "meta": { "label": "PipeTR 1", "labelPosition": "none", "rotate": 180 }
+        "properties": {
+          "rotate": {
+            "type": "int",
+            "label": "Rotate",
+            "value": 180,
+            "hidden": true
+          }
+        }
       },
       "zIndex": 20,
       "hidden": false,
@@ -267,7 +279,6 @@
         "library": "basic",
         "name": "pipe-joint",
         "url": "/static/svg_dev/pipe-joint.svg",
-        "rotatable": true,
         "minWidth": 28,
         "minHeight": 28,
         "edgeType": "pipe",
@@ -288,7 +299,14 @@
             "uuid": "de01869b-42bf-4e28-8f09-a2817fb38c83"
           }
         ],
-        "meta": { "label": "Pipe join", "labelPosition": "none", "rotate": 180 }
+        "properties": {
+          "rotate": {
+            "type": "int",
+            "label": "Rotate",
+            "value": 180,
+            "hidden": true
+          }
+        }
       },
       "width": 28,
       "height": 28,
@@ -306,7 +324,6 @@
         "library": "basic",
         "name": "pipe-joint",
         "url": "/static/svg_dev/pipe-joint.svg",
-        "rotatable": true,
         "minWidth": 28,
         "minHeight": 28,
         "edgeType": "pipe",
@@ -327,10 +344,13 @@
             "uuid": "b6cebcbd-a821-42c1-9062-7a62193dec38"
           }
         ],
-        "meta": {
-          "label": "Pipe join 1",
-          "labelPosition": "none",
-          "rotate": 180
+        "properties": {
+          "rotate": {
+            "type": "int",
+            "label": "Rotate",
+            "value": 180,
+            "hidden": true
+          }
         }
       },
       "zIndex": 20,
@@ -351,7 +371,6 @@
         "library": "basic",
         "name": "pipe-joint",
         "url": "/static/svg_dev/pipe-joint.svg",
-        "rotatable": true,
         "minWidth": 28,
         "minHeight": 28,
         "edgeType": "pipe",
@@ -372,10 +391,13 @@
             "uuid": "a6085b28-bef3-484d-9565-d998c0e5f73b"
           }
         ],
-        "meta": {
-          "label": "Pipe join 2",
-          "labelPosition": "none",
-          "rotate": 180
+        "properties": {
+          "rotate": {
+            "type": "int",
+            "label": "Rotate",
+            "value": 180,
+            "hidden": true
+          }
         }
       },
       "zIndex": 20,
@@ -876,7 +898,6 @@
         "library": "basic",
         "name": "bulb",
         "url": "/static/svg_dev/bulb.svg",
-        "rotatable": true,
         "minWidth": 20,
         "minHeight": 20,
         "edgeType": "cable",
@@ -887,11 +908,13 @@
             "uuid": "f53296b3-f34b-4abd-a24d-c6a4fc31d401"
           }
         ],
-        "meta": {
-          "label": "Bulb",
-          "status": 1,
-          "labelPosition": "none",
-          "rotate": 180
+        "properties": {
+          "rotate": {
+            "type": "int",
+            "label": "Rotate",
+            "value": 180,
+            "hidden": true
+          }
         }
       },
       "width": 27,
@@ -911,7 +934,6 @@
         "library": "basic",
         "name": "bulb",
         "url": "/static/svg_dev/bulb.svg",
-        "rotatable": true,
         "minWidth": 20,
         "minHeight": 20,
         "edgeType": "cable",
@@ -922,11 +944,13 @@
             "uuid": "e3355c3a-d05e-452c-a4c4-e8e4393c3b18"
           }
         ],
-        "meta": {
-          "label": "Bulb 1",
-          "status": 0,
-          "labelPosition": "none",
-          "rotate": 180
+        "properties": {
+          "rotate": {
+            "type": "int",
+            "label": "Rotate",
+            "value": 180,
+            "hidden": true
+          }
         }
       },
       "zIndex": 20,
@@ -982,7 +1006,6 @@
         "library": "basic",
         "name": "bulb",
         "url": "/static/svg_dev/bulb.svg",
-        "rotatable": true,
         "minWidth": 20,
         "minHeight": 20,
         "edgeType": "cable",
@@ -993,11 +1016,13 @@
             "uuid": "55b4e973-d8d4-436d-a12f-2ae7a81914d3"
           }
         ],
-        "meta": {
-          "label": "Bulb 2",
-          "status": 2,
-          "labelPosition": "none",
-          "rotate": 180
+        "properties": {
+          "rotate": {
+            "type": "int",
+            "label": "Rotate",
+            "value": 180,
+            "hidden": true
+          }
         }
       },
       "zIndex": 20,
@@ -1054,7 +1079,6 @@
         "library": "basic",
         "name": "bulb",
         "url": "/static/svg_dev/bulb.svg",
-        "rotatable": true,
         "minWidth": 20,
         "minHeight": 20,
         "edgeType": "cable",
@@ -1065,11 +1089,13 @@
             "uuid": "30e3d75d-a0b9-4ab6-9000-815759811522"
           }
         ],
-        "meta": {
-          "label": "Bulb 3",
-          "status": 0,
-          "labelPosition": "none",
-          "rotate": 180
+        "properties": {
+          "rotate": {
+            "type": "int",
+            "label": "Rotate",
+            "value": 180,
+            "hidden": true
+          }
         }
       },
       "zIndex": 20,
@@ -1125,7 +1151,6 @@
         "library": "basic",
         "name": "bulb",
         "url": "/static/svg_dev/bulb.svg",
-        "rotatable": true,
         "minWidth": 20,
         "minHeight": 20,
         "edgeType": "cable",
@@ -1136,11 +1161,13 @@
             "uuid": "799c29b0-1c03-46f3-aad6-d23c21a8c89f"
           }
         ],
-        "meta": {
-          "label": "Bulb 4",
-          "status": 3,
-          "labelPosition": "none",
-          "rotate": 180
+        "properties": {
+          "rotate": {
+            "type": "int",
+            "label": "Rotate",
+            "value": 180,
+            "hidden": true
+          }
         }
       },
       "zIndex": 20,
@@ -1301,7 +1328,6 @@
         "library": "basic",
         "name": "bulb",
         "url": "/static/svg_dev/bulb.svg",
-        "rotatable": true,
         "minWidth": 20,
         "minHeight": 20,
         "edgeType": "cable",
@@ -1312,11 +1338,13 @@
             "uuid": "dc9ce65c-6efa-4f17-b01a-921e16d4afd1"
           }
         ],
-        "meta": {
-          "label": "Bulb 6",
-          "status": 3,
-          "labelPosition": "none",
-          "rotate": 180
+        "properties": {
+          "rotate": {
+            "type": "int",
+            "label": "Rotate",
+            "value": 180,
+            "hidden": true
+          }
         }
       },
       "zIndex": 20,
