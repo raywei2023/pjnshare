@@ -807,6 +807,27 @@
         "minWidth": 28,
         "minHeight": 28,
         "edgeType": "cable",
+        "animations": {
+          "off": {
+            "svg.g.path.animateTransform.@_dur": "9999s",
+            "svg.g.path.animateTransform.@_repeatCount": "0"
+          },
+          "speed1": {
+            "svg.g.path.animateTransform.@_dur": "2s",
+            "svg.g.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.g.@_fill": "#22c55e"
+          },
+          "speed2": {
+            "svg.g.path.animateTransform.@_dur": "1.2s",
+            "svg.g.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.g.@_fill": "#22c55e"
+          },
+          "speed3": {
+            "svg.g.path.animateTransform.@_dur": "0.6s",
+            "svg.g.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.g.@_fill": "#22c55e"
+          }
+        },
         "handles": [
           {
             "position": "left",
@@ -818,8 +839,7 @@
             "rotatable": false,
             "uuid": "695b71d0-9332-4bdc-ab56-f97f5ed8cbec"
           }
-        ],
-        "meta": { "label": "Fan", "labelPosition": "bottom", "status": 3 }
+        ]
       },
       "width": 37,
       "height": 37,
@@ -852,6 +872,27 @@
             "uuid": "a04c2d0c-5940-471d-b7a1-b11876d17df4"
           }
         ],
+        "animations": {
+          "off": {
+            "svg.g.path.animateTransform.@_dur": "9999s",
+            "svg.g.path.animateTransform.@_repeatCount": "0"
+          },
+          "speed1": {
+            "svg.g.path.animateTransform.@_dur": "2s",
+            "svg.g.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.g.@_fill": "#22c55e"
+          },
+          "speed2": {
+            "svg.g.path.animateTransform.@_dur": "1.2s",
+            "svg.g.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.g.@_fill": "#22c55e"
+          },
+          "speed3": {
+            "svg.g.path.animateTransform.@_dur": "0.6s",
+            "svg.g.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.g.@_fill": "#22c55e"
+          }
+        },
         "meta": { "label": "Fan 1", "labelPosition": "bottom", "status": 1 }
       },
       "zIndex": 20,
@@ -960,6 +1001,27 @@
             "uuid": "01ffb848-18da-4e4a-8af2-dee29c1d28c5"
           }
         ],
+        "animations": {
+          "off": {
+            "svg.g.path.animateTransform.@_dur": "9999s",
+            "svg.g.path.animateTransform.@_repeatCount": "0"
+          },
+          "speed1": {
+            "svg.g.path.animateTransform.@_dur": "2s",
+            "svg.g.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.g.@_fill": "#22c55e"
+          },
+          "speed2": {
+            "svg.g.path.animateTransform.@_dur": "1.2s",
+            "svg.g.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.g.@_fill": "#22c55e"
+          },
+          "speed3": {
+            "svg.g.path.animateTransform.@_dur": "0.6s",
+            "svg.g.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.g.@_fill": "#22c55e"
+          }
+        },
         "meta": { "label": "Fan 2", "labelPosition": "bottom", "status": 3 }
       },
       "zIndex": 20,
@@ -1030,6 +1092,27 @@
             "uuid": "5398ea92-e0b5-4f6f-b87e-7f2a8fa08b5b"
           }
         ],
+        "animations": {
+          "off": {
+            "svg.g.path.animateTransform.@_dur": "9999s",
+            "svg.g.path.animateTransform.@_repeatCount": "0"
+          },
+          "speed1": {
+            "svg.g.path.animateTransform.@_dur": "2s",
+            "svg.g.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.g.@_fill": "#22c55e"
+          },
+          "speed2": {
+            "svg.g.path.animateTransform.@_dur": "1.2s",
+            "svg.g.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.g.@_fill": "#22c55e"
+          },
+          "speed3": {
+            "svg.g.path.animateTransform.@_dur": "0.6s",
+            "svg.g.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.g.@_fill": "#22c55e"
+          }
+        },
         "meta": { "label": "Fan 3", "labelPosition": "bottom", "status": 0 }
       },
       "zIndex": 20,
@@ -1101,6 +1184,27 @@
             "uuid": "3a0c6d90-8e67-456c-84b6-33288eca4bbf"
           }
         ],
+        "animations": {
+          "off": {
+            "svg.g.path.animateTransform.@_dur": "9999s",
+            "svg.g.path.animateTransform.@_repeatCount": "0"
+          },
+          "speed1": {
+            "svg.g.path.animateTransform.@_dur": "2s",
+            "svg.g.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.g.@_fill": "#22c55e"
+          },
+          "speed2": {
+            "svg.g.path.animateTransform.@_dur": "1.2s",
+            "svg.g.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.g.@_fill": "#22c55e"
+          },
+          "speed3": {
+            "svg.g.path.animateTransform.@_dur": "0.6s",
+            "svg.g.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.g.@_fill": "#22c55e"
+          }
+        },
         "meta": { "label": "Fan 4", "labelPosition": "bottom", "status": 2 }
       },
       "zIndex": 20,

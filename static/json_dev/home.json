@@ -163,6 +163,27 @@
         "minHeight": 28,
         "edgeType": "cable",
         "library": "basic",
+        "animations": {
+          "off": {
+            "svg.g.path.animateTransform.@_dur": "9999s",
+            "svg.g.path.animateTransform.@_repeatCount": "0"
+          },
+          "speed1": {
+            "svg.g.path.animateTransform.@_dur": "2s",
+            "svg.g.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.g.@_fill": "#22c55e"
+          },
+          "speed2": {
+            "svg.g.path.animateTransform.@_dur": "1.2s",
+            "svg.g.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.g.@_fill": "#22c55e"
+          },
+          "speed3": {
+            "svg.g.path.animateTransform.@_dur": "0.6s",
+            "svg.g.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.g.@_fill": "#22c55e"
+          }
+        },
         "meta": { "label": "Fan", "labelPosition": "none", "status": 1 }
       },
       "width": 40,
@@ -198,6 +219,27 @@
         "minHeight": 28,
         "edgeType": "cable",
         "library": "basic",
+        "animations": {
+          "off": {
+            "svg.g.path.animateTransform.@_dur": "9999s",
+            "svg.g.path.animateTransform.@_repeatCount": "0"
+          },
+          "speed1": {
+            "svg.g.path.animateTransform.@_dur": "2s",
+            "svg.g.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.g.@_fill": "#22c55e"
+          },
+          "speed2": {
+            "svg.g.path.animateTransform.@_dur": "1.2s",
+            "svg.g.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.g.@_fill": "#22c55e"
+          },
+          "speed3": {
+            "svg.g.path.animateTransform.@_dur": "0.6s",
+            "svg.g.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.g.@_fill": "#22c55e"
+          }
+        },
         "meta": { "label": "Fan 1", "labelPosition": "none", "status": 3 }
       },
       "width": 28,
@@ -790,6 +832,27 @@
         "minHeight": 28,
         "edgeType": "cable",
         "library": "basic",
+        "animations": {
+          "off": {
+            "svg.g.path.animateTransform.@_dur": "9999s",
+            "svg.g.path.animateTransform.@_repeatCount": "0"
+          },
+          "speed1": {
+            "svg.g.path.animateTransform.@_dur": "2s",
+            "svg.g.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.g.@_fill": "#22c55e"
+          },
+          "speed2": {
+            "svg.g.path.animateTransform.@_dur": "1.2s",
+            "svg.g.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.g.@_fill": "#22c55e"
+          },
+          "speed3": {
+            "svg.g.path.animateTransform.@_dur": "0.6s",
+            "svg.g.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.g.@_fill": "#22c55e"
+          }
+        },
         "meta": { "label": "Fan 2", "labelPosition": "none", "status": 0 }
       },
       "width": 28,
@@ -822,6 +885,27 @@
         "minHeight": 28,
         "edgeType": "cable",
         "library": "basic",
+        "animations": {
+          "off": {
+            "svg.g.path.animateTransform.@_dur": "9999s",
+            "svg.g.path.animateTransform.@_repeatCount": "0"
+          },
+          "speed1": {
+            "svg.g.path.animateTransform.@_dur": "2s",
+            "svg.g.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.g.@_fill": "#22c55e"
+          },
+          "speed2": {
+            "svg.g.path.animateTransform.@_dur": "1.2s",
+            "svg.g.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.g.@_fill": "#22c55e"
+          },
+          "speed3": {
+            "svg.g.path.animateTransform.@_dur": "0.6s",
+            "svg.g.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.g.@_fill": "#22c55e"
+          }
+        },
         "meta": {
           "label": "Fan 3",
           "labelPosition": "none",
@@ -1147,6 +1231,27 @@
         "minHeight": 28,
         "edgeType": "cable",
         "library": "basic",
+        "animations": {
+          "off": {
+            "svg.g.path.animateTransform.@_dur": "9999s",
+            "svg.g.path.animateTransform.@_repeatCount": "0"
+          },
+          "speed1": {
+            "svg.g.path.animateTransform.@_dur": "2s",
+            "svg.g.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.g.@_fill": "#22c55e"
+          },
+          "speed2": {
+            "svg.g.path.animateTransform.@_dur": "1.2s",
+            "svg.g.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.g.@_fill": "#22c55e"
+          },
+          "speed3": {
+            "svg.g.path.animateTransform.@_dur": "0.6s",
+            "svg.g.path.animateTransform.@_repeatCount": "indefinite",
+            "svg.g.g.@_fill": "#22c55e"
+          }
+        },
         "meta": {
           "label": "Fan 4",
           "labelPosition": "none",
