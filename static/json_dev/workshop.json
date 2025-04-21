@@ -1029,26 +1029,21 @@
         "animations": {
           "off": {
             "svg.g.path.animateTransform.@_dur": "9999s",
-            "svg.g.path.animateTransform.@_repeatCount": "0",
-            "svg.g.g.@_stroke": "#cbd5e1",
-            "svg.g.g.@_fill": "#64748b"
+            "svg.g.path.animateTransform.@_repeatCount": "0"
           },
           "speed1": {
             "svg.g.path.animateTransform.@_dur": "2s",
             "svg.g.path.animateTransform.@_repeatCount": "indefinite",
-            "svg.g.g.@_stroke": "#86efac",
             "svg.g.g.@_fill": "#22c55e"
           },
           "speed2": {
             "svg.g.path.animateTransform.@_dur": "1.2s",
             "svg.g.path.animateTransform.@_repeatCount": "indefinite",
-            "svg.g.g.@_stroke": "#86efac",
             "svg.g.g.@_fill": "#22c55e"
           },
           "speed3": {
             "svg.g.path.animateTransform.@_dur": "0.6s",
             "svg.g.path.animateTransform.@_repeatCount": "indefinite",
-            "svg.g.g.@_stroke": "#86efac",
             "svg.g.g.@_fill": "#22c55e"
           }
         },
@@ -1062,7 +1057,7 @@
               { "text": "X3", "value": 3 }
             ],
             "label": "Status",
-            "endpoint":"/device-10/random/status.int.out?&min=0&max=3",
+            "endpoint": "/device-10/random/status.int.out?&min=0&max=3",
             "mappingType": "value",
             "mappings": [
               { "animation": "off" },
@@ -1109,26 +1104,21 @@
         "animations": {
           "off": {
             "svg.g.path.animateTransform.@_dur": "9999s",
-            "svg.g.path.animateTransform.@_repeatCount": "0",
-            "svg.g.g.@_stroke": "#cbd5e1",
-            "svg.g.g.@_fill": "#64748b"
+            "svg.g.path.animateTransform.@_repeatCount": "0"
           },
           "speed1": {
             "svg.g.path.animateTransform.@_dur": "2s",
             "svg.g.path.animateTransform.@_repeatCount": "indefinite",
-            "svg.g.g.@_stroke": "#86efac",
             "svg.g.g.@_fill": "#22c55e"
           },
           "speed2": {
             "svg.g.path.animateTransform.@_dur": "1.2s",
             "svg.g.path.animateTransform.@_repeatCount": "indefinite",
-            "svg.g.g.@_stroke": "#86efac",
             "svg.g.g.@_fill": "#22c55e"
           },
           "speed3": {
             "svg.g.path.animateTransform.@_dur": "0.6s",
             "svg.g.path.animateTransform.@_repeatCount": "indefinite",
-            "svg.g.g.@_stroke": "#86efac",
             "svg.g.g.@_fill": "#22c55e"
           }
         },
@@ -1142,7 +1132,7 @@
               { "text": "X3", "value": 3 }
             ],
             "label": "Status",
-            "endpoint":"/device-12/random/status.int.out?&min=0&max=3",
+            "endpoint": "/device-12/random/status.int.out?&min=0&max=3",
             "mappingType": "value",
             "mappings": [
               { "animation": "off" },
@@ -1187,26 +1177,21 @@
         "animations": {
           "off": {
             "svg.g.path.animateTransform.@_dur": "9999s",
-            "svg.g.path.animateTransform.@_repeatCount": "0",
-            "svg.g.g.@_stroke": "#94a3b8",
-            "svg.g.g.@_fill": "#64748b"
+            "svg.g.path.animateTransform.@_repeatCount": "0"
           },
           "speed1": {
             "svg.g.path.animateTransform.@_dur": "2s",
             "svg.g.path.animateTransform.@_repeatCount": "indefinite",
-            "svg.g.g.@_stroke": "#86efac",
             "svg.g.g.@_fill": "#22c55e"
           },
           "speed2": {
             "svg.g.path.animateTransform.@_dur": "1.2s",
             "svg.g.path.animateTransform.@_repeatCount": "indefinite",
-            "svg.g.g.@_stroke": "#86efac",
             "svg.g.g.@_fill": "#22c55e"
           },
           "speed3": {
             "svg.g.path.animateTransform.@_dur": "0.6s",
             "svg.g.path.animateTransform.@_repeatCount": "indefinite",
-            "svg.g.g.@_stroke": "#86efac",
             "svg.g.g.@_fill": "#22c55e"
           }
         },
@@ -1220,7 +1205,7 @@
               { "text": "X3", "value": 3 }
             ],
             "label": "Status",
-            "endpoint":"/device-13/random/status.int.out?&min=0&max=3",
+            "endpoint": "/device-13/random/status.int.out?&min=0&max=3",
             "mappingType": "value",
             "mappings": [
               { "animation": "off" },
