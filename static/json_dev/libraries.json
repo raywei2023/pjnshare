@@ -1,6 +1,5 @@
 [
   {
-    "name": "basic",
     "label": "Basic",
     "version": "1.0",
     "entries": [
@@ -9,7 +8,8 @@
         "label": "Bulb",
         "width": 20,
         "height": 20,
-        "setting": {
+        "data": {
+          "library": "basic",
           "name": "bulb",
           "handles": [{ "position": "bottom", "rotatable": true }],
           "url": "/static/svg_dev/bulb.svg",
@@ -38,7 +38,7 @@
             "animation": {
               "type": "map",
               "label": "Status",
-              "endpoint":"/device-8/random/status.int.out?&min=0&max=3",
+              "endpoint": "/device-8/random/status.int.out?&min=0&max=3",
               "mappingType": "value",
               "mappings": [
                 { "action": "off" },
@@ -60,7 +60,8 @@
         "label": "Fan",
         "width": 32,
         "height": 32,
-        "setting": {
+        "data": {
+          "library": "basic",
           "name": "fan",
           "handles": [
             { "position": "left", "rotatable": false },
@@ -116,7 +117,8 @@
         "label": "Heater",
         "width": 40,
         "height": 40,
-        "setting": {
+        "data": {
+          "library": "basic",
           "name": "heater",
           "handles": [
             { "position": "left", "rotatable": false },
@@ -173,7 +175,8 @@
         "label": "Valve",
         "width": 30,
         "height": 30,
-        "setting": {
+        "data": {
+          "library": "basic",
           "name": "valve",
           "handles": [
             { "position": "left", "rotatable": false },
@@ -197,7 +200,8 @@
         "label": "Pipe elbow",
         "width": 28,
         "height": 28,
-        "setting": {
+        "data": {
+          "library": "basic",
           "name": "pipe-elbow",
           "handles": [
             { "position": "top", "rotatable": true },
@@ -221,7 +225,8 @@
         "label": "Pipe joint",
         "width": 28,
         "height": 28,
-        "setting": {
+        "data": {
+          "library": "basic",
           "name": "pipe-joint",
           "handles": [
             { "position": "top", "rotatable": true },
@@ -246,7 +251,8 @@
         "label": "Pipe",
         "width": 28,
         "height": 28,
-        "setting": {
+        "data": {
+          "library": "basic",
           "name": "pipe",
           "handles": [
             { "position": "top", "rotatable": true },
@@ -270,7 +276,8 @@
         "label": "Twin tank",
         "width": 56,
         "height": 70,
-        "setting": {
+        "data": {
+          "library": "basic",
           "name": "twin-tank",
           "handles": [
             { "position": "left", "rotatable": false },
@@ -338,7 +345,8 @@
         "label": "Tank",
         "width": 72,
         "height": 48,
-        "setting": {
+        "data": {
+          "library": "basic",
           "name": "tank-wagon",
           "handles": [
             { "position": "left", "rotatable": false },
@@ -402,7 +410,8 @@
       {
         "type": "table",
         "label": "Table",
-        "setting": {
+        "data": {
+          "library": "basic",
           "name": "table",
           "url": "/static/svg_dev/table.svg",
           "animations": {
@@ -425,7 +434,8 @@
         "label": "Text",
         "width": 50,
         "height": 16,
-        "setting": {
+        "data": {
+          "library": "basic",
           "name": "label",
           "url": "/static/svg_dev/label.svg",
           "minWidth": 16,
@@ -469,11 +479,62 @@
         }
       },
       {
+        "type": "shape",
+        "label": "Dash line",
+        "width": 28,
+        "height": 14,
+        "data": {
+          "library": "shape",
+          "name": "dash-line",
+          "minWidth": 24,
+          "minHeight": 14,
+          "maxHeight": 14,
+          "properties": {
+            "strokeColor": {
+              "type": "color",
+              "lable": "Stroke Color",
+              "value": "#71717a"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "label": "Chart",
+    "version": "1.0",
+    "entries": [
+      {
+        "type": "chart",
+        "label": "Line Chart",
+        "data": {
+          "library": "dashboard",
+          "name": "line",
+          "url": "/static/svg_dev/chart-line.svg",
+          "minWidth": 230,
+          "minHeight": 160,
+          "properties": {}
+        }
+      },
+      {
+        "type": "chart",
+        "label": "Gauge",
+        "data": {
+          "library": "dashboard",
+          "name": "gauge",
+          "url": "/static/svg_dev/chart-gauge.svg",
+          "minWidth": 100,
+          "minHeight": 100,
+          "properties": {}
+        }
+      },
+      {
         "type": "svg",
         "label": "Demo",
         "width": 60,
         "height": 44,
-        "setting": {
+        "data": {
+          "library": "basic",
           "name": "demo",
           "minWidth": 30,
           "minHeight": 22,
@@ -495,36 +556,6 @@
     ]
   },
   {
-    "name": "chart",
-    "label": "Chart",
-    "version": "1.0",
-    "entries": [
-      {
-        "type": "chart",
-        "label": "Line Chart",
-        "setting": {
-          "name": "line",
-          "url": "/static/svg_dev/chart-line.svg",
-          "minWidth": 230,
-          "minHeight": 160,
-          "properties": {}
-        }
-      },
-      {
-        "type": "chart",
-        "label": "Gauge",
-        "setting": {
-          "name": "gauge",
-          "url": "/static/svg_dev/chart-gauge.svg",
-          "minWidth": 100,
-          "minHeight": 100,
-          "properties": {}
-        }
-      }
-    ]
-  },
-  {
-    "name": "shape",
     "label": "Shape",
     "version": "1.0",
     "entries": [
@@ -533,7 +564,8 @@
         "label": "Circle",
         "width": 28,
         "height": 28,
-        "setting": {
+        "data": {
+          "library": "shape",
           "name": "circle",
           "minWidth": 24,
           "minHeight": 24,
@@ -561,7 +593,8 @@
         "label": "Round rect",
         "width": 28,
         "height": 28,
-        "setting": {
+        "data": {
+          "library": "shape",
           "name": "round-rectangle",
           "minWidth": 24,
           "minHeight": 24,
@@ -589,7 +622,8 @@
         "label": "Rectangle",
         "width": 28,
         "height": 28,
-        "setting": {
+        "data": {
+          "library": "shape",
           "name": "rectangle",
           "minWidth": 24,
           "minHeight": 24,
@@ -617,7 +651,8 @@
         "label": "Hexagon",
         "width": 28,
         "height": 28,
-        "setting": {
+        "data": {
+          "library": "shape",
           "name": "hexagon",
           "minWidth": 24,
           "minHeight": 24,
@@ -645,7 +680,8 @@
         "label": "Diamond",
         "width": 28,
         "height": 28,
-        "setting": {
+        "data": {
+          "library": "shape",
           "name": "diamond",
           "minWidth": 24,
           "minHeight": 24,
@@ -673,7 +709,8 @@
         "label": "Arrow rect",
         "width": 28,
         "height": 28,
-        "setting": {
+        "data": {
+          "library": "shape",
           "name": "arrow-rectangle",
           "minWidth": 24,
           "minHeight": 24,
@@ -701,7 +738,8 @@
         "label": "Cylinder",
         "width": 28,
         "height": 28,
-        "setting": {
+        "data": {
+          "library": "shape",
           "name": "cylinder",
           "minWidth": 24,
           "minHeight": 24,
@@ -729,7 +767,8 @@
         "label": "Triangle",
         "width": 28,
         "height": 28,
-        "setting": {
+        "data": {
+          "library": "shape",
           "name": "triangle",
           "minWidth": 24,
           "minHeight": 24,
@@ -757,7 +796,8 @@
         "label": "Parallelogram",
         "width": 28,
         "height": 28,
-        "setting": {
+        "data": {
+          "library": "shape",
           "name": "parallelogram",
           "minWidth": 24,
           "minHeight": 24,
@@ -785,7 +825,8 @@
         "label": "Plus",
         "width": 28,
         "height": 28,
-        "setting": {
+        "data": {
+          "library": "shape",
           "name": "plus",
           "minWidth": 24,
           "minHeight": 24,
@@ -804,25 +845,6 @@
               "type": "float",
               "lable": "Fill Opacity",
               "value": 0.6
-            }
-          }
-        }
-      },
-      {
-        "type": "shape",
-        "label": "Dash line",
-        "width": 28,
-        "height": 14,
-        "setting": {
-          "name": "dash-line",
-          "minWidth": 24,
-          "minHeight": 14,
-          "maxHeight": 14,
-          "properties": {
-            "strokeColor": {
-              "type": "color",
-              "lable": "Stroke Color",
-              "value": "#71717a"
             }
           }
         }
