@@ -101,7 +101,6 @@
         "minHeight": 52.5,
         "edgeType": "pipe",
         "hasTable": true,
-        "id": "2166091c-76e0-4627-bff0-d908ef0455b4",
         "library": "basic",
         "meta": {
           "label": "Twin tank",
@@ -163,7 +162,6 @@
         "minWidth": 28,
         "minHeight": 28,
         "edgeType": "cable",
-        "id": "54bb30df-d8cc-44a0-8244-77b264d4bee3",
         "library": "basic",
         "meta": { "label": "Fan", "labelPosition": "none", "status": 1 }
       },
@@ -199,7 +197,6 @@
         "minWidth": 28,
         "minHeight": 28,
         "edgeType": "cable",
-        "id": "ee8c04c4-2e95-477d-b9d1-9e7a91be460b",
         "library": "basic",
         "meta": { "label": "Fan 1", "labelPosition": "none", "status": 3 }
       },
@@ -218,7 +215,6 @@
       "zIndex": 20,
       "data": {
         "name": "table",
-        "id": "55cf5f6b-9fb2-4fd7-8f4f-bd3cc45cd0cd",
         "library": "basic",
         "meta": {
           "label": "My home monitor",
@@ -301,7 +297,6 @@
         "minHeight": 28,
         "edgeType": "pipe",
         "rotatable": true,
-        "id": "d38f222e-92a9-4ed0-b1aa-2ea7f7b051b7",
         "library": "basic",
         "meta": { "label": "Vavle", "labelPosition": "none" }
       },
@@ -337,7 +332,6 @@
         "minWidth": 28,
         "minHeight": 28,
         "edgeType": "pipe",
-        "id": "dc122e15-13ff-4bd6-b289-5daf28a03cab",
         "library": "basic",
         "properties": {
           "rotate": {
@@ -380,7 +374,6 @@
         "minHeight": 46,
         "edgeType": "pipe",
         "hasTable": true,
-        "id": "31c9c2a4-f981-4a12-a6b0-d32a041f9b00",
         "library": "basic",
         "meta": { "label": "Tank", "labelPosition": "center" }
       },
@@ -417,7 +410,6 @@
         "minHeight": 36,
         "edgeType": "pipe",
         "hasTable": true,
-        "id": "cfeb439c-9478-4450-9836-6a2e1d3c5356",
         "library": "basic",
         "meta": {
           "label": "Heater",
@@ -472,7 +464,6 @@
         "minHeight": 36,
         "edgeType": "pipe",
         "hasTable": true,
-        "id": "3f9d6df2-47b2-4962-81d2-23783a32b934",
         "library": "basic",
         "meta": {
           "label": "Heater 1",
@@ -513,7 +504,6 @@
         "minHeight": 36,
         "edgeType": "pipe",
         "hasTable": true,
-        "id": "5b0bc3f9-aa61-465a-a91c-9574dc138426",
         "library": "basic",
         "meta": {
           "label": "Heater 2",
@@ -581,7 +571,6 @@
         "minHeight": 36,
         "edgeType": "pipe",
         "hasTable": true,
-        "id": "c83f815d-8320-4934-bdde-b4c2f4a2504e",
         "library": "basic",
         "meta": {
           "label": "Heater 3",
@@ -639,7 +628,6 @@
         "minWidth": 28,
         "minHeight": 28,
         "edgeType": "pipe",
-        "id": "852b8c74-24c7-42a6-a3df-6cb3c9d62032",
         "library": "basic",
         "meta": { "label": "PipeTR 1", "labelPosition": "none" }
       },
@@ -680,7 +668,6 @@
         "minWidth": 28,
         "minHeight": 28,
         "edgeType": "pipe",
-        "id": "e0c490f3-8fa2-4292-a047-da59b54da939",
         "library": "basic",
         "meta": { "label": "Pipe join", "labelPosition": "none" }
       },
@@ -719,7 +706,6 @@
         "minWidth": 28,
         "minHeight": 28,
         "edgeType": "pipe",
-        "id": "696b2082-f4cd-4772-bc54-f11a126b31a7",
         "library": "basic",
         "meta": {
           "label": "Pipe join 1",
@@ -762,7 +748,6 @@
         "minWidth": 28,
         "minHeight": 28,
         "edgeType": "pipe",
-        "id": "eda96287-370d-4cdb-897c-5c128f897be7",
         "library": "basic",
         "properties": {
           "rotate": {
@@ -804,7 +789,6 @@
         "minWidth": 28,
         "minHeight": 28,
         "edgeType": "cable",
-        "id": "4108051f-22e4-438e-919c-91977d17cbc0",
         "library": "basic",
         "meta": { "label": "Fan 2", "labelPosition": "none", "status": 0 }
       },
@@ -837,7 +821,6 @@
         "minWidth": 28,
         "minHeight": 28,
         "edgeType": "cable",
-        "id": "ab61b58d-2418-4fba-86b5-9b9d74fd8f2d",
         "library": "basic",
         "meta": {
           "label": "Fan 3",
@@ -875,7 +858,6 @@
         "minWidth": 20,
         "minHeight": 20,
         "edgeType": "cable",
-        "id": "5ff5a004-c915-4c1a-a0d7-a68c3b1aeb11",
         "library": "basic",
         "properties": {
           "rotate": {
@@ -912,7 +894,6 @@
         "minWidth": 20,
         "minHeight": 20,
         "edgeType": "cable",
-        "id": "56210aa7-9c68-4728-958a-0c29ec548774",
         "library": "basic",
         "properties": {
           "rotate": {
@@ -951,7 +932,6 @@
         "minWidth": 20,
         "minHeight": 20,
         "edgeType": "cable",
-        "id": "2ad94beb-9ed8-43f3-bb71-3d058aef649a",
         "library": "basic",
         "properties": {
           "rotate": {
@@ -989,7 +969,6 @@
         "minWidth": 20,
         "minHeight": 20,
         "edgeType": "cable",
-        "id": "8f425f7c-a6a9-4866-810b-9c98148d2da3",
         "library": "basic",
         "properties": {
           "rotate": {
@@ -1027,7 +1006,6 @@
         "minWidth": 20,
         "minHeight": 20,
         "edgeType": "cable",
-        "id": "21a54c6d-5930-458d-838e-48ea642751cc",
         "library": "basic",
         "properties": {
           "rotate": {
@@ -1058,7 +1036,6 @@
         "url": "/static/shape/round-rect.svg",
         "minWidth": 28,
         "minHeight": 28,
-        "id": "24856725-3422-40e3-9baa-81dea9d51f67",
         "library": "shape",
         "meta": {
           "label": "Dinning room",
@@ -1081,7 +1058,6 @@
       "zIndex": 10,
       "parentId": "cfeb439c-9478-4450-9836-6a2e1d3c5356",
       "data": {
-        "id": "ceb6bc0e-2aaa-4029-aea8-95e19f658b41",
         "library": "other",
         "name": "table",
         "meta": {
@@ -1115,7 +1091,6 @@
       "zIndex": 10,
       "parentId": "2166091c-76e0-4627-bff0-d908ef0455b4",
       "data": {
-        "id": "ab65a1e6-c1f7-4d3a-937c-54f15fbe420a",
         "library": "other",
         "name": "table",
         "meta": {
@@ -1171,7 +1146,6 @@
         "minWidth": 28,
         "minHeight": 28,
         "edgeType": "cable",
-        "id": "03dad0d3-cb4b-4ad7-a3e6-e02d0a871e3c",
         "library": "basic",
         "meta": {
           "label": "Fan 4",
@@ -1200,7 +1174,6 @@
         "url": "/static/shape/rect.svg",
         "minWidth": 28,
         "minHeight": 28,
-        "id": "d2dd2dcb-66b2-4a6a-b51c-4677026c25f1",
         "library": "shape",
         "meta": {
           "label": "Bedroom",
@@ -1223,7 +1196,6 @@
       "zIndex": 10,
       "parentId": "c83f815d-8320-4934-bdde-b4c2f4a2504e",
       "data": {
-        "id": "20ee0cde-1e72-493f-ad40-0bba5cfbedef",
         "library": "other",
         "name": "table",
         "meta": {
@@ -1257,7 +1229,6 @@
       "zIndex": 10,
       "parentId": "5b0bc3f9-aa61-465a-a91c-9574dc138426",
       "data": {
-        "id": "1c602996-48b1-4309-9304-fb8cfa641c56",
         "library": "other",
         "name": "table",
         "meta": {

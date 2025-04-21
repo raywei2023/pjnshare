@@ -8,7 +8,6 @@
       "position": { "x": -10.1, "y": -1.77 },
       "parentId": "",
       "data": {
-        "id": "g20250206",
         "library": "other",
         "name": "background",
         "url": "https://raywei2023.github.io/pjnshare/images/office_2025.jpg",
@@ -32,7 +31,6 @@
       "selected": false,
       "zIndex": 20,
       "data": {
-        "id": "8053f7d6-fc1a-4422-ba01-9889114b7bcc",
         "library": "basic",
         "name": "twin-tank",
         "url": "/static/svg_dev/twin-tank.svg",
@@ -94,7 +92,6 @@
       "selected": false,
       "zIndex": 20,
       "data": {
-        "id": "a45b15de-8ef7-40b7-a4c6-eaf6e7baa333",
         "library": "basic",
         "name": "tank-wagon",
         "url": "/static/svg_dev/tank-wagon.svg",
@@ -155,7 +152,6 @@
       "selected": false,
       "zIndex": 20,
       "data": {
-        "id": "ad813a70-924a-48e0-acb8-378d0886f897",
         "library": "basic",
         "name": "valve",
         "url": "/static/svg_dev/valve.svg",
@@ -191,7 +187,6 @@
       "selected": false,
       "zIndex": 20,
       "data": {
-        "id": "5e755fab-b595-463a-bb1c-7f57cc0f6367",
         "library": "basic",
         "name": "pipe-elbow",
         "url": "/static/svg_dev/pipe-elbow.svg",
@@ -231,7 +226,6 @@
       "selected": false,
       "position": { "x": 712.9, "y": 160.64 },
       "data": {
-        "id": "808ef159-8967-4161-8d08-c3c88bdaa8f3",
         "library": "basic",
         "name": "pipe-elbow",
         "url": "/static/svg_dev/pipe-elbow.svg",
@@ -275,7 +269,6 @@
       "selected": false,
       "zIndex": 20,
       "data": {
-        "id": "7786d2ae-d613-460c-b429-b201d9aee45a",
         "library": "basic",
         "name": "pipe-joint",
         "url": "/static/svg_dev/pipe-joint.svg",
@@ -320,7 +313,6 @@
       "selected": false,
       "position": { "x": 712.9, "y": 588.19 },
       "data": {
-        "id": "aac80fbf-5d69-49df-a26b-b4db644ab4c1",
         "library": "basic",
         "name": "pipe-joint",
         "url": "/static/svg_dev/pipe-joint.svg",
@@ -367,7 +359,6 @@
       "selected": false,
       "position": { "x": 712.9, "y": 798.87 },
       "data": {
-        "id": "83ccbd6a-9977-45b9-b28b-99f5a54e38df",
         "library": "basic",
         "name": "pipe-joint",
         "url": "/static/svg_dev/pipe-joint.svg",
@@ -416,7 +407,6 @@
       "selected": false,
       "zIndex": 20,
       "data": {
-        "id": "a1d577ee-2135-4bb2-a029-e50f251fe044",
         "library": "basic",
         "name": "heater",
         "url": "/static/svg_dev/heater.svg",
@@ -470,7 +460,6 @@
       "selected": false,
       "position": { "x": 616.79, "y": 370.06 },
       "data": {
-        "id": "53fc935f-9090-4fc0-9c04-73fab06c3219",
         "library": "basic",
         "name": "heater",
         "url": "/static/svg_dev/heater.svg",
@@ -527,7 +516,6 @@
       "selected": false,
       "position": { "x": 621.99, "y": 584.07 },
       "data": {
-        "id": "bab6bf83-9c30-4f36-84c3-bcc343427581",
         "library": "basic",
         "name": "heater",
         "url": "/static/svg_dev/heater.svg",
@@ -563,7 +551,6 @@
       "selected": false,
       "position": { "x": 605.99, "y": 788.99 },
       "data": {
-        "id": "03adfcc6-cbde-4cec-b018-5b55315a00e6",
         "library": "basic",
         "name": "heater",
         "url": "/static/svg_dev/heater.svg",
@@ -602,7 +589,6 @@
       "selected": false,
       "zIndex": 10,
       "data": {
-        "id": "6bb51b9c-0ad7-4216-bc5d-4c33bbec441f",
         "library": "shape",
         "name": "hexagon",
         "url": "/static/shape/hexagon.svg",
@@ -628,7 +614,6 @@
       "selected": false,
       "position": { "x": 17.03, "y": 530.66 },
       "data": {
-        "id": "26047236-4570-48c0-966e-efc35e22f075",
         "library": "shape",
         "name": "hexagon",
         "url": "/static/shape/hexagon.svg",
@@ -655,7 +640,6 @@
       "selected": false,
       "position": { "x": 17.03, "y": 313.13 },
       "data": {
-        "id": "14a3a549-7567-4472-9769-897391d62069",
         "library": "shape",
         "name": "hexagon",
         "url": "/static/shape/hexagon.svg",
@@ -682,7 +666,6 @@
       "selected": false,
       "position": { "x": 17.03, "y": 96.91 },
       "data": {
-        "id": "b827db95-0570-4b9d-93e2-cad484042783",
         "library": "shape",
         "name": "hexagon",
         "url": "/static/shape/hexagon.svg",
@@ -711,7 +694,6 @@
       "selected": false,
       "zIndex": 10,
       "data": {
-        "id": "ae64ea02-47e0-43ce-9bd5-d6e84c3bc6f0",
         "library": "shape",
         "name": "round-rectangle",
         "url": "/static/shape/round-rect.svg",
@@ -739,7 +721,6 @@
       "selected": false,
       "zIndex": 10,
       "data": {
-        "id": "9ec02d77-8162-4915-b5ed-abfaa60dce8c",
         "library": "shape",
         "name": "rectangle",
         "url": "/static/shape/rect.svg",
@@ -764,7 +745,6 @@
       "selected": false,
       "position": { "x": 228.87, "y": 484.19 },
       "data": {
-        "id": "dfee0189-f9aa-4396-ad1c-40dc9f13a795",
         "library": "shape",
         "name": "rectangle",
         "url": "/static/shape/rect.svg",
@@ -794,7 +774,6 @@
       "selected": false,
       "zIndex": 10,
       "data": {
-        "id": "1c6c994c-465c-425d-8741-13df95a0bc6c",
         "library": "shape",
         "name": "round-rectangle",
         "url": "/static/shape/round-rect.svg",
@@ -822,7 +801,6 @@
       "selected": false,
       "zIndex": 20,
       "data": {
-        "id": "2a5fbd31-42f1-4414-a70f-6a5090a91128",
         "library": "basic",
         "name": "fan",
         "url": "/static/svg_dev/fan.svg",
@@ -856,7 +834,6 @@
       "selected": false,
       "position": { "x": 200.87, "y": 708.88 },
       "data": {
-        "id": "b6548bf7-50dd-4655-9333-57679ff9ec63",
         "library": "basic",
         "name": "fan",
         "url": "/static/svg_dev/fan.svg",
@@ -894,7 +871,6 @@
       "selected": false,
       "zIndex": 20,
       "data": {
-        "id": "d8640648-8cb3-4c39-a260-908e05df09dc",
         "library": "basic",
         "name": "bulb",
         "url": "/static/svg_dev/bulb.svg",
@@ -930,7 +906,6 @@
       "selected": false,
       "position": { "x": 279.12, "y": 712.77 },
       "data": {
-        "id": "70e03fba-526a-49ba-bc39-62f94749b309",
         "library": "basic",
         "name": "bulb",
         "url": "/static/svg_dev/bulb.svg",
@@ -967,7 +942,6 @@
       "selected": false,
       "position": { "x": 240.48, "y": 495.7 },
       "data": {
-        "id": "03056cc3-bd44-4cd4-a52c-1bcd01321d24",
         "library": "basic",
         "name": "fan",
         "url": "/static/svg_dev/fan.svg",
@@ -1002,7 +976,6 @@
       "selected": false,
       "position": { "x": 279.12, "y": 499.58 },
       "data": {
-        "id": "c7b14ccf-e5d0-4281-a160-6e5bf2ca080b",
         "library": "basic",
         "name": "bulb",
         "url": "/static/svg_dev/bulb.svg",
@@ -1039,7 +1012,6 @@
       "selected": false,
       "position": { "x": 285.3, "y": 283.13 },
       "data": {
-        "id": "cd98a12f-1a7d-48be-bc13-448a0fcdba74",
         "library": "basic",
         "name": "fan",
         "url": "/static/svg_dev/fan.svg",
@@ -1075,7 +1047,6 @@
       "selected": false,
       "position": { "x": 323.95, "y": 287.01 },
       "data": {
-        "id": "bc05e7a4-4f66-4922-8700-ead3f8d542e6",
         "library": "basic",
         "name": "bulb",
         "url": "/static/svg_dev/bulb.svg",
@@ -1112,7 +1083,6 @@
       "selected": false,
       "position": { "x": 283.38, "y": 68.47 },
       "data": {
-        "id": "2509bc32-1f31-42c5-9e1b-15f1955bc194",
         "library": "basic",
         "name": "fan",
         "url": "/static/svg_dev/fan.svg",
@@ -1147,7 +1117,6 @@
       "selected": false,
       "position": { "x": 322.03, "y": 72.35 },
       "data": {
-        "id": "3268a397-7010-440a-8d99-c2033d52d5cf",
         "library": "basic",
         "name": "bulb",
         "url": "/static/svg_dev/bulb.svg",
@@ -1185,7 +1154,6 @@
       "zIndex": 10,
       "parentId": "8053f7d6-fc1a-4422-ba01-9889114b7bcc",
       "data": {
-        "id": "b4b43dac-7cf8-472f-a478-09e48fb4ab10",
         "library": "other",
         "name": "table",
         "meta": {
@@ -1219,7 +1187,6 @@
       "zIndex": 10,
       "parentId": "a45b15de-8ef7-40b7-a4c6-eaf6e7baa333",
       "data": {
-        "id": "1b5a6ca9-3c7d-4e1e-b6e1-09845f932f89",
         "library": "other",
         "name": "table",
         "meta": {
@@ -1258,7 +1225,6 @@
       "zIndex": 10,
       "parentId": "53fc935f-9090-4fc0-9c04-73fab06c3219",
       "data": {
-        "id": "0bc6357d-8785-4856-976d-57d89ae2259b",
         "library": "other",
         "name": "table",
         "meta": {
@@ -1292,7 +1258,6 @@
       "zIndex": 10,
       "parentId": "a1d577ee-2135-4bb2-a029-e50f251fe044",
       "data": {
-        "id": "da3dd6c0-14ef-45aa-9662-f401341175b5",
         "library": "other",
         "name": "table",
         "meta": {
@@ -1324,7 +1289,6 @@
       "selected": false,
       "position": { "x": 343.21, "y": 284.46 },
       "data": {
-        "id": "64343df1-feb7-4772-bd3c-697a57ccd852",
         "library": "basic",
         "name": "bulb",
         "url": "/static/svg_dev/bulb.svg",

@@ -8,7 +8,6 @@
       "selected": false,
       "zIndex": 20,
       "data": {
-        "id": "f285255f-416e-484f-aa3b-01e05b34e5a1",
         "library": "basic",
         "name": "tank-wagon",
         "url": "/static/svg_dev/tank-wagon.svg",
@@ -84,7 +83,6 @@
       "selected": false,
       "zIndex": 20,
       "data": {
-        "id": "c9d88d17-544c-4aac-8178-493722df4962",
         "library": "basic",
         "name": "pipe-elbow",
         "url": "/static/svg_dev/pipe-elbow.svg",
@@ -123,7 +121,6 @@
       "selected": false,
       "position": { "x": 594.16, "y": 243.2 },
       "data": {
-        "id": "d93d6d78-f35e-4f6e-8c29-fa9b738d81cb",
         "library": "basic",
         "name": "pipe-elbow",
         "url": "/static/svg_dev/pipe-elbow.svg",
@@ -167,7 +164,6 @@
       "selected": false,
       "zIndex": 20,
       "data": {
-        "id": "f4a1ed1e-1234-4978-8ecf-dc5b9ab79da4",
         "library": "basic",
         "name": "valve",
         "url": "/static/svg_dev/valve.svg",
@@ -207,7 +203,6 @@
       "selected": false,
       "position": { "x": 485.59, "y": 243.2 },
       "data": {
-        "id": "d76b135a-153b-4309-9fab-63ca0ac4bd21",
         "library": "basic",
         "name": "valve",
         "url": "/static/svg_dev/valve.svg",
@@ -249,7 +244,6 @@
       "selected": false,
       "position": { "x": 93.89, "y": -160.44 },
       "data": {
-        "id": "5cef21be-a086-4bf9-ad19-e19bfe19e452",
         "library": "basic",
         "name": "pipe-joint",
         "url": "/static/svg_dev/pipe-joint.svg",
@@ -296,7 +290,6 @@
       "selected": false,
       "position": { "x": 93.89, "y": -47.95 },
       "data": {
-        "id": "abba77f1-de98-44bb-91c7-1b6b5d3b16c3",
         "library": "basic",
         "name": "pipe-joint",
         "url": "/static/svg_dev/pipe-joint.svg",
@@ -343,7 +336,6 @@
       "selected": false,
       "position": { "x": 93.89, "y": 107.65 },
       "data": {
-        "id": "55a5d9f4-a059-464b-975d-9271e673c0cb",
         "library": "basic",
         "name": "pipe-joint",
         "url": "/static/svg_dev/pipe-joint.svg",
@@ -390,7 +382,6 @@
       "selected": false,
       "position": { "x": 594.16, "y": 103.54 },
       "data": {
-        "id": "85a0db08-c3a6-4074-9a1d-062651936456",
         "library": "basic",
         "name": "pipe-joint",
         "url": "/static/svg_dev/pipe-joint.svg",
@@ -437,7 +428,6 @@
       "selected": false,
       "position": { "x": 594.16, "y": -47.95 },
       "data": {
-        "id": "662c62b8-8250-40ce-ba0b-09c2adfe1fb7",
         "library": "basic",
         "name": "pipe-elbow",
         "url": "/static/svg_dev/pipe-elbow.svg",
@@ -479,7 +469,6 @@
       "selected": false,
       "position": { "x": 93.89, "y": -224.25 },
       "data": {
-        "id": "4984740a-6a73-4b23-95e3-3d35784f1747",
         "library": "basic",
         "name": "pipe-elbow",
         "url": "/static/svg_dev/pipe-elbow.svg",
@@ -523,7 +512,6 @@
       "selected": false,
       "zIndex": 20,
       "data": {
-        "id": "cd1d30db-921f-4791-b7cc-77120cdc811d",
         "library": "basic",
         "name": "valve",
         "url": "/static/svg_dev/valve.svg",
@@ -565,7 +553,6 @@
       "selected": false,
       "zIndex": 20,
       "data": {
-        "id": "fc6dc53e-ee7a-4c9e-bf39-6ac105595f1f",
         "library": "basic",
         "name": "valve",
         "url": "/static/svg_dev/valve.svg",
@@ -607,7 +594,6 @@
       "selected": false,
       "zIndex": 20,
       "data": {
-        "id": "3fd4d31d-6cf9-47ac-a8af-eada132b3529",
         "library": "basic",
         "name": "twin-tank",
         "url": "/static/svg_dev/twin-tank.svg",
@@ -688,7 +674,6 @@
       "selected": false,
       "zIndex": 20,
       "data": {
-        "id": "0b159874-a64d-4a63-9389-e363c099cd50",
         "library": "basic",
         "name": "heater",
         "label": "Heater",
@@ -752,7 +737,6 @@
       "selected": false,
       "position": { "x": 501.7, "y": -52.37 },
       "data": {
-        "id": "7a3a3a0f-1023-476b-b1a0-9cc3f07a60f9",
         "library": "basic",
         "name": "heater",
         "url": "/static/svg_dev/heater.svg",
@@ -818,7 +802,6 @@
       "selected": false,
       "position": { "x": 513.59, "y": 99.65 },
       "data": {
-        "id": "18c8400b-14fd-48da-b76a-1af77b0256c2",
         "library": "basic",
         "name": "heater",
         "url": "/static/svg_dev/heater.svg",
@@ -884,7 +867,6 @@
       "selected": false,
       "position": { "x": 180, "y": 103.54 },
       "data": {
-        "id": "a8f31217-5a45-41cf-b942-e717b2679a65",
         "library": "basic",
         "name": "heater",
         "url": "/static/svg_dev/heater.svg",
@@ -951,7 +933,6 @@
       "selected": false,
       "zIndex": 20,
       "data": {
-        "id": "8c245d49-1aa7-45bc-bad7-a22cd1dc2b3a",
         "library": "basic",
         "name": "tank-wagon",
         "label": "Tank 1",
@@ -1026,7 +1007,6 @@
       "selected": false,
       "zIndex": 20,
       "data": {
-        "id": "d30617d2-10bb-4f18-b295-18794667f694",
         "library": "basic",
         "label": "Fan",
         "name": "fan",
@@ -1107,7 +1087,6 @@
       "selected": false,
       "zIndex": 20,
       "data": {
-        "id": "e0a52f3b-d1d1-45da-a775-ed6ff40b8098",
         "library": "basic",
         "name": "fan",
         "url": "/static/svg_dev/fan.svg",
@@ -1186,7 +1165,6 @@
       "selected": false,
       "position": { "x": 435.39, "y": 100.54 },
       "data": {
-        "id": "c66e7b5a-8199-49b1-9b81-1f7dcc252cd7",
         "library": "basic",
         "name": "fan",
         "url": "/static/svg_dev/fan.svg",
@@ -1269,7 +1247,6 @@
       "selected": false,
       "zIndex": 10,
       "data": {
-        "id": "161cf203-fe75-4b2f-8c5c-b8235c39992b",
         "library": "shape",
         "name": "round-rectangle",
         "url": "/static/shape/round-rect.svg",
@@ -1308,7 +1285,6 @@
       "selected": false,
       "zIndex": 10,
       "data": {
-        "id": "4d5377d5-d521-40ba-ae81-e5beebe5f689",
         "library": "shape",
         "name": "rectangle",
         "url": "/static/shape/rect.svg",
@@ -1345,7 +1321,6 @@
       "selected": false,
       "position": { "x": 150, "y": -76.51 },
       "data": {
-        "id": "5285e4e1-c4e3-49ce-bbbf-5822ded80882",
         "library": "shape",
         "name": "round-rectangle",
         "url": "/static/shape/round-rect.svg",
@@ -1384,7 +1359,6 @@
       "selected": false,
       "position": { "x": 491.1, "y": 71.54 },
       "data": {
-        "id": "5d295888-452a-4cac-ae44-434f3f519f4b",
         "library": "shape",
         "name": "rectangle",
         "url": "/static/shape/rect.svg",
@@ -1424,7 +1398,6 @@
       "zIndex": 10,
       "parentId": "8c245d49-1aa7-45bc-bad7-a22cd1dc2b3a",
       "data": {
-        "id": "1ca36e5b-92be-4e62-bb3a-a71377128f4f",
         "library": "other",
         "name": "table",
         "label": "Tank 1",
@@ -1470,7 +1443,6 @@
       "zIndex": 10,
       "parentId": "f285255f-416e-484f-aa3b-01e05b34e5a1",
       "data": {
-        "id": "22d5c294-6f3b-4910-bc4c-d67da0181155",
         "library": "other",
         "name": "table",
         "label": "Tank base",
@@ -1516,7 +1488,6 @@
       "zIndex": 10,
       "parentId": "0b159874-a64d-4a63-9389-e363c099cd50",
       "data": {
-        "id": "df269a87-a5c5-4b9b-83da-65915038ed6b",
         "library": "other",
         "name": "table",
         "label": "Heater",
@@ -1551,7 +1522,6 @@
       "zIndex": 10,
       "parentId": "18c8400b-14fd-48da-b76a-1af77b0256c2",
       "data": {
-        "id": "af568873-79b9-4bb7-a839-520efd5fe119",
         "library": "other",
         "name": "table",
         "label": "Heater 2",
@@ -1592,7 +1562,6 @@
       "selected": false,
       "zIndex": 10,
       "data": {
-        "id": "a5802a81-60ee-4382-a2b1-646082f3dfb0",
         "library": "shape",
         "name": "dash-line",
         "url": "/static/shape/dash-line.svg",
@@ -1615,7 +1584,6 @@
       "selected": false,
       "zIndex": 10,
       "data": {
-        "id": "cf7129cd-7340-403e-bafd-55dddf9eddc1",
         "library": "shape",
         "name": "arrow-rectangle",
         "url": "/static/shape/arrow-rect.svg",
@@ -1652,7 +1620,6 @@
       "selected": false,
       "position": { "x": 51.76, "y": 41.59 },
       "data": {
-        "id": "3b2392fa-513b-467e-9e53-3579acd03381",
         "library": "shape",
         "name": "dash-line",
         "url": "/static/shape/dash-line.svg",
@@ -1674,7 +1641,6 @@
       "selected": false,
       "position": { "x": -37.62, "y": 34.35 },
       "data": {
-        "id": "9ef13000-011c-4893-9d76-f7a9771a7a3b",
         "library": "shape",
         "name": "arrow-rectangle",
         "url": "/static/shape/arrow-rect.svg",
@@ -1712,7 +1678,6 @@
       "selected": false,
       "position": { "x": 51.38, "y": -108.98 },
       "data": {
-        "id": "a2c3acd3-cb96-481c-b103-d900f072f9b5",
         "library": "shape",
         "name": "dash-line",
         "url": "/static/shape/dash-line.svg",
@@ -1734,7 +1699,6 @@
       "selected": false,
       "position": { "x": -37.99, "y": -116.22 },
       "data": {
-        "id": "e478f70d-9e42-4465-8076-cdb499fa40df",
         "library": "shape",
         "name": "arrow-rectangle",
         "url": "/static/shape/arrow-rect.svg",
@@ -1774,7 +1738,6 @@
       "selected": false,
       "zIndex": 20,
       "data": {
-        "id": "b837efb7-2432-45d1-a3cc-55be893b1bdf",
         "library": "chart",
         "name": "gauge",
         "minWidth": 100,
@@ -1796,7 +1759,6 @@
       "selected": false,
       "zIndex": 20,
       "data": {
-        "id": "68da3dfb-7372-44fb-a7e8-bcc0fb1dd546",
         "library": "chart",
         "name": "line",
         "minWidth": 230,
@@ -1818,7 +1780,6 @@
       "selected": false,
       "zIndex": 20,
       "data": {
-        "id": "62ed5533-0866-43b9-bb15-ba401aed52bd",
         "library": "basic",
         "name": "table",
         "label": "Global monitor",
@@ -1852,7 +1813,6 @@
       "zIndex": 10,
       "parentId": "3fd4d31d-6cf9-47ac-a8af-eada132b3529",
       "data": {
-        "id": "17954adc-63d9-4553-aa8f-73177abbee84",
         "library": "other",
         "name": "table",
         "label": "Twin tank",
@@ -1891,7 +1851,6 @@
       "selected": false,
       "position": { "x": 438.96, "y": -31.88 },
       "data": {
-        "id": "132312d6-30fd-4b0f-910d-c79fd312c7c1",
         "library": "basic",
         "label": "bulb 4",
         "name": "bulb",
@@ -1977,7 +1936,6 @@
         "minWidth": 16,
         "minHeight": 16,
         "edgeType": "cable",
-        "id": "3bb8cb56-7d92-4f99-80f1-f168e150e045",
         "library": "basic",
         "animations": {
           "off": {
@@ -2050,7 +2008,6 @@
         "minWidth": 20,
         "minHeight": 20,
         "edgeType": "cable",
-        "id": "86f1d4d9-12ac-4c6e-8050-64e2cd449c90",
         "library": "basic",
         "label": "bulb 3",
         "animations": {
@@ -2125,7 +2082,6 @@
         "minWidth": 20,
         "minHeight": 20,
         "edgeType": "cable",
-        "id": "6c589f4c-c1c5-4e10-bdf9-e36cb57501db",
         "library": "basic",
         "label": "bulb",
         "animations": {
@@ -2197,7 +2153,6 @@
         "minWidth": 20,
         "minHeight": 20,
         "edgeType": "cable",
-        "id": "b6b375c9-f9ec-428d-a765-4e7c4b158e08",
         "library": "basic",
         "label": "bulb 2",
         "animations": {
@@ -2272,7 +2227,6 @@
         "minWidth": 20,
         "minHeight": 20,
         "edgeType": "cable",
-        "id": "5b008eb3-0fab-4bc0-af48-e2eca8bf79e3",
         "library": "basic",
         "label": "bulb 5",
         "animations": {
