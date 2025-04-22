@@ -1,13 +1,49 @@
-<svg width="30" height="22" viewBox="-7 -2 294 216" class="h-full w-full"
+<svg width="30" height="21" viewBox="259 -0.5 298 208" class="h-full w-full"
   xmlns="http://www.w3.org/2000/svg">
-  <g fill="none" stroke="rgba(var(--muted-foreground))" stroke-width="10">
-    <g transform="translate(15 159)" fill="rgba(var(--muted))">
-      <path d="M18 21h24v28H18zM209 21h24v28h-24z" />
-      <path d="M0 49h250" fill="none" />
-      <rect width="242" height="20" x="4" y="4" rx="4" />
-    </g>
-    <rect width="80" height="16" x="100" y="4" fill="rgba(var(--muted))" rx="4" />
-    <rect width="280" height="140" y="21.35" fill="rgba(var(--muted))"
-      rx="70"  />
+  <defs>
+    <linearGradient id="fill_overcold" gradientTransform="rotate(90)">
+      <stop offset="10%" stop-color="#d9f99d" />
+      <stop offset="90%" stop-color="#22c55e">
+        <animate attributeName="stop-color" values="#f87171;#22c55e;#f87171" dur="3"
+          repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+    <linearGradient id="fill_overheat" gradientTransform="rotate(90)">
+      <stop offset="10%" stop-color="#fcd34d" />
+      <stop offset="90%" stop-color="#dc2626">
+        <animate attributeName="stop-color" values="#f97316;#dc2626;#f97316" dur="3"
+          repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+    <mask id="mask_still">
+      <path fill="#fff" stroke="none"
+        d="M0 52.84c47.72 0 93.36-21.19 141-21.19 47.8 0 91.28 21.2 138.92 21.2 47.8 0 92.36-21.2 140.08-21.2 47.8 0 92.28 21.2 140 21.2v87.8H0v-87.8Z">
+        <animateTransform attributeName="transform" attributeType="XML" dur="6" from="-6 0"
+          repeatCount="indefinite" to="270 0" type="translate" />
+      </path>
+    </mask>
+    <mask id="mask_overcold">
+      <path fill="#fff" stroke="none"
+        d="M0 50.02c47.72 0 94.33-31.43 141.97-31.43 47.8 0 90.3 31.43 137.95 31.43 47.8 0 92.39-31.43 140.1-31.43 47.81 0 92.26 31.43 139.98 31.43v80.57H0V50.02Z">
+        <animateTransform attributeName="transform" attributeType="XML" dur="4" from="-128 0"
+          repeatCount="indefinite" to="148 0" type="translate" />
+      </path>
+    </mask>
+    <mask id="mask_overheat">
+      <path fill="#fff" stroke="none"
+      d="M0 50.02C47.72 50.02 95 12 142.65 12c47.8 0 89.63 38.02 137.27 38.02 47.8 0 92.4-38.02 140.12-38.02 47.8 0 92.24 38.02 139.96 38.02v80.57H0V50.02Z">
+        <animateTransform attributeName="transform" attributeType="XML" dur="1.5" from="-128 0"
+          repeatCount="indefinite" to="148 0" type="translate" />
+      </path>
+    </mask>
+  </defs>
+  <g stroke="#000" stroke-width="8" transform="translate(283 154)">
+    <path fill="#999" d="M18 19h24v28H18zM209 19h24v28h-24z" />
+    <path stroke-linecap="round" d="M2 49h246" />
+    <rect width="242" height="14" x="4" y="4" fill="#999" rx="4" />
   </g>
+  <rect width="62" height="16" x="377" y="4" fill="#999" stroke="#000" stroke-width="8" rx="4" />
+  <rect width="296" height="144" x="260" y="16.35" fill="#000" fill-rule="nonzero" rx="72" />
+  <rect transform="translate(0 24.35)" width="278" height="128" x="269" fill="#999"
+    mask="url(#mask_still)" rx="64" />
 </svg>

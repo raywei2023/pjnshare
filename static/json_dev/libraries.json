@@ -338,8 +338,8 @@
       {
         "type": "svg",
         "label": "Tank",
-        "width": 72,
-        "height": 48,
+        "width": 60,
+        "height": 42,
         "data": {
           "library": "basic",
           "name": "tank-wagon",
@@ -348,22 +348,22 @@
             { "position": "right", "rotatable": false }
           ],
           "url": "/static/svg_dev/tank-wagon.svg",
-          "minWidth": 52,
-          "minHeight": 36,
+          "minWidth": 30,
+          "minHeight": 21,
           "edgeType": "pipe",
           "hasTable": true,
           "animations": {
             "normal": {
-              "svg.rect.@_fill": "#e2e8f0",
-              "svg.rect.@_mask": "url(#mask_still)"
+              "svg.rect.2.@_fill": "#e2e8f0",
+              "svg.rect.2.@_mask": "url(#mask_still)"
             },
             "overcold": {
-              "svg.rect.@_fill": "url(#fill_overcold)",
-              "svg.rect.@_mask": "url(#mask_overcold)"
+              "svg.rect.2.@_fill": "url(#fill_overcold)",
+              "svg.rect.2.@_mask": "url(#mask_overcold)"
             },
             "overheat": {
-              "svg.rect.@_fill": "url(#fill_overheat)",
-              "svg.rect.@_mask": "url(#mask_overheat)"
+              "svg.rect.2.@_fill": "url(#fill_overheat)",
+              "svg.rect.2.@_mask": "url(#mask_overheat)"
             }
           },
           "properties": {
@@ -527,12 +527,12 @@
         "type": "svg",
         "label": "Demo",
         "width": 60,
-        "height": 44,
+        "height": 42,
         "data": {
           "library": "basic",
           "name": "demo",
           "minWidth": 30,
-          "minHeight": 22,
+          "minHeight": 21,
           "handles": [
             { "position": "left", "rotatable": false },
             { "position": "right", "rotatable": false }

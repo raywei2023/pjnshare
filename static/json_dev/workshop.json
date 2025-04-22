@@ -3,7 +3,7 @@
     {
       "id": "f285255f-416e-484f-aa3b-01e05b34e5a1",
       "type": "svg",
-      "position": { "x": 311.16, "y": 219.47 },
+      "position": { "x": 311.16, "y": 226 },
       "hidden": false,
       "selected": false,
       "zIndex": 20,
@@ -11,8 +11,8 @@
         "library": "basic",
         "name": "tank-wagon",
         "url": "/static/svg_dev/tank-wagon.svg",
-        "minWidth": 69,
-        "minHeight": 46,
+        "minWidth": 30,
+        "minHeight": 22,
         "edgeType": "pipe",
         "hasTable": true,
         "handles": [
@@ -30,16 +30,16 @@
         "label": "Tank base",
         "animations": {
           "normal": {
-            "svg.rect.@_fill": "#e2e8f0",
-            "svg.rect.@_mask": "url(#mask_still)"
+            "svg.rect.2.@_fill": "#e2e8f0",
+            "svg.rect.2.@_mask": "url(#mask_still)"
           },
           "overcold": {
-            "svg.rect.@_fill": "url(#fill_overcold)",
-            "svg.rect.@_mask": "url(#mask_overcold)"
+            "svg.rect.2.@_fill": "url(#fill_overcold)",
+            "svg.rect.2.@_mask": "url(#mask_overcold)"
           },
           "overheat": {
-            "svg.rect.@_fill": "url(#fill_overheat)",
-            "svg.rect.@_mask": "url(#mask_overheat)"
+            "svg.rect.2.@_fill": "url(#fill_overheat)",
+            "svg.rect.2.@_mask": "url(#mask_overheat)"
           }
         },
         "properties": {
@@ -69,9 +69,9 @@
           }
         }
       },
-      "width": 113.49,
-      "height": 75.66,
-      "measured": { "width": 113, "height": 76 },
+      "width": 90,
+      "height": 63,
+      "measured": { "width": 90, "height": 63 },
       "dragging": false,
       "resizing": false
     },
@@ -928,7 +928,7 @@
     {
       "id": "8c245d49-1aa7-45bc-bad7-a22cd1dc2b3a",
       "type": "svg",
-      "position": { "x": 441.44, "y": -206 },
+      "position": { "x": 441.44, "y": -203 },
       "hidden": false,
       "selected": false,
       "zIndex": 20,
@@ -937,8 +937,8 @@
         "name": "tank-wagon",
         "label": "Tank 1",
         "url": "/static/svg_dev/tank-wagon.svg",
-        "minWidth": 69,
-        "minHeight": 46,
+        "minWidth": 30,
+        "minHeight": 21,
         "edgeType": "pipe",
         "hasTable": true,
         "handles": [
@@ -955,16 +955,16 @@
         ],
         "animations": {
           "normal": {
-            "svg.rect.@_fill": "#e2e8f0",
-            "svg.rect.@_mask": "url(#mask_still)"
+            "svg.rect.2.@_fill": "#e2e8f0",
+            "svg.rect.2.@_mask": "url(#mask_still)"
           },
           "overcold": {
-            "svg.rect.@_fill": "url(#fill_overcold)",
-            "svg.rect.@_mask": "url(#mask_overcold)"
+            "svg.rect.2.@_fill": "url(#fill_overcold)",
+            "svg.rect.2.@_mask": "url(#mask_overcold)"
           },
           "overheat": {
-            "svg.rect.@_fill": "url(#fill_overheat)",
-            "svg.rect.@_mask": "url(#mask_overheat)"
+            "svg.rect.2.@_fill": "url(#fill_overheat)",
+            "svg.rect.2.@_mask": "url(#mask_overheat)"
           }
         },
         "properties": {
@@ -994,9 +994,9 @@
           }
         }
       },
-      "width": 72,
-      "height": 48,
-      "measured": { "width": 72, "height": 48 },
+      "width": 60,
+      "height": 42,
+      "measured": { "width": 60, "height": 42 },
       "dragging": false
     },
     {

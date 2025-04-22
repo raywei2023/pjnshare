@@ -3,13 +3,13 @@
   <g fill="rgba(var(--muted))" stroke="rgba(var(--muted-foreground))" stroke-width="8">
     <rect width="208" height="208" x="3" y="3" stroke-width="6" rx="20" />
     <circle cx="107" cy="107" r="83" />
-    <circle cx="107" cy="107" r="24.49" />
-    <g fill="rgba(var(--muted-foreground))" stroke="rgba(var(--muted-foreground))" stroke-width="4" stroke-opacity="0.8"
+    <circle cx="107" cy="107" r="24.5" />
+    <g fill="rgba(var(--muted-foreground))" stroke="rgba(var(--muted-foreground))" stroke-width="4" stroke-opacity="0.6"
       transform="translate(17 17)">
-      <circle cx="8" cy="8" r="6" />
-      <circle cx="172" cy="172" r="6" />
-      <circle cx="8" cy="172" r="6" />
-      <circle cx="172" cy="8" r="6" />
+      <circle cx="8" cy="8" r="7" />
+      <circle cx="172" cy="172" r="7" />
+      <circle cx="8" cy="172" r="7" />
+      <circle cx="172" cy="8" r="7" />
     </g>
     <path
       d="M94.76 85.78h0A40.85 40.85 0 0 0 71.9 38.43l-5.72-2.45M82.51 107h0c-13.88-13.88-35.92-15.51-52.24-4.08l-4.9 4.08M94.76 128.22h0c-19.6 4.9-31.84 23.68-29.4 43.27l.82 6.53M119.24 128.22h0a40.85 40.85 0 0 0 22.86 47.35l5.72 2.45M131.49 107h0c13.88 13.88 35.92 15.51 52.24 4.08l4.9-4.08M119.24 85.78h0c19.6-4.9 31.84-23.68 29.4-43.27l-.82-6.53">
