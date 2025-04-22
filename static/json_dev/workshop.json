@@ -622,7 +622,7 @@
         "label": "Twin tank",
         "animations": {
           "normal": {
-            "svg.path.2.@_fill": "#e2e8f0",
+            "svg.path.2.@_fill": "rgba(var(--muted))",
             "svg.path.2.@_mask": "url(#mask_still)"
           },
           "overcold": {
@@ -635,11 +635,11 @@
           }
         },
         "properties": {
-          "temperature": {
+          "animation": {
             "type": "float",
             "label": "Temperature",
             "unit": "°C",
-            "endpoint": "/device-6/random/temperature.float.out?&min=15&max=48",
+            "endpoint": "/device-6/random/temperature.float.out?&min=13&max=49",
             "mappingType": "range",
             "mappings": [
               { "animation": "normal" },
