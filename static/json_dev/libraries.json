@@ -526,13 +526,13 @@
       {
         "type": "svg",
         "label": "Demo",
-        "width": 60,
-        "height": 42,
+        "width": 42,
+        "height": 52,
         "data": {
           "library": "basic",
           "name": "demo",
-          "minWidth": 30,
-          "minHeight": 21,
+          "minWidth": 21,
+          "minHeight": 26,
           "handles": [
             { "position": "left", "rotatable": false },
             { "position": "right", "rotatable": false }

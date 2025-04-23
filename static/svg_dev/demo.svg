@@ -1,49 +1,46 @@
-<svg width="30" height="21" viewBox="259 -0.5 298 208" class="h-full w-full"
+<svg width="21" height="26" viewBox="349 -3 214 262" class="h-full w-full"
   xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="fill_overcold" gradientTransform="rotate(90)">
       <stop offset="10%" stop-color="#d9f99d" />
       <stop offset="90%" stop-color="#22c55e">
-        <animate attributeName="stop-color" values="#f87171;#22c55e;#f87171" dur="3"
+        <animate attributeName="stop-color" values="#84cc16;#22c55e;#84cc16" dur="3"
           repeatCount="indefinite" />
       </stop>
     </linearGradient>
     <linearGradient id="fill_overheat" gradientTransform="rotate(90)">
       <stop offset="10%" stop-color="#fcd34d" />
-      <stop offset="90%" stop-color="#dc2626">
-        <animate attributeName="stop-color" values="#f97316;#dc2626;#f97316" dur="3"
+      <stop offset="90%" stop-color="#ef4444">
+        <animate attributeName="stop-color" values="#f97316;#ef4444;#f97316" dur="3"
           repeatCount="indefinite" />
       </stop>
     </linearGradient>
     <mask id="mask_still">
       <path fill="#fff" stroke="none"
-        d="M0 52.84c47.72 0 93.36-21.19 141-21.19 47.8 0 91.28 21.2 138.92 21.2 47.8 0 92.36-21.2 140.08-21.2 47.8 0 92.28 21.2 140 21.2v87.8H0v-87.8Z">
-        <animateTransform attributeName="transform" attributeType="XML" dur="6" from="-6 0"
-          repeatCount="indefinite" to="270 0" type="translate" />
+        d="M0 54.63c47.72 0 95.47-25.89 143.11-25.89 47.8 0 89.17 25.89 136.81 25.89 47.8 0 93.28-25.89 141-25.89 47.8 0 91.36 25.89 139.08 25.89V156H0V54.63Z">
+        <animateTransform attributeName="transform" attributeType="XML" dur="8" from="-6 90"
+          repeatCount="indefinite" to="270 90" type="translate" />
       </path>
     </mask>
     <mask id="mask_overcold">
       <path fill="#fff" stroke="none"
-        d="M0 50.02c47.72 0 94.33-31.43 141.97-31.43 47.8 0 90.3 31.43 137.95 31.43 47.8 0 92.39-31.43 140.1-31.43 47.81 0 92.26 31.43 139.98 31.43v80.57H0V50.02Z">
-        <animateTransform attributeName="transform" attributeType="XML" dur="4" from="-128 0"
-          repeatCount="indefinite" to="148 0" type="translate" />
+        d="M0 54.63c47.72 0 95.47-25.89 143.11-25.89 47.8 0 89.17 25.89 136.81 25.89 47.8 0 93.28-25.89 141-25.89 47.8 0 91.36 25.89 139.08 25.89V156H0V54.63Z">
+        <animateTransform attributeName="transform" attributeType="XML" dur="4" from="-6 90"
+          repeatCount="indefinite" to="270 90" type="translate" />
       </path>
     </mask>
     <mask id="mask_overheat">
       <path fill="#fff" stroke="none"
-      d="M0 50.02C47.72 50.02 95 12 142.65 12c47.8 0 89.63 38.02 137.27 38.02 47.8 0 92.4-38.02 140.12-38.02 47.8 0 92.24 38.02 139.96 38.02v80.57H0V50.02Z">
-        <animateTransform attributeName="transform" attributeType="XML" dur="1.5" from="-128 0"
-          repeatCount="indefinite" to="148 0" type="translate" />
+        d="M0 54.63C47.72 54.63 95.25 16 142.9 16c47.8 0 89.38 38.63 137.02 38.63 47.8 0 92.83-38.63 140.55-38.63 47.8 0 91.8 38.63 139.53 38.63V156H0V54.63Z">
+        <animateTransform attributeName="transform" attributeType="XML" dur="2" from="-6 90"
+          repeatCount="indefinite" to="270 90" type="translate" />
       </path>
     </mask>
   </defs>
-  <g stroke="#000" stroke-width="8" transform="translate(283 154)">
-    <path fill="#999" d="M18 19h24v28H18zM209 19h24v28h-24z" />
-    <path stroke-linecap="round" d="M2 49h246" />
-    <rect width="242" height="14" x="4" y="4" fill="#999" rx="4" />
-  </g>
-  <rect width="62" height="16" x="377" y="4" fill="#999" stroke="#000" stroke-width="8" rx="4" />
-  <rect width="296" height="144" x="260" y="16.35" fill="#000" fill-rule="nonzero" rx="72" />
-  <rect transform="translate(0 24.35)" width="278" height="128" x="269" fill="#999"
-    mask="url(#mask_still)" rx="64" />
+  <path fill="rgba(var(--muted-foreground))"
+    d="M522.67 48.69V31.33c0-1.1.9-2 2-2h12a2 2 0 0 0 2-2v-12a2 2 0 0 0-2-2H466a2 2 0 0 1-2-2V2a2 2 0 0 0-2-2h-12a2 2 0 0 0-2 2v9.33a2 2 0 0 1-2 2h-70.67a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h12a2 2 0 0 1 2 2V48.7a46.74 46.74 0 0 0-38.66 45.98V254c0 1.1.9 2 2 2H442a2 2 0 0 0 2-2v-28c0-1.1.9-2 2-2h20a2 2 0 0 1 2 2v28c0 1.1.9 2 2 2h89.33a2 2 0 0 0 2-2V94.67c0-23-16.73-42.18-38.66-45.98ZM466 208h-20a2 2 0 0 1-2-2V104c0-1.1.9-2 2-2h20a2 2 0 0 1 2 2v102a2 2 0 0 1-2 2Zm2.69-121.33H443.3a46.79 46.79 0 0 0-37.98-37.98V31.33c0-1.1.9-2 2-2h97.34a2 2 0 0 1 2 2V48.7a46.79 46.79 0 0 0-37.98 37.98Z" />
+  <path fill="rgba(var(--muted))"
+    d="M551.27 87.67h-74c4.4-17.26 19.32-30 37-30s32.59 12.74 37 30ZM396.73 57c17.68 0 32.6 12.74 37 30h-74c4.41-17.26 19.32-30 37-30Z" />
+  <path fill="rgba(var(--muted))" mask="url(#mask_still)"
+    d="M551 248h-72a2 2 0 0 1-2-2V98c0-1.1.9-2 2-2h72a2 2 0 0 1 2 2v148a2 2 0 0 1-2 2ZM433 248h-72a2 2 0 0 1-2-2V98c0-1.1.9-2 2-2h72a2 2 0 0 1 2 2v148a2 2 0 0 1-2 2Z" />
 </svg>
