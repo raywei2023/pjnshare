@@ -16,21 +16,21 @@
       </stop>
     </linearGradient>
     <mask id="mask_still">
-      <path fill="#fff" stroke="none"
+      <path fill="#fff" stroke="none" transform="translate(0 90)"
         d="M0 54.63c47.72 0 95.47-25.89 143.11-25.89 47.8 0 89.17 25.89 136.81 25.89 47.8 0 93.28-25.89 141-25.89 47.8 0 91.36 25.89 139.08 25.89V156H0V54.63Z">
-        <animateTransform attributeName="transform" attributeType="XML" dur="8" from="-6 90"
+        <animateTransform attributeName="transform" attributeType="XML" dur="2" from="-6 90"
           repeatCount="indefinite" to="270 90" type="translate" />
       </path>
     </mask>
     <mask id="mask_overcold">
-      <path fill="#fff" stroke="none"
+      <path fill="#fff" stroke="none" transform="translate(0 90)"
         d="M0 54.63c47.72 0 95.47-25.89 143.11-25.89 47.8 0 89.17 25.89 136.81 25.89 47.8 0 93.28-25.89 141-25.89 47.8 0 91.36 25.89 139.08 25.89V156H0V54.63Z">
         <animateTransform attributeName="transform" attributeType="XML" dur="4" from="-6 90"
           repeatCount="indefinite" to="270 90" type="translate" />
       </path>
     </mask>
     <mask id="mask_overheat">
-      <path fill="#fff" stroke="none"
+      <path fill="#fff" stroke="none" transform="translate(0 90)"
         d="M0 54.63C47.72 54.63 95.25 16 142.9 16c47.8 0 89.38 38.63 137.02 38.63 47.8 0 92.83-38.63 140.55-38.63 47.8 0 91.8 38.63 139.53 38.63V156H0V54.63Z">
         <animateTransform attributeName="transform" attributeType="XML" dur="2" from="-6 90"
           repeatCount="indefinite" to="270 90" type="translate" />
