@@ -1,6 +1,321 @@
 {
   "nodes": [
     {
+      "id": "d83e831d-b7b9-4c1a-8416-6e5fb1d06ffa",
+      "type": "label",
+      "position": { "x": 316.16, "y": 167.54 },
+      "hidden": false,
+      "selected": false,
+      "zIndex": 40,
+      "data": {
+        "library": "basic",
+        "name": "label",
+        "url": "/static/svg_dev/label.svg",
+        "minWidth": 16,
+        "minHeight": 16,
+        "properties": {
+          "text": {
+            "type": "string",
+            "label": "Text",
+            "value": "Meeting room"
+          },
+          "fontFamily": {
+            "type": "string",
+            "label": "Font family",
+            "value": "Arial"
+          },
+          "fontSize": {
+            "type": "string",
+            "label": "Font size",
+            "value": "small"
+          },
+          "textAlign": {
+            "type": "string",
+            "label": "Text align",
+            "value": "center"
+          },
+          "color": {
+            "type": "color",
+            "label": "Font Color",
+            "value": "#f59e0b"
+          }
+        }
+      },
+      "width": 106,
+      "height": 17,
+      "measured": { "width": 106, "height": 17 },
+      "resizing": false,
+      "dragging": false
+    },
+    {
+      "id": "f11da794-7ed3-40f1-8809-cbcfad39358a",
+      "type": "label",
+      "selected": false,
+      "position": { "x": 294.18, "y": 289 },
+      "data": {
+        "library": "basic",
+        "name": "label",
+        "url": "/static/svg_dev/label.svg",
+        "minWidth": 16,
+        "minHeight": 16,
+        "properties": {
+          "text": {
+            "type": "string",
+            "label": "Text",
+            "value": "Hot water tank"
+          },
+          "fontFamily": {
+            "type": "string",
+            "label": "Font family",
+            "value": "Verdana"
+          },
+          "fontSize": {
+            "type": "string",
+            "label": "Font size",
+            "value": "small"
+          },
+          "textAlign": {
+            "type": "string",
+            "label": "Text align",
+            "value": "center"
+          },
+          "color": {
+            "type": "color",
+            "label": "Font Color",
+            "value": "#06b6d4"
+          }
+        },
+        "id": "f11da794-7ed3-40f1-8809-cbcfad39358a"
+      },
+      "zIndex": 40,
+      "hidden": false,
+      "width": 123,
+      "height": 24,
+      "measured": { "width": 123, "height": 24 },
+      "dragging": false,
+      "resizing": false
+    },
+    {
+      "id": "9bc71d91-ab76-46b2-8eb1-ca0660e6080b",
+      "type": "label",
+      "position": { "x": 755.61, "y": 176.83 },
+      "hidden": false,
+      "selected": false,
+      "zIndex": 40,
+      "data": {
+        "library": "basic",
+        "name": "label",
+        "url": "/static/svg_dev/label.svg",
+        "minWidth": 16,
+        "minHeight": 16,
+        "properties": {
+          "text": {
+            "type": "string",
+            "label": "Text",
+            "value": "Trend analysis"
+          },
+          "fontFamily": {
+            "type": "string",
+            "label": "Font family",
+            "value": "Verdana"
+          },
+          "fontSize": {
+            "type": "string",
+            "label": "Font size",
+            "value": "small"
+          },
+          "textAlign": {
+            "type": "string",
+            "label": "Text align",
+            "value": "center"
+          },
+          "color": {
+            "type": "color",
+            "label": "Font Color",
+            "value": "#6b7280"
+          }
+        }
+      },
+      "width": 125,
+      "height": 37,
+      "measured": { "width": 125, "height": 37 },
+      "resizing": false,
+      "dragging": false
+    },
+    {
+      "id": "eca991b5-d4b4-4a7d-b14a-db2443316fff",
+      "type": "label",
+      "position": { "x": 294.16, "y": -140.22 },
+      "hidden": false,
+      "selected": false,
+      "zIndex": 40,
+      "data": {
+        "library": "basic",
+        "name": "label",
+        "url": "/static/svg_dev/label.svg",
+        "minWidth": 16,
+        "minHeight": 16,
+        "properties": {
+          "text": { "type": "string", "label": "Text", "value": "Twin tank" },
+          "fontFamily": {
+            "type": "string",
+            "label": "Font family",
+            "value": "Arial"
+          },
+          "fontSize": {
+            "type": "string",
+            "label": "Font size",
+            "value": "small"
+          },
+          "textAlign": {
+            "type": "string",
+            "label": "Text align",
+            "value": "center"
+          },
+          "color": {
+            "type": "color",
+            "label": "Font Color",
+            "value": "#3b82f6"
+          }
+        }
+      },
+      "width": 102,
+      "height": 16,
+      "measured": { "width": 102, "height": 16 },
+      "resizing": false,
+      "dragging": false
+    },
+    {
+      "id": "180709a2-9919-4841-9ea0-a7440c7718a3",
+      "type": "label",
+      "selected": false,
+      "position": { "x": -30.62, "y": 188.33 },
+      "data": {
+        "library": "basic",
+        "name": "label",
+        "url": "/static/svg_dev/label.svg",
+        "minWidth": 16,
+        "minHeight": 16,
+        "properties": {
+          "text": { "type": "string", "label": "Text", "value": "Basement" },
+          "fontFamily": {
+            "type": "string",
+            "label": "Font family",
+            "value": "Verdana"
+          },
+          "fontSize": {
+            "type": "string",
+            "label": "Font size",
+            "value": "small"
+          },
+          "textAlign": {
+            "type": "string",
+            "label": "Text align",
+            "value": "center"
+          },
+          "color": {
+            "type": "color",
+            "label": "Font Color",
+            "value": "#ef4444"
+          }
+        },
+        "id": "180709a2-9919-4841-9ea0-a7440c7718a3"
+      },
+      "zIndex": 40,
+      "hidden": false,
+      "width": 67,
+      "height": 23,
+      "measured": { "width": 67, "height": 23 },
+      "dragging": false,
+      "resizing": false
+    },
+    {
+      "id": "11b6eafe-315b-4f97-9b6b-93ba3cea4daa",
+      "type": "label",
+      "selected": false,
+      "position": { "x": -25.12, "y": 36.85 },
+      "data": {
+        "library": "basic",
+        "name": "label",
+        "url": "/static/svg_dev/label.svg",
+        "minWidth": 16,
+        "minHeight": 16,
+        "properties": {
+          "text": { "type": "string", "label": "Text", "value": "Ground" },
+          "fontFamily": {
+            "type": "string",
+            "label": "Font family",
+            "value": "Verdana"
+          },
+          "fontSize": {
+            "type": "string",
+            "label": "Font size",
+            "value": "small"
+          },
+          "textAlign": {
+            "type": "string",
+            "label": "Text align",
+            "value": "center"
+          },
+          "color": {
+            "type": "color",
+            "label": "Font Color",
+            "value": "#ffffff"
+          }
+        },
+        "id": "11b6eafe-315b-4f97-9b6b-93ba3cea4daa"
+      },
+      "zIndex": 40,
+      "hidden": false,
+      "width": 56,
+      "height": 23,
+      "measured": { "width": 56, "height": 23 },
+      "dragging": false
+    },
+    {
+      "id": "29e533bc-8c8d-49e4-acb2-0cd1fbd2969e",
+      "type": "label",
+      "position": { "x": -48.12, "y": -124.22 },
+      "hidden": false,
+      "selected": false,
+      "zIndex": 40,
+      "data": {
+        "library": "basic",
+        "name": "label",
+        "url": "/static/svg_dev/label.svg",
+        "minWidth": 16,
+        "minHeight": 16,
+        "properties": {
+          "text": { "type": "string", "label": "Text", "value": "Floor 2" },
+          "fontFamily": {
+            "type": "string",
+            "label": "Font family",
+            "value": "Arial"
+          },
+          "fontSize": {
+            "type": "string",
+            "label": "Font size",
+            "value": "small"
+          },
+          "textAlign": {
+            "type": "string",
+            "label": "Text align",
+            "value": "center"
+          },
+          "color": {
+            "type": "color",
+            "label": "Font Color",
+            "value": "#3b82f6"
+          }
+        }
+      },
+      "width": 102,
+      "height": 44,
+      "measured": { "width": 102, "height": 44 },
+      "resizing": false,
+      "dragging": false
+    },
+    {
       "id": "f285255f-416e-484f-aa3b-01e05b34e5a1",
       "type": "svg",
       "position": { "x": 311.16, "y": 226 },
@@ -47,25 +362,13 @@
             "type": "float",
             "label": "Temperature",
             "unit": "°C",
-            "endpoint": "/device-2/random/temperature.float.out?&min=12&max=45",
+            "endpoint": "100/106/13.float",
             "mappingType": "range",
             "mappings": [
               { "animation": "normal" },
               { "min": -999, "max": 20, "animation": "overcold" },
               { "min": 36, "max": 999, "animation": "overheat" }
             ]
-          },
-          "humidity": {
-            "type": "float",
-            "label": "Humidity",
-            "unit": "%",
-            "endpoint": "/device-2/random/humidity.float.out"
-          },
-          "weight": {
-            "type": "int",
-            "label": "Weight",
-            "value": 15,
-            "unit": "t"
           }
         }
       },
@@ -639,25 +942,13 @@
             "type": "float",
             "label": "Temperature",
             "unit": "°C",
-            "endpoint": "/device-6/random/temperature.float.out?&min=13&max=49",
+            "endpoint": "200/202/2025/13.float",
             "mappingType": "range",
             "mappings": [
               { "animation": "normal" },
               { "min": -999, "max": 20, "animation": "overcold" },
               { "min": 38, "max": 999, "animation": "overheat" }
             ]
-          },
-          "humidity": {
-            "type": "float",
-            "label": "Humidity",
-            "unit": "%",
-            "endpoint": "/device-6/random/humidity.float.out"
-          },
-          "weight": {
-            "type": "int",
-            "label": "Weight",
-            "value": 14,
-            "unit": "t"
           }
         }
       },
@@ -704,25 +995,13 @@
             "type": "float",
             "label": "Temperature",
             "unit": "°C",
-            "endpoint": "/device-3/random/temperature.float.out?&min=10&max=60",
+            "endpoint": "200/202/2023/13.float",
             "mappingType": "range",
             "mappings": [
               { "animation": "normal" },
               { "min": -999, "max": 20, "animation": "overcold" },
               { "min": 40, "max": 999, "animation": "overheat" }
             ]
-          },
-          "humidity": {
-            "type": "float",
-            "label": "Humidity",
-            "unit": "%",
-            "endpoint": "/device-3/random/humidity.float.out"
-          },
-          "weight": {
-            "type": "float",
-            "label": "Weight",
-            "value": 0.2,
-            "unit": "t"
           }
         }
       },
@@ -767,25 +1046,13 @@
             "type": "float",
             "label": "Temperature",
             "unit": "°C",
-            "endpoint": "/device-4/random/temperature.float.out?&min=16&max=48",
+            "endpoint": "100/106/13.float",
             "mappingType": "range",
             "mappings": [
               { "animation": "normal" },
               { "min": -999, "max": 20, "animation": "overcold" },
               { "min": 40, "max": 999, "animation": "overheat" }
             ]
-          },
-          "humidity": {
-            "type": "float",
-            "label": "Humidity",
-            "unit": "%",
-            "endpoint": "/device-3/random/humidity.float.out"
-          },
-          "weight": {
-            "type": "float",
-            "label": "Weight",
-            "value": 0.2,
-            "unit": "t"
           }
         }
       },
@@ -832,25 +1099,13 @@
             "type": "float",
             "label": "Temperature",
             "unit": "°C",
-            "endpoint": "/device-4/random/temperature.float.out?&min=15&max=49",
+            "endpoint": "200/202/2023/13.float",
             "mappingType": "range",
             "mappings": [
               { "animation": "normal" },
               { "min": -999, "max": 20, "animation": "overcold" },
               { "min": 40, "max": 999, "animation": "overheat" }
             ]
-          },
-          "humidity": {
-            "type": "float",
-            "label": "Humidity",
-            "unit": "%",
-            "endpoint": "/device-4/random/humidity.float.out"
-          },
-          "weight": {
-            "type": "float",
-            "label": "Weight",
-            "value": 0.2,
-            "unit": "t"
           }
         }
       },
@@ -897,24 +1152,13 @@
             "type": "float",
             "label": "Temperature",
             "unit": "°C",
-            "endpoint": "/device-9/random/temperature.float.out?&min=13&max=51",
+            "endpoint": "100/106/13.float",
             "mappingType": "range",
             "mappings": [
               { "animation": "normal" },
               { "min": -999, "max": 20, "animation": "overcold" },
               { "min": 40, "max": 999, "animation": "overheat" }
             ]
-          },
-          "humidity": {
-            "type": "float",
-            "label": "Humidity",
-            "unit": "%"
-          },
-          "weight": {
-            "type": "float",
-            "label": "Weight",
-            "value": 0.2,
-            "unit": "t"
           }
         }
       },
@@ -972,25 +1216,13 @@
             "type": "float",
             "label": "Temperature",
             "unit": "°C",
-            "endpoint": "/device-1/random/temperature.float.out?&min=25&max=52",
+            "endpoint": "200/202/2025/13.float",
             "mappingType": "range",
             "mappings": [
               { "animation": "normal" },
               { "min": -999, "max": 20, "animation": "overcold" },
               { "min": 36, "max": 999, "animation": "overheat" }
             ]
-          },
-          "humidity": {
-            "endpoint": "/device-1/random/humidity.float.out",
-            "type": "float",
-            "label": "Humidity",
-            "unit": "%"
-          },
-          "weight": {
-            "type": "int",
-            "label": "Weight",
-            "value": 12,
-            "unit": "t"
           }
         }
       },
@@ -1057,7 +1289,7 @@
               { "text": "X3", "value": 3 }
             ],
             "label": "Status",
-            "endpoint": "/device-10/random/status.int.out?&min=0&max=3",
+            "endpoint": "200/202/2023/12.int",
             "mappingType": "value",
             "mappings": [
               { "animation": "off" },
@@ -1132,7 +1364,7 @@
               { "text": "X3", "value": 3 }
             ],
             "label": "Status",
-            "endpoint": "/device-12/random/status.int.out?&min=0&max=3",
+            "endpoint": "200/202/2024/12.int",
             "mappingType": "value",
             "mappings": [
               { "animation": "off" },
@@ -1205,7 +1437,7 @@
               { "text": "X3", "value": 3 }
             ],
             "label": "Status",
-            "endpoint": "/device-13/random/status.int.out?&min=0&max=3",
+            "endpoint": "100/106/12.int",
             "mappingType": "value",
             "mappings": [
               { "animation": "off" },
@@ -1241,19 +1473,15 @@
         "properties": {
           "strokeColor": {
             "type": "color",
-            "lable": "Stroke Color",
+            "label": "Border Color",
             "value": "#EBC347"
           },
           "fillColor": {
             "type": "color",
-            "lable": "Fill Color",
+            "label": "Fill Color",
             "value": "#EBC347"
           },
-          "fillOpacity": {
-            "type": "float",
-            "lable": "Fill Opacity",
-            "value": 0.6
-          }
+          "fillOpacity": { "type": "int", "label": "Fill Opacity", "value": 60 }
         }
       },
       "width": 232,
@@ -1279,19 +1507,15 @@
         "properties": {
           "strokeColor": {
             "type": "color",
-            "lable": "Stroke Color",
+            "label": "Border Color",
             "value": "#84cc16"
           },
           "fillColor": {
             "type": "color",
-            "lable": "Fill Color",
+            "label": "Fill Color",
             "value": "#84cc16"
           },
-          "fillOpacity": {
-            "type": "float",
-            "lable": "Fill Opacity",
-            "value": 0.6
-          }
+          "fillOpacity": { "type": "int", "label": "Fill Opacity", "value": 60 }
         }
       },
       "width": 91,
@@ -1315,19 +1539,15 @@
         "properties": {
           "strokeColor": {
             "type": "color",
-            "lable": "Stroke Color",
+            "label": "Border Color",
             "value": "#EBC347"
           },
           "fillColor": {
             "type": "color",
-            "lable": "Fill Color",
+            "label": "Fill Color",
             "value": "#EBC347"
           },
-          "fillOpacity": {
-            "type": "float",
-            "lable": "Fill Opacity",
-            "value": 0.6
-          }
+          "fillOpacity": { "type": "int", "label": "Fill Opacity", "value": 60 }
         }
       },
       "zIndex": 10,
@@ -1353,19 +1573,15 @@
         "properties": {
           "strokeColor": {
             "type": "color",
-            "lable": "Stroke Color",
+            "label": "Border Color",
             "value": "#84cc16"
           },
           "fillColor": {
             "type": "color",
-            "lable": "Fill Color",
+            "label": "Fill Color",
             "value": "#84cc16"
           },
-          "fillOpacity": {
-            "type": "float",
-            "lable": "Fill Opacity",
-            "value": 0.6
-          }
+          "fillOpacity": { "type": "int", "label": "Fill Opacity", "value": 60 }
         }
       },
       "zIndex": 10,
@@ -1398,27 +1614,17 @@
             "type": "float",
             "label": "Temperature",
             "unit": "°C",
-            "endpoint": "/device-1/random/humidity.float.out?&min=20&max=55",
+            "endpoint": "200/202/2025/13.float",
             "mappingType": "range",
             "mappings": [
               { "min": -999, "max": 20, "animation": "green" },
               { "min": 36, "max": 999, "animation": "red" }
             ]
-          },
-          "humidity": {
-            "type": "float",
-            "label": "Humidity",
-            "unit": "%"
-          },
-          "weight": {
-            "type": "int",
-            "label": "Weight",
-            "unit": "t"
           }
         }
       },
       "selected": false,
-      "measured": { "width": 96, "height": 72 },
+      "measured": { "width": 96, "height": 33 },
       "dragging": false
     },
     {
@@ -1444,26 +1650,16 @@
             "label": "Temperature",
             "unit": "°C",
             "mappingType": "range",
-            "endpoint": "/device-2/random/humidity.float.out?&min=20&max=55",
+            "endpoint": "200/202/2023/13.float",
             "mappings": [
               { "min": -999, "max": 20, "animation": "green" },
               { "min": 36, "max": 999, "animation": "red" }
             ]
-          },
-          "humidity": {
-            "type": "float",
-            "label": "Humidity",
-            "unit": "%"
-          },
-          "weight": {
-            "type": "int",
-            "label": "Weight",
-            "unit": "t"
           }
         }
       },
       "selected": false,
-      "measured": { "width": 96, "height": 72 },
+      "measured": { "width": 96, "height": 33 },
       "dragging": false
     },
     {
@@ -1483,21 +1679,10 @@
           "green": { "color": "#22c55e" },
           "red": { "color": "#ef4444" }
         },
-        "properties": {
-          "temperature": {
-            "type": "float",
-            "label": "Temperature",
-            "unit": "°C"
-          },
-          "humidity": {
-            "type": "float",
-            "label": "Humidity",
-            "unit": "%"
-          }
-        }
+        "properties": {}
       },
       "selected": false,
-      "measured": { "width": 96, "height": 55 },
+      "measured": { "width": 96, "height": 20 },
       "dragging": false
     },
     {
@@ -1517,26 +1702,10 @@
           "green": { "color": "#22c55e" },
           "red": { "color": "#ef4444" }
         },
-        "properties": {
-          "temperature": {
-            "type": "float",
-            "label": "Temperature",
-            "unit": "°C"
-          },
-          "humidity": {
-            "type": "float",
-            "label": "Humidity",
-            "unit": "%"
-          },
-          "weight": {
-            "type": "int",
-            "label": "Weight",
-            "unit": "t"
-          }
-        }
+        "properties": {}
       },
       "selected": false,
-      "measured": { "width": 96, "height": 55 },
+      "measured": { "width": 96, "height": 20 },
       "dragging": false
     },
     {
@@ -1578,19 +1747,15 @@
         "properties": {
           "strokeColor": {
             "type": "color",
-            "lable": "Stroke Color",
+            "label": "Border Color",
             "value": "#0ea5e9"
           },
           "fillColor": {
             "type": "color",
-            "lable": "Fill Color",
+            "label": "Fill Color",
             "value": "#0ea5e9"
           },
-          "fillOpacity": {
-            "type": "float",
-            "lable": "Fill Opacity",
-            "value": 0.6
-          }
+          "fillOpacity": { "type": "int", "label": "Fill Opacity", "value": 60 }
         }
       },
       "width": 81,
@@ -1635,19 +1800,15 @@
         "properties": {
           "strokeColor": {
             "type": "color",
-            "lable": "Stroke Color",
+            "label": "Border Color",
             "value": "#0ea5e9"
           },
           "fillColor": {
             "type": "color",
-            "lable": "Fill Color",
+            "label": "Fill Color",
             "value": "#0ea5e9"
           },
-          "fillOpacity": {
-            "type": "float",
-            "lable": "Fill Opacity",
-            "value": 0.6
-          }
+          "fillOpacity": { "type": "int", "label": "Fill Opacity", "value": 60 }
         }
       },
       "zIndex": 10,
@@ -1693,19 +1854,15 @@
         "properties": {
           "strokeColor": {
             "type": "color",
-            "lable": "Stroke Color",
+            "label": "Border Color",
             "value": "#0ea5e9"
           },
           "fillColor": {
             "type": "color",
-            "lable": "Fill Color",
+            "label": "Fill Color",
             "value": "#0ea5e9"
           },
-          "fillOpacity": {
-            "type": "float",
-            "lable": "Fill Opacity",
-            "value": 0.6
-          }
+          "fillOpacity": { "type": "int", "label": "Fill Opacity", "value": 60 }
         }
       },
       "zIndex": 10,
@@ -1775,20 +1932,9 @@
           "green": { "color": "#22c55e" },
           "red": { "color": "#ef4444" }
         },
-        "properties": {
-          "temperature": {
-            "type": "float",
-            "label": "Temperature",
-            "unit": "°C"
-          },
-          "humidity": {
-            "type": "float",
-            "label": "Humidity",
-            "unit": "%"
-          }
-        }
+        "properties": {}
       },
-      "measured": { "width": 96, "height": 89 },
+      "measured": { "width": 96, "height": 20 },
       "dragging": false
     },
     {
@@ -1808,26 +1954,10 @@
           "green": { "color": "#22c55e" },
           "red": { "color": "#ef4444" }
         },
-        "properties": {
-          "temperature": {
-            "type": "float",
-            "label": "Temperature",
-            "unit": "°C"
-          },
-          "humidity": {
-            "type": "float",
-            "label": "Humidity",
-            "unit": "%"
-          },
-          "weight": {
-            "type": "int",
-            "label": "Weight",
-            "unit": "t"
-          }
-        }
+        "properties": {}
       },
       "selected": false,
-      "measured": { "width": 96, "height": 72 },
+      "measured": { "width": 96, "height": 20 },
       "dragging": false
     },
     {
@@ -2023,7 +2153,7 @@
               { "text": "Error", "value": 3 }
             ],
             "label": "Status",
-            "endpoint": "/device-3/random/status.int.out?&min=0&max=3",
+            "endpoint": "100/106/12.int",
             "mappingType": "value",
             "mappings": [
               { "animation": "off" },
@@ -2097,7 +2227,7 @@
               { "text": "Error", "value": 3 }
             ],
             "label": "Status",
-            "endpoint": "/device-2/random/status.int.out?&min=0&max=3",
+            "endpoint": "200/202/2024/12.int",
             "mappingType": "value",
             "mappings": [
               { "animation": "off" },
@@ -2134,7 +2264,6 @@
           }
         ],
         "url": "/static/svg_dev/bulb.svg",
-
         "minWidth": 20,
         "minHeight": 20,
         "edgeType": "cable",
@@ -2168,7 +2297,7 @@
               { "text": "Error", "value": 3 }
             ],
             "label": "Status",
-            "endpoint": "/device-4/random/status.int.out?&min=0&max=3",
+            "endpoint": "100/106/12.int",
             "mappingType": "value",
             "mappings": [
               { "animation": "off" },
@@ -2242,7 +2371,7 @@
               { "text": "Error", "value": 3 }
             ],
             "label": "Status",
-            "endpoint": "/device-5/random/status.int.out?&min=0&max=3",
+            "endpoint": "200/202/2024/12.int",
             "mappingType": "value",
             "mappings": [
               { "animation": "off" },
@@ -2592,5 +2721,5 @@
       "zIndex": 15
     }
   ],
-  "viewport": { "zoom": 1.07, "x": 130.02, "y": 363.39 }
+  "viewport": { "zoom": 1.47, "x": 106.62, "y": 645.68 }
 }

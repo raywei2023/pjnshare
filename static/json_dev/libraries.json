@@ -436,40 +436,30 @@
           "minWidth": 16,
           "minHeight": 16,
           "properties": {
-            "text": { "type": "string", "label": "Text" },
+            "text": {
+              "type": "string",
+              "label": "Text"
+            },
             "fontFamily": {
-              "type": "enum",
+              "type": "string",
               "label": "Font family",
-              "value": "Verdana",
-              "options": [
-                ["Verdana", "Verdana"],
-                ["Arial", "Arial"],
-                ["Georgia", "Georgia"],
-                ["Courier New", "Courier New"]
-              ]
+              "value": "Verdana"
             },
             "fontSize": {
-              "type": "enum",
+              "type": "string",
               "label": "Font size",
-              "value": "m",
-              "options": [
-                ["s", "Small"],
-                ["m", "Medium"],
-                ["l", "Large"],
-                ["xl", "Very large"]
-              ]
+              "value": "medium"
             },
             "textAlign": {
-              "type": "enum",
+              "type": "string",
               "label": "Text align",
-              "value": "center",
-              "options": [
-                ["left", "Left"],
-                ["center", "Center"],
-                ["right", "Right"]
-              ]
+              "value": "center"
             },
-            "color": { "type": "color", "label": "Color", "value": "#333333" }
+            "color": {
+              "type": "color",
+              "label": "Font Color",
+              "value": "#888888"
+            }
           }
         }
       },
@@ -487,7 +477,7 @@
           "properties": {
             "strokeColor": {
               "type": "color",
-              "lable": "Stroke Color",
+              "label": "Border Color",
               "value": "#71717a"
             }
           }
@@ -567,18 +557,18 @@
           "properties": {
             "strokeColor": {
               "type": "color",
-              "lable": "Stroke Color",
+              "label": "Border Color",
               "value": "#EA9C41"
             },
             "fillColor": {
               "type": "color",
-              "lable": "Fill Color",
+              "label": "Fill Color",
               "value": "#EA9C41"
             },
             "fillOpacity": {
-              "type": "float",
-              "lable": "Fill Opacity",
-              "value": 0.6
+              "type": "int",
+              "label": "Fill Opacity",
+              "value": 60
             }
           }
         }
@@ -596,18 +586,18 @@
           "properties": {
             "strokeColor": {
               "type": "color",
-              "lable": "Stroke Color",
+              "label": "Border Color",
               "value": "#EBC347"
             },
             "fillColor": {
               "type": "color",
-              "lable": "Fill Color",
+              "label": "Fill Color",
               "value": "#EBC347"
             },
             "fillOpacity": {
-              "type": "float",
-              "lable": "Fill Opacity",
-              "value": 0.6
+              "type": "int",
+              "label": "Fill Opacity",
+              "value": 60
             }
           }
         }
@@ -625,18 +615,18 @@
           "properties": {
             "strokeColor": {
               "type": "color",
-              "lable": "Stroke Color",
+              "label": "Border Color",
               "value": "#84cc16"
             },
             "fillColor": {
               "type": "color",
-              "lable": "Fill Color",
+              "label": "Fill Color",
               "value": "#84cc16"
             },
             "fillOpacity": {
-              "type": "float",
-              "lable": "Fill Opacity",
-              "value": 0.6
+              "type": "int",
+              "label": "Fill Opacity",
+              "value": 60
             }
           }
         }
@@ -654,18 +644,18 @@
           "properties": {
             "strokeColor": {
               "type": "color",
-              "lable": "Stroke Color",
+              "label": "Border Color",
               "value": "#0ea5e9"
             },
             "fillColor": {
               "type": "color",
-              "lable": "Fill Color",
+              "label": "Fill Color",
               "value": "#0ea5e9"
             },
             "fillOpacity": {
-              "type": "float",
-              "lable": "Fill Opacity",
-              "value": 0.6
+              "type": "int",
+              "label": "Fill Opacity",
+              "value": 60
             }
           }
         }
@@ -683,18 +673,18 @@
           "properties": {
             "strokeColor": {
               "type": "color",
-              "lable": "Stroke Color",
+              "label": "Border Color",
               "value": "#803DEC"
             },
             "fillColor": {
               "type": "color",
-              "lable": "Fill Color",
+              "label": "Fill Color",
               "value": "#803DEC"
             },
             "fillOpacity": {
-              "type": "float",
-              "lable": "Fill Opacity",
-              "value": 0.6
+              "type": "int",
+              "label": "Fill Opacity",
+              "value": 60
             }
           }
         }
@@ -712,18 +702,18 @@
           "properties": {
             "strokeColor": {
               "type": "color",
-              "lable": "Stroke Color",
+              "label": "Border Color",
               "value": "#0ea5e9"
             },
             "fillColor": {
               "type": "color",
-              "lable": "Fill Color",
+              "label": "Fill Color",
               "value": "#0ea5e9"
             },
             "fillOpacity": {
-              "type": "float",
-              "lable": "Fill Opacity",
-              "value": 0.6
+              "type": "int",
+              "label": "Fill Opacity",
+              "value": 60
             }
           }
         }
@@ -741,18 +731,18 @@
           "properties": {
             "strokeColor": {
               "type": "color",
-              "lable": "Stroke Color",
+              "label": "Border Color",
               "value": "#84cc16"
             },
             "fillColor": {
               "type": "color",
-              "lable": "Fill Color",
+              "label": "Fill Color",
               "value": "#84cc16"
             },
             "fillOpacity": {
-              "type": "float",
-              "lable": "Fill Opacity",
-              "value": 0.6
+              "type": "int",
+              "label": "Fill Opacity",
+              "value": 60
             }
           }
         }
@@ -770,18 +760,18 @@
           "properties": {
             "strokeColor": {
               "type": "color",
-              "lable": "Stroke Color",
+              "label": "Border Color",
               "value": "#EBC347"
             },
             "fillColor": {
               "type": "color",
-              "lable": "Fill Color",
+              "label": "Fill Color",
               "value": "#EBC347"
             },
             "fillOpacity": {
-              "type": "float",
-              "lable": "Fill Opacity",
-              "value": 0.6
+              "type": "int",
+              "label": "Fill Opacity",
+              "value": 60
             }
           }
         }
@@ -799,18 +789,18 @@
           "properties": {
             "strokeColor": {
               "type": "color",
-              "lable": "Stroke Color",
+              "label": "Border Color",
               "value": "#EA9C41"
             },
             "fillColor": {
               "type": "color",
-              "lable": "Fill Color",
+              "label": "Fill Color",
               "value": "#EA9C41"
             },
             "fillOpacity": {
-              "type": "float",
-              "lable": "Fill Opacity",
-              "value": 0.6
+              "type": "int",
+              "label": "Fill Opacity",
+              "value": 60
             }
           }
         }
@@ -828,18 +818,18 @@
           "properties": {
             "strokeColor": {
               "type": "color",
-              "lable": "Stroke Color",
+              "label": "Border Color",
               "value": "#803DEC"
             },
             "fillColor": {
               "type": "color",
-              "lable": "Fill Color",
+              "label": "Fill Color",
               "value": "#803DEC"
             },
             "fillOpacity": {
-              "type": "float",
-              "lable": "Fill Opacity",
-              "value": 0.6
+              "type": "int",
+              "label": "Fill Opacity",
+              "value": 60
             }
           }
         }

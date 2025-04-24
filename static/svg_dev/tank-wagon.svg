@@ -44,6 +44,6 @@
   </g>
   <rect width="62" height="16" x="377" y="4" fill="rgba(var(--muted))" stroke="rgba(var(--muted-foreground))" stroke-width="8" rx="4" />
   <rect width="296" height="144" x="260" y="16.35" fill="rgba(var(--muted-foreground))" fill-rule="nonzero" rx="72" />
-  <rect transform="translate(0 24.35)" width="278" height="128" x="269" fill="rgba(var(--muted))"
+  <rect transform="translate(0 27)" width="274" height="124" x="271" fill="rgba(var(--muted))"
     mask="url(#mask_still)" rx="64" />
 </svg>
