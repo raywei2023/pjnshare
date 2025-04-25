@@ -1699,52 +1699,6 @@
       "dragging": false
     },
     {
-      "id": "df269a87-a5c5-4b9b-83da-65915038ed6b",
-      "type": "table",
-      "position": { "x": -12, "y": -78 },
-      "zIndex": 10,
-      "parentId": "0b159874-a64d-4a63-9389-e363c099cd50",
-      "data": {
-        "library": "other",
-        "name": "table",
-        "label": "Heater",
-        "animations": {
-          "gray": { "color": "#6b7280" },
-          "blue": { "color": "#3b82f6" },
-          "yellow": { "color": "#eab308" },
-          "green": { "color": "#22c55e" },
-          "red": { "color": "#ef4444" }
-        },
-        "properties": {}
-      },
-      "selected": false,
-      "measured": { "width": 96, "height": 20 },
-      "dragging": false
-    },
-    {
-      "id": "af568873-79b9-4bb7-a839-520efd5fe119",
-      "type": "table",
-      "position": { "x": -20.39, "y": -72.19 },
-      "zIndex": 10,
-      "parentId": "18c8400b-14fd-48da-b76a-1af77b0256c2",
-      "data": {
-        "library": "other",
-        "name": "table",
-        "label": "Heater 2",
-        "animations": {
-          "gray": { "color": "#6b7280" },
-          "blue": { "color": "#3b82f6" },
-          "yellow": { "color": "#eab308" },
-          "green": { "color": "#22c55e" },
-          "red": { "color": "#ef4444" }
-        },
-        "properties": {}
-      },
-      "selected": false,
-      "measured": { "width": 96, "height": 20 },
-      "dragging": false
-    },
-    {
       "id": "a5802a81-60ee-4382-a2b1-646082f3dfb0",
       "type": "shape",
       "position": { "x": 54.14, "y": 193.07 },
@@ -2657,26 +2611,6 @@
       "zIndex": 15
     },
     {
-      "id": "bbf931de-ef9a-4b96-b9be-044ee03921d5",
-      "type": "dashed",
-      "source": "0b159874-a64d-4a63-9389-e363c099cd50",
-      "target": "df269a87-a5c5-4b9b-83da-65915038ed6b",
-      "sourceHandle": "center:0b159874-a64d-4a63-9389-e363c099cd50",
-      "targetHandle": "center:df269a87-a5c5-4b9b-83da-65915038ed6b",
-      "data": { "label": "" },
-      "zIndex": 15
-    },
-    {
-      "id": "32a46f79-516a-4a85-99b0-8d179a8e74b1",
-      "type": "dashed",
-      "source": "18c8400b-14fd-48da-b76a-1af77b0256c2",
-      "target": "af568873-79b9-4bb7-a839-520efd5fe119",
-      "sourceHandle": "center:18c8400b-14fd-48da-b76a-1af77b0256c2",
-      "targetHandle": "center:af568873-79b9-4bb7-a839-520efd5fe119",
-      "data": { "label": "" },
-      "zIndex": 15
-    },
-    {
       "id": "f57ab4ac-639c-4a66-bf12-e2c0f7657e76",
       "type": "dashed",
       "source": "3fd4d31d-6cf9-47ac-a8af-eada132b3529",
@@ -2757,5 +2691,5 @@
       "zIndex": 15
     }
   ],
-  "viewport": { "zoom": 1.47, "x": 106.62, "y": 645.68 }
+  "viewport": { "zoom": 1.48, "x": 92.34, "y": 645.49 }
 }
