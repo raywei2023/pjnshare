@@ -59,6 +59,12 @@
         "minWidth": 16,
         "minHeight": 16,
         "properties": {
+          "borderColor": {
+            "type": "color",
+            "label": "Border color",
+            "value": "transparent"
+          },
+          "opacity": { "type": "int", "label": "Opacity", "value": 100 },
           "text": {
             "type": "string",
             "label": "Text",
@@ -90,8 +96,8 @@
       "zIndex": 40,
       "hidden": false,
       "width": 123,
-      "height": 24,
-      "measured": { "width": 123, "height": 24 },
+      "height": 18,
+      "measured": { "width": 123, "height": 18 },
       "dragging": false,
       "resizing": false
     },
@@ -197,6 +203,12 @@
         "minWidth": 16,
         "minHeight": 16,
         "properties": {
+          "borderColor": {
+            "type": "color",
+            "label": "Border color",
+            "value": "transparent"
+          },
+          "opacity": { "type": "int", "label": "Opacity", "value": 100 },
           "text": { "type": "string", "label": "Text", "value": "Basement" },
           "fontFamily": {
             "type": "string",
@@ -241,6 +253,12 @@
         "minWidth": 16,
         "minHeight": 16,
         "properties": {
+          "borderColor": {
+            "type": "color",
+            "label": "Border color",
+            "value": "transparent"
+          },
+          "opacity": { "type": "int", "label": "Opacity", "value": 100 },
           "text": { "type": "string", "label": "Text", "value": "Ground" },
           "fontFamily": {
             "type": "string",
@@ -275,7 +293,7 @@
     {
       "id": "29e533bc-8c8d-49e4-acb2-0cd1fbd2969e",
       "type": "label",
-      "position": { "x": -48.12, "y": -124.22 },
+      "position": { "x": -27.12, "y": -111.72 },
       "hidden": false,
       "selected": false,
       "zIndex": 40,
@@ -286,6 +304,12 @@
         "minWidth": 16,
         "minHeight": 16,
         "properties": {
+          "borderColor": {
+            "type": "color",
+            "label": "Border color",
+            "value": "transparent"
+          },
+          "opacity": { "type": "int", "label": "Opacity", "value": 100 },
           "text": { "type": "string", "label": "Text", "value": "Floor 2" },
           "fontFamily": {
             "type": "string",
@@ -309,9 +333,9 @@
           }
         }
       },
-      "width": 102,
-      "height": 44,
-      "measured": { "width": 102, "height": 44 },
+      "width": 60,
+      "height": 19,
+      "measured": { "width": 60, "height": 19 },
       "resizing": false,
       "dragging": false
     },
@@ -710,6 +734,12 @@
         ],
         "label": "Pipe join 3",
         "properties": {
+          "borderColor": {
+            "type": "color",
+            "label": "Border color",
+            "value": "transparent"
+          },
+          "opacity": { "type": "int", "label": "Opacity", "value": 100 },
           "rotate": {
             "type": "int",
             "label": "Rotate",
@@ -751,6 +781,12 @@
         ],
         "label": "PipeTR 2",
         "properties": {
+          "borderColor": {
+            "type": "color",
+            "label": "Border color",
+            "value": "transparent"
+          },
+          "opacity": { "type": "int", "label": "Opacity", "value": 100 },
           "rotate": {
             "type": "int",
             "label": "Rotate",
